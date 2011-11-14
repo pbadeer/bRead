@@ -1,14 +1,14 @@
-var output = 'me'; // The ID of the HTML element where the scripture html is dumped.
+var output = 'me'; // The ID of the HTML element where the scripture html is sent.
 
 
 function openXML(path)
 {
-  xhttp = new XMLHttpRequest();
+  req = new XMLHttpRequest();
 
-  xhttp.open('GET', path, false);
-  xhttp.send('');
+  req.open('GET', path, false);
+  req.send('');
 
-  return xhttp.responseXML;
+  return req.responseXML;
 }
 
 function getHTML(file)

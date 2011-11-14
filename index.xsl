@@ -20,7 +20,7 @@
 
 
 <xsl:template match="chapter">
-    <div class="chapter">
+    <div class="chapter n{position()}">
         <h4>Chapter <xsl:value-of select="position()"/></h4>
         <xsl:apply-templates select="verse"/>
     </div>
@@ -28,7 +28,7 @@
 
 
 <xsl:template match="verse">
-    <span class="verse">
+    <span class="verse n{position()}">
         <xsl:value-of select="position()"/>
         <xsl:value-of select="."/>
     </span>
