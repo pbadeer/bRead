@@ -6,9 +6,15 @@
 	<script type="text/javascript" src="load.js"></script>
 </head>
 
-<body onload="load()">
+<body>
 
-<div id="me"></div>
+    ref: <input type="text" id="ref"/>
+    <input type="button" onclick="loadRef()" value="go"/>
+
+    <br/>
+    <a href="#" onclick="prev()">prev</a>
+    <a href="#" onclick="next()">next</a>
+    passage: <div id="me"></div>
 
 </body>
 

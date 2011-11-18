@@ -1,5 +1,6 @@
-var output = 'me'; // The ID of the HTML element where the scripture html is sent.
-
+var output = 'me'; // The ID of the HTML element where the scripture html is dumped.
+var current_book = '1JN';
+var current_chap = 1;
 
 function openXML(path)
 {
@@ -11,10 +12,12 @@ function openXML(path)
   return req.responseXML;
 }
 
-function getHTML(file)
+function getHTML(book, n)
 {
-  xml = openXML(file);
-  xsl = openXML('index.xsl');
+  if(!n) n = 1;
+
+  xml = openXML('bible/kjv/' + book + '/' + n + '.xml');
+  xsl = openXML('chapter.xsl');
 
   xsltProcessor = new XSLTProcessor();
   xsltProcessor.importStylesheet(xsl);
@@ -26,10 +29,28 @@ function getHTML(file)
 
 function loadBook(book)
 {
-  document.getElementById(output).appendChild( getHTML( book + '.xml') );
+  document.getElementById(output).appendChild( getHTML( book ) );
 }
 
-function load()
+function loadChapter(n)
 {
-  loadBook('1jo');
+  document.getElementById(output).appendChild( getHTML( current_book, n ) );
+}
+
+function loadRef()
+{
+  var ref = document.getElementById('ref').value;
+  loadBook(ref);
+}
+
+function prev()
+{
+  current_chap--;
+  loadChapter(current_chap);
+}
+
+function next()
+{
+  current_chap++;
+  loadChapter(current_chap);
 }
