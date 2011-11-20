@@ -2,19 +2,19 @@
 <html>
 
 <head>
-	<title>bread</title>
-	<script type="text/javascript" src="load.js"></script>
+    <title>bread</title>
+    <script type="text/javascript" src="load.js"></script>
 </head>
 
 <body>
 
-    ref: <input type="text" id="ref"/>
+    ref: <input type="text" id="ref" onchange="find(this.value)"/>
     <input type="button" onclick="loadRef()" value="go"/>
 
     <br/>
     <a href="#" onclick="prev()">prev</a>
     <a href="#" onclick="next()">next</a>
-    passage: <div id="me"></div>
+    passage: <div id="pass"></div>
 
 </body>
 
