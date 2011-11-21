@@ -72,8 +72,9 @@ function init(){
   input = document.getElementById('ref');
   current_book = 'MAT';
   current_chap = 1;
+  current_tran = 'kjv';
 
-  loadBook('MAT');
+  load();
 }
 
 function clear()
@@ -91,15 +92,15 @@ function openXML(path)
   return req.responseXML;
 }
 
-function getHTML(book, n)
+function load(book, n)
 {
-  if(!n)
-  {
-    n = 1;
-    current_chap = 1;
-  }
+  if(!book) book = current_book;
+  else current_book = book;
 
-  xml = openXML('bible/kjv/' + book + '/' + n + '.xml');
+  if(!n) n = 1;
+  else current_chap = n;
+
+  xml = openXML('bible/' + current_tran + '/' + book + '/' + n + '.xml');
   xsl = openXML('index.xsl');
 
   xsltProcessor = new XSLTProcessor();
@@ -107,42 +108,26 @@ function getHTML(book, n)
   
   html = xsltProcessor.transformToFragment(xml,document);
 
-  return html;
-}
-
-function loadBook(book)
-{
   clear();
-  current_book = book;
-  output.appendChild( getHTML( book, 1 ) );
-}
-
-function loadChapter(n)
-{
-  clear();
-  current_chap = n;
-  output.appendChild( getHTML( current_book, n ) );
-}
-
-function loadRef()
-{
-  loadBook(input.value);
+  output.appendChild(html);
 }
 
 function prev()
 {
-  loadChapter(current_chap - 1);
+  load(current_book, current_chap - 1);
 }
 
 function next()
 {
-  loadChapter(current_chap + 1);
+  load(current_book, current_chap + 1);
 }
 
 function find(ref)
 {
-    for (var i=0; i<books.length; i++)
-      if (books[i].indexOf(ref.toLowerCase()) != -1) alert(books[i]);
+  if(!ref) ref = input.value;
+
+  for (var i=0; i<books.length; i++)
+    if (books[i].indexOf(ref.toLowerCase()) != -1) alert(books[i]);
 }
 
 
