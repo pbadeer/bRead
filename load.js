@@ -67,10 +67,14 @@ books[64] = "3 john";
 books[65] = "jude";
 books[66] = "revelation";
 
-output = document.getElementById('pass');
-input = document.getElementById('ref');
-current_book = 'MAT';
-current_chap = 1;
+function init(){
+  output = document.getElementById('passage');
+  input = document.getElementById('ref');
+  current_book = 'MAT';
+  current_chap = 1;
+
+  loadBook('MAT');
+}
 
 function clear()
 {
@@ -96,7 +100,7 @@ function getHTML(book, n)
   }
 
   xml = openXML('bible/kjv/' + book + '/' + n + '.xml');
-  xsl = openXML('chapter.xsl');
+  xsl = openXML('index.xsl');
 
   xsltProcessor = new XSLTProcessor();
   xsltProcessor.importStylesheet(xsl);
@@ -135,9 +139,11 @@ function next()
   loadChapter(current_chap + 1);
 }
 
-
 function find(ref)
 {
     for (var i=0; i<books.length; i++)
       if (books[i].indexOf(ref.toLowerCase()) != -1) alert(books[i]);
 }
+
+
+window.onload = init;
