@@ -77,7 +77,45 @@ function init(){
   current_col2 = 'bible';
 
   load();
-  afterLoad();
+
+  // Show/hide verse numbers
+  $('.nums').click(function(){
+    $('.verse .n').toggle();
+  });
+
+  // Set column TWO as BIBLE
+  $('.two.bible').click(function(){
+    
+  });
+
+  // Layout changer
+  $('a.layout').click(function(){
+    
+    // animate to ONE
+    if( $(this).hasClass('one') && $(output2).is(':visible') == true){
+      $(output1).animate({
+        width: '100%'
+      });
+      $(output2).animate({
+        width: 0,
+        opacity: 0
+      }, function(){
+        $(output2).hide();
+      });
+    }
+
+    // animate to TWO
+    if( $(this).hasClass('two') && $(output2).is(':hidden') == true ){
+      $(output2).show().animate({
+        opacity: 1,
+        width: '50%'
+      });
+      $(output1).animate({
+        width: '50%'
+      });
+    }
+
+  });
 }
 
 function clear()
@@ -114,54 +152,17 @@ function load(book, n)
   clear();
   $(output1).append(html);
 
-  $(input).val(current_book + ' ' + current_chap);
+  afterLoad();
 }
 
 function afterLoad()
 {
-  
-  // Set column TWO as BIBLE
-  $('.two.bible').click(function(){
-    
-  });
-
-  // Show/hide verse numbers
-  $('.nums').click(function(){
-    $('.verse .n').toggle();
-  });
+  // Change current passage title
+  $(input).val(current_book + ' ' + current_chap);
 
   // Verse ref grabber
   $('.verse').click(function(){
     $(input).val( $(this).attr('ref') );
-  });
-
-  // Layout changer
-  $('a.layout').click(function(){
-    
-    // animate to ONE
-    if( $(this).hasClass('one') && $(output2).is(':visible') == true){
-      $(output1).animate({
-        width: '100%'
-      });
-      $(output2).animate({
-        width: 0,
-        opacity: 0
-      }, function(){
-        $(output2).hide();
-      });
-    }
-
-    // animate to TWO
-    if( $(this).hasClass('two') && $(output2).is(':hidden') == true ){
-      $(output2).show().animate({
-        opacity: 1,
-        width: '50%'
-      });
-      $(output1).animate({
-        width: '50%'
-      });
-    }
-
   });
 }
 
