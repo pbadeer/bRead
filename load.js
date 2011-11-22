@@ -75,6 +75,7 @@ function init(){
   current_tran = 'kjv';
 
   load();
+  afterLoad();
 }
 
 function clear()
@@ -112,6 +113,13 @@ function load(book, n)
   output.appendChild(html);
 
   input.value = current_book + ' ' + current_chap;
+}
+
+function afterLoad()
+{
+  $('.verse').click(function(){
+    alert( $(this).attr('ref') );
+  });
 }
 
 function prev()
