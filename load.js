@@ -67,6 +67,7 @@ books[64] = "3 john";
 books[65] = "jude";
 books[66] = "revelation";
 
+// Initialization function, runs on window.onload
 function init(){
   output1 = '.column.one';
   output2 = '.column.two';
@@ -76,7 +77,9 @@ function init(){
   current_tran = 'kjv';
   current_col2 = 'bible';
 
-  load();
+  //First load! Puts content in main column
+  load(1);
+
 
   // Show/hide verse numbers
   $('.nums').click(function(){
@@ -118,11 +121,16 @@ function init(){
   });
 }
 
-function clear()
+// Empties main column
+function clear(col)
 {
-  $(output1).html('');
+  if(col == 1) var area = output1;
+  if(col == 2) var area = output2;
+
+  $(area).html('');
 }
 
+// Opens XML and returns the request
 function openXML(path)
 {
   req = new XMLHttpRequest();
@@ -133,7 +141,8 @@ function openXML(path)
   return req.responseXML;
 }
 
-function load(book, n)
+// Main loading function, loads passages
+function load(col, book, n)
 {
   if(!book) book = current_book;
   else current_book = book;
@@ -149,12 +158,19 @@ function load(book, n)
   
   html = xsltProcessor.transformToFragment(xml,document);
 
-  clear();
-  $(output1).append(html);
+  if(col == 1){
+    clear(1);
+    $(output1).append(html);
+  }
+  if(col == 2){
+    clear(2);
+    $(output2).append(html);
+  }
 
   afterLoad();
 }
 
+// Things to run after content-load (load())
 function afterLoad()
 {
   // Change current passage title
@@ -166,16 +182,23 @@ function afterLoad()
   });
 }
 
+// Previous chapter
 function prev()
 {
-  load(current_book, current_chap - 1);
+  load(1, current_book, current_chap - 1);
+  if(current_col2 == 'bible')
+    load(2, current_book, current_chap);
 }
 
+// Next chapter
 function next()
 {
-  load(current_book, current_chap + 1);
+  load(1, current_book, current_chap + 1);
+  if(current_col2 == 'bible')
+    load(2, current_book, current_chap);
 }
 
+// Find passage
 function find(ref)
 {
   if(!ref) ref = $(input).val();
@@ -184,5 +207,5 @@ function find(ref)
     if (books[i].indexOf(ref.toLowerCase()) != -1) alert(books[i]);
 }
 
-
+// Initialize!
 window.onload = init;
