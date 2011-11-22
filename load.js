@@ -70,7 +70,7 @@ books[66] = "revelation";
 function init(){
   output = document.getElementById('passage');
   input = document.getElementById('ref');
-  current_book = 'MAT';
+  current_book = 'matthew';
   current_chap = 1;
   current_tran = 'kjv';
 
@@ -110,6 +110,8 @@ function load(book, n)
 
   clear();
   output.appendChild(html);
+
+  input.value = current_book + ' ' + current_chap;
 }
 
 function prev()

@@ -4,7 +4,6 @@
 
     <xsl:template match="chapter">
         <div class="chapter" ref="{@book}_{@n}" translation="{@translation}" book="{@book}">
-            <h4>Chapter <xsl:value-of select="@n"/></h4>
             <xsl:apply-templates select="verse"/>
         </div>
     </xsl:template>
