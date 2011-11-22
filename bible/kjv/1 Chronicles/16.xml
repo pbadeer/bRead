@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1CH" n="16">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Chronicles" n="16">
       <verse>So they brought the ark of God, and set it in the midst of the tent that David had pitched for it: and they offered burnt sacrifices and peace offerings before God.
 </verse><verse>And when David had made an end of offering the burnt offerings and the peace offerings, he blessed the people in the name of the LORD.
 </verse><verse>And he dealt to every one of Israel, both man and woman, to every one a loaf of bread, and a good piece of flesh, and a flagon <supplied>of wine.</supplied>
@@ -41,7 +42,7 @@
 </verse><verse>Blessed <supplied>be</supplied> the LORD God of Israel for ever and ever. And all the people said, Amen, and praised the LORD.
      
       </verse>
-      <verse>So he left there before the ark of the covenant of the LORD Asaph and his brethren, to minister before the ark continually, as every day’s work required:
+      <verse>So he left there before the ark of the covenant of the LORD Asaph and his brethren, to minister before the ark continually, as every day&#x2019;s work required:
 </verse><verse>And Obed- edom with their brethren, threescore and eight; Obed-edom also the son of Jeduthun and Hosah <supplied>to be</supplied> porters:
 </verse><verse>And Zadok the priest, and his brethren the priests, before the tabernacle of the LORD in the high place that <supplied>was</supplied> at Gibeon,
 </verse><verse>To offer burnt offerings unto the LORD upon the altar of the burnt offering continually morning and evening, and <supplied>to do</supplied> according to all that is written in the law of the LORD, which he commanded Israel;

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="1">
      
       <verse>There was a man in the land of Uz, whose name <supplied>was</supplied> Job; and that man was perfect and upright, and one that feared God, and eschewed evil.
 </verse><verse>And there were born unto him seven sons and three daughters.
@@ -17,16 +18,16 @@ my sons have sinned, and cursed God in their hearts. Thus did Job continually.
 </verse><verse>And the LORD said unto Satan, Behold, all that he hath <supplied>is</supplied> in thy power; only upon himself put not forth thine hand. So Satan went forth from the presence of the LORD.
      
       </verse>
-      <verse>And there was a day when his sons and his daughters <supplied>were</supplied> eating and drinking wine in their eldest brother’s house:
+      <verse>And there was a day when his sons and his daughters <supplied>were</supplied> eating and drinking wine in their eldest brother&#x2019;s house:
 </verse><verse>And there came a messenger unto Job, and said, The oxen were plowing, and the asses feeding beside them:
 </verse><verse>And the Sabeans fell <supplied>upon them,</supplied> and took them away; yea, they have slain the servants with the edge of the sword; and I only am escaped alone to tell thee.
 </verse><verse>While he <supplied>was</supplied> yet speaking, there came also another, and said, The fire of God is fallen from heaven, and hath burned up the sheep, and the servants, and consumed them; and I only am escaped alone to tell thee.
 </verse><verse>While he <supplied>was</supplied> yet speaking, there came also another, and said, The Chaldeans made out three bands, and fell upon the camels, and have carried them away, yea, and slain the servants with the edge of the sword; and I only am escaped alone
 to tell thee.
-</verse><verse>While he <supplied>was</supplied> yet speaking, there came also another, and said, Thy sons and thy daughters <supplied>were</supplied> eating and drinking wine in their eldest brother’s house:
+</verse><verse>While he <supplied>was</supplied> yet speaking, there came also another, and said, Thy sons and thy daughters <supplied>were</supplied> eating and drinking wine in their eldest brother&#x2019;s house:
 </verse><verse>And, behold, there came a great wind from the wilderness, and smote the four corners of the house, and it fell upon the young men, and they are dead; and I only am escaped alone to tell thee.
 </verse><verse>Then Job arose, and rent his mantle, and shaved his head, and fell down upon the ground, and worshipped,
-</verse><verse>And said, Naked came I out of my mother’s womb, and naked shall I return thither: the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.
+</verse><verse>And said, Naked came I out of my mother&#x2019;s womb, and naked shall I return thither: the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.
 </verse><verse>In all this Job sinned not, nor charged God foolishly.
      
       </verse>

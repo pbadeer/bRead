@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ACT" n="24">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="24">
       <verse>And after five days Ananias the high priest descended with the elders, and <supplied>with</supplied> a certain orator <supplied>named</supplied> Tertullus, who informed the governor against Paul.
 </verse><verse>And when he was called forth, Tertullus began to accuse <supplied>him,</supplied> saying, Seeing that by thee we enjoy great quietness, and that very worthy deeds are done unto this nation by thy providence,
 </verse><verse>We accept <supplied>it</supplied> always, and in all places, most noble Felix, with all thankfulness.
@@ -29,7 +30,7 @@
       <verse>And after certain days, when Felix came with his wife Drusilla, which was a Jewess, he sent for Paul, and heard him concerning the faith in Christ.
 </verse><verse>And as he reasoned of righteousness, temperance, and judgment to come Felix trembled, and answered, Go thy way for this time; when I have a convenient season, I will call for thee.
 </verse><verse>He hoped also that money should have been given him of Paul, that he might loose him: wherefore he sent for him the oftener, and communed with him.
-</verse><verse>But after two years Porcius Festus came into Felix’ room: and Felix, willing to shew the Jews a pleasure, left Paul bound.
+</verse><verse>But after two years Porcius Festus came into Felix&#x2019; room: and Felix, willing to shew the Jews a pleasure, left Paul bound.
      
       </verse>
       </chapter>

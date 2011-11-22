@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NUM" n="4">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Numbers" n="4">
       <verse>And the LORD spake unto Moses and unto Aaron, saying,
 </verse><verse>Take the sum of the sons of Kohath from among the sons of Levi, after their families, by the house of their fathers,
 </verse><verse>From thirty years old and upward even until fifty years old, all that enter into the host, to do the work in the tabernacle of the congregation.
@@ -6,13 +7,13 @@
      
       </verse>
       <verse>And when the camp setteth forward, Aaron shall come, and his sons, and they shall take down the covering vail, and cover the ark of testimony with it:
-</verse><verse>And shall put thereon the covering of badgers’ skins, and shall spread over <supplied>it</supplied> a cloth wholly of blue, and shall put in the staves thereof.
+</verse><verse>And shall put thereon the covering of badgers&#x2019; skins, and shall spread over <supplied>it</supplied> a cloth wholly of blue, and shall put in the staves thereof.
 </verse><verse>And upon the table of shewbread they shall spread a cloth of blue, and put thereon the dishes, and the spoons, and the bowls, and covers to cover withal: and the continual bread shall be thereon:
-</verse><verse>And they shall spread upon them a cloth of scarlet, and cover the same with a covering of badgers’ skins, and shall put in the staves thereof.
+</verse><verse>And they shall spread upon them a cloth of scarlet, and cover the same with a covering of badgers&#x2019; skins, and shall put in the staves thereof.
 </verse><verse>And they shall take a cloth of blue, and cover the candlestick of the light, and his lamps, and his tongs, and his snuffdishes, and all the oil vessels thereof, wherewith they minister unto it:
-</verse><verse>And they shall put it and all the vessels thereof within a covering of badgers’ skins, and shall put <supplied>it</supplied> upon a bar.
-</verse><verse>And upon the golden altar they shall spread a cloth of blue, and cover it with a covering of badgers’ skins, and shall put to the staves thereof:
-</verse><verse>And they shall take all the instruments of ministry, wherewith they minister in the sanctuary, and put <supplied>them</supplied> in a cloth of blue, and cover them with a covering of badgers’ skins, and shall put <supplied>them</supplied> on a bar:
+</verse><verse>And they shall put it and all the vessels thereof within a covering of badgers&#x2019; skins, and shall put <supplied>it</supplied> upon a bar.
+</verse><verse>And upon the golden altar they shall spread a cloth of blue, and cover it with a covering of badgers&#x2019; skins, and shall put to the staves thereof:
+</verse><verse>And they shall take all the instruments of ministry, wherewith they minister in the sanctuary, and put <supplied>them</supplied> in a cloth of blue, and cover them with a covering of badgers&#x2019; skins, and shall put <supplied>them</supplied> on a bar:
 </verse><verse>And they shall take away the ashes from the altar, and spread a purple cloth thereon:
 </verse><verse>And they shall put upon it all the vessels thereof, wherewith they minister about it, <supplied>even</supplied> the censers, the fleshhooks, and the shovels, and the basons, all the vessels of the altar; and they shall spread upon it a covering of badgers
 skins, and put to the staves of it.
@@ -34,7 +35,7 @@ therein <supplied>is,</supplied> in the sanctuary, and in the vessels thereof.
 </verse><verse>Take also the sum of the sons of Gershon, throughout the houses of their fathers, by their families;
 </verse><verse>From thirty years old and upward until fifty years old shalt thou number them; all that enter in to perform the service, to do the work in the tabernacle of the congregation.
 </verse><verse>This <supplied>is</supplied> the service of the families of the Gershonites, to serve, and for burdens:
-</verse><verse>And they shall bear the curtains of the tabernacle, and the tabernacle of the congregation, his covering, and the covering of the badgers’ skins that <supplied>is</supplied> above upon it, and the hanging for the door of the tabernacle of the congregation,
+</verse><verse>And they shall bear the curtains of the tabernacle, and the tabernacle of the congregation, his covering, and the covering of the badgers&#x2019; skins that <supplied>is</supplied> above upon it, and the hanging for the door of the tabernacle of the congregation,
 </verse><verse>And the hangings of the court, and the hanging for the door of the gate of the court, which <supplied>is</supplied> by the tabernacle and by the altar round about, and their cords, and all the instruments of their service, and all that is made for them: so
 shall they serve.
 </verse><verse>At the appointment of Aaron and his sons shall be all the service of the sons of the Gershonites, in all their burdens, and in all their service: and ye shall appoint unto them in charge all their burdens.

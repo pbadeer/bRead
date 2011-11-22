@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="JHN" n="5">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="John" n="5">
       <verse>After this there was a feast of the Jews; and Jesus went up to Jerusalem.
 </verse><verse>Now there is at Jerusalem by the sheep <supplied>market</supplied> a pool, which is called in the Hebrew tongue Bethesda, having five porches.
 </verse><verse>In these lay a great multitude of impotent folk, of blind, halt, withered, waiting for the moving of the water.
@@ -42,7 +43,7 @@ sent me, hath borne witness of me. Ye have neither heard his voice at any time, 
       </verse>
       <verse>
       <jesus>Search the scriptures; for in them ye think ye have eternal life: and they are they which testify of me. </jesus></verse><verse><jesus>And ye will not come to me, that ye might have life. </jesus></verse><verse><jesus>I receive not honour from men. </jesus></verse><verse><jesus>But
-I know you, that ye have not the love of God in you. </jesus></verse><verse><jesus>I am come in my Father’s name, and ye receive me not: if another shall come in his own name, him ye will receive. </jesus></verse><verse><jesus>How can ye believe, which receive honour one of
+I know you, that ye have not the love of God in you. </jesus></verse><verse><jesus>I am come in my Father&#x2019;s name, and ye receive me not: if another shall come in his own name, him ye will receive. </jesus></verse><verse><jesus>How can ye believe, which receive honour one of
 another, and seek not the honour that <supplied>cometh</supplied> from God only? </jesus></verse><verse><jesus>Do not think that I will accuse you to the Father: there is <supplied>one</supplied> that accuseth you, <supplied>even</supplied> Moses, in whom ye trust. </jesus></verse><verse><jesus>For had ye believed
 Moses, ye would have believed me: for he wrote of me. </jesus></verse><verse><jesus>But if ye believe not his writings, how shall ye believe my words?
      

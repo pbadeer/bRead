@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="140">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="140">
       To the chief Musician, A Psalm of David.
       
       
@@ -14,7 +15,7 @@
       
        
         </verse>
-        <verse>They have sharpened their tongues like a serpent; adders’ poison <supplied>is</supplied> under their lips. Selah.
+        <verse>They have sharpened their tongues like a serpent; adders&#x2019; poison <supplied>is</supplied> under their lips. Selah.
       
       
        

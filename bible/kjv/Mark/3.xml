@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MRK" n="3">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Mark" n="3">
       <verse>And he entered again into the synagogue; and there was a man there which had a withered hand.
 </verse><verse>And they watched him, whether he would heal him on the sabbath day; that they might accuse him.
 </verse><verse>And he saith unto the man which had the withered hand, <jesus>Stand forth. </jesus></verse><verse>And he saith unto them, <jesus>Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill?</jesus> But they held their peace.
@@ -23,7 +24,7 @@
       </verse>
       <verse>And the scribes which came down from Jerusalem said, He hath Beelzebub, and by the prince of the devils casteth he out devils.
 </verse><verse>And he called them <supplied>unto him,</supplied> and said unto them in parables, <jesus>How can Satan cast out Satan? </jesus></verse><verse><jesus>And if a kingdom be divided against itself, that kingdom cannot stand. </jesus></verse><verse><jesus>And if a house be divided against itself,
-that house cannot stand. </jesus></verse><verse><jesus>And if Satan rise up against himself, and be divided, he cannot stand, but hath an end. </jesus></verse><verse><jesus>No man can enter into a strong man’s house, and spoil his goods, except he will first bind the strong man;
+that house cannot stand. </jesus></verse><verse><jesus>And if Satan rise up against himself, and be divided, he cannot stand, but hath an end. </jesus></verse><verse><jesus>No man can enter into a strong man&#x2019;s house, and spoil his goods, except he will first bind the strong man;
 and then he will spoil his house. </jesus></verse><verse><jesus>Verily I say unto you, All sins shall be forgiven unto the sons of men, and blasphemies wherewith soever they shall blaspheme: </jesus></verse><verse><jesus>But he that shall blaspheme against the Holy Ghost hath
 never forgiveness, but is in danger of eternal damnation: </jesus></verse><verse>Because they said, He hath an unclean spirit.
      

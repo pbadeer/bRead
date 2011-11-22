@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NUM" n="12">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Numbers" n="12">
       <verse>And Miriam and Aaron spake against Moses because of the Ethiopian woman whom he had married: for he had married an Ethiopian woman.
 </verse><verse>And they said, Hath the LORD indeed spoken only by Moses? hath he not spoken also by us? And the LORD heard <supplied>it. </supplied></verse><verse>(Now the man Moses <supplied>was</supplied> very meek, above all the men which <supplied>were</supplied> upon the face of the earth.)
 </verse><verse>And the LORD spake suddenly unto Moses, and unto Aaron, and unto Miriam, Come out ye three unto the tabernacle of the congregation. And they three came out.
@@ -9,7 +10,7 @@
 </verse><verse>And the anger of the LORD was kindled against them; and he departed.
 </verse><verse>And the cloud departed from off the tabernacle; and, behold, Miriam <supplied>became</supplied> leprous, <supplied>white</supplied> as snow: and Aaron looked upon Miriam, and, behold, <supplied>she was</supplied> leprous.
 </verse><verse>And Aaron said unto Moses, Alas, my lord, I beseech thee, lay not the sin upon us, wherein we have done foolishly, and wherein we have sinned.
-</verse><verse>Let her not be as one dead, of whom the flesh is half consumed when he cometh out of his mother’s womb.
+</verse><verse>Let her not be as one dead, of whom the flesh is half consumed when he cometh out of his mother&#x2019;s womb.
 </verse><verse>And Moses cried unto the LORD, saying, Heal her now, O God, I beseech thee.
      
       </verse>

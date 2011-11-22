@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="19">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="19">
       <verse>Then Job answered and said,
 </verse><verse>How long will ye vex my soul, and break me in pieces with words?
 </verse><verse>These ten times have ye reproached me: ye are not ashamed <supplied>that</supplied> ye make yourselves strange to me.
@@ -15,7 +16,7 @@
 </verse><verse>My kinsfolk have failed, and my familiar friends have forgotten me.
 </verse><verse>They that dwell in mine house, and my maids, count me for a stranger: I am an alien in their sight.
 </verse><verse>I called my servant, and he gave <supplied>me</supplied> no answer; I intreated him with my mouth.
-</verse><verse>My breath is strange to my wife, though I intreated for the children’s <supplied>sake</supplied> of mine own body.
+</verse><verse>My breath is strange to my wife, though I intreated for the children&#x2019;s <supplied>sake</supplied> of mine own body.
 </verse><verse>Yea, young children despised me; I arose, and they spake against me.
 </verse><verse>All my inward friends abhorred me: and they whom I loved are turned against me.
 </verse><verse>My bone cleaveth to my skin and to my flesh, and I am escaped with the skin of my teeth.

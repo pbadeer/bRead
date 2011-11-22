@@ -1,6 +1,7 @@
-<chapter translation="KJV" testament="Old" book="1SA" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Samuel" n="10">
       <verse>Then Samuel took a vial of oil, and poured <supplied>it</supplied> upon his head, and kissed him, and said, <supplied>Is it</supplied> not because the LORD hath anointed thee <supplied>to be</supplied> captain over his inheritance?
-</verse><verse>When thou art departed from me to day, then thou shalt find two men by Rachel’s sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care
+</verse><verse>When thou art departed from me to day, then thou shalt find two men by Rachel&#x2019;s sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care
 of the asses, and sorroweth for you, saying, What shall I do for my son?
 </verse><verse>Then shalt thou go on forward from thence, and thou shalt come to the plain of Tabor, and there shall meet thee three men going up to God to Bethel, one carrying three kids, and another carrying three loaves of bread, and another carrying a
 bottle of wine:
@@ -21,8 +22,8 @@ prophets?
 </verse><verse>And when he had made an end of prophesying, he came to the high place.
      
       </verse>
-      <verse>And Saul’s uncle said unto him and to his servant, Whither went ye? And he said, To seek the asses: and when we saw that <supplied>they were</supplied> no where, we came to Samuel.
-</verse><verse>And Saul’s uncle said, Tell me, I pray thee, what Samuel said unto you.
+      <verse>And Saul&#x2019;s uncle said unto him and to his servant, Whither went ye? And he said, To seek the asses: and when we saw that <supplied>they were</supplied> no where, we came to Samuel.
+</verse><verse>And Saul&#x2019;s uncle said, Tell me, I pray thee, what Samuel said unto you.
 </verse><verse>And Saul said unto his uncle, He told us plainly that the asses were found. But of the matter of the kingdom, whereof Samuel spake, he told him not.
      
       </verse>

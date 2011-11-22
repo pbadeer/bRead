@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1CH" n="27">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Chronicles" n="27">
       <verse>Now the children of Israel after their number, <supplied>to wit,</supplied> the chief fathers and captains of thousands and hundreds, and their officers that served the king in any matter of the courses, which came in and went out month by month
 throughout all the months of the year, of every course <supplied>were</supplied> twenty and four thousand.
 </verse><verse>Over the first course for the first month <supplied>was</supplied> Jashobeam the son of Zabdiel: and in his course <supplied>were</supplied> twenty and four thousand.
@@ -30,16 +31,16 @@ throughout all the months of the year, of every course <supplied>were</supplied>
 </verse><verse>Joab the son of Zeruiah began to number, but he finished not, because there fell wrath for it against Israel; neither was the number put in the account of the chronicles of king David.
      
       </verse>
-      <verse>And over the king’s treasures <supplied>was</supplied> Azmaveth the son of Adiel: and over the storehouses in the fields, in the cities, and in the villages, and in the castles, <supplied>was</supplied> Jehonathan the son of Uzziah:
+      <verse>And over the king&#x2019;s treasures <supplied>was</supplied> Azmaveth the son of Adiel: and over the storehouses in the fields, in the cities, and in the villages, and in the castles, <supplied>was</supplied> Jehonathan the son of Uzziah:
 </verse><verse>And over them that did the work of the field for tillage of the ground <supplied>was</supplied> Ezri the son of Chelub:
 </verse><verse>And over the vineyards was Shimei the Ramathite: over the increase of the vineyards for the wine cellars <supplied>was</supplied> Zabdi the Shiphmite:
 </verse><verse>And over the olive trees and the sycomore trees that <supplied>were</supplied> in the low plains <supplied>was</supplied> Baal-hanan the Gederite: and over the cellars of oil <supplied>was</supplied> Joash:
 </verse><verse>And over the herds that fed in Sharon <supplied>was</supplied> Shitrai the Sharonite: and over the herds <supplied>that were</supplied> in the valleys <supplied>was</supplied> Shaphat the son of Adlai:
 </verse><verse>Over the camels also was Obil the Ishmaelite: and over the asses <supplied>was</supplied> Jehdeiah the Meronothite:
-</verse><verse>And over the flocks <supplied>was</supplied> Jaziz the Hagerite. All these <supplied>were</supplied> the rulers of the substance which <supplied>was</supplied> king David’s.
-</verse><verse>Also Jonathan David’s uncle was a counsellor, a wise man, and a scribe: and Jehiel the son of Hachmoni <supplied>was</supplied> with the king’s sons:
-</verse><verse>And Ahithophel <supplied>was</supplied> the king’s counsellor: and Hushai the Archite <supplied>was</supplied> the king’s companion:
-</verse><verse>And after Ahithophel <supplied>was</supplied> Jehoiada the son of Benaiah, and Abiathar: and the general of the king’s army <supplied>was</supplied> Joab.
+</verse><verse>And over the flocks <supplied>was</supplied> Jaziz the Hagerite. All these <supplied>were</supplied> the rulers of the substance which <supplied>was</supplied> king David&#x2019;s.
+</verse><verse>Also Jonathan David&#x2019;s uncle was a counsellor, a wise man, and a scribe: and Jehiel the son of Hachmoni <supplied>was</supplied> with the king&#x2019;s sons:
+</verse><verse>And Ahithophel <supplied>was</supplied> the king&#x2019;s counsellor: and Hushai the Archite <supplied>was</supplied> the king&#x2019;s companion:
+</verse><verse>And after Ahithophel <supplied>was</supplied> Jehoiada the son of Benaiah, and Abiathar: and the general of the king&#x2019;s army <supplied>was</supplied> Joab.
      
       </verse>
       </chapter>

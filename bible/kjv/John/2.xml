@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="JHN" n="2">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="John" n="2">
       <verse>And the third day there was a marriage in Cana of Galilee; and the mother of Jesus was there:
 </verse><verse>And both Jesus was called, and his disciples, to the marriage.
 </verse><verse>And when they wanted wine, the mother of Jesus saith unto him, They have no wine.
@@ -14,10 +15,10 @@ the water knew;) the governor of the feast called the bridegroom,
       <verse>After this he went down to Capernaum, he, and his mother, and his brethren, and his disciples: and they continued there not many days.
      
       </verse>
-      <verse>And the Jews’ passover was at hand, and Jesus went up to Jerusalem,
+      <verse>And the Jews&#x2019; passover was at hand, and Jesus went up to Jerusalem,
 </verse><verse>And found in the temple those that sold oxen and sheep and doves, and the changers of money sitting:
-</verse><verse>And when he had made a scourge of small cords, he drove them all out of the temple, and the sheep, and the oxen; and poured out the changers’ money, and overthrew the tables;
-</verse><verse>And said unto them that sold doves, <jesus>Take these things hence; make not my Father’s house an house of merchandise. </jesus></verse><verse>And his disciples remembered that it was written, The zeal of thine house hath eaten me up.
+</verse><verse>And when he had made a scourge of small cords, he drove them all out of the temple, and the sheep, and the oxen; and poured out the changers&#x2019; money, and overthrew the tables;
+</verse><verse>And said unto them that sold doves, <jesus>Take these things hence; make not my Father&#x2019;s house an house of merchandise. </jesus></verse><verse>And his disciples remembered that it was written, The zeal of thine house hath eaten me up.
      
       </verse>
       <verse>Then answered the Jews and said unto him, What sign shewest thou unto us, seeing that thou doest these things?

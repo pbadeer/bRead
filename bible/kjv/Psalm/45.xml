@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="45">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="45">
       To the chief Musician upon Shoshannim, for the sons of Korah, Maschil, A Song of loves.
       
       
@@ -24,7 +25,7 @@
       
        
         </verse>
-        <verse>Thine arrows <supplied>are</supplied> sharp in the heart of the king’s enemies; <supplied>whereby</supplied> the people fall under thee.
+        <verse>Thine arrows <supplied>are</supplied> sharp in the heart of the king&#x2019;s enemies; <supplied>whereby</supplied> the people fall under thee.
       
       
        
@@ -44,12 +45,12 @@
       
        
         </verse>
-        <verse>Kings’ daughters <supplied>were</supplied> among thy honourable women: upon thy right hand did stand the queen in gold of Ophir.
+        <verse>Kings&#x2019; daughters <supplied>were</supplied> among thy honourable women: upon thy right hand did stand the queen in gold of Ophir.
       
       
        
         </verse>
-        <verse>Hearken, O daughter, and consider, and incline thine ear; forget also thine own people, and thy father’s house;
+        <verse>Hearken, O daughter, and consider, and incline thine ear; forget also thine own people, and thy father&#x2019;s house;
       
       
        
@@ -64,7 +65,7 @@
       
        
         </verse>
-        <verse>The king’s daughter <supplied>is</supplied> all glorious within: her clothing <supplied>is</supplied> of wrought gold.
+        <verse>The king&#x2019;s daughter <supplied>is</supplied> all glorious within: her clothing <supplied>is</supplied> of wrought gold.
       
       
        
@@ -74,7 +75,7 @@
       
        
         </verse>
-        <verse>With gladness and rejoicing shall they be brought: they shall enter into the king’s palace.
+        <verse>With gladness and rejoicing shall they be brought: they shall enter into the king&#x2019;s palace.
       
       
        

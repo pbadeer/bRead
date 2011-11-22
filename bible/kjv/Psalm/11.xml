@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="11">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="11">
       To the chief Musician, A <supplied>Psalm</supplied> of David.
       
       
@@ -19,7 +20,7 @@
       
        
         </verse>
-        <verse>The LORD <supplied>is</supplied> in his holy temple, the LORD’S throne <supplied>is</supplied> in heaven: his eyes behold, his eyelids try, the children of men.
+        <verse>The LORD <supplied>is</supplied> in his holy temple, the LORD&#x2019;S throne <supplied>is</supplied> in heaven: his eyes behold, his eyelids try, the children of men.
       
       
        

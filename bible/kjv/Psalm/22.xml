@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="22">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="22">
       To the chief Musician upon Aijeleth Shahar, A Psalm of David.
       
       
@@ -44,12 +45,12 @@
       
        
         </verse>
-        <verse>But thou <supplied>art</supplied> he that took me out of the womb: thou didst make me hope <supplied>when I was</supplied> upon my mother’s breasts.
+        <verse>But thou <supplied>art</supplied> he that took me out of the womb: thou didst make me hope <supplied>when I was</supplied> upon my mother&#x2019;s breasts.
       
       
        
         </verse>
-        <verse>I was cast upon thee from the womb: thou <supplied>art</supplied> my God from my mother’s belly.
+        <verse>I was cast upon thee from the womb: thou <supplied>art</supplied> my God from my mother&#x2019;s belly.
       
       
        
@@ -104,7 +105,7 @@
       
        
         </verse>
-        <verse>Save me from the lion’s mouth: for thou hast heard me from the horns of the unicorns.
+        <verse>Save me from the lion&#x2019;s mouth: for thou hast heard me from the horns of the unicorns.
       
       
        
@@ -139,7 +140,7 @@
       
        
         </verse>
-        <verse>For the kingdom <supplied>is</supplied> the LORD’S: and he <supplied>is</supplied> the governor among the nations.
+        <verse>For the kingdom <supplied>is</supplied> the LORD&#x2019;S: and he <supplied>is</supplied> the governor among the nations.
       
       
        

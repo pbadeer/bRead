@@ -1,8 +1,9 @@
-<chapter translation="KJV" testament="Old" book="EXO" n="14">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Exodus" n="14">
       <verse>And the LORD spake unto Moses, saying,
 </verse><verse>Speak unto the children of Israel, that they turn and encamp before Pi-hahiroth, between Migdol and the sea, over against Baal-zephon: before it shall ye encamp by the sea.
 </verse><verse>For Pharaoh will say of the children of Israel, They <supplied>are</supplied> entangled in the land, the wilderness hath shut them in.
-</verse><verse>And I will harden Pharaoh’s heart, that he shall follow after them; and I will be honoured upon Pharaoh, and upon all his host; that the Egyptians may know that I <supplied>am</supplied> the LORD. And they did so.
+</verse><verse>And I will harden Pharaoh&#x2019;s heart, that he shall follow after them; and I will be honoured upon Pharaoh, and upon all his host; that the Egyptians may know that I <supplied>am</supplied> the LORD. And they did so.
      
       </verse>
       <verse>And it was told the king of Egypt that the people fled: and the heart of Pharaoh and of his servants was turned against the people, and they said, Why have we done this, that we have let Israel go from serving us?
@@ -33,7 +34,7 @@
 </verse><verse>And the children of Israel went into the midst of the sea upon the dry <supplied>ground:</supplied> and the waters <supplied>were</supplied> a wall unto them on their right hand, and on their left.
      
       </verse>
-      <verse>And the Egyptians pursued, and went in after them to the midst of the sea, <supplied>even</supplied> all Pharaoh’s horses, his chariots, and his horsemen.
+      <verse>And the Egyptians pursued, and went in after them to the midst of the sea, <supplied>even</supplied> all Pharaoh&#x2019;s horses, his chariots, and his horsemen.
 </verse><verse>And it came to pass, that in the morning watch the LORD looked unto the host of the Egyptians through the pillar of fire and of the cloud, and troubled the host of the Egyptians,
 </verse><verse>And took off their chariot wheels, that they drave them heavily: so that the Egyptians said, Let us flee from the face of Israel; for the LORD fighteth for them against the Egyptians.
      

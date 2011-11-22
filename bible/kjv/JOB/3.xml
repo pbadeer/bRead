@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="3">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="3">
       <verse>After this opened Job his mouth, and cursed his day.
 </verse><verse>And Job spake, and said,
 </verse><verse>Let the day perish wherein I was born, and the night <supplied>in which</supplied> it was said, There is a man child conceived.
@@ -8,7 +9,7 @@
 </verse><verse>Lo, let that night be solitary, let no joyful voice come therein.
 </verse><verse>Let them curse it that curse the day, who are ready to raise up their mourning.
 </verse><verse>Let the stars of the twilight thereof be dark; let it look for light, but <supplied>have</supplied> none; neither let it see the dawning of the day:
-</verse><verse>Because it shut not up the doors of my <supplied>mother’s</supplied> womb, nor hid sorrow from mine eyes.
+</verse><verse>Because it shut not up the doors of my <supplied>mother&#x2019;s</supplied> womb, nor hid sorrow from mine eyes.
 </verse><verse>Why died I not from the womb? <supplied>why</supplied> did I <supplied>not</supplied> give up the ghost when I came out of the belly?
 </verse><verse>Why did the knees prevent me? or why the breasts that I should suck?
 </verse><verse>For now should I have lain still and been quiet, I should have slept: then had I been at rest,

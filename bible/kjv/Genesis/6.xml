@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="GEN" n="6">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Genesis" n="6">
       <verse>And it came to pass, when men began to multiply on the face of the earth, and daughters were born unto them,
 </verse><verse>That the sons of God saw the daughters of men that they <supplied>were</supplied> fair; and they took them wives of all which they chose.
 </verse><verse>And the LORD said, My spirit shall not always strive with man, for that he also <supplied>is</supplied> flesh: yet his days shall be an hundred and twenty years.
@@ -22,7 +23,7 @@
 </verse><verse>And this <supplied>is the fashion</supplied> which thou shalt make it <supplied>of:</supplied> The length of the ark <supplied>shall be</supplied> three hundred cubits, the breadth of it fifty cubits, and the height of it thirty cubits.
 </verse><verse>A window shalt thou make to the ark, and in a cubit shalt thou finish it above; and the door of the ark shalt thou set in the side thereof; <supplied>with</supplied> lower, second, and third <supplied>stories</supplied> shalt thou make it.
 </verse><verse>And, behold, I, even I, do bring a flood of waters upon the earth, to destroy all flesh, wherein <supplied>is</supplied> the breath of life, from under heaven; <supplied>and</supplied> every thing that <supplied>is</supplied> in the earth shall die.
-</verse><verse>But with thee will I establish my covenant; and thou shalt come into the ark, thou, and thy sons, and thy wife, and thy sons’ wives with thee.
+</verse><verse>But with thee will I establish my covenant; and thou shalt come into the ark, thou, and thy sons, and thy wife, and thy sons&#x2019; wives with thee.
 </verse><verse>And of every living thing of all flesh, two of every <supplied>sort</supplied> shalt thou bring into the ark, to keep <supplied>them</supplied> alive with thee; they shall be male and female.
 </verse><verse>Of fowls after their kind, and of cattle after their kind, of every creeping thing of the earth after his kind, two of every <supplied>sort</supplied> shall come unto thee, to keep <supplied>them</supplied> alive.
 </verse><verse>And take thou unto thee of all food that is eaten, and thou shalt gather <supplied>it</supplied> to thee; and it shall be for food for thee, and for them.

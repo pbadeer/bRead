@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1KI" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Kings" n="1">
      
       <verse>Now king David was old <supplied>and</supplied> stricken in years; and they covered him with clothes, but he gat no heat.
 </verse><verse>Wherefore his servants said unto him, Let there be sought for my lord the king a young virgin: and let her stand before the king, and let her cherish him, and let her lie in thy bosom, that my lord the king may get heat.
@@ -10,7 +11,7 @@
 </verse><verse>And his father had not displeased him at any time in saying, Why hast thou done so? and he also <supplied>was a</supplied> very goodly <supplied>man;</supplied> and <supplied>his mother</supplied> bare him after Absalom.
 </verse><verse>And he conferred with Joab the son of Zeruiah, and with Abiathar the priest: and they following Adonijah helped <supplied>him. </supplied></verse><verse>But Zadok the priest, and Benaiah the son of Jehoiada, and Nathan the prophet, and Shimei, and Rei, and the mighty
 men which <supplied>belonged</supplied> to David, were not with Adonijah.
-</verse><verse>And Adonijah slew sheep and oxen and fat cattle by the stone of Zoheleth, which <supplied>is</supplied> by En-rogel, and called all his brethren the king’s sons, and all the men of Judah the king’s servants:
+</verse><verse>And Adonijah slew sheep and oxen and fat cattle by the stone of Zoheleth, which <supplied>is</supplied> by En-rogel, and called all his brethren the king&#x2019;s sons, and all the men of Judah the king&#x2019;s servants:
 </verse><verse>But Nathan the prophet, and Benaiah, and the mighty men, and Solomon his brother, he called not.
      
       </verse>
@@ -32,13 +33,13 @@ men which <supplied>belonged</supplied> to David, were not with Adonijah.
       <verse>And, lo, while she yet talked with the king, Nathan the prophet also came in.
 </verse><verse>And they told the king, saying, Behold Nathan the prophet. And when he was come in before the king, he bowed himself before the king with his face to the ground.
 </verse><verse>And Nathan said, My lord, O king, hast thou said, Adonijah shall reign after me, and he shall sit upon my throne?
-</verse><verse>For he is gone down this day, and hath slain oxen and fat cattle and sheep in abundance, and hath called all the king’s sons, and the captains of the host, and Abiathar the priest; and, behold, they eat and drink before him, and say, God save
+</verse><verse>For he is gone down this day, and hath slain oxen and fat cattle and sheep in abundance, and hath called all the king&#x2019;s sons, and the captains of the host, and Abiathar the priest; and, behold, they eat and drink before him, and say, God save
 king Adonijah.
 </verse><verse>But me, <supplied>even</supplied> me thy servant, and Zadok the priest, and Benaiah the son of Jehoiada, and thy servant Solomon, hath he not called.
 </verse><verse>Is this thing done by my lord the king, and thou hast not shewed <supplied>it</supplied> unto thy servant, who should sit on the throne of my lord the king after him?
      
       </verse>
-      <verse>Then king David answered and said, Call me Bath-sheba. And she came into the king’s presence, and stood before the king.
+      <verse>Then king David answered and said, Call me Bath-sheba. And she came into the king&#x2019;s presence, and stood before the king.
 </verse><verse>And the king sware, and said, <supplied>As</supplied> the LORD liveth, that hath redeemed my soul out of all distress,
 </verse><verse>Even as I sware unto thee by the LORD God of Israel, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne in my stead; even so will I certainly do this day.
 </verse><verse>Then Bath-sheba bowed with <supplied>her</supplied> face to the earth, and did reverence to the king, and said, Let my lord king David live for ever.
@@ -50,7 +51,7 @@ king Adonijah.
 </verse><verse>Then ye shall come up after him, that he may come and sit upon my throne; for he shall be king in my stead: and I have appointed him to be ruler over Israel and over Judah.
 </verse><verse>And Benaiah the son of Jehoiada answered the king, and said, Amen: the LORD God of my lord the king say so <supplied>too. </supplied></verse><verse>As the LORD hath been with my lord the king, even so be he with Solomon, and make his throne greater than the throne
 of my lord king David.
-</verse><verse>So Zadok the priest, and Nathan the prophet, and Benaiah the son of Jehoiada, and the Cherethites, and the Pelethites, went down, and caused Solomon to ride upon king David’s mule, and brought him to Gihon.
+</verse><verse>So Zadok the priest, and Nathan the prophet, and Benaiah the son of Jehoiada, and the Cherethites, and the Pelethites, went down, and caused Solomon to ride upon king David&#x2019;s mule, and brought him to Gihon.
 </verse><verse>And Zadok the priest took an horn of oil out of the tabernacle, and anointed Solomon. And they blew the trumpet; and all the people said, God save king Solomon.
 </verse><verse>And all the people came up after him, and the people piped with pipes, and rejoiced with great joy, so that the earth rent with the sound of them.
      
@@ -58,10 +59,10 @@ of my lord king David.
       <verse>And Adonijah and all the guests that <supplied>were</supplied> with him heard <supplied>it</supplied> as they had made an end of eating. And when Joab heard the sound of the trumpet, he said, Wherefore <supplied>is this</supplied> noise of the city being in an uproar?
 </verse><verse>And while he yet spake, behold, Jonathan the son of Abiathar the priest came: and Adonijah said unto him, Come in; for thou <supplied>art</supplied> a valiant man, and bringest good tidings.
 </verse><verse>And Jonathan answered and said to Adonijah, Verily our lord king David hath made Solomon king.
-</verse><verse>And the king hath sent with him Zadok the priest, and Nathan the prophet, and Benaiah the son of Jehoiada, and the Cherethites, and the Pelethites, and they have caused him to ride upon the king’s mule:
+</verse><verse>And the king hath sent with him Zadok the priest, and Nathan the prophet, and Benaiah the son of Jehoiada, and the Cherethites, and the Pelethites, and they have caused him to ride upon the king&#x2019;s mule:
 </verse><verse>And Zadok the priest and Nathan the prophet have anointed him king in Gihon: and they are come up from thence rejoicing, so that the city rang again. This <supplied>is</supplied> the noise that ye have heard.
 </verse><verse>And also Solomon sitteth on the throne of the kingdom.
-</verse><verse>And moreover the king’s servants came to bless our lord king David, saying, God make the name of Solomon better than thy name, and make his throne greater than thy throne. And the king bowed himself upon the bed.
+</verse><verse>And moreover the king&#x2019;s servants came to bless our lord king David, saying, God make the name of Solomon better than thy name, and make his throne greater than thy throne. And the king bowed himself upon the bed.
 </verse><verse>And also thus said the king, Blessed <supplied>be</supplied> the LORD God of Israel, which hath given <supplied>one</supplied> to sit on my throne this day, mine eyes even seeing <supplied>it. </supplied></verse><verse>And all the guests that <supplied>were</supplied> with Adonijah were afraid, and rose
 up, and went every man his way.
      

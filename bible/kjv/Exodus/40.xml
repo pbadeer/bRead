@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="EXO" n="40">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Exodus" n="40">
       <verse>And the LORD spake unto Moses, saying,
 </verse><verse>On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation.
 </verse><verse>And thou shalt put therein the ark of the testimony, and cover the ark with the vail.
@@ -11,9 +12,9 @@
 </verse><verse>And thou shalt anoint the altar of the burnt offering, and all his vessels, and sanctify the altar: and it shall be an altar most holy.
 </verse><verse>And thou shalt anoint the laver and his foot, and sanctify it.
 </verse><verse>And thou shalt bring Aaron and his sons unto the door of the tabernacle of the congregation, and wash them with water.
-</verse><verse>And thou shalt put upon Aaron the holy garments, and anoint him, and sanctify him; that he may minister unto me in the priest’s office.
+</verse><verse>And thou shalt put upon Aaron the holy garments, and anoint him, and sanctify him; that he may minister unto me in the priest&#x2019;s office.
 </verse><verse>And thou shalt bring his sons, and clothe them with coats:
-</verse><verse>And thou shalt anoint them, as thou didst anoint their father, that they may minister unto me in the priest’s office: for their anointing shall surely be an everlasting priesthood throughout their generations.
+</verse><verse>And thou shalt anoint them, as thou didst anoint their father, that they may minister unto me in the priest&#x2019;s office: for their anointing shall surely be an everlasting priesthood throughout their generations.
 </verse><verse>Thus did Moses: according to all that the LORD commanded him, so did he.
      
       </verse>

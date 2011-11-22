@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ACT" n="14">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="14">
       <verse>And it came to pass in Iconium, that they went both together into the synagogue of the Jews, and so spake, that a great multitude both of the Jews and also of the Greeks believed.
 </verse><verse>But the unbelieving Jews stirred up the Gentiles, and made their minds evil affected against the brethren.
 </verse><verse>Long time therefore abode they speaking boldly in the Lord, which gave testimony unto the word of his grace, and granted signs and wonders to be done by their hands.
@@ -8,7 +9,7 @@
 </verse><verse>And there they preached the gospel.
      
       </verse>
-      <verse>And there sat a certain man at Lystra, impotent in his feet, being a cripple from his mother’s womb, who never had walked:
+      <verse>And there sat a certain man at Lystra, impotent in his feet, being a cripple from his mother&#x2019;s womb, who never had walked:
 </verse><verse>The same heard Paul speak: who stedfastly beholding him, and perceiving that he had faith to be healed,
 </verse><verse>Said with a loud voice, Stand upright on thy feet. And he leaped and walked.
 </verse><verse>And when the people saw what Paul had done, they lifted up their voices, saying in the speech of Lycaonia, The gods are come down to us in the likeness of men.

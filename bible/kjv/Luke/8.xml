@@ -1,7 +1,8 @@
-<chapter translation="KJV" testament="New" book="LUK" n="8">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Luke" n="8">
       <verse>And it came to pass afterward, that he went throughout every city and village, preaching and shewing the glad tidings of the kingdom of God: and the twelve <supplied>were</supplied> with him,
 </verse><verse>And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils,
-</verse><verse>And Joanna the wife of Chuza Herod’s steward, and Susanna, and many others, which ministered unto him of their substance.
+</verse><verse>And Joanna the wife of Chuza Herod&#x2019;s steward, and Susanna, and many others, which ministered unto him of their substance.
      
       </verse>
       <verse>And when much people were gathered together, and were come to him out of every city, he spake by a parable:
@@ -53,7 +54,7 @@ he seemeth to have.
 </verse><verse>And it came to pass, that, when Jesus was returned, the people <supplied>gladly</supplied> received him: for they were all waiting for him.
      
       </verse>
-      <verse>And, behold, there came a man named Jairus, and he was a ruler of the synagogue: and he fell down at Jesus’ feet, and besought him that he would come into his house:
+      <verse>And, behold, there came a man named Jairus, and he was a ruler of the synagogue: and he fell down at Jesus&#x2019; feet, and besought him that he would come into his house:
 </verse><verse>For he had one only daughter, about twelve years of age, and she lay a dying. But as he went the people thronged him.
      
       </verse>
@@ -66,7 +67,7 @@ healed immediately.
      
       </jesus>
       </verse>
-      <verse>While he yet spake, there cometh one from the ruler of the synagogue’s <supplied>house,</supplied> saying to him, Thy daughter is dead; trouble not the Master.
+      <verse>While he yet spake, there cometh one from the ruler of the synagogue&#x2019;s <supplied>house,</supplied> saying to him, Thy daughter is dead; trouble not the Master.
 </verse><verse>But when Jesus heard <supplied>it,</supplied> he answered him, saying, <jesus>Fear not: believe only, and she shall be made whole. </jesus></verse><verse>And when he came into the house, he suffered no man to go in, save Peter, and James, and John, and the father and the
 mother of the maiden.
 </verse><verse>And all wept, and bewailed her: but he said, <jesus>Weep not; she is not dead, but sleepeth. </jesus></verse><verse>And they laughed him to scorn, knowing that she was dead.

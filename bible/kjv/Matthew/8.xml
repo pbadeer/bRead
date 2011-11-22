@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="8">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="8">
       <verse>When he was come down from the mountain, great multitudes followed him.
 </verse><verse>And, behold, there came a leper and worshipped him, saying, Lord, if thou wilt, thou canst make me clean.
 </verse><verse>And Jesus put forth <supplied>his</supplied> hand, and touched him, saying, <jesus>I will; be thou clean.</jesus> And immediately his leprosy was cleansed.
@@ -16,7 +17,7 @@ believed, so be it done unto thee. And his servant was healed in the selfsame ho
      
       </jesus>
       </verse>
-      <verse>And when Jesus was come into Peter’s house, he saw his wife’s mother laid, and sick of a fever.
+      <verse>And when Jesus was come into Peter&#x2019;s house, he saw his wife&#x2019;s mother laid, and sick of a fever.
 </verse><verse>And he touched her hand, and the fever left her: and she arose, and ministered unto them.
      
       </verse>

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ACT" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="10">
       <verse>There was a certain man in Caesarea called Cornelius, a centurion of the band called the Italian <supplied>band, </supplied></verse><verse>A devout <supplied>man,</supplied> and one that feared God with all his house, which gave much alms to the people, and prayed to God
 alway.
 </verse><verse>He saw in a vision evidently about the ninth hour of the day an angel of God coming in to him, and saying unto him, Cornelius.
@@ -15,7 +16,7 @@ alway.
 </verse><verse>Wherein were all manner of fourfooted beasts of the earth, and wild beasts, and creeping things, and fowls of the air.
 </verse><verse>And there came a voice to him, <jesus>Rise, Peter; kill, and eat. </jesus></verse><verse>But Peter said, Not so, Lord; for I have never eaten any thing that is common or unclean.
 </verse><verse>And the voice <supplied>spake</supplied> unto him again the second time, <jesus>What God hath cleansed, <supplied>that</supplied> call not thou common. </jesus></verse><verse>This was done thrice: and the vessel was received up again into heaven.
-</verse><verse>Now while Peter doubted in himself what this vision which he had seen should mean, behold, the men which were sent from Cornelius had made enquiry for Simon’s house, and stood before the gate,
+</verse><verse>Now while Peter doubted in himself what this vision which he had seen should mean, behold, the men which were sent from Cornelius had made enquiry for Simon&#x2019;s house, and stood before the gate,
 </verse><verse>And called, and asked whether Simon, which was surnamed Peter, were lodged there.
      
       </verse>

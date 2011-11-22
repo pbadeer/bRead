@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MRK" n="6">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Mark" n="6">
       <verse>And he went out from thence, and came into his own country; and his disciples follow him.
 </verse><verse>And when the sabbath day was come, he began to teach in the synagogue: and many hearing <supplied>him</supplied> were astonished, saying, From whence hath this <supplied>man</supplied> these things? and what wisdom <supplied>is</supplied> this which is given unto him, that even such
 mighty works are wrought by his hands?
@@ -16,8 +17,8 @@ a testimony against them. Verily I say unto you, It shall be more tolerable for 
 therefore mighty works do shew forth themselves in him.
 </verse><verse>Others said, That it is Elias. And others said, That it is a prophet, or as one of the prophets.
 </verse><verse>But when Herod heard <supplied>thereof,</supplied> he said, It is John, whom I beheaded: he is risen from the dead.
-</verse><verse>For Herod himself had sent forth and laid hold upon John, and bound him in prison for Herodias’ sake, his brother Philip’s wife: for he had married her.
-</verse><verse>For John had said unto Herod, It is not lawful for thee to have thy brother’s wife.
+</verse><verse>For Herod himself had sent forth and laid hold upon John, and bound him in prison for Herodias&#x2019; sake, his brother Philip&#x2019;s wife: for he had married her.
+</verse><verse>For John had said unto Herod, It is not lawful for thee to have thy brother&#x2019;s wife.
 </verse><verse>Therefore Herodias had a quarrel against him, and would have killed him; but she could not:
 </verse><verse>For Herod feared John, knowing that he was a just man and an holy, and observed him; and when he heard him, he did many things, and heard him gladly.
 </verse><verse>And when a convenient day was come, that Herod on his birthday made a supper to his lords, high captains, and chief <supplied>estates</supplied> of Galilee;
@@ -25,7 +26,7 @@ therefore mighty works do shew forth themselves in him.
 </verse><verse>And he sware unto her, Whatsoever thou shalt ask of me, I will give <supplied>it</supplied> thee, unto the half of my kingdom.
 </verse><verse>And she went forth, and said unto her mother, What shall I ask? And she said, The head of John the Baptist.
 </verse><verse>And she came in straightway with haste unto the king, and asked, saying, I will that thou give me by and by in a charger the head of John the Baptist.
-</verse><verse>And the king was exceeding sorry; <supplied>yet</supplied> for his oath’s sake, and for their sakes which sat with him, he would not reject her.
+</verse><verse>And the king was exceeding sorry; <supplied>yet</supplied> for his oath&#x2019;s sake, and for their sakes which sat with him, he would not reject her.
 </verse><verse>And immediately the king sent an executioner, and commanded his head to be brought: and he went and beheaded him in the prison,
 </verse><verse>And brought his head in a charger, and gave it to the damsel: and the damsel gave it to her mother.
 </verse><verse>And when his disciples heard <supplied>of it,</supplied> they came and took up his corpse, and laid it in a tomb.

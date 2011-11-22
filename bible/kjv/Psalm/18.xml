@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="18">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="18">
       To the chief Musician, A <supplied>Psalm</supplied> of David, the servant of the LORD, who spake unto the LORD the words of this song in the day <supplied>that</supplied> the LORD delivered him from the hand of all his enemies, and from the hand of Saul: And he
 said,
       
@@ -167,7 +168,7 @@ said,
       
        
         </verse>
-        <verse>He maketh my feet like hinds’ <supplied>feet,</supplied> and setteth me upon my high places.
+        <verse>He maketh my feet like hinds&#x2019; <supplied>feet,</supplied> and setteth me upon my high places.
       
       
        

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="DEU" n="23">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Deuteronomy" n="23">
       <verse>He that is wounded in the stones, or hath his privy member cut off, shall not enter into the congregation of the LORD.
 </verse><verse>A bastard shall not enter into the congregation of the LORD; even to his tenth generation shall he not enter into the congregation of the LORD.
 </verse><verse>An Ammonite or Moabite shall not enter into the congregation of the LORD; even to their tenth generation shall they not enter into the congregation of the LORD for ever:
@@ -40,8 +41,8 @@
 </verse><verse>That which is gone out of thy lips thou shalt keep and perform; <supplied>even</supplied> a freewill offering, according as thou hast vowed unto the LORD thy God, which thou hast promised with thy mouth.
      
       </verse>
-      <verse>When thou comest into thy neighbour’s vineyard, then thou mayest eat grapes thy fill at thine own pleasure; but thou shalt not put <supplied>any</supplied> in thy vessel.
-</verse><verse>When thou comest into the standing corn of thy neighbour, then thou mayest pluck the ears with thine hand; but thou shalt not move a sickle unto thy neighbour’s standing corn.
+      <verse>When thou comest into thy neighbour&#x2019;s vineyard, then thou mayest eat grapes thy fill at thine own pleasure; but thou shalt not put <supplied>any</supplied> in thy vessel.
+</verse><verse>When thou comest into the standing corn of thy neighbour, then thou mayest pluck the ears with thine hand; but thou shalt not move a sickle unto thy neighbour&#x2019;s standing corn.
      
       </verse>
       </chapter>

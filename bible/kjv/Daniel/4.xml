@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="DAN" n="4">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Daniel" n="4">
       <verse>Nebuchadnezzar the king, unto all people, nations, and languages, that dwell in all the earth; Peace be multiplied unto you.
 </verse><verse>I thought it good to shew the signs and wonders that the high God hath wrought toward me.
 </verse><verse>How great <supplied>are</supplied> his signs! and how mighty <supplied>are</supplied> his wonders! his kingdom <supplied>is</supplied> an everlasting kingdom, and his dominion <supplied>is</supplied> from generation to generation.
@@ -19,7 +20,7 @@ magicians, because I know that the spirit of the holy gods <supplied>is</supplie
 </verse><verse>He cried aloud, and said thus, Hew down the tree, and cut off his branches, shake off his leaves, and scatter his fruit: let the beasts get away from under it, and the fowls from his branches:
 </verse><verse>Nevertheless leave the stump of his roots in the earth, even with a band of iron and brass, in the tender grass of the field; and let it be wet with the dew of heaven, and <supplied>let</supplied> his portion <supplied>be</supplied> with the beasts in the grass of the
 earth:
-</verse><verse>Let his heart be changed from man’s, and let a beast’s heart be given unto him; and let seven times pass over him.
+</verse><verse>Let his heart be changed from man&#x2019;s, and let a beast&#x2019;s heart be given unto him; and let seven times pass over him.
 </verse><verse>This matter <supplied>is</supplied> by the decree of the watchers, and the demand by the word of the holy ones: to the intent that the living may know that the most High ruleth in the kingdom of men, and giveth it to whomsoever he will, and setteth up over
 it the basest of men.
 </verse><verse>This dream I king Nebuchadnezzar have seen. Now thou, O Belteshazzar, declare the interpretation thereof, forasmuch as all the wise <supplied>men</supplied> of my kingdom are not able to make known unto me the interpretation: but thou <supplied>art</supplied> able; for
@@ -43,10 +44,10 @@ that the most High ruleth in the kingdom of men, and giveth it to whomsoever he 
       <verse>All this came upon the king Nebuchadnezzar.
 </verse><verse>At the end of twelve months he walked in the palace of the kingdom of Babylon.
 </verse><verse>The king spake, and said, Is not this great Babylon, that I have built for the house of the kingdom by the might of my power, and for the honour of my majesty?
-</verse><verse>While the word <supplied>was</supplied> in the king’s mouth, there fell a voice from heaven, <supplied>saying,</supplied> O king Nebuchadnezzar, to thee it is spoken; The kingdom is departed from thee.
+</verse><verse>While the word <supplied>was</supplied> in the king&#x2019;s mouth, there fell a voice from heaven, <supplied>saying,</supplied> O king Nebuchadnezzar, to thee it is spoken; The kingdom is departed from thee.
 </verse><verse>And they shall drive thee from men, and thy dwelling <supplied>shall be</supplied> with the beasts of the field: they shall make thee to eat grass as oxen, and seven times shall pass over thee, until thou know that the most High ruleth in the kingdom of
 men, and giveth it to whomsoever he will.
-</verse><verse>The same hour was the thing fulfilled upon Nebuchadnezzar: and he was driven from men, and did eat grass as oxen, and his body was wet with the dew of heaven, till his hairs were grown like eagles <supplied>feathers,</supplied> and his nails like birds’
+</verse><verse>The same hour was the thing fulfilled upon Nebuchadnezzar: and he was driven from men, and did eat grass as oxen, and his body was wet with the dew of heaven, till his hairs were grown like eagles <supplied>feathers,</supplied> and his nails like birds&#x2019;
 <supplied>claws. </supplied></verse><verse>And at the end of the days I Nebuchadnezzar lifted up mine eyes unto heaven, and mine understanding returned unto me, and I blessed the most High, and I praised and honoured him that liveth for ever, whose dominion <supplied>is</supplied> an
 everlasting dominion, and his kingdom <supplied>is</supplied> from generation to generation:
 </verse><verse>And all the inhabitants of the earth <supplied>are</supplied> reputed as nothing: and he doeth according to his will in the army of heaven, and <supplied>among</supplied> the inhabitants of the earth: and none can stay his hand, or say unto him, What doest thou?

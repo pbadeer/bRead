@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1CH" n="8">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Chronicles" n="8">
       <verse>Now Benjamin begat Bela his firstborn, Ashbel the second, and Aharah the third,
 </verse><verse>Nohah the fourth, and Rapha the fifth.
 </verse><verse>And the sons of Bela were, Addar, and Gera, and Abihud,
@@ -27,7 +28,7 @@
 </verse><verse>And Shamsherai, and Shehariah, and Athaliah,
 </verse><verse>And Jaresiah, and Eliah, and Zichri, the sons of Jeroham.
 </verse><verse>These <supplied>were</supplied> heads of the fathers, by their generations, chief <supplied>men.</supplied> These dwelt in Jerusalem.
-</verse><verse>And at Gibeon dwelt the father of Gibeon; whose wife’s name <supplied>was</supplied> Maachah:
+</verse><verse>And at Gibeon dwelt the father of Gibeon; whose wife&#x2019;s name <supplied>was</supplied> Maachah:
 </verse><verse>And his firstborn son Abdon, and Zur, and Kish, and Baal, and Nadab,
 </verse><verse>And Gedor, and Ahio, and Zacher.
 </verse><verse>And Mikloth begat Shimeah. And these also dwelt with their brethren in Jerusalem, over against them.
@@ -40,7 +41,7 @@
 </verse><verse>And Moza begat Binea: Rapha <supplied>was</supplied> his son, Eleasah his son, Azel his son:
 </verse><verse>And Azel had six sons, whose names <supplied>are</supplied> these, Azrikam, Bocheru, and Ishmael, and Sheariah, and Obadiah, and Hanan. All these <supplied>were</supplied> the sons of Azel.
 </verse><verse>And the sons of Eshek his brother <supplied>were,</supplied> Ulam his firstborn, Jehush the second, and Eliphelet the third.
-</verse><verse>And the sons of Ulam were mighty men of valour, archers, and had many sons, and sons’ sons, an hundred and fifty. All these <supplied>are</supplied> of the sons of Benjamin.
+</verse><verse>And the sons of Ulam were mighty men of valour, archers, and had many sons, and sons&#x2019; sons, an hundred and fifty. All these <supplied>are</supplied> of the sons of Benjamin.
      
       </verse>
       </chapter>

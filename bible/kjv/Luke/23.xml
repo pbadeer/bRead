@@ -1,10 +1,11 @@
-<chapter translation="KJV" testament="New" book="LUK" n="23">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Luke" n="23">
       <verse>And the whole multitude of them arose, and led him unto Pilate.
 </verse><verse>And they began to accuse him, saying, We found this <supplied>fellow</supplied> perverting the nation, and forbidding to give tribute to Caesar, saying that he himself is Christ a King.
 </verse><verse>And Pilate asked him, saying, Art thou the King of the Jews? And he answered him and said, <jesus>Thou sayest <supplied>it. </supplied></jesus></verse><verse>Then said Pilate to the chief priests and <supplied>to</supplied> the people, I find no fault in this man.
 </verse><verse>And they were the more fierce, saying, He stirreth up the people, teaching throughout all Jewry, beginning from Galilee to this place.
 </verse><verse>When Pilate heard of Galilee, he asked whether the man were a Galilaean.
-</verse><verse>And as soon as he knew that he belonged unto Herod’s jurisdiction, he sent him to Herod, who himself also was at Jerusalem at that time.
+</verse><verse>And as soon as he knew that he belonged unto Herod&#x2019;s jurisdiction, he sent him to Herod, who himself also was at Jerusalem at that time.
      
       </verse>
       <verse>And when Herod saw Jesus, he was exceeding glad: for he was desirous to see him of a long <supplied>season,</supplied> because he had heard many things of him; and he hoped to have seen some miracle done by him.

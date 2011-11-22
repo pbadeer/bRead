@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ACT" n="11">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="11">
       <verse>And the apostles and brethren that were in Judaea heard that the Gentiles had also received the word of God.
 </verse><verse>And when Peter was come up to Jerusalem, they that were of the circumcision contended with him,
 </verse><verse>Saying, Thou wentest in to men uncircumcised, and didst eat with them.
@@ -8,7 +9,7 @@
 </verse><verse>And I heard a voice saying unto me, <jesus>Arise, Peter; slay and eat. </jesus></verse><verse>But I said, Not so, Lord: for nothing common or unclean hath at any time entered into my mouth.
 </verse><verse>But the voice answered me again from heaven, <jesus>What God hath cleansed, <supplied>that</supplied> call not thou common. </jesus></verse><verse>And this was done three times: and all were drawn up again into heaven.
 </verse><verse>And, behold, immediately there were three men already come unto the house where I was, sent from Caesarea unto me.
-</verse><verse>And the spirit bade me go with them, nothing doubting. Moreover these six brethren accompanied me, and we entered into the man’s house:
+</verse><verse>And the spirit bade me go with them, nothing doubting. Moreover these six brethren accompanied me, and we entered into the man&#x2019;s house:
 </verse><verse>And he shewed us how he had seen an angel in his house, which stood and said unto him, Send men to Joppa, and call for Simon, whose surname is Peter;
 </verse><verse>Who shall tell thee words, whereby thou and all thy house shall be saved.
 </verse><verse>And as I began to speak, the Holy Ghost fell on them, as on us at the beginning.

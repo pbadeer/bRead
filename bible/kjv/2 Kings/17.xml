@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="2KI" n="17">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="2 Kings" n="17">
       <verse>In the twelfth year of Ahaz king of Judah began Hoshea the son of Elah to reign in Samaria over Israel nine years.
 </verse><verse>And he did <supplied>that which was</supplied> evil in the sight of the LORD, but not as the kings of Israel that were before him.
      
@@ -52,7 +53,7 @@ because they know not the manner of the God of the land.
 </verse><verse>And the covenant that I have made with you ye shall not forget; neither shall ye fear other gods.
 </verse><verse>But the LORD your God ye shall fear; and he shall deliver you out of the hand of all your enemies.
 </verse><verse>Howbeit they did not hearken, but they did after their former manner.
-</verse><verse>So these nations feared the LORD, and served their graven images, both their children, and their children’s children: as did their fathers, so do they unto this day.
+</verse><verse>So these nations feared the LORD, and served their graven images, both their children, and their children&#x2019;s children: as did their fathers, so do they unto this day.
      
       </verse>
       </chapter>

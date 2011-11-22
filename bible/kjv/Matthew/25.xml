@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="25">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="25">
       <verse>
       <jesus>Then shall the kingdom of heaven be likened unto ten virgins, which took their lamps, and went forth to meet the bridegroom. </jesus></verse><verse><jesus>And five of them were wise, and five <supplied>were</supplied> foolish. </jesus></verse><verse><jesus>They that
 <supplied>were</supplied> foolish took their lamps, and took no oil with them: </jesus></verse><verse><jesus>But the wise took oil in their vessels with their lamps. </jesus></verse><verse><jesus>While the bridegroom tarried, they all slumbered and slept. </jesus></verse><verse><jesus>And at midnight there was a
@@ -12,7 +13,7 @@ neither the day nor the hour wherein the Son of man cometh.
       <verse>
       <jesus>For <supplied>the kingdom of heaven is</supplied> as a man travelling into a far country, <supplied>who</supplied> called his own servants, and delivered unto them his goods. </jesus></verse><verse><jesus>And unto one he gave five talents, to another two, and to another one;
 to every man according to his several ability; and straightway took his journey. </jesus></verse><verse><jesus>Then he that had received the five talents went and traded with the same, and made <supplied>them</supplied> other five talents. </jesus></verse><verse><jesus>And likewise he that
-<supplied>had received</supplied> two, he also gained other two. </jesus></verse><verse><jesus>But he that had received one went and digged in the earth, and hid his lord’s money. </jesus></verse><verse><jesus>After a long time the lord of those servants cometh, and reckoneth with them.
+<supplied>had received</supplied> two, he also gained other two. </jesus></verse><verse><jesus>But he that had received one went and digged in the earth, and hid his lord&#x2019;s money. </jesus></verse><verse><jesus>After a long time the lord of those servants cometh, and reckoneth with them.
 </jesus></verse><verse><jesus>And so he that had received five talents came and brought other five talents, saying, Lord, thou deliveredst unto me five talents: behold, I have gained beside them five talents more. </jesus></verse><verse><jesus>His lord said unto him, Well done,
 <supplied>thou</supplied> good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord. </jesus></verse><verse><jesus>He also that had received two talents came and said, Lord, thou
 deliveredst unto me two talents: behold, I have gained two other talents beside them. </jesus></verse><verse><jesus>His lord said unto him, Well done, good and faithful servant; thou hast been faithful over a few things, I will make thee ruler over many things:

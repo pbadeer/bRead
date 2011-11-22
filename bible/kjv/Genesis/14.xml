@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="GEN" n="14">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Genesis" n="14">
       <verse>And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of nations;
 </verse><verse><supplied>That these</supplied> made war with Bera king of Sodom, and with Birsha king of Gomorrah, Shinab king of Admah, and Shemeber king of Zeboiim, and the king of Bela, which is Zoar.
 </verse><verse>All these were joined together in the vale of Siddim, which is the salt sea.
@@ -10,7 +11,7 @@
 </verse><verse>With Chedorlaomer the king of Elam, and with Tidal king of nations, and Amraphel king of Shinar, and Arioch king of Ellasar; four kings with five.
 </verse><verse>And the vale of Siddim <supplied>was full of</supplied> slimepits; and the kings of Sodom and Gomorrah fled, and fell there; and they that remained fled to the mountain.
 </verse><verse>And they took all the goods of Sodom and Gomorrah, and all their victuals, and went their way.
-</verse><verse>And they took Lot, Abram’s brother’s son, who dwelt in Sodom, and his goods, and departed.
+</verse><verse>And they took Lot, Abram&#x2019;s brother&#x2019;s son, who dwelt in Sodom, and his goods, and departed.
      
       </verse>
       <verse>And there came one that had escaped, and told Abram the Hebrew; for he dwelt in the plain of Mamre the Amorite, brother of Eshcol, and brother of Aner: and these <supplied>were</supplied> confederate with Abram.
@@ -19,7 +20,7 @@
 </verse><verse>And he brought back all the goods, and also brought again his brother Lot, and his goods, and the women also, and the people.
      
       </verse>
-      <verse>And the king of Sodom went out to meet him after his return from the slaughter of Chedorlaomer, and of the kings that <supplied>were</supplied> with him, at the valley of Shaveh, which <supplied>is</supplied> the king’s dale.
+      <verse>And the king of Sodom went out to meet him after his return from the slaughter of Chedorlaomer, and of the kings that <supplied>were</supplied> with him, at the valley of Shaveh, which <supplied>is</supplied> the king&#x2019;s dale.
 </verse><verse>And Melchizedek king of Salem brought forth bread and wine: and he <supplied>was</supplied> the priest of the most high God.
 </verse><verse>And he blessed him, and said, Blessed <supplied>be</supplied> Abram of the most high God, possessor of heaven and earth:
 </verse><verse>And blessed be the most high God, which hath delivered thine enemies into thy hand. And he gave him tithes of all.

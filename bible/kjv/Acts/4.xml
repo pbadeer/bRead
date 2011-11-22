@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ACT" n="4">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="4">
       <verse>And as they spake unto the people, the priests, and the captain of the temple, and the Sadducees, came upon them,
 </verse><verse>Being grieved that they taught the people, and preached through Jesus the resurrection from the dead.
 </verse><verse>And they laid hands on them, and put <supplied>them</supplied> in hold unto the next day: for it was now eventide.
@@ -41,9 +42,9 @@ us straitly threaten them, that they speak henceforth to no man in this name.
 </verse><verse>And the multitude of them that believed were of one heart and of one soul: neither said any <supplied>of them</supplied> that ought of the things which he possessed was his own; but they had all things common.
 </verse><verse>And with great power gave the apostles witness of the resurrection of the Lord Jesus: and great grace was upon them all.
 </verse><verse>Neither was there any among them that lacked: for as many as were possessors of lands or houses sold them, and brought the prices of the things that were sold,
-</verse><verse>And laid <supplied>them</supplied> down at the apostles’ feet: and distribution was made unto every man according as he had need.
+</verse><verse>And laid <supplied>them</supplied> down at the apostles&#x2019; feet: and distribution was made unto every man according as he had need.
 </verse><verse>And Joses, who by the apostles was surnamed Barnabas, (which is, being interpreted, The son of consolation,) a Levite, <supplied>and</supplied> of the country of Cyprus,
-</verse><verse>Having land, sold <supplied>it,</supplied> and brought the money, and laid <supplied>it</supplied> at the apostles’ feet.
+</verse><verse>Having land, sold <supplied>it,</supplied> and brought the money, and laid <supplied>it</supplied> at the apostles&#x2019; feet.
      
       </verse>
       </chapter>

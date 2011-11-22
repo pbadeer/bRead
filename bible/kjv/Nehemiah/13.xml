@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NEH" n="13">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Nehemiah" n="13">
       <verse>On that day they read in the book of Moses in the audience of the people; and therein was found written, that the Ammonite and the Moabite should not come into the congregation of God for ever;
 </verse><verse>Because they met not the children of Israel with bread and with water, but hired Balaam against them, that he should curse them: howbeit our God turned the curse into a blessing.
 </verse><verse>Now it came to pass, when they had heard the law, that they separated from Israel all the mixed multitude.
@@ -35,7 +36,7 @@ greatness of thy mercy.
      
       </verse>
       <verse>In those days also saw I Jews <supplied>that</supplied> had married wives of Ashdod, of Ammon, <supplied>and</supplied> of Moab:
-</verse><verse>And their children spake half in the speech of Ashdod, and could not speak in the Jews’ language, but according to the language of each people.
+</verse><verse>And their children spake half in the speech of Ashdod, and could not speak in the Jews&#x2019; language, but according to the language of each people.
 </verse><verse>And I contended with them, and cursed them, and smote certain of them, and plucked off their hair, and made them swear by God, <supplied>saying,</supplied> Ye shall not give your daughters unto their sons, nor take their daughters unto your sons, or for
 yourselves.
 </verse><verse>Did not Solomon king of Israel sin by these things? yet among many nations was there no king like him, who was beloved of his God, and God made him king over all Israel: nevertheless even him did outlandish women cause to sin.

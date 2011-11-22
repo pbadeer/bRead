@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MRK" n="5">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Mark" n="5">
       <verse>And they came over unto the other side of the sea, into the country of the Gadarenes.
 </verse><verse>And when he was come out of the ship, immediately there met him out of the tombs a man with an unclean spirit,
 </verse><verse>Who had <supplied>his</supplied> dwelling among the tombs; and no man could bind him, no, not with chains:
@@ -30,7 +31,7 @@ things Jesus had done for him: and all <supplied>men</supplied> did marvel.
 </verse><verse>And Jesus, immediately knowing in himself that virtue had gone out of him, turned him about in the press, and said, <jesus>Who touched my clothes? </jesus></verse><verse>And his disciples said unto him, Thou seest the multitude thronging thee, and sayest
 thou, <jesus>Who touched me? </jesus></verse><verse>And he looked round about to see her that had done this thing.
 </verse><verse>But the woman fearing and trembling, knowing what was done in her, came and fell down before him, and told him all the truth.
-</verse><verse>And he said unto her, <jesus>Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague. </jesus></verse><verse>While he yet spake, there came from the ruler of the synagogue’s <supplied>house certain</supplied> which said, Thy daughter is dead: why
+</verse><verse>And he said unto her, <jesus>Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague. </jesus></verse><verse>While he yet spake, there came from the ruler of the synagogue&#x2019;s <supplied>house certain</supplied> which said, Thy daughter is dead: why
 troublest thou the Master any further?
 </verse><verse>As soon as Jesus heard the word that was spoken, he saith unto the ruler of the synagogue, <jesus>Be not afraid, only believe. </jesus></verse><verse>And he suffered no man to follow him, save Peter, and James, and John the brother of James.
 </verse><verse>And he cometh to the house of the ruler of the synagogue, and seeth the tumult, and them that wept and wailed greatly.

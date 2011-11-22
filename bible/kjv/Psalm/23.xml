@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="23">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="23">
       A Psalm of David.
       
       
@@ -14,7 +15,7 @@
       
        
         </verse>
-        <verse>He restoreth my soul: he leadeth me in the paths of righteousness for his name’s sake.
+        <verse>He restoreth my soul: he leadeth me in the paths of righteousness for his name&#x2019;s sake.
       
       
        

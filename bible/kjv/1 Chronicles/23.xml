@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1CH" n="23">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Chronicles" n="23">
       <verse>So when David was old and full of days, he made Solomon his son king over Israel.
      
       </verse>
@@ -13,7 +14,7 @@ Gershon, Kohath, and Merari.
 </verse><verse>The sons of Laadan; the chief <supplied>was</supplied> Jehiel, and Zetham, and Joel, three.
 </verse><verse>The sons of Shimei; Shelomith, and Haziel, and Haran, three. These <supplied>were</supplied> the chief of the fathers of Laadan.
 </verse><verse>And the sons of Shimei <supplied>were,</supplied> Jahath, Zina, and Jeush, and Beriah. These four <supplied>were</supplied> the sons of Shimei.
-</verse><verse>And Jahath was the chief, and Zizah the second: but Jeush and Beriah had not many sons; therefore they were in one reckoning, according to <supplied>their</supplied> father’s house.
+</verse><verse>And Jahath was the chief, and Zizah the second: but Jeush and Beriah had not many sons; therefore they were in one reckoning, according to <supplied>their</supplied> father&#x2019;s house.
      
       </verse>
       <verse>The sons of Kohath; Amram, Izhar, Hebron, and Uzziel, four.

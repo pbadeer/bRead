@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="JHN" n="9">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="John" n="9">
       <verse>And as <supplied>Jesus</supplied> passed by, he saw a man which was blind from <supplied>his</supplied> birth.
 </verse><verse>And his disciples asked him, saying, Master, who did sin, this man, or his parents, that he was born blind?
 </verse><verse>Jesus answered, <jesus>Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him. </jesus></verse><verse><jesus>I must work the works of him that sent me, while it is day: the night cometh, when no man can work.
@@ -27,7 +28,7 @@
 </verse><verse>He answered and said, Whether he be a sinner <supplied>or no,</supplied> I know not: one thing I know, that, whereas I was blind, now I see.
 </verse><verse>Then said they to him again, What did he to thee? how opened he thine eyes?
 </verse><verse>He answered them, I have told you already, and ye did not hear: wherefore would ye hear <supplied>it</supplied> again? will ye also be his disciples?
-</verse><verse>Then they reviled him, and said, Thou art his disciple; but we are Moses’ disciples.
+</verse><verse>Then they reviled him, and said, Thou art his disciple; but we are Moses&#x2019; disciples.
 </verse><verse>We know that God spake unto Moses: <supplied>as for</supplied> this <supplied>fellow,</supplied> we know not from whence he is.
 </verse><verse>The man answered and said unto them, Why herein is a marvellous thing, that ye know not from whence he is, and <supplied>yet</supplied> he hath opened mine eyes.
 </verse><verse>Now we know that God heareth not sinners: but if any man be a worshipper of God, and doeth his will, him he heareth.

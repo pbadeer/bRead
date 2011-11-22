@@ -1,11 +1,12 @@
-<chapter translation="KJV" testament="New" book="ACT" n="26">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="26">
       <verse>Then Agrippa said unto Paul, Thou art permitted to speak for thyself. Then Paul stretched forth the hand, and answered for himself:
 </verse><verse>I think myself happy, king Agrippa, because I shall answer for myself this day before thee touching all the things whereof I am accused of the Jews:
 </verse><verse>Especially <supplied>because I know</supplied> thee to be expert in all customs and questions which are among the Jews: wherefore I beseech thee to hear me patiently.
 </verse><verse>My manner of life from my youth, which was at the first among mine own nation at Jerusalem, know all the Jews;
 </verse><verse>Which knew me from the beginning, if they would testify, that after the most straitest sect of our religion I lived a Pharisee.
 </verse><verse>And now I stand and am judged for the hope of the promise made of God unto our fathers:
-</verse><verse>Unto which <supplied>promise</supplied> our twelve tribes, instantly serving <supplied>God</supplied> day and night, hope to come. For which hope’s sake, king Agrippa, I am accused of the Jews.
+</verse><verse>Unto which <supplied>promise</supplied> our twelve tribes, instantly serving <supplied>God</supplied> day and night, hope to come. For which hope&#x2019;s sake, king Agrippa, I am accused of the Jews.
 </verse><verse>Why should it be thought a thing incredible with you, that God should raise the dead?
 </verse><verse>I verily thought with myself, that I ought to do many things contrary to the name of Jesus of Nazareth.
 </verse><verse>Which thing I also did in Jerusalem: and many of the saints did I shut up in prison, having received authority from the chief priests; and when they were put to death, I gave my voice against <supplied>them. </supplied></verse><verse>And I punished them oft in

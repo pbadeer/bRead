@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="EXO" n="32">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Exodus" n="32">
       <verse>And when the people saw that Moses delayed to come down out of the mount, the people gathered themselves together unto Aaron, and said unto him, Up, make us gods, which shall go before us; for <supplied>as for</supplied> this Moses, the man that
 brought us up out of the land of Egypt, we wot not what is become of him.
 </verse><verse>And Aaron said unto them, Break off the golden earrings, which <supplied>are</supplied> in the ears of your wives, of your sons, and of your daughters, and bring <supplied>them</supplied> unto me.
@@ -25,7 +26,7 @@ shall inherit <supplied>it</supplied> for ever.
 </verse><verse>And he said, <supplied>It is</supplied> not the voice of <supplied>them that</supplied> shout for mastery, neither <supplied>is it</supplied> the voice of <supplied>them that</supplied> cry for being overcome: <supplied>but</supplied> the noise of <supplied>them that</supplied> sing do I hear.
      
       </verse>
-      <verse>And it came to pass, as soon as he came nigh unto the camp, that he saw the calf, and the dancing: and Moses’ anger waxed hot, and he cast the tables out of his hands, and brake them beneath the mount.
+      <verse>And it came to pass, as soon as he came nigh unto the camp, that he saw the calf, and the dancing: and Moses&#x2019; anger waxed hot, and he cast the tables out of his hands, and brake them beneath the mount.
 </verse><verse>And he took the calf which they had made, and burnt <supplied>it</supplied> in the fire, and ground <supplied>it</supplied> to powder, and strawed <supplied>it</supplied> upon the water, and made the children of Israel drink <supplied>of it. </supplied></verse><verse>And Moses said unto Aaron, What did
 this people unto thee, that thou hast brought so great a sin upon them?
 </verse><verse>And Aaron said, Let not the anger of my lord wax hot: thou knowest the people, that they are <supplied>set</supplied> on mischief.
@@ -34,7 +35,7 @@ this people unto thee, that thou hast brought so great a sin upon them?
      
       </verse>
       <verse>And when Moses saw that the people <supplied>were</supplied> naked; (for Aaron had made them naked unto <supplied>their</supplied> shame among their enemies:)
-</verse><verse>Then Moses stood in the gate of the camp, and said, Who <supplied>is</supplied> on the LORD’S side? <supplied>let him come</supplied> unto me. And all the sons of Levi gathered themselves together unto him.
+</verse><verse>Then Moses stood in the gate of the camp, and said, Who <supplied>is</supplied> on the LORD&#x2019;S side? <supplied>let him come</supplied> unto me. And all the sons of Levi gathered themselves together unto him.
 </verse><verse>And he said unto them, Thus saith the LORD God of Israel, Put every man his sword by his side, <supplied>and</supplied> go in and out from gate to gate throughout the camp, and slay every man his brother, and every man his companion, and every man his
 neighbour.
 </verse><verse>And the children of Levi did according to the word of Moses: and there fell of the people that day about three thousand men.

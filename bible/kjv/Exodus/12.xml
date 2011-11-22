@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="EXO" n="12">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Exodus" n="12">
       <verse>And the LORD spake unto Moses and Aaron in the land of Egypt, saying,
 </verse><verse>This month <supplied>shall be</supplied> unto you the beginning of months: it <supplied>shall be</supplied> the first month of the year to you.
      
@@ -13,7 +14,7 @@
 </verse><verse>And ye shall let nothing of it remain until the morning; and that which remaineth of it until the morning ye shall burn with fire.
      
       </verse>
-      <verse>And thus shall ye eat it; <supplied>with</supplied> your loins girded, your shoes on your feet, and your staff in your hand; and ye shall eat it in haste: it <supplied>is</supplied> the LORD’S passover.
+      <verse>And thus shall ye eat it; <supplied>with</supplied> your loins girded, your shoes on your feet, and your staff in your hand; and ye shall eat it in haste: it <supplied>is</supplied> the LORD&#x2019;S passover.
 </verse><verse>For I will pass through the land of Egypt this night, and will smite all the firstborn in the land of Egypt, both man and beast; and against all the gods of Egypt I will execute judgment: I <supplied>am</supplied> the LORD.
 </verse><verse>And the blood shall be to you for a token upon the houses where ye <supplied>are:</supplied> and when I see the blood, I will pass over you, and the plague shall not be upon you to destroy <supplied>you,</supplied> when I smite the land of Egypt.
 </verse><verse>And this day shall be unto you for a memorial; and ye shall keep it a feast to the LORD throughout your generations; ye shall keep it a feast by an ordinance for ever.
@@ -35,7 +36,7 @@ until the morning.
 </supplied></verse><verse>And ye shall observe this thing for an ordinance to thee and to thy sons for ever.
 </verse><verse>And it shall come to pass, when ye be come to the land which the LORD will give you, according as he hath promised, that ye shall keep this service.
 </verse><verse>And it shall come to pass, when your children shall say unto you, What mean ye by this service?
-</verse><verse>That ye shall say, It <supplied>is</supplied> the sacrifice of the LORD’S passover, who passed over the houses of the children of Israel in Egypt, when he smote the Egyptians, and delivered our houses. And the people bowed the head and worshipped.
+</verse><verse>That ye shall say, It <supplied>is</supplied> the sacrifice of the LORD&#x2019;S passover, who passed over the houses of the children of Israel in Egypt, when he smote the Egyptians, and delivered our houses. And the people bowed the head and worshipped.
 </verse><verse>And the children of Israel went away, and did as the LORD had commanded Moses and Aaron, so did they.
      
       </verse>
@@ -63,7 +64,7 @@ bound up in their clothes upon their shoulders.
      
       </verse>
       <verse>And the LORD said unto Moses and Aaron, This <supplied>is</supplied> the ordinance of the passover: There shall no stranger eat thereof:
-</verse><verse>But every man’s servant that is bought for money, when thou hast circumcised him, then shall he eat thereof.
+</verse><verse>But every man&#x2019;s servant that is bought for money, when thou hast circumcised him, then shall he eat thereof.
 </verse><verse>A foreigner and an hired servant shall not eat thereof.
 </verse><verse>In one house shall it be eaten; thou shalt not carry forth ought of the flesh abroad out of the house; neither shall ye break a bone thereof.
 </verse><verse>All the congregation of Israel shall keep it.

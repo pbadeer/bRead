@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="LEV" n="22">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Leviticus" n="22">
       <verse>And the LORD spake unto Moses, saying,
 </verse><verse>Speak unto Aaron and to his sons, that they separate themselves from the holy things of the children of Israel, and that they profane not my holy name <supplied>in those things</supplied> which they hallow unto me: I <supplied>am</supplied> the LORD.
 </verse><verse>Say unto them, Whosoever <supplied>he be</supplied> of all your seed among your generations, that goeth unto the holy things, which the children of Israel hallow unto the LORD, having his uncleanness upon him, that soul shall be cut off from my presence: I
@@ -12,8 +13,8 @@ him;
 </verse><verse>They shall therefore keep mine ordinance, lest they bear sin for it, and die therefore, if they profane it: I the LORD do sanctify them.
 </verse><verse>There shall no stranger eat <supplied>of</supplied> the holy thing: a sojourner of the priest, or an hired servant, shall not eat <supplied>of</supplied> the holy thing.
 </verse><verse>But if the priest buy <supplied>any</supplied> soul with his money, he shall eat of it, and he that is born in his house: they shall eat of his meat.
-</verse><verse>If the priest’s daughter also be <supplied>married</supplied> unto a stranger, she may not eat of an offering of the holy things.
-</verse><verse>But if the priest’s daughter be a widow, or divorced, and have no child, and is returned unto her father’s house, as in her youth, she shall eat of her father’s meat: but there shall no stranger eat thereof.
+</verse><verse>If the priest&#x2019;s daughter also be <supplied>married</supplied> unto a stranger, she may not eat of an offering of the holy things.
+</verse><verse>But if the priest&#x2019;s daughter be a widow, or divorced, and have no child, and is returned unto her father&#x2019;s house, as in her youth, she shall eat of her father&#x2019;s meat: but there shall no stranger eat thereof.
      
       </verse>
       <verse>And if a man eat <supplied>of</supplied> the holy thing unwittingly, then he shall put the fifth <supplied>part</supplied> thereof unto it, and shall give <supplied>it</supplied> unto the priest with the holy thing.
@@ -30,7 +31,7 @@ offerings, which they will offer unto the LORD for a burnt offering;
 </verse><verse>Blind, or broken, or maimed, or having a wen, or scurvy, or scabbed, ye shall not offer these unto the LORD, nor make an offering by fire of them upon the altar unto the LORD.
 </verse><verse>Either a bullock or a lamb that hath any thing superfluous or lacking in his parts, that mayest thou offer <supplied>for</supplied> a freewill offering; but for a vow it shall not be accepted.
 </verse><verse>Ye shall not offer unto the LORD that which is bruised, or crushed, or broken, or cut; neither shall ye make <supplied>any offering thereof</supplied> in your land.
-</verse><verse>Neither from a stranger’s hand shall ye offer the bread of your God of any of these; because their corruption <supplied>is</supplied> in them, <supplied>and</supplied> blemishes <supplied>be</supplied> in them: they shall not be accepted for you.
+</verse><verse>Neither from a stranger&#x2019;s hand shall ye offer the bread of your God of any of these; because their corruption <supplied>is</supplied> in them, <supplied>and</supplied> blemishes <supplied>be</supplied> in them: they shall not be accepted for you.
      
       </verse>
       <verse>And the LORD spake unto Moses, saying,

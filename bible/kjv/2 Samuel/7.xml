@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="2SA" n="7">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="2 Samuel" n="7">
       <verse>And it came to pass, when the king sat in his house, and the LORD had given him rest round about from all his enemies;
 </verse><verse>That the king said unto Nathan the prophet, See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains.
 </verse><verse>And Nathan said to the king, Go, do all that <supplied>is</supplied> in thine heart; for the LORD <supplied>is</supplied> with thee.
@@ -23,9 +24,9 @@
      
       </verse>
       <verse>Then went king David in, and sat before the LORD, and he said, Who <supplied>am</supplied> I, O Lord GOD? and what <supplied>is</supplied> my house, that thou hast brought me hitherto?
-</verse><verse>And this was yet a small thing in thy sight, O Lord GOD; but thou hast spoken also of thy servant’s house for a great while to come. And <supplied>is</supplied> this the manner of man, O Lord GOD?
+</verse><verse>And this was yet a small thing in thy sight, O Lord GOD; but thou hast spoken also of thy servant&#x2019;s house for a great while to come. And <supplied>is</supplied> this the manner of man, O Lord GOD?
 </verse><verse>And what can David say more unto thee? for thou, Lord GOD, knowest thy servant.
-</verse><verse>For thy word’s sake, and according to thine own heart, hast thou done all these great things, to make thy servant know <supplied>them. </supplied></verse><verse>Wherefore thou art great, O LORD God: for <supplied>there is</supplied> none like thee, neither <supplied>is there any</supplied>
+</verse><verse>For thy word&#x2019;s sake, and according to thine own heart, hast thou done all these great things, to make thy servant know <supplied>them. </supplied></verse><verse>Wherefore thou art great, O LORD God: for <supplied>there is</supplied> none like thee, neither <supplied>is there any</supplied>
 God beside thee, according to all that we have heard with our ears.
 </verse><verse>And what one nation in the earth <supplied>is</supplied> like thy people, <supplied>even</supplied> like Israel, whom God went to redeem for a people to himself, and to make him a name, and to do for you great things and terrible, for thy land, before thy people, which
 thou redeemedst to thee from Egypt, <supplied>from</supplied> the nations and their gods?

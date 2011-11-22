@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="JHN" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="John" n="10">
       <verse>
       <jesus>Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber. </jesus></verse><verse><jesus>But he that entereth in by the door is the shepherd of the sheep.
 </jesus></verse><verse><jesus>To him the porter openeth; and the sheep hear his voice: and he calleth his own sheep by name, and leadeth them out. </jesus></verse><verse><jesus>And when he putteth forth his own sheep, he goeth before them, and the sheep follow him: for they know his
@@ -19,11 +20,11 @@ This commandment have I received of my Father.
      
       </verse>
       <verse>And it was at Jerusalem the feast of the dedication, and it was winter.
-</verse><verse>And Jesus walked in the temple in Solomon’s porch.
+</verse><verse>And Jesus walked in the temple in Solomon&#x2019;s porch.
 </verse><verse>Then came the Jews round about him, and said unto him, How long dost thou make us to doubt? If thou be the Christ, tell us plainly.
-</verse><verse>Jesus answered them, <jesus>I told you, and ye believed not: the works that I do in my Father’s name, they bear witness of me. </jesus></verse><verse><jesus>But ye believe not, because ye are not of my sheep, as I said unto you. </jesus></verse><verse><jesus>My sheep hear my
+</verse><verse>Jesus answered them, <jesus>I told you, and ye believed not: the works that I do in my Father&#x2019;s name, they bear witness of me. </jesus></verse><verse><jesus>But ye believe not, because ye are not of my sheep, as I said unto you. </jesus></verse><verse><jesus>My sheep hear my
 voice, and I know them, and they follow me: </jesus></verse><verse><jesus>And I give unto them eternal life; and they shall never perish, neither shall any <supplied>man</supplied> pluck them out of my hand. </jesus></verse><verse><jesus>My Father, which gave <supplied>them</supplied> me, is greater than
-all; and no <supplied>man</supplied> is able to pluck <supplied>them</supplied> out of my Father’s hand. </jesus></verse><verse><jesus>I and <supplied>my</supplied> Father are one. </jesus></verse><verse>Then the Jews took up stones again to stone him.
+all; and no <supplied>man</supplied> is able to pluck <supplied>them</supplied> out of my Father&#x2019;s hand. </jesus></verse><verse><jesus>I and <supplied>my</supplied> Father are one. </jesus></verse><verse>Then the Jews took up stones again to stone him.
 </verse><verse>Jesus answered them, <jesus>Many good works have I shewed you from my Father; for which of those works do ye stone me? </jesus></verse><verse>The Jews answered him, saying, For a good work we stone thee not; but for blasphemy; and because that thou, being a
 man, makest thyself God.
 </verse><verse>Jesus answered them, <jesus>Is it not written in your law, I said, Ye are gods? </jesus></verse><verse><jesus>If he called them gods, unto whom the word of God came, and the scripture cannot be broken; </jesus></verse><verse><jesus>Say ye of him, whom the Father hath

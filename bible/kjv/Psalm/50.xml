@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="50">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="50">
       A Psalm of Asaph.
       
       
@@ -99,7 +100,7 @@
       
        
         </verse>
-        <verse>Thou sittest <supplied>and</supplied> speakest against thy brother; thou slanderest thine own mother’s son.
+        <verse>Thou sittest <supplied>and</supplied> speakest against thy brother; thou slanderest thine own mother&#x2019;s son.
       
       
        

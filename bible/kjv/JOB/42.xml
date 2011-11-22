@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="42">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="42">
       <verse>Then Job answered the LORD, and said,
 </verse><verse>I know that thou canst do every <supplied>thing,</supplied> and <supplied>that</supplied> no thought can be withholden from thee.
 </verse><verse>Who <supplied>is</supplied> he that hideth counsel without knowledge? therefore have I uttered that I understood not; things too wonderful for me, which I knew not.
@@ -18,7 +19,7 @@ brought upon him: every man also gave him a piece of money, and every one an ear
 </verse><verse>He had also seven sons and three daughters.
 </verse><verse>And he called the name of the first, Jemima; and the name of the second, Kezia; and the name of the third, Keren-happuch.
 </verse><verse>And in all the land were no women found <supplied>so</supplied> fair as the daughters of Job: and their father gave them inheritance among their brethren.
-</verse><verse>After this lived Job an hundred and forty years, and saw his sons, and his sons’ sons, <supplied>even</supplied> four generations.
+</verse><verse>After this lived Job an hundred and forty years, and saw his sons, and his sons&#x2019; sons, <supplied>even</supplied> four generations.
 </verse><verse>So Job died, <supplied>being</supplied> old and full of days.
      
      

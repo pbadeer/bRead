@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="LAM" n="3">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Lamentations" n="3">
       <verse>I <supplied>am</supplied> the man <supplied>that</supplied> hath seen affliction by the rod of his wrath.
 </verse><verse>He hath led me, and brought <supplied>me into</supplied> darkness, but not <supplied>into</supplied> light.
 </verse><verse>Surely against me is he turned; he turneth his hand <supplied>against me</supplied> all the day.
@@ -23,7 +24,7 @@
      
       </verse>
       <verse>
-      <supplied>It is of</supplied> the LORD’S mercies that we are not consumed, because his compassions fail not.
+      <supplied>It is of</supplied> the LORD&#x2019;S mercies that we are not consumed, because his compassions fail not.
 </verse><verse><supplied>They are</supplied> new every morning: great <supplied>is</supplied> thy faithfulness.
 </verse><verse>The LORD <supplied>is</supplied> my portion, saith my soul; therefore will I hope in him.
 </verse><verse>The LORD <supplied>is</supplied> good unto them that wait for him, to the soul <supplied>that</supplied> seeketh him.

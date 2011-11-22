@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="29">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="29">
       <verse>Moreover Job continued his parable, and said,
 </verse><verse>Oh that I were as <supplied>in</supplied> months past, as <supplied>in</supplied> the days <supplied>when</supplied> God preserved me;
 </verse><verse>When his candle shined upon my head, <supplied>and when</supplied> by his light I walked <supplied>through</supplied> darkness;
@@ -11,7 +12,7 @@
 </verse><verse>The nobles held their peace, and their tongue cleaved to the roof of their mouth.
 </verse><verse>When the ear heard <supplied>me,</supplied> then it blessed me; and when the eye saw <supplied>me,</supplied> it gave witness to me:
 </verse><verse>Because I delivered the poor that cried, and the fatherless, and <supplied>him that had</supplied> none to help him.
-</verse><verse>The blessing of him that was ready to perish came upon me: and I caused the widow’s heart to sing for joy.
+</verse><verse>The blessing of him that was ready to perish came upon me: and I caused the widow&#x2019;s heart to sing for joy.
 </verse><verse>I put on righteousness, and it clothed me: my judgment <supplied>was</supplied> as a robe and a diadem.
 </verse><verse>I was eyes to the blind, and feet <supplied>was</supplied> I to the lame.
 </verse><verse>I <supplied>was</supplied> a father to the poor: and the cause <supplied>which</supplied> I knew not I searched out.

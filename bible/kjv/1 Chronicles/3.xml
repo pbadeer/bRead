@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1CH" n="3">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Chronicles" n="3">
       <verse>Now these were the sons of David, which were born unto him in Hebron; the firstborn Amnon, of Ahinoam the Jezreelitess; the second Daniel, of Abigail the Carmelitess:
 </verse><verse>The third, Absalom the son of Maachah the daughter of Talmai king of Geshur: the fourth, Adonijah the son of Haggith:
 </verse><verse>The fifth, Shephatiah of Abital: the sixth, Ithream by Eglah his wife.
@@ -10,7 +11,7 @@
 </verse><verse><supplied>These were</supplied> all the sons of David, beside the sons of the concubines, and Tamar their sister.
      
       </verse>
-      <verse>And Solomon’s son <supplied>was</supplied> Rehoboam, Abia his son, Asa his son, Jehoshaphat his son,
+      <verse>And Solomon&#x2019;s son <supplied>was</supplied> Rehoboam, Abia his son, Asa his son, Jehoshaphat his son,
 </verse><verse>Joram his son, Ahaziah his son, Joash his son,
 </verse><verse>Amaziah his son, Azariah his son, Jotham his son,
 </verse><verse>Ahaz his son, Hezekiah his son, Manasseh his son,

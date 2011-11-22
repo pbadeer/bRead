@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="HEB" n="11">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Hebrews" n="11">
       <verse>Now faith is the substance of things hoped for, the evidence of things not seen.
 </verse><verse>For by it the elders obtained a good report.
 </verse><verse>Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.
@@ -20,8 +21,8 @@
 </verse><verse>By faith Isaac blessed Jacob and Esau concerning things to come.
 </verse><verse>By faith Jacob, when he was a dying, blessed both the sons of Joseph; and worshipped, <supplied>leaning</supplied> upon the top of his staff.
 </verse><verse>By faith Joseph, when he died, made mention of the departing of the children of Israel; and gave commandment concerning his bones.
-</verse><verse>By faith Moses, when he was born, was hid three months of his parents, because they saw <supplied>he was</supplied> a proper child; and they were not afraid of the king’s commandment.
-</verse><verse>By faith Moses, when he was come to years, refused to be called the son of Pharaoh’s daughter;
+</verse><verse>By faith Moses, when he was born, was hid three months of his parents, because they saw <supplied>he was</supplied> a proper child; and they were not afraid of the king&#x2019;s commandment.
+</verse><verse>By faith Moses, when he was come to years, refused to be called the son of Pharaoh&#x2019;s daughter;
 </verse><verse>Choosing rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season;
 </verse><verse>Esteeming the reproach of Christ greater riches than the treasures in Egypt: for he had respect unto the recompence of the reward.
 </verse><verse>By faith he forsook Egypt, not fearing the wrath of the king: for he endured, as seeing him who is invisible.

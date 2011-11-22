@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="REV" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Revelation" n="1">
      
       <verse>The Revelation of Jesus Christ, which God gave unto him, to shew unto his servants things which must shortly come to pass; and he sent and signified <supplied>it</supplied> by his angel unto his servant John:
 </verse><verse>Who bare record of the word of God, and of the testimony of Jesus Christ, and of all things that he saw.
@@ -12,7 +13,7 @@
       </jesus>
       </verse>
       <verse>I John, who also am your brother, and companion in tribulation, and in the kingdom and patience of Jesus Christ, was in the isle that is called Patmos, for the word of God, and for the testimony of Jesus Christ.
-</verse><verse>I was in the Spirit on the Lord’s day, and heard behind me a great voice, as of a trumpet,
+</verse><verse>I was in the Spirit on the Lord&#x2019;s day, and heard behind me a great voice, as of a trumpet,
 </verse><verse>Saying, <jesus>I am Alpha and Omega, the first and the last: and, What thou seest, write in a book, and send <supplied>it</supplied> unto the seven churches which are in Asia; unto Ephesus, and unto Smyrna, and unto Pergamos, and unto Thyatira, and unto
 Sardis, and unto Philadelphia, and unto Laodicea. </jesus></verse><verse>And I turned to see the voice that spake with me. And being turned, I saw seven golden candlesticks;
 </verse><verse>And in the midst of the seven candlesticks <supplied>one</supplied> like unto the Son of man, clothed with a garment down to the foot, and girt about the paps with a golden girdle.

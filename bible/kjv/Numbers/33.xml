@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NUM" n="33">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Numbers" n="33">
       <verse>These <supplied>are</supplied> the journeys of the children of Israel, which went forth out of the land of Egypt with their armies under the hand of Moses and Aaron.
 </verse><verse>And Moses wrote their goings out according to their journeys by the commandment of the LORD: and these <supplied>are</supplied> their journeys according to their goings out.
 </verse><verse>And they departed from Rameses in the first month, on the fifteenth day of the first month; on the morrow after the passover the children of Israel went out with an high hand in the sight of all the Egyptians.
@@ -6,7 +7,7 @@
 </verse><verse>And the children of Israel removed from Rameses, and pitched in Succoth.
 </verse><verse>And they departed from Succoth, and pitched in Etham, which <supplied>is</supplied> in the edge of the wilderness.
 </verse><verse>And they removed from Etham, and turned again unto Pi-hahiroth, which <supplied>is</supplied> before Baal- zephon: and they pitched before Migdol.
-</verse><verse>And they departed from before Pi-hahiroth, and passed through the midst of the sea into the wilderness, and went three days’ journey in the wilderness of Etham, and pitched in Marah.
+</verse><verse>And they departed from before Pi-hahiroth, and passed through the midst of the sea into the wilderness, and went three days&#x2019; journey in the wilderness of Etham, and pitched in Marah.
 </verse><verse>And they removed from Marah, and came unto Elim: and in Elim <supplied>were</supplied> twelve fountains of water, and threescore and ten palm trees; and they pitched there.
 </verse><verse>And they removed from Elim, and encamped by the Red sea.
 </verse><verse>And they removed from the Red sea, and encamped in the wilderness of Sin.
@@ -54,7 +55,7 @@
 </verse><verse>Speak unto the children of Israel, and say unto them, When ye are passed over Jordan into the land of Canaan;
 </verse><verse>Then ye shall drive out all the inhabitants of the land from before you, and destroy all their pictures, and destroy all their molten images, and quite pluck down all their high places:
 </verse><verse>And ye shall dispossess <supplied>the inhabitants</supplied> of the land, and dwell therein: for I have given you the land to possess it.
-</verse><verse>And ye shall divide the land by lot for an inheritance among your families: <supplied>and</supplied> to the more ye shall give the more inheritance, and to the fewer ye shall give the less inheritance: every man’s <supplied>inheritance</supplied> shall be in the place
+</verse><verse>And ye shall divide the land by lot for an inheritance among your families: <supplied>and</supplied> to the more ye shall give the more inheritance, and to the fewer ye shall give the less inheritance: every man&#x2019;s <supplied>inheritance</supplied> shall be in the place
 where his lot falleth; according to the tribes of your fathers ye shall inherit.
 </verse><verse>But if ye will not drive out the inhabitants of the land from before you; then it shall come to pass, that those which ye let remain of them <supplied>shall be</supplied> pricks in your eyes, and thorns in your sides, and shall vex you in the land wherein
 ye dwell.

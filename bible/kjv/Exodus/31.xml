@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="EXO" n="31">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Exodus" n="31">
       <verse>And the LORD spake unto Moses, saying,
 </verse><verse>See, I have called by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah:
 </verse><verse>And I have filled him with the spirit of God, in wisdom, and in understanding, and in knowledge, and in all manner of workmanship,
@@ -8,7 +9,7 @@
 </verse><verse>The tabernacle of the congregation, and the ark of the testimony, and the mercy seat that <supplied>is</supplied> thereupon, and all the furniture of the tabernacle,
 </verse><verse>And the table and his furniture, and the pure candlestick with all his furniture, and the altar of incense,
 </verse><verse>And the altar of burnt offering with all his furniture, and the laver and his foot,
-</verse><verse>And the cloths of service, and the holy garments for Aaron the priest, and the garments of his sons, to minister in the priest’s office,
+</verse><verse>And the cloths of service, and the holy garments for Aaron the priest, and the garments of his sons, to minister in the priest&#x2019;s office,
 </verse><verse>And the anointing oil, and sweet incense for the holy <supplied>place:</supplied> according to all that I have commanded thee shall they do.
      
       </verse>

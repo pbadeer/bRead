@@ -1,7 +1,8 @@
-<chapter translation="KJV" testament="Old" book="PRO" n="26">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Proverbs" n="26">
       <verse>As snow in summer, and as rain in harvest, so honour is not seemly for a fool.
 </verse><verse>As the bird by wandering, as the swallow by flying, so the curse causeless shall not come.
-</verse><verse>A whip for the horse, a bridle for the ass, and a rod for the fool’s back.
+</verse><verse>A whip for the horse, a bridle for the ass, and a rod for the fool&#x2019;s back.
 </verse><verse>Answer not a fool according to his folly, lest thou also be like unto him.
 </verse><verse>Answer a fool according to his folly, lest he be wise in his own conceit.
 </verse><verse>He that sendeth a message by the hand of a fool cutteth off the feet, <supplied>and</supplied> drinketh damage.

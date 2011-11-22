@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="HAB" n="3">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Habakkuk" n="3">
       <verse>A prayer of Habakkuk the prophet upon Shigionoth.
 </verse><verse>O LORD, I have heard thy speech, <supplied>and</supplied> was afraid: O LORD, revive thy work in the midst of the years, in the midst of the years make known; in wrath remember mercy.
 </verse><verse>God came from Teman, and the Holy One from mount Paran. Selah. His glory covered the heavens, and the earth was full of his praise.
@@ -20,7 +21,7 @@
       <verse>Although the fig tree shall not blossom, neither <supplied>shall</supplied> fruit <supplied>be</supplied> in the vines; the labour of the olive shall fail, and the fields shall yield no meat; the flock shall be cut off from the fold, and <supplied>there shall be</supplied> no herd
 in the stalls:
 </verse><verse>Yet I will rejoice in the LORD, I will joy in the God of my salvation.
-</verse><verse>The LORD God <supplied>is</supplied> my strength, and he will make my feet like hinds’ <supplied>feet,</supplied> and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
+</verse><verse>The LORD God <supplied>is</supplied> my strength, and he will make my feet like hinds&#x2019; <supplied>feet,</supplied> and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
      
      
       </verse>

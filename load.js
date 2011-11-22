@@ -68,11 +68,13 @@ books[65] = "jude";
 books[66] = "revelation";
 
 function init(){
-  output = document.getElementById('passage');
-  input = document.getElementById('ref');
+  output1 = '.column.one';
+  output2 = '.column.two';
+  input = '#ref';
   current_book = 'matthew';
   current_chap = 1;
   current_tran = 'kjv';
+  current_col2 = 'bible';
 
   load();
   afterLoad();
@@ -80,7 +82,7 @@ function init(){
 
 function clear()
 {
-  output.innerHTML = '';
+  $(output1).html('');
 }
 
 function openXML(path)
@@ -110,15 +112,56 @@ function load(book, n)
   html = xsltProcessor.transformToFragment(xml,document);
 
   clear();
-  output.appendChild(html);
+  $(output1).append(html);
 
-  input.value = current_book + ' ' + current_chap;
+  $(input).val(current_book + ' ' + current_chap);
 }
 
 function afterLoad()
 {
+  
+  // Set column TWO as BIBLE
+  $('.two.bible').click(function(){
+    
+  });
+
+  // Show/hide verse numbers
+  $('.nums').click(function(){
+    $('.verse .n').toggle();
+  });
+
+  // Verse ref grabber
   $('.verse').click(function(){
-    alert( $(this).attr('ref') );
+    $(input).val( $(this).attr('ref') );
+  });
+
+  // Layout changer
+  $('a.layout').click(function(){
+    
+    // animate to ONE
+    if( $(this).hasClass('one') && $(output2).is(':visible') == true){
+      $(output1).animate({
+        width: '100%'
+      });
+      $(output2).animate({
+        width: 0,
+        opacity: 0
+      }, function(){
+        $(output2).hide();
+      });
+    }
+
+    // animate to TWO
+    if( $(this).hasClass('two') && $(output2).is(':hidden') == true ){
+      $(output2).show().animate({
+        opacity: 1,
+        width: '50%'
+      });
+      $(output1).animate({
+        width: '50%'
+      });
+    }
+
   });
 }
 
@@ -134,7 +177,7 @@ function next()
 
 function find(ref)
 {
-  if(!ref) ref = input.value;
+  if(!ref) ref = $(input).val();
 
   for (var i=0; i<books.length; i++)
     if (books[i].indexOf(ref.toLowerCase()) != -1) alert(books[i]);

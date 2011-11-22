@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="135">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="135">
       
        
         <verse>Praise ye the LORD. Praise ye the name of the LORD; praise <supplied>him,</supplied> O ye servants of the LORD.
@@ -72,7 +73,7 @@
       
        
         </verse>
-        <verse>The idols of the heathen <supplied>are</supplied> silver and gold, the work of men’s hands.
+        <verse>The idols of the heathen <supplied>are</supplied> silver and gold, the work of men&#x2019;s hands.
       
       
        

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="2SA" n="17">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="2 Samuel" n="17">
       <verse>Moreover Ahithophel said unto Absalom, Let me now choose out twelve thousand men, and I will arise and pursue after David this night:
 </verse><verse>And I will come upon him while he <supplied>is</supplied> weary and weak handed, and will make him afraid: and all the people that <supplied>are</supplied> with him shall flee; and I will smite the king only:
 </verse><verse>And I will bring back all the people unto thee: the man whom thou seekest <supplied>is</supplied> as if all returned: <supplied>so</supplied> all the people shall be in peace.
@@ -20,9 +21,9 @@ upon Absalom.
       <verse>Then said Hushai unto Zadok and to Abiathar the priests, Thus and thus did Ahithophel counsel Absalom and the elders of Israel; and thus and thus have I counselled.
 </verse><verse>Now therefore send quickly, and tell David, saying, Lodge not this night in the plains of the wilderness, but speedily pass over; lest the king be swallowed up, and all the people that <supplied>are</supplied> with him.
 </verse><verse>Now Jonathan and Ahimaaz stayed by En-rogel; for they might not be seen to come into the city: and a wench went and told them; and they went and told king David.
-</verse><verse>Nevertheless a lad saw them, and told Absalom: but they went both of them away quickly, and came to a man’s house in Bahurim, which had a well in his court; whither they went down.
-</verse><verse>And the woman took and spread a covering over the well’s mouth, and spread ground corn thereon; and the thing was not known.
-</verse><verse>And when Absalom’s servants came to the woman to the house, they said, Where is Ahimaaz and Jonathan? And the woman said unto them, They be gone over the brook of water. And when they had sought and could not find <supplied>them,</supplied> they returned
+</verse><verse>Nevertheless a lad saw them, and told Absalom: but they went both of them away quickly, and came to a man&#x2019;s house in Bahurim, which had a well in his court; whither they went down.
+</verse><verse>And the woman took and spread a covering over the well&#x2019;s mouth, and spread ground corn thereon; and the thing was not known.
+</verse><verse>And when Absalom&#x2019;s servants came to the woman to the house, they said, Where is Ahimaaz and Jonathan? And the woman said unto them, They be gone over the brook of water. And when they had sought and could not find <supplied>them,</supplied> they returned
 to Jerusalem.
 </verse><verse>And it came to pass, after they were departed, that they came up out of the well, and went and told king David, and said unto David, Arise, and pass quickly over the water: for thus hath Ahithophel counselled against you.
 </verse><verse>Then David arose, and all the people that <supplied>were</supplied> with him, and they passed over Jordan: by the morning light there lacked not one of them that was not gone over Jordan.
@@ -33,7 +34,7 @@ father.
 </verse><verse>Then David came to Mahanaim. And Absalom passed over Jordan, he and all the men of Israel with him.
      
       </verse>
-      <verse>And Absalom made Amasa captain of the host instead of Joab: which Amasa was a man’s son, whose name <supplied>was</supplied> Ithra an Israelite, that went in to Abigail the daughter of Nahash, sister to Zeruiah Joab’s mother.
+      <verse>And Absalom made Amasa captain of the host instead of Joab: which Amasa was a man&#x2019;s son, whose name <supplied>was</supplied> Ithra an Israelite, that went in to Abigail the daughter of Nahash, sister to Zeruiah Joab&#x2019;s mother.
 </verse><verse>So Israel and Absalom pitched in the land of Gilead.
      
       </verse>

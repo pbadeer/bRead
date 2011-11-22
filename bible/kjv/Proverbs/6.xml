@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PRO" n="6">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Proverbs" n="6">
       <verse>My son, if thou be surety for thy friend, <supplied>if</supplied> thou hast stricken thy hand with a stranger,
 </verse><verse>Thou art snared with the words of thy mouth, thou art taken with the words of thy mouth.
 </verse><verse>Do this now, my son, deliver thyself, when thou art come into the hand of thy friend; go, humble thyself, and make sure thy friend.
@@ -26,7 +27,7 @@
 </verse><verse>A false witness <supplied>that</supplied> speaketh lies, and he that soweth discord among brethren.
      
       </verse>
-      <verse>My son, keep thy father’s commandment, and forsake not the law of thy mother:
+      <verse>My son, keep thy father&#x2019;s commandment, and forsake not the law of thy mother:
 </verse><verse>Bind them continually upon thine heart, <supplied>and</supplied> tie them about thy neck.
 </verse><verse>When thou goest, it shall lead thee; when thou sleepest, it shall keep thee; and <supplied>when</supplied> thou awakest, it shall talk with thee.
 </verse><verse>For the commandment <supplied>is</supplied> a lamp; and the law <supplied>is</supplied> light; and reproofs of instruction <supplied>are</supplied> the way of life:
@@ -35,7 +36,7 @@
 </verse><verse>For by means of a whorish woman <supplied>a man is brought</supplied> to a piece of bread: and the adulteress will hunt for the precious life.
 </verse><verse>Can a man take fire in his bosom, and his clothes not be burned?
 </verse><verse>Can one go upon hot coals, and his feet not be burned?
-</verse><verse>So he that goeth in to his neighbour’s wife; whosoever toucheth her shall not be innocent.
+</verse><verse>So he that goeth in to his neighbour&#x2019;s wife; whosoever toucheth her shall not be innocent.
 </verse><verse><supplied>Men</supplied> do not despise a thief, if he steal to satisfy his soul when he is hungry;
 </verse><verse>But <supplied>if</supplied> he be found, he shall restore sevenfold; he shall give all the substance of his house.
 </verse><verse><supplied>But</supplied> whoso committeth adultery with a woman lacketh understanding: he <supplied>that</supplied> doeth it destroyeth his own soul.

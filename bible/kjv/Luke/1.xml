@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="LUK" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Luke" n="1">
      
       <verse>Forasmuch as many have taken in hand to set forth in order a declaration of those things which are most surely believed among us,
 </verse><verse>Even as they delivered them unto us, which from the beginning were eyewitnesses, and ministers of the word;
@@ -9,14 +10,14 @@
       <verse>There was in the days of Herod, the king of Judaea, a certain priest named Zacharias, of the course of Abia: and his wife <supplied>was</supplied> of the daughters of Aaron, and her name <supplied>was</supplied> Elisabeth.
 </verse><verse>And they were both righteous before God, walking in all the commandments and ordinances of the Lord blameless.
 </verse><verse>And they had no child, because that Elisabeth was barren, and they both were <supplied>now</supplied> well stricken in years.
-</verse><verse>And it came to pass, that while he executed the priest’s office before God in the order of his course,
-</verse><verse>According to the custom of the priest’s office, his lot was to burn incense when he went into the temple of the Lord.
+</verse><verse>And it came to pass, that while he executed the priest&#x2019;s office before God in the order of his course,
+</verse><verse>According to the custom of the priest&#x2019;s office, his lot was to burn incense when he went into the temple of the Lord.
 </verse><verse>And the whole multitude of the people were praying without at the time of incense.
 </verse><verse>And there appeared unto him an angel of the Lord standing on the right side of the altar of incense.
 </verse><verse>And when Zacharias saw <supplied>him,</supplied> he was troubled, and fear fell upon him.
 </verse><verse>But the angel said unto him, Fear not, Zacharias: for thy prayer is heard; and thy wife Elisabeth shall bear thee a son, and thou shalt call his name John.
 </verse><verse>And thou shalt have joy and gladness; and many shall rejoice at his birth.
-</verse><verse>For he shall be great in the sight of the Lord, and shall drink neither wine nor strong drink; and he shall be filled with the Holy Ghost, even from his mother’s womb.
+</verse><verse>For he shall be great in the sight of the Lord, and shall drink neither wine nor strong drink; and he shall be filled with the Holy Ghost, even from his mother&#x2019;s womb.
 </verse><verse>And many of the children of Israel shall he turn to the Lord their God.
 </verse><verse>And he shall go before him in the spirit and power of Elias, to turn the hearts of the fathers to the children, and the disobedient to the wisdom of the just; to make ready a people prepared for the Lord.
 </verse><verse>And Zacharias said unto the angel, Whereby shall I know this? for I am an old man, and my wife well stricken in years.
@@ -28,7 +29,7 @@
 </verse><verse>And after those days his wife Elisabeth conceived, and hid herself five months, saying,
 </verse><verse>Thus hath the Lord dealt with me in the days wherein he looked on <supplied>me,</supplied> to take away my reproach among men.
 </verse><verse>And in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth,
-</verse><verse>To a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin’s name <supplied>was</supplied> Mary.
+</verse><verse>To a virgin espoused to a man whose name was Joseph, of the house of David; and the virgin&#x2019;s name <supplied>was</supplied> Mary.
 </verse><verse>And the angel came in unto her, and said, Hail, <supplied>thou that art</supplied> highly favoured, the Lord <supplied>is</supplied> with thee: blessed <supplied>art</supplied> thou among women.
 </verse><verse>And when she saw <supplied>him,</supplied> she was troubled at his saying, and cast in her mind what manner of salutation this should be.
 </verse><verse>And the angel said unto her, Fear not, Mary: for thou hast found favour with God.
@@ -58,7 +59,7 @@
 </verse><verse>He hath holpen his servant Israel, in remembrance of <supplied>his</supplied> mercy;
 </verse><verse>As he spake to our fathers, to Abraham, and to his seed for ever.
 </verse><verse>And Mary abode with her about three months, and returned to her own house.
-</verse><verse>Now Elisabeth’s full time came that she should be delivered; and she brought forth a son.
+</verse><verse>Now Elisabeth&#x2019;s full time came that she should be delivered; and she brought forth a son.
 </verse><verse>And her neighbours and her cousins heard how the Lord had shewed great mercy upon her; and they rejoiced with her.
 </verse><verse>And it came to pass, that on the eighth day they came to circumcise the child; and they called him Zacharias, after the name of his father.
 </verse><verse>And his mother answered and said, Not <supplied>so;</supplied> but he shall be called John.

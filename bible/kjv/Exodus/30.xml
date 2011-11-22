@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="EXO" n="30">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Exodus" n="30">
       <verse>And thou shalt make an altar to burn incense upon: <supplied>of</supplied> shittim wood shalt thou make it.
 </verse><verse>A cubit <supplied>shall be</supplied> the length thereof, and a cubit the breadth thereof; foursquare shall it be: and two cubits <supplied>shall be</supplied> the height thereof: the horns thereof <supplied>shall be</supplied> of the same.
 </verse><verse>And thou shalt overlay it with pure gold, the top thereof, and the sides thereof round about, and the horns thereof; and thou shalt make unto it a crown of gold round about.
@@ -35,9 +36,9 @@ souls.
 </verse><verse>And the table and all his vessels, and the candlestick and his vessels, and the altar of incense,
 </verse><verse>And the altar of burnt offering with all his vessels, and the laver and his foot.
 </verse><verse>And thou shalt sanctify them, that they may be most holy: whatsoever toucheth them shall be holy.
-</verse><verse>And thou shalt anoint Aaron and his sons, and consecrate them, that <supplied>they</supplied> may minister unto me in the priest’s office.
+</verse><verse>And thou shalt anoint Aaron and his sons, and consecrate them, that <supplied>they</supplied> may minister unto me in the priest&#x2019;s office.
 </verse><verse>And thou shalt speak unto the children of Israel, saying, This shall be an holy anointing oil unto me throughout your generations.
-</verse><verse>Upon man’s flesh shall it not be poured, neither shall ye make <supplied>any other</supplied> like it, after the composition of it: it <supplied>is</supplied> holy, <supplied>and</supplied> it shall be holy unto you.
+</verse><verse>Upon man&#x2019;s flesh shall it not be poured, neither shall ye make <supplied>any other</supplied> like it, after the composition of it: it <supplied>is</supplied> holy, <supplied>and</supplied> it shall be holy unto you.
 </verse><verse>Whosoever compoundeth <supplied>any</supplied> like it, or whosoever putteth <supplied>any</supplied> of it upon a stranger, shall even be cut off from his people.
      
       </verse>

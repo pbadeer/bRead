@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="2CO" n="5">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="2 Corinthians" n="5">
       <verse>For we know that if our earthly house of <supplied>this</supplied> tabernacle were dissolved, we have a building of God, an house not made with hands, eternal in the heavens.
 </verse><verse>For in this we groan, earnestly desiring to be clothed upon with our house which is from heaven:
 </verse><verse>If so be that being clothed we shall not be found naked.
@@ -20,7 +21,7 @@
 </verse><verse>Therefore if any man <supplied>be</supplied> in Christ, <supplied>he is</supplied> a new creature: old things are passed away; behold, all things are become new.
 </verse><verse>And all things <supplied>are</supplied> of God, who hath reconciled us to himself by Jesus Christ, and hath given to us the ministry of reconciliation;
 </verse><verse>To wit, that God was in Christ, reconciling the world unto himself, not imputing their trespasses unto them; and hath committed unto us the word of reconciliation.
-</verse><verse>Now then we are ambassadors for Christ, as though God did beseech <supplied>you</supplied> by us: we pray <supplied>you</supplied> in Christ’s stead, be ye reconciled to God.
+</verse><verse>Now then we are ambassadors for Christ, as though God did beseech <supplied>you</supplied> by us: we pray <supplied>you</supplied> in Christ&#x2019;s stead, be ye reconciled to God.
 </verse><verse>For he hath made him <supplied>to be</supplied> sin for us, who knew no sin; that we might be made the righteousness of God in him.
      
       </verse>

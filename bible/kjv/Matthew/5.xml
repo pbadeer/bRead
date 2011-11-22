@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="5">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="5">
       <verse>And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him:
 </verse><verse>And he opened his mouth, and taught them, saying,
 </verse><verse><jesus>Blessed <supplied>are</supplied> the poor in spirit: for theirs is the kingdom of heaven. </jesus></verse><verse><jesus>Blessed <supplied>are</supplied> they that mourn: for they shall be comforted. </jesus></verse><verse><jesus>Blessed <supplied>are</supplied> the meek: for they shall inherit the earth.
@@ -42,7 +43,7 @@ committeth adultery.
       </jesus>
       </verse>
       <verse>
-      <jesus>Again, ye have heard that it hath been said by them of old time, Thou shalt not forswear thyself, but shalt perform unto the Lord thine oaths: </jesus></verse><verse><jesus>But I say unto you, Swear not at all; neither by heaven; for it is God’s
+      <jesus>Again, ye have heard that it hath been said by them of old time, Thou shalt not forswear thyself, but shalt perform unto the Lord thine oaths: </jesus></verse><verse><jesus>But I say unto you, Swear not at all; neither by heaven; for it is God&#x2019;s
 throne: </jesus></verse><verse><jesus>Nor by the earth; for it is his footstool: neither by Jerusalem; for it is the city of the great King. </jesus></verse><verse><jesus>Neither shalt thou swear by thy head, because thou canst not make one hair white or black. </jesus></verse><verse><jesus>But
 let your communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil.
      

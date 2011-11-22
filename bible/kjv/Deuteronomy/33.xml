@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="DEU" n="33">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Deuteronomy" n="33">
       <verse>And this <supplied>is</supplied> the blessing, wherewith Moses the man of God blessed the children of Israel before his death.
 </verse><verse>And he said, The LORD came from Sinai, and rose up from Seir unto them; he shined forth from mount Paran, and he came with ten thousands of saints: from his right hand <supplied>went</supplied> a fiery law for them.
 </verse><verse>Yea, he loved the people; all his saints <supplied>are</supplied> in thy hand: and they sat down at thy feet; <supplied>every one</supplied> shall receive of thy words.
@@ -37,7 +38,7 @@ from his brethren.
 </verse><verse>And he provided the first part for himself, because there, <supplied>in</supplied> a portion of the lawgiver, <supplied>was he</supplied> seated; and he came with the heads of the people, he executed the justice of the LORD, and his judgments with Israel.
      
       </verse>
-      <verse>And of Dan he said, Dan <supplied>is</supplied> a lion’s whelp: he shall leap from Bashan.
+      <verse>And of Dan he said, Dan <supplied>is</supplied> a lion&#x2019;s whelp: he shall leap from Bashan.
      
       </verse>
       <verse>And of Naphtali he said, O Naphtali, satisfied with favour, and full with the blessing of the LORD: possess thou the west and the south.

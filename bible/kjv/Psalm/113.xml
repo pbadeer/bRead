@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="113">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="113">
       
        
         <verse>Praise ye the LORD. Praise, O ye servants of the LORD, praise the name of the LORD.
@@ -11,7 +12,7 @@
       
        
         </verse>
-        <verse>From the rising of the sun unto the going down of the same the LORD’S name <supplied>is</supplied> to be praised.
+        <verse>From the rising of the sun unto the going down of the same the LORD&#x2019;S name <supplied>is</supplied> to be praised.
       
       
        

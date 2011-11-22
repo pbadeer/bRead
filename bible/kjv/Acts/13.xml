@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ACT" n="13">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="13">
       <verse>Now there were in the church that was at Antioch certain prophets and teachers; as Barnabas, and Simeon that was called Niger, and Lucius of Cyrene, and Manaen, which had been brought up with Herod the tetrarch, and Saul.
 </verse><verse>As they ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them.
 </verse><verse>And when they had fasted and prayed, and laid <supplied>their</supplied> hands on them, they sent <supplied>them</supplied> away.
@@ -25,7 +26,7 @@
 </verse><verse>And after that he gave <supplied>unto them</supplied> judges about the space of four hundred and fifty years, until Samuel the prophet.
 </verse><verse>And afterward they desired a king: and God gave unto them Saul the son of Cis, a man of the tribe of Benjamin, by the space of forty years.
 </verse><verse>And when he had removed him, he raised up unto them David to be their king; to whom also he gave testimony, and said, I have found David the <supplied>son</supplied> of Jesse, a man after mine own heart, which shall fulfil all my will.
-</verse><verse>Of this man’s seed hath God according to <supplied>his</supplied> promise raised unto Israel a Saviour, Jesus:
+</verse><verse>Of this man&#x2019;s seed hath God according to <supplied>his</supplied> promise raised unto Israel a Saviour, Jesus:
 </verse><verse>When John had first preached before his coming the baptism of repentance to all the people of Israel.
 </verse><verse>And as John fulfilled his course, he said, Whom think ye that I am? I am not <supplied>he.</supplied> But, behold, there cometh one after me, whose shoes of <supplied>his</supplied> feet I am not worthy to loose.
 </verse><verse>Men <supplied>and</supplied> brethren, children of the stock of Abraham, and whosoever among you feareth God, to you is the word of this salvation sent.

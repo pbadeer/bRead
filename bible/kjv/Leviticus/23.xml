@@ -1,11 +1,12 @@
-<chapter translation="KJV" testament="Old" book="LEV" n="23">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Leviticus" n="23">
       <verse>And the LORD spake unto Moses, saying,
 </verse><verse>Speak unto the children of Israel, and say unto them, <supplied>Concerning</supplied> the feasts of the LORD, which ye shall proclaim <supplied>to be</supplied> holy convocations, <supplied>even</supplied> these <supplied>are</supplied> my feasts.
 </verse><verse>Six days shall work be done: but the seventh day <supplied>is</supplied> the sabbath of rest, an holy convocation; ye shall do no work <supplied>therein:</supplied> it <supplied>is</supplied> the sabbath of the LORD in all your dwellings.
      
       </verse>
       <verse>These <supplied>are</supplied> the feasts of the LORD, <supplied>even</supplied> holy convocations, which ye shall proclaim in their seasons.
-</verse><verse>In the fourteenth <supplied>day</supplied> of the first month at even <supplied>is</supplied> the LORD’S passover.
+</verse><verse>In the fourteenth <supplied>day</supplied> of the first month at even <supplied>is</supplied> the LORD&#x2019;S passover.
 </verse><verse>And on the fifteenth day of the same month <supplied>is</supplied> the feast of unleavened bread unto the LORD: seven days ye must eat unleavened bread.
 </verse><verse>In the first day ye shall have an holy convocation: ye shall do no servile work therein.
 </verse><verse>But ye shall offer an offering made by fire unto the LORD seven days: in the seventh day <supplied>is</supplied> an holy convocation: ye shall do no servile work <supplied>therein.</supplied>

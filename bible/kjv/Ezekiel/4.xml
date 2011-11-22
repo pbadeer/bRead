@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="EZK" n="4">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Ezekiel" n="4">
       <verse>Thou also, son of man, take thee a tile, and lay it before thee, and pourtray upon it the city, <supplied>even</supplied> Jerusalem:
 </verse><verse>And lay siege against it, and build a fort against it, and cast a mount against it; set the camp also against it, and set <supplied>battering</supplied> rams against it round about.
 </verse><verse>Moreover take thou unto thee an iron pan, and set it for a wall of iron between thee and the city: and set thy face against it, and it shall be besieged, and thou shalt lay siege against it. This <supplied>shall be</supplied> a sign to the house of Israel.
@@ -16,7 +17,7 @@ and ninety days shalt thou eat thereof.
 </verse><verse>And thou shalt eat it <supplied>as</supplied> barley cakes, and thou shalt bake it with dung that cometh out of man, in their sight.
 </verse><verse>And the LORD said, Even thus shall the children of Israel eat their defiled bread among the Gentiles, whither I will drive them.
 </verse><verse>Then said I, Ah Lord GOD! behold, my soul hath not been polluted: for from my youth up even till now have I not eaten of that which dieth of itself, or is torn in pieces; neither came there abominable flesh into my mouth.
-</verse><verse>Then he said unto me, Lo, I have given thee cow’s dung for man’s dung, and thou shalt prepare thy bread therewith.
+</verse><verse>Then he said unto me, Lo, I have given thee cow&#x2019;s dung for man&#x2019;s dung, and thou shalt prepare thy bread therewith.
 </verse><verse>Moreover he said unto me, Son of man, behold, I will break the staff of bread in Jerusalem: and they shall eat bread by weight, and with care; and they shall drink water by measure, and with astonishment:
 </verse><verse>That they may want bread and water, and be astonied one with another, and consume away for their iniquity.
      

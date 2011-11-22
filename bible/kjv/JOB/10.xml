@@ -1,9 +1,10 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="10">
       <verse>My soul is weary of my life; I will leave my complaint upon myself; I will speak in the bitterness of my soul.
 </verse><verse>I will say unto God, Do not condemn me; shew me wherefore thou contendest with me.
 </verse><verse><supplied>Is it</supplied> good unto thee that thou shouldest oppress, that thou shouldest despise the work of thine hands, and shine upon the counsel of the wicked?
 </verse><verse>Hast thou eyes of flesh? or seest thou as man seeth?
-</verse><verse><supplied>Are</supplied> thy days as the days of man? <supplied>are</supplied> thy years as man’s days,
+</verse><verse><supplied>Are</supplied> thy days as the days of man? <supplied>are</supplied> thy years as man&#x2019;s days,
 </verse><verse>That thou enquirest after mine iniquity, and searchest after my sin?
 </verse><verse>Thou knowest that I am not wicked; and <supplied>there is</supplied> none that can deliver out of thine hand.
 </verse><verse>Thine hands have made me and fashioned me together round about; yet thou dost destroy me.

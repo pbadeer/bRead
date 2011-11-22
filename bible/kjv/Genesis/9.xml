@@ -1,10 +1,11 @@
-<chapter translation="KJV" testament="Old" book="GEN" n="9">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Genesis" n="9">
       <verse>And God blessed Noah and his sons, and said unto them, Be fruitful, and multiply, and replenish the earth.
 </verse><verse>And the fear of you and the dread of you shall be upon every beast of the earth, and upon every fowl of the air, upon all that moveth <supplied>upon</supplied> the earth, and upon all the fishes of the sea; into your hand are they delivered.
 </verse><verse>Every moving thing that liveth shall be meat for you; even as the green herb have I given you all things.
 </verse><verse>But flesh with the life thereof, <supplied>which is</supplied> the blood thereof, shall ye not eat.
-</verse><verse>And surely your blood of your lives will I require; at the hand of every beast will I require it, and at the hand of man; at the hand of every man’s brother will I require the life of man.
-</verse><verse>Whoso sheddeth man’s blood, by man shall his blood be shed: for in the image of God made he man.
+</verse><verse>And surely your blood of your lives will I require; at the hand of every beast will I require it, and at the hand of man; at the hand of every man&#x2019;s brother will I require the life of man.
+</verse><verse>Whoso sheddeth man&#x2019;s blood, by man shall his blood be shed: for in the image of God made he man.
 </verse><verse>And you, be ye fruitful, and multiply; bring forth abundantly in the earth, and multiply therein.
      
       </verse>
@@ -25,7 +26,7 @@
 </verse><verse>And Noah began <supplied>to be</supplied> an husbandman, and he planted a vineyard:
 </verse><verse>And he drank of the wine, and was drunken; and he was uncovered within his tent.
 </verse><verse>And Ham, the father of Canaan, saw the nakedness of his father, and told his two brethren without.
-</verse><verse>And Shem and Japheth took a garment, and laid <supplied>it</supplied> upon both their shoulders, and went backward, and covered the nakedness of their father; and their faces <supplied>were</supplied> backward, and they saw not their father’s nakedness.
+</verse><verse>And Shem and Japheth took a garment, and laid <supplied>it</supplied> upon both their shoulders, and went backward, and covered the nakedness of their father; and their faces <supplied>were</supplied> backward, and they saw not their father&#x2019;s nakedness.
 </verse><verse>And Noah awoke from his wine, and knew what his younger son had done unto him.
 </verse><verse>And he said, Cursed <supplied>be</supplied> Canaan; a servant of servants shall he be unto his brethren.
 </verse><verse>And he said, Blessed <supplied>be</supplied> the LORD God of Shem; and Canaan shall be his servant.

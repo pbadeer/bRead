@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="1PE" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="1 Peter" n="1">
      
       <verse>Peter, an apostle of Jesus Christ, to the strangers scattered throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia,
 </verse><verse>Elect according to the foreknowledge of God the Father, through sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ: Grace unto you, and peace, be multiplied.
@@ -19,7 +20,7 @@ desire to look into.
 </verse><verse>As obedient children, not fashioning yourselves according to the former lusts in your ignorance:
 </verse><verse>But as he which hath called you is holy, so be ye holy in all manner of conversation;
 </verse><verse>Because it is written, Be ye holy; for I am holy.
-</verse><verse>And if ye call on the Father, who without respect of persons judgeth according to every man’s work, pass the time of your sojourning <supplied>here</supplied> in fear:
+</verse><verse>And if ye call on the Father, who without respect of persons judgeth according to every man&#x2019;s work, pass the time of your sojourning <supplied>here</supplied> in fear:
 </verse><verse>Forasmuch as ye know that ye were not redeemed with corruptible things, <supplied>as</supplied> silver and gold, from your vain conversation <supplied>received</supplied> by tradition from your fathers;
 </verse><verse>But with the precious blood of Christ, as of a lamb without blemish and without spot:
 </verse><verse>Who verily was foreordained before the foundation of the world, but was manifest in these last times for you,

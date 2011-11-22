@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="GEN" n="17">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Genesis" n="17">
       <verse>And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I <supplied>am</supplied> the Almighty God; walk before me, and be thou perfect.
 </verse><verse>And I will make my covenant between me and thee, and will multiply thee exceedingly.
 </verse><verse>And Abram fell on his face: and God talked with him, saying,
@@ -27,7 +28,7 @@ mother</supplied> of nations; kings of people shall be of her.
 </verse><verse>And he left off talking with him, and God went up from Abraham.
      
       </verse>
-      <verse>And Abraham took Ishmael his son, and all that were born in his house, and all that were bought with his money, every male among the men of Abraham’s house; and circumcised the flesh of their foreskin in the selfsame day, as God had said unto
+      <verse>And Abraham took Ishmael his son, and all that were born in his house, and all that were bought with his money, every male among the men of Abraham&#x2019;s house; and circumcised the flesh of their foreskin in the selfsame day, as God had said unto
 him.
 </verse><verse>And Abraham <supplied>was</supplied> ninety years old and nine, when he was circumcised in the flesh of his foreskin.
 </verse><verse>And Ishmael his son <supplied>was</supplied> thirteen years old, when he was circumcised in the flesh of his foreskin.

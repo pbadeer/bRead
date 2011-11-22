@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1KI" n="2">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Kings" n="2">
       <verse>Now the days of David drew nigh that he should die; and he charged Solomon his son, saying,
 </verse><verse>I go the way of all the earth: be thou strong therefore, and shew thyself a man;
 </verse><verse>And keep the charge of the LORD thy God, to walk in his ways, to keep his statutes, and his commandments, and his judgments, and his testimonies, as it is written in the law of Moses, that thou mayest prosper in all that thou doest, and
@@ -21,13 +22,13 @@ will not put thee to death with the sword.
       </verse>
       <verse>And Adonijah the son of Haggith came to Bath-sheba the mother of Solomon. And she said, Comest thou peaceably? And he said, Peaceably.
 </verse><verse>He said moreover, I have somewhat to say unto thee. And she said, Say on.
-</verse><verse>And he said, Thou knowest that the kingdom was mine, and <supplied>that</supplied> all Israel set their faces on me, that I should reign: howbeit the kingdom is turned about, and is become my brother’s: for it was his from the LORD.
+</verse><verse>And he said, Thou knowest that the kingdom was mine, and <supplied>that</supplied> all Israel set their faces on me, that I should reign: howbeit the kingdom is turned about, and is become my brother&#x2019;s: for it was his from the LORD.
 </verse><verse>And now I ask one petition of thee, deny me not. And she said unto him, Say on.
 </verse><verse>And he said, Speak, I pray thee, unto Solomon the king, (for he will not say thee nay,) that he give me Abishag the Shunammite to wife.
 </verse><verse>And Bath-sheba said, Well; I will speak for thee unto the king.
      
       </verse>
-      <verse>Bath-sheba therefore went unto king Solomon, to speak unto him for Adonijah. And the king rose up to meet her, and bowed himself unto her, and sat down on his throne, and caused a seat to be set for the king’s mother; and she sat on his right
+      <verse>Bath-sheba therefore went unto king Solomon, to speak unto him for Adonijah. And the king rose up to meet her, and bowed himself unto her, and sat down on his throne, and caused a seat to be set for the king&#x2019;s mother; and she sat on his right
 hand.
 </verse><verse>Then she said, I desire one small petition of thee; <supplied>I pray thee,</supplied> say me not nay. And the king said unto her, Ask on, my mother: for I will not say thee nay.
 </verse><verse>And she said, Let Abishag the Shunammite be given to Adonijah thy brother to wife.

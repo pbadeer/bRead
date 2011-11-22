@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="13">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="13">
       <verse>The same day went Jesus out of the house, and sat by the sea side.
 </verse><verse>And great multitudes were gathered together unto him, so that he went into a ship, and sat; and the whole multitude stood on the shore.
 </verse><verse>And he spake many things unto them in parables, saying, <jesus>Behold, a sower went forth to sow; </jesus></verse><verse><jesus>And when he sowed, some <supplied>seeds</supplied> fell by the way side, and the fowls came and devoured them up: </jesus></verse><verse><jesus>Some fell upon stony
@@ -7,7 +8,7 @@ thorns; and the thorns sprung up, and choked them: </jesus></verse><verse><jesus
 disciples came, and said unto him, Why speakest thou unto them in parables?
 </verse><verse>He answered and said unto them, <jesus>Because it is given unto you to know the mysteries of the kingdom of heaven, but to them it is not given. </jesus></verse><verse><jesus>For whosoever hath, to him shall be given, and he shall have more abundance: but
 whosoever hath not, from him shall be taken away even that he hath. </jesus></verse><verse><jesus>Therefore speak I to them in parables: because they seeing see not; and hearing they hear not, neither do they understand. </jesus></verse><verse><jesus>And in them is fulfilled the
-prophecy of Esaias, which saith, By hearing ye shall hear, and shall not understand; and seeing ye shall see, and shall not perceive: </jesus></verse><verse><jesus>For this people’s heart is waxed gross, and <supplied>their</supplied> ears are dull of hearing, and their eyes
+prophecy of Esaias, which saith, By hearing ye shall hear, and shall not understand; and seeing ye shall see, and shall not perceive: </jesus></verse><verse><jesus>For this people&#x2019;s heart is waxed gross, and <supplied>their</supplied> ears are dull of hearing, and their eyes
 they have closed; lest at any time they should see with <supplied>their</supplied> eyes, and hear with <supplied>their</supplied> ears, and should understand with <supplied>their</supplied> heart, and should be converted, and I should heal them. </jesus></verse><verse><jesus>But blessed <supplied>are</supplied> your
 eyes, for they see: and your ears, for they hear. </jesus></verse><verse><jesus>For verily I say unto you, That many prophets and righteous <supplied>men</supplied> have desired to see <supplied>those things</supplied> which ye see, and have not seen <supplied>them;</supplied> and to hear <supplied>those
 things</supplied> which ye hear, and have not heard <supplied>them.</supplied>
@@ -65,7 +66,7 @@ away. </jesus></verse><verse><jesus>So shall it be at the end of the world: the 
       </verse>
       <verse>And it came to pass, <supplied>that</supplied> when Jesus had finished these parables, he departed thence.
 </verse><verse>And when he was come into his own country, he taught them in their synagogue, insomuch that they were astonished, and said, Whence hath this <supplied>man</supplied> this wisdom, and <supplied>these</supplied> mighty works?
-</verse><verse>Is not this the carpenter’s son? is not his mother called Mary? and his brethren, James, and Joses, and Simon, and Judas?
+</verse><verse>Is not this the carpenter&#x2019;s son? is not his mother called Mary? and his brethren, James, and Joses, and Simon, and Judas?
 </verse><verse>And his sisters, are they not all with us? Whence then hath this <supplied>man</supplied> all these things?
 </verse><verse>And they were offended in him. But Jesus said unto them, <jesus>A prophet is not without honour, save in his own country, and in his own house. </jesus></verse><verse>And he did not many mighty works there because of their unbelief.
      

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NUM" n="25">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Numbers" n="25">
       <verse>And Israel abode in Shittim, and the people began to commit whoredom with the daughters of Moab.
 </verse><verse>And they called the people unto the sacrifices of their gods: and the people did eat, and bowed down to their gods.
 </verse><verse>And Israel joined himself unto Baal-peor: and the anger of the LORD was kindled against Israel.
@@ -23,7 +24,7 @@ tabernacle of the congregation.
       </verse>
       <verse>And the LORD spake unto Moses, saying,
 </verse><verse>Vex the Midianites, and smite them:
-</verse><verse>For they vex you with their wiles, wherewith they have beguiled you in the matter of Peor, and in the matter of Cozbi, the daughter of a prince of Midian, their sister, which was slain in the day of the plague for Peor’s sake.
+</verse><verse>For they vex you with their wiles, wherewith they have beguiled you in the matter of Peor, and in the matter of Cozbi, the daughter of a prince of Midian, their sister, which was slain in the day of the plague for Peor&#x2019;s sake.
      
       </verse>
       </chapter>

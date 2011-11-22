@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1KI" n="16">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Kings" n="16">
       <verse>Then the word of the LORD came to Jehu the son of Hanani against Baasha, saying,
 </verse><verse>Forasmuch as I exalted thee out of the dust, and made thee prince over my people Israel; and thou hast walked in the way of Jeroboam, and hast made my people Israel to sin, to provoke me to anger with their sins;
 </verse><verse>Behold, I will take away the posterity of Baasha, and the posterity of his house; and will make thy house like the house of Jeroboam the son of Nebat.
@@ -23,7 +24,7 @@ being like the house of Jeroboam; and because he killed him.
       <verse>In the twenty and seventh year of Asa king of Judah did Zimri reign seven days in Tirzah. And the people <supplied>were</supplied> encamped against Gibbethon, which <supplied>belonged</supplied> to the Philistines.
 </verse><verse>And the people <supplied>that were</supplied> encamped heard say, Zimri hath conspired, and hath also slain the king: wherefore all Israel made Omri, the captain of the host, king over Israel that day in the camp.
 </verse><verse>And Omri went up from Gibbethon, and all Israel with him, and they besieged Tirzah.
-</verse><verse>And it came to pass, when Zimri saw that the city was taken, that he went into the palace of the king’s house, and burnt the king’s house over him with fire, and died,
+</verse><verse>And it came to pass, when Zimri saw that the city was taken, that he went into the palace of the king&#x2019;s house, and burnt the king&#x2019;s house over him with fire, and died,
 </verse><verse>For his sins which he sinned in doing evil in the sight of the LORD, in walking in the way of Jeroboam, and in his sin which he did, to make Israel to sin.
 </verse><verse>Now the rest of the acts of Zimri, and his treason that he wrought, <supplied>are</supplied> they not written in the book of the chronicles of the kings of Israel?
      

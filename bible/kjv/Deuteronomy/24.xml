@@ -1,7 +1,8 @@
-<chapter translation="KJV" testament="Old" book="DEU" n="24">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Deuteronomy" n="24">
       <verse>When a man hath taken a wife, and married her, and it come to pass that she find no favour in his eyes, because he hath found some uncleanness in her: then let him write her a bill of divorcement, and give <supplied>it</supplied> in her hand, and send
 her out of his house.
-</verse><verse>And when she is departed out of his house, she may go and be another man’s <supplied>wife. </supplied></verse><verse>And <supplied>if</supplied> the latter husband hate her, and write her a bill of divorcement, and giveth <supplied>it</supplied> in her hand, and sendeth her out of his house;
+</verse><verse>And when she is departed out of his house, she may go and be another man&#x2019;s <supplied>wife. </supplied></verse><verse>And <supplied>if</supplied> the latter husband hate her, and write her a bill of divorcement, and giveth <supplied>it</supplied> in her hand, and sendeth her out of his house;
 or if the latter husband die, which took her to <supplied>be</supplied> his wife;
 </verse><verse>Her former husband, which sent her away, may not take her again to be his wife, after that she is defiled; for that <supplied>is</supplied> abomination before the LORD: and thou shalt not cause the land to sin, which the LORD thy God giveth thee <supplied>for</supplied>
 an inheritance.
@@ -10,7 +11,7 @@ an inheritance.
       <verse>When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: <supplied>but</supplied> he shall be free at home one year, and shall cheer up his wife which he hath taken.
      
       </verse>
-      <verse>No man shall take the nether or the upper millstone to pledge: for he taketh <supplied>a man’s</supplied> life to pledge.
+      <verse>No man shall take the nether or the upper millstone to pledge: for he taketh <supplied>a man&#x2019;s</supplied> life to pledge.
      
       </verse>
       <verse>If a man be found stealing any of his brethren of the children of Israel, and maketh merchandise of him, or selleth him; then that thief shall die; and thou shalt put evil away from among you.
@@ -31,7 +32,7 @@ an inheritance.
 </verse><verse>The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin.
      
       </verse>
-      <verse>Thou shalt not pervert the judgment of the stranger, <supplied>nor</supplied> of the fatherless; nor take a widow’s raiment to pledge:
+      <verse>Thou shalt not pervert the judgment of the stranger, <supplied>nor</supplied> of the fatherless; nor take a widow&#x2019;s raiment to pledge:
 </verse><verse>But thou shalt remember that thou wast a bondman in Egypt, and the LORD thy God redeemed thee thence: therefore I command thee to do this thing.
      
       </verse>

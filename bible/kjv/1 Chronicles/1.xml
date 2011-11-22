@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1CH" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Chronicles" n="1">
      
       <verse>Adam, Sheth, Enosh,
 </verse><verse>Kenan, Mahalaleel, Jered,
@@ -24,7 +25,7 @@
       </verse>
       <verse>The sons of Shem; Elam, and Asshur, and Arphaxad, and Lud, and Aram, and Uz, and Hul, and Gether, and Meshech.
 </verse><verse>And Arphaxad begat Shelah, and Shelah begat Eber.
-</verse><verse>And unto Eber were born two sons: the name of the one <supplied>was</supplied> Peleg; because in his days the earth was divided: and his brother’s name <supplied>was</supplied> Joktan.
+</verse><verse>And unto Eber were born two sons: the name of the one <supplied>was</supplied> Peleg; because in his days the earth was divided: and his brother&#x2019;s name <supplied>was</supplied> Joktan.
 </verse><verse>And Joktan begat Almodad, and Sheleph, and Hazarmaveth, and Jerah,
 </verse><verse>Hadoram also, and Uzal, and Diklah,
 </verse><verse>And Ebal, and Abimael, and Sheba,
@@ -43,7 +44,7 @@
 </verse><verse>Jetur, Naphish, and Kedemah. These are the sons of Ishmael.
      
       </verse>
-      <verse>Now the sons of Keturah, Abraham’s concubine: she bare Zimran, and Jokshan, and Medan, and Midian, and Ishbak, and Shuah. And the sons of Jokshan; Sheba, and Dedan.
+      <verse>Now the sons of Keturah, Abraham&#x2019;s concubine: she bare Zimran, and Jokshan, and Medan, and Midian, and Ishbak, and Shuah. And the sons of Jokshan; Sheba, and Dedan.
 </verse><verse>And the sons of Midian; Ephah, and Epher, and Henoch, and Abida, and Eldaah. All these <supplied>are</supplied> the sons of Keturah.
 </verse><verse>And Abraham begat Isaac. The sons of Isaac; Esau and Israel.
      
@@ -52,7 +53,7 @@
 </verse><verse>The sons of Eliphaz; Teman, and Omar, Zephi, and Gatam, Kenaz, and Timna, and Amalek.
 </verse><verse>The sons of Reuel; Nahath, Zerah, Shammah, and Mizzah.
 </verse><verse>And the sons of Seir; Lotan, and Shobal, and Zibeon, and Anah, and Dishon, and Ezar, and Dishan.
-</verse><verse>And the sons of Lotan; Hori, and Homam: and Timna <supplied>was</supplied> Lotan’s sister.
+</verse><verse>And the sons of Lotan; Hori, and Homam: and Timna <supplied>was</supplied> Lotan&#x2019;s sister.
 </verse><verse>The sons of Shobal; Alian, and Manahath, and Ebal, Shephi, and Onam. And the sons of Zibeon; Aiah, and Anah.
 </verse><verse>The sons of Anah; Dishon. And the sons of Dishon; Amram, and Eshban, and Ithran, and Cheran.
 </verse><verse>The sons of Ezer; Bilhan, and Zavan, <supplied>and</supplied> Jakan. The sons of Dishan; Uz, and Aran.
@@ -65,7 +66,7 @@
 </verse><verse>And when Hadad was dead, Samlah of Masrekah reigned in his stead.
 </verse><verse>And when Samlah was dead, Shaul of Rehoboth by the river reigned in his stead.
 </verse><verse>And when Shaul was dead, Baal-hanan the son of Achbor reigned in his stead.
-</verse><verse>And when Baal-hanan was dead, Hadad reigned in his stead: and the name of his city <supplied>was</supplied> Pai; and his wife’s name <supplied>was</supplied> Mehetabel, the daughter of Matred, the daughter of Mezahab.
+</verse><verse>And when Baal-hanan was dead, Hadad reigned in his stead: and the name of his city <supplied>was</supplied> Pai; and his wife&#x2019;s name <supplied>was</supplied> Mehetabel, the daughter of Matred, the daughter of Mezahab.
      
       </verse>
       <verse>Hadad died also. And the dukes of Edom were; duke Timnah, duke Aliah, duke Jetheth,

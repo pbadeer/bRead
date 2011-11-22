@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="LUK" n="12">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Luke" n="12">
       <verse>In the mean time, when there were gathered together an innumerable multitude of people, insomuch that they trode one upon another, he began to say unto his disciples first of all, <jesus>Beware ye of the leaven of the Pharisees, which is
 hypocrisy. </jesus></verse><verse><jesus>For there is nothing covered, that shall not be revealed; neither hid, that shall not be known. </jesus></verse><verse><jesus>Therefore whatsoever ye have spoken in darkness shall be heard in the light; and that which ye have spoken in the
 ear in closets shall be proclaimed upon the housetops. </jesus></verse><verse><jesus>And I say unto you my friends, Be not afraid of them that kill the body, and after that have no more that they can do. </jesus></verse><verse><jesus>But I will forewarn you whom ye shall fear: Fear
@@ -10,7 +11,7 @@ when they bring you unto the synagogues, and <supplied>unto</supplied> magistrat
       </jesus>
       </verse>
       <verse>And one of the company said unto him, Master, speak to my brother, that he divide the inheritance with me.
-</verse><verse>And he said unto him, <jesus>Man, who made me a judge or a divider over you? </jesus></verse><verse>And he said unto them, <jesus>Take heed, and beware of covetousness: for a man’s life consisteth not in the abundance of the things which he possesseth.
+</verse><verse>And he said unto him, <jesus>Man, who made me a judge or a divider over you? </jesus></verse><verse>And he said unto them, <jesus>Take heed, and beware of covetousness: for a man&#x2019;s life consisteth not in the abundance of the things which he possesseth.
 </jesus></verse><verse>And he spake a parable unto them, saying, <jesus>The ground of a certain rich man brought forth plentifully: </jesus></verse><verse><jesus>And he thought within himself, saying, What shall I do, because I have no room where to bestow my fruits?
 </jesus></verse><verse><jesus>And he said, This will I do: I will pull down my barns, and build greater; and there will I bestow all my fruits and my goods. </jesus></verse><verse><jesus>And I will say to my soul, Soul, thou hast much goods laid up for many years; take thine ease,
 eat, drink, <supplied>and</supplied> be merry. </jesus></verse><verse><jesus>But God said unto him, <supplied>Thou</supplied> fool, this night thy soul shall be required of thee: then whose shall those things be, which thou hast provided? </jesus></verse><verse><jesus>So <supplied>is</supplied> he that layeth up
@@ -27,7 +28,7 @@ what ye shall eat, or what ye shall drink, neither be ye of doubtful mind. </jes
       </jesus>
       </verse>
       <verse>
-      <jesus>But rather seek ye the kingdom of God; and all these things shall be added unto you. </jesus></verse><verse><jesus>Fear not, little flock; for it is your Father’s good pleasure to give you the kingdom. </jesus></verse><verse><jesus>Sell that ye have, and give alms;
+      <jesus>But rather seek ye the kingdom of God; and all these things shall be added unto you. </jesus></verse><verse><jesus>Fear not, little flock; for it is your Father&#x2019;s good pleasure to give you the kingdom. </jesus></verse><verse><jesus>Sell that ye have, and give alms;
 provide yourselves bags which wax not old, a treasure in the heavens that faileth not, where no thief approacheth, neither moth corrupteth. </jesus></verse><verse><jesus>For where your treasure is, there will your heart be also. </jesus></verse><verse><jesus>Let your loins be
 girded about, and <supplied>your</supplied> lights burning; </jesus></verse><verse><jesus>And ye yourselves like unto men that wait for their lord, when he will return from the wedding; that when he cometh and knocketh, they may open unto him immediately. </jesus></verse><verse><jesus>Blessed
 <supplied>are</supplied> those servants, whom the lord when he cometh shall find watching: verily I say unto you, that he shall gird himself, and make them to sit down to meat, and will come forth and serve them. </jesus></verse><verse><jesus>And if he shall come in the second
@@ -40,7 +41,7 @@ to be broken through. </jesus></verse><verse><jesus>Be ye therefore ready also: 
 </verse><verse>And the Lord said, <jesus>Who then is that faithful and wise steward, whom <supplied>his</supplied> lord shall make ruler over his household, to give <supplied>them their</supplied> portion of meat in due season? </jesus></verse><verse><jesus>Blessed <supplied>is</supplied> that servant, whom his
 lord when he cometh shall find so doing. </jesus></verse><verse><jesus>Of a truth I say unto you, that he will make him ruler over all that he hath. </jesus></verse><verse><jesus>But and if that servant say in his heart, My lord delayeth his coming; and shall begin to beat the
 menservants and maidens, and to eat and drink, and to be drunken; </jesus></verse><verse><jesus>The lord of that servant will come in a day when he looketh not for <supplied>him,</supplied> and at an hour when he is not aware, and will cut him in sunder, and will appoint him
-his portion with the unbelievers. </jesus></verse><verse><jesus>And that servant, which knew his lord’s will, and prepared not <supplied>himself,</supplied> neither did according to his will, shall be beaten with many <supplied>stripes. </supplied></jesus></verse><verse><jesus>But he that knew not, and did
+his portion with the unbelievers. </jesus></verse><verse><jesus>And that servant, which knew his lord&#x2019;s will, and prepared not <supplied>himself,</supplied> neither did according to his will, shall be beaten with many <supplied>stripes. </supplied></jesus></verse><verse><jesus>But he that knew not, and did
 commit things worthy of stripes, shall be beaten with few <supplied>stripes.</supplied> For unto whomsoever much is given, of him shall be much required: and to whom men have committed much, of him they will ask the more.
      
       </jesus>

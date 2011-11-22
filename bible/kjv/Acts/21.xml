@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ACT" n="21">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="21">
       <verse>And it came to pass, that after we were gotten from them, and had launched, we came with a straight course unto Coos, and the <supplied>day</supplied> following unto Rhodes, and from thence unto Patara:
 </verse><verse>And finding a ship sailing over unto Phenicia, we went aboard, and set forth.
 </verse><verse>Now when we had discovered Cyprus, we left it on the left hand, and sailed into Syria, and landed at Tyre: for there the ship was to unlade her burden.
@@ -6,10 +7,10 @@
 </verse><verse>And when we had accomplished those days, we departed and went our way; and they all brought us on our way, with wives and children, till <supplied>we were</supplied> out of the city: and we kneeled down on the shore, and prayed.
 </verse><verse>And when we had taken our leave one of another, we took ship; and they returned home again.
 </verse><verse>And when we had finished <supplied>our</supplied> course from Tyre, we came to Ptolemais, and saluted the brethren, and abode with them one day.
-</verse><verse>And the next <supplied>day</supplied> we that were of Paul’s company departed, and came unto Caesarea: and we entered into the house of Philip the evangelist, which was <supplied>one</supplied> of the seven; and abode with him.
+</verse><verse>And the next <supplied>day</supplied> we that were of Paul&#x2019;s company departed, and came unto Caesarea: and we entered into the house of Philip the evangelist, which was <supplied>one</supplied> of the seven; and abode with him.
 </verse><verse>And the same man had four daughters, virgins, which did prophesy.
 </verse><verse>And as we tarried <supplied>there</supplied> many days, there came down from Judaea a certain prophet, named Agabus.
-</verse><verse>And when he was come unto us, he took Paul’s girdle, and bound his own hands and feet, and said, Thus saith the Holy Ghost, So shall the Jews at Jerusalem bind the man that owneth this girdle, and shall deliver <supplied>him</supplied> into the hands of
+</verse><verse>And when he was come unto us, he took Paul&#x2019;s girdle, and bound his own hands and feet, and said, Thus saith the Holy Ghost, So shall the Jews at Jerusalem bind the man that owneth this girdle, and shall deliver <supplied>him</supplied> into the hands of
 the Gentiles.
 </verse><verse>And when we heard these things, both we, and they of that place, besought him not to go up to Jerusalem.
 </verse><verse>Then Paul answered, What mean ye to weep and to break mine heart? for I am ready not to be bound only, but also to die at Jerusalem for the name of the Lord Jesus.

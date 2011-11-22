@@ -1,10 +1,11 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="33">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="33">
       <verse>Wherefore, Job, I pray thee, hear my speeches, and hearken to all my words.
 </verse><verse>Behold, now I have opened my mouth, my tongue hath spoken in my mouth.
 </verse><verse>My words <supplied>shall be of</supplied> the uprightness of my heart: and my lips shall utter knowledge clearly.
 </verse><verse>The Spirit of God hath made me, and the breath of the Almighty hath given me life.
 </verse><verse>If thou canst answer me, set <supplied>thy words</supplied> in order before me, stand up.
-</verse><verse>Behold, I <supplied>am</supplied> according to thy wish in God’s stead: I also am formed out of the clay.
+</verse><verse>Behold, I <supplied>am</supplied> according to thy wish in God&#x2019;s stead: I also am formed out of the clay.
 </verse><verse>Behold, my terror shall not make thee afraid, neither shall my hand be heavy upon thee.
 </verse><verse>Surely thou hast spoken in mine hearing, and I have heard the voice of <supplied>thy</supplied> words, <supplied>saying, </supplied></verse><verse>I am clean without transgression, I <supplied>am</supplied> innocent; neither <supplied>is there</supplied> iniquity in me.
 </verse><verse>Behold, he findeth occasions against me, he counteth me for his enemy,
@@ -21,7 +22,7 @@
 </verse><verse>Yea, his soul draweth near unto the grave, and his life to the destroyers.
 </verse><verse>If there be a messenger with him, an interpreter, one among a thousand, to shew unto man his uprightness:
 </verse><verse>Then he is gracious unto him, and saith, Deliver him from going down to the pit: I have found a ransom.
-</verse><verse>His flesh shall be fresher than a child’s: he shall return to the days of his youth:
+</verse><verse>His flesh shall be fresher than a child&#x2019;s: he shall return to the days of his youth:
 </verse><verse>He shall pray unto God, and he will be favourable unto him: and he shall see his face with joy: for he will render unto man his righteousness.
 </verse><verse>He looketh upon men, and <supplied>if any</supplied> say, I have sinned, and perverted <supplied>that which was</supplied> right, and it profited me not;
 </verse><verse>He will deliver his soul from going into the pit, and his life shall see the light.

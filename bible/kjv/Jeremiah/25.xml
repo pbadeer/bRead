@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JER" n="25">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Jeremiah" n="25">
       <verse>The word that came to Jeremiah concerning all the people of Judah in the fourth year of Jehoiakim the son of Josiah king of Judah, that <supplied>was</supplied> the first year of Nebuchadrezzar king of Babylon;
 </verse><verse>The which Jeremiah the prophet spake unto all the people of Judah, and to all the inhabitants of Jerusalem, saying,
 </verse><verse>From the thirteenth year of Josiah the son of Amon king of Judah, even unto this day, that <supplied>is</supplied> the three and twentieth year, the word of the LORD hath come unto me, and I have spoken unto you, rising early and speaking; but ye have not
@@ -23,7 +24,7 @@ about, and will utterly destroy them, and make them an astonishment, and an hiss
       </verse>
       <verse>For thus saith the LORD God of Israel unto me; Take the wine cup of this fury at my hand, and cause all the nations, to whom I send thee, to drink it.
 </verse><verse>And they shall drink, and be moved, and be mad, because of the sword that I will send among them.
-</verse><verse>Then took I the cup at the LORD’S hand, and made all the nations to drink, unto whom the LORD had sent me:
+</verse><verse>Then took I the cup at the LORD&#x2019;S hand, and made all the nations to drink, unto whom the LORD had sent me:
 </verse><verse><supplied>To wit,</supplied> Jerusalem, and the cities of Judah, and the kings thereof, and the princes thereof, to make them a desolation, an astonishment, an hissing, and a curse; as <supplied>it is</supplied> this day;
 </verse><verse>Pharaoh king of Egypt, and his servants, and his princes, and all his people;
 </verse><verse>And all the mingled people, and all the kings of the land of Uz, and all the kings of the land of the Philistines, and Ashkelon, and Azzah, and Ekron, and the remnant of Ashdod,

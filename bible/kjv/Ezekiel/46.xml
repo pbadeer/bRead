@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="EZK" n="46">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Ezekiel" n="46">
       <verse>Thus saith the Lord GOD; The gate of the inner court that looketh toward the east shall be shut the six working days; but on the sabbath it shall be opened, and in the day of the new moon it shall be opened.
 </verse><verse>And the prince shall enter by the way of the porch of <supplied>that</supplied> gate without, and shall stand by the post of the gate, and the priests shall prepare his burnt offering and his peace offerings, and he shall worship at the threshold of the
 gate: then he shall go forth; but the gate shall not be shut until the evening.
@@ -21,9 +22,9 @@ as he did on the sabbath day: then he shall go forth; and after his going forth 
 </verse><verse>Thus shall they prepare the lamb, and the meat offering, and the oil, every morning <supplied>for</supplied> a continual burnt offering.
      
       </verse>
-      <verse>Thus saith the Lord GOD; If the prince give a gift unto any of his sons, the inheritance thereof shall be his sons’; it <supplied>shall be</supplied> their possession by inheritance.
-</verse><verse>But if he give a gift of his inheritance to one of his servants, then it shall be his to the year of liberty; after it shall return to the prince: but his inheritance shall be his sons’ for them.
-</verse><verse>Moreover the prince shall not take of the people’s inheritance by oppression, to thrust them out of their possession; <supplied>but</supplied> he shall give his sons inheritance out of his own possession: that my people be not scattered every man from his
+      <verse>Thus saith the Lord GOD; If the prince give a gift unto any of his sons, the inheritance thereof shall be his sons&#x2019;; it <supplied>shall be</supplied> their possession by inheritance.
+</verse><verse>But if he give a gift of his inheritance to one of his servants, then it shall be his to the year of liberty; after it shall return to the prince: but his inheritance shall be his sons&#x2019; for them.
+</verse><verse>Moreover the prince shall not take of the people&#x2019;s inheritance by oppression, to thrust them out of their possession; <supplied>but</supplied> he shall give his sons inheritance out of his own possession: that my people be not scattered every man from his
 possession.
      
       </verse>

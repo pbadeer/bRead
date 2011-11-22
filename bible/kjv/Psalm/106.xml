@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="106">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="106">
       
        
         <verse>Praise ye the LORD. O give thanks unto the LORD; for <supplied>he is</supplied> good: for his mercy <supplied>endureth</supplied> for ever.
@@ -36,7 +37,7 @@
       
        
         </verse>
-        <verse>Nevertheless he saved them for his name’s sake, that he might make his mighty power to be known.
+        <verse>Nevertheless he saved them for his name&#x2019;s sake, that he might make his mighty power to be known.
       
       
        

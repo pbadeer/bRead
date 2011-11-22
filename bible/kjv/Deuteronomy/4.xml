@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="DEU" n="4">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Deuteronomy" n="4">
       <verse>Now therefore hearken, O Israel, unto the statutes and unto the judgments, which I teach you, for to do <supplied>them,</supplied> that ye may live, and go in and possess the land which the LORD God of your fathers giveth you.
 </verse><verse>Ye shall not add unto the word which I command you, neither shall ye diminish <supplied>ought</supplied> from it, that ye may keep the commandments of the LORD your God which I command you.
 </verse><verse>Your eyes have seen what the LORD did because of Baal-peor: for all the men that followed Baal-peor, the LORD thy God hath destroyed them from among you.
@@ -7,7 +8,7 @@
 </verse><verse>Keep therefore and do <supplied>them;</supplied> for this <supplied>is</supplied> your wisdom and your understanding in the sight of the nations, which shall hear all these statutes, and say, Surely this great nation <supplied>is</supplied> a wise and understanding people.
 </verse><verse>For what nation <supplied>is there so</supplied> great, who <supplied>hath</supplied> God <supplied>so</supplied> nigh unto them, as the LORD our God <supplied>is</supplied> in all <supplied>things that</supplied> we call upon him <supplied>for? </supplied></verse><verse>And what nation <supplied>is there so</supplied> great, that hath
 statutes and judgments <supplied>so</supplied> righteous as all this law, which I set before you this day?
-</verse><verse>Only take heed to thyself, and keep thy soul diligently, lest thou forget the things which thine eyes have seen, and lest they depart from thy heart all the days of thy life: but teach them thy sons, and thy sons’ sons;
+</verse><verse>Only take heed to thyself, and keep thy soul diligently, lest thou forget the things which thine eyes have seen, and lest they depart from thy heart all the days of thy life: but teach them thy sons, and thy sons&#x2019; sons;
 </verse><verse><supplied>Specially</supplied> the day that thou stoodest before the LORD thy God in Horeb, when the LORD said unto me, Gather me the people together, and I will make them hear my words, that they may learn to fear me all the days that they shall live upon
 the earth, and <supplied>that</supplied> they may teach their children.
 </verse><verse>And ye came near and stood under the mountain; and the mountain burned with fire unto the midst of heaven, with darkness, clouds, and thick darkness.
@@ -29,11 +30,11 @@ nations under the whole heaven.
 </verse><verse>For the LORD thy God <supplied>is</supplied> a consuming fire, <supplied>even</supplied> a jealous God.
      
       </verse>
-      <verse>When thou shalt beget children, and children’s children, and ye shall have remained long in the land, and shall corrupt <supplied>yourselves,</supplied> and make a graven image, <supplied>or</supplied> the likeness of any <supplied>thing,</supplied> and shall do evil in the sight
+      <verse>When thou shalt beget children, and children&#x2019;s children, and ye shall have remained long in the land, and shall corrupt <supplied>yourselves,</supplied> and make a graven image, <supplied>or</supplied> the likeness of any <supplied>thing,</supplied> and shall do evil in the sight
 of the LORD thy God, to provoke him to anger:
 </verse><verse>I call heaven and earth to witness against you this day, that ye shall soon utterly perish from off the land whereunto ye go over Jordan to possess it; ye shall not prolong <supplied>your</supplied> days upon it, but shall utterly be destroyed.
 </verse><verse>And the LORD shall scatter you among the nations, and ye shall be left few in number among the heathen, whither the LORD shall lead you.
-</verse><verse>And there ye shall serve gods, the work of men’s hands, wood and stone, which neither see, nor hear, nor eat, nor smell.
+</verse><verse>And there ye shall serve gods, the work of men&#x2019;s hands, wood and stone, which neither see, nor hear, nor eat, nor smell.
 </verse><verse>But if from thence thou shalt seek the LORD thy God, thou shalt find <supplied>him,</supplied> if thou seek him with all thy heart and with all thy soul.
 </verse><verse>When thou art in tribulation, and all these things are come upon thee, <supplied>even</supplied> in the latter days, if thou turn to the LORD thy God, and shalt be obedient unto his voice;
 </verse><verse>(For the LORD thy God <supplied>is</supplied> a merciful God;) he will not forsake thee, neither destroy thee, nor forget the covenant of thy fathers which he sware unto them.

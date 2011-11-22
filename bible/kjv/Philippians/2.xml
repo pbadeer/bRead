@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="PHP" n="2">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Philippians" n="2">
       <verse>If <supplied>there be</supplied> therefore any consolation in Christ, if any comfort of love, if any fellowship of the Spirit, if any bowels and mercies,
 </verse><verse>Fulfil ye my joy, that ye be likeminded, having the same love, <supplied>being</supplied> of one accord, of one mind.
 </verse><verse><supplied>Let</supplied> nothing <supplied>be done</supplied> through strife or vainglory; but in lowliness of mind let each esteem other better than themselves.
@@ -23,7 +24,7 @@
       </verse>
       <verse>But I trust in the Lord Jesus to send Timotheus shortly unto you, that I also may be of good comfort, when I know your state.
 </verse><verse>For I have no man likeminded, who will naturally care for your state.
-</verse><verse>For all seek their own, not the things which are Jesus Christ’s.
+</verse><verse>For all seek their own, not the things which are Jesus Christ&#x2019;s.
 </verse><verse>But ye know the proof of him, that, as a son with the father, he hath served with me in the gospel.
 </verse><verse>Him therefore I hope to send presently, so soon as I shall see how it will go with me.
 </verse><verse>But I trust in the Lord that I also myself shall come shortly.

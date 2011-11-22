@@ -1,9 +1,10 @@
-<chapter translation="KJV" testament="Old" book="ISA" n="59">
-      <verse>Behold, the LORD’S hand is not shortened, that it cannot save; neither his ear heavy, that it cannot hear:
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Isaiah" n="59">
+      <verse>Behold, the LORD&#x2019;S hand is not shortened, that it cannot save; neither his ear heavy, that it cannot hear:
 </verse><verse>But your iniquities have separated between you and your God, and your sins have hid <supplied>his</supplied> face from you, that he will not hear.
 </verse><verse>For your hands are defiled with blood, and your fingers with iniquity; your lips have spoken lies, your tongue hath muttered perverseness.
 </verse><verse>None calleth for justice, nor <supplied>any</supplied> pleadeth for truth: they trust in vanity, and speak lies; they conceive mischief, and bring forth iniquity.
-</verse><verse>They hatch cockatrice’ eggs, and weave the spider’s web: he that eateth of their eggs dieth, and that which is crushed breaketh out into a viper.
+</verse><verse>They hatch cockatrice&#x2019; eggs, and weave the spider&#x2019;s web: he that eateth of their eggs dieth, and that which is crushed breaketh out into a viper.
 </verse><verse>Their webs shall not become garments, neither shall they cover themselves with their works: their works <supplied>are</supplied> works of iniquity, and the act of violence <supplied>is</supplied> in their hands.
 </verse><verse>Their feet run to evil, and they make haste to shed innocent blood: their thoughts <supplied>are</supplied> thoughts of iniquity; wasting and destruction <supplied>are</supplied> in their paths.
 </verse><verse>The way of peace they know not; and <supplied>there is</supplied> no judgment in their goings: they have made them crooked paths: whosoever goeth therein shall not know peace.
@@ -26,7 +27,7 @@ judgment, but <supplied>there is</supplied> none; for salvation, <supplied>but</
       </verse>
       <verse>And the Redeemer shall come to Zion, and unto them that turn from transgression in Jacob, saith the LORD.
 </verse><verse>As for me, this <supplied>is</supplied> my covenant with them, saith the LORD; My spirit that <supplied>is</supplied> upon thee, and my words which I have put in thy mouth, shall not depart out of thy mouth, nor out of the mouth of thy seed, nor out of the mouth of thy
-seed’s seed, saith the LORD, from henceforth and for ever.
+seed&#x2019;s seed, saith the LORD, from henceforth and for ever.
      
       </verse>
       </chapter>

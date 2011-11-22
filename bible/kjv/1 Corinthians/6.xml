@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="1CO" n="6">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="1 Corinthians" n="6">
       <verse>Dare any of you, having a matter against another, go to law before the unjust, and not before the saints?
 </verse><verse>Do ye not know that the saints shall judge the world? and if the world shall be judged by you, are ye unworthy to judge the smallest matters?
 </verse><verse>Know ye not that we shall judge angels? how much more things that pertain to this life?
@@ -20,7 +21,7 @@
 </verse><verse>But he that is joined unto the Lord is one spirit.
 </verse><verse>Flee fornication. Every sin that a man doeth is without the body; but he that committeth fornication sinneth against his own body.
 </verse><verse>What? know ye not that your body is the temple of the Holy Ghost <supplied>which is</supplied> in you, which ye have of God, and ye are not your own?
-</verse><verse>For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God’s.
+</verse><verse>For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God&#x2019;s.
      
       </verse>
       </chapter>

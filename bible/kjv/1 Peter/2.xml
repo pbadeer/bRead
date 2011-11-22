@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="1PE" n="2">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="1 Peter" n="2">
       <verse>Wherefore laying aside all malice, and all guile, and hypocrisies, and envies, and all evil speakings,
 </verse><verse>As newborn babes, desire the sincere milk of the word, that ye may grow thereby:
 </verse><verse>If so be ye have tasted that the Lord <supplied>is</supplied> gracious.
@@ -15,7 +16,7 @@
 </verse><verse>Having your conversation honest among the Gentiles: that, whereas they speak against you as evildoers, they may by <supplied>your</supplied> good works, which they shall behold, glorify God in the day of visitation.
      
       </verse>
-      <verse>Submit yourselves to every ordinance of man for the Lord’s sake: whether it be to the king, as supreme;
+      <verse>Submit yourselves to every ordinance of man for the Lord&#x2019;s sake: whether it be to the king, as supreme;
 </verse><verse>Or unto governors, as unto them that are sent by him for the punishment of evildoers, and for the praise of them that do well.
 </verse><verse>For so is the will of God, that with well doing ye may put to silence the ignorance of foolish men:
 </verse><verse>As free, and not using <supplied>your</supplied> liberty for a cloke of maliciousness, but as the servants of God.

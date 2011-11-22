@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="DEU" n="5">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Deuteronomy" n="5">
       <verse>And Moses called all Israel, and said unto them, Hear, O Israel, the statutes and judgments which I speak in your ears this day, that ye may learn them, and keep, and do them.
 </verse><verse>The LORD our God made a covenant with us in Horeb.
 </verse><verse>The LORD made not this covenant with our fathers, but with us, <supplied>even</supplied> us, who <supplied>are</supplied> all of us here alive this day.
@@ -24,7 +25,7 @@ stranger that <supplied>is</supplied> within thy gates; that thy manservant and 
 </verse><verse>Neither shalt thou commit adultery.
 </verse><verse>Neither shalt thou steal.
 </verse><verse>Neither shalt thou bear false witness against thy neighbour.
-</verse><verse>Neither shalt thou desire thy neighbour’s wife, neither shalt thou covet thy neighbour’s house, his field, or his manservant, or his maidservant, his ox, or his ass, or any <supplied>thing</supplied> that <supplied>is</supplied> thy neighbour’s.
+</verse><verse>Neither shalt thou desire thy neighbour&#x2019;s wife, neither shalt thou covet thy neighbour&#x2019;s house, his field, or his manservant, or his maidservant, his ox, or his ass, or any <supplied>thing</supplied> that <supplied>is</supplied> thy neighbour&#x2019;s.
      
       </verse>
       <verse>These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto

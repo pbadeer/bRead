@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="8">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="8">
       <verse>Then answered Bildad the Shuhite, and said,
 </verse><verse>How long wilt thou speak these <supplied>things?</supplied> and <supplied>how long shall</supplied> the words of thy mouth be like a strong wind?
 </verse><verse>Doth God pervert judgment? or doth the Almighty pervert justice?
@@ -11,8 +12,8 @@
 </verse><verse>Shall not they teach thee, <supplied>and</supplied> tell thee, and utter words out of their heart?
 </verse><verse>Can the rush grow up without mire? can the flag grow without water?
 </verse><verse>Whilst it <supplied>is</supplied> yet in his greenness, <supplied>and</supplied> not cut down, it withereth before any <supplied>other</supplied> herb.
-</verse><verse>So <supplied>are</supplied> the paths of all that forget God; and the hypocrite’s hope shall perish:
-</verse><verse>Whose hope shall be cut off, and whose trust <supplied>shall be</supplied> a spider’s web.
+</verse><verse>So <supplied>are</supplied> the paths of all that forget God; and the hypocrite&#x2019;s hope shall perish:
+</verse><verse>Whose hope shall be cut off, and whose trust <supplied>shall be</supplied> a spider&#x2019;s web.
 </verse><verse>He shall lean upon his house, but it shall not stand: he shall hold it fast, but it shall not endure.
 </verse><verse>He <supplied>is</supplied> green before the sun, and his branch shooteth forth in his garden.
 </verse><verse>His roots are wrapped about the heap, <supplied>and</supplied> seeth the place of stones.

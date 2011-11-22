@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="103">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="103">
       A <supplied>Psalm</supplied> of David.
       
       
@@ -24,7 +25,7 @@
       
        
         </verse>
-        <verse>Who satisfieth thy mouth with good <supplied>things; so that</supplied> thy youth is renewed like the eagle’s.
+        <verse>Who satisfieth thy mouth with good <supplied>things; so that</supplied> thy youth is renewed like the eagle&#x2019;s.
       
       
        
@@ -85,7 +86,7 @@
       
        
         </verse>
-        <verse>But the mercy of the LORD <supplied>is</supplied> from everlasting to everlasting upon them that fear him, and his righteousness unto children’s children;
+        <verse>But the mercy of the LORD <supplied>is</supplied> from everlasting to everlasting upon them that fear him, and his righteousness unto children&#x2019;s children;
       
       
        

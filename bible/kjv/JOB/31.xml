@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="31">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="31">
       <verse>I made a covenant with mine eyes; why then should I think upon a maid?
 </verse><verse>For what portion of God <supplied>is there</supplied> from above? and <supplied>what</supplied> inheritance of the Almighty from on high?
 </verse><verse><supplied>Is</supplied> not destruction to the wicked? and a strange <supplied>punishment</supplied> to the workers of iniquity?
@@ -7,7 +8,7 @@
 </verse><verse>Let me be weighed in an even balance, that God may know mine integrity.
 </verse><verse>If my step hath turned out of the way, and mine heart walked after mine eyes, and if any blot hath cleaved to mine hands;
 </verse><verse><supplied>Then</supplied> let me sow, and let another eat; yea, let my offspring be rooted out.
-</verse><verse>If mine heart have been deceived by a woman, or <supplied>if</supplied> I have laid wait at my neighbour’s door;
+</verse><verse>If mine heart have been deceived by a woman, or <supplied>if</supplied> I have laid wait at my neighbour&#x2019;s door;
 </verse><verse><supplied>Then</supplied> let my wife grind unto another, and let others bow down upon her.
 </verse><verse>For this <supplied>is</supplied> an heinous crime; yea, it <supplied>is</supplied> an iniquity <supplied>to be punished by</supplied> the judges.
 </verse><verse>For it <supplied>is</supplied> a fire <supplied>that</supplied> consumeth to destruction, and would root out all mine increase.
@@ -16,7 +17,7 @@
 </verse><verse>Did not he that made me in the womb make him? and did not one fashion us in the womb?
 </verse><verse>If I have withheld the poor from <supplied>their</supplied> desire, or have caused the eyes of the widow to fail;
 </verse><verse>Or have eaten my morsel myself alone, and the fatherless hath not eaten thereof;
-</verse><verse>(For from my youth he was brought up with me, as <supplied>with</supplied> a father, and I have guided her from my mother’s womb;)
+</verse><verse>(For from my youth he was brought up with me, as <supplied>with</supplied> a father, and I have guided her from my mother&#x2019;s womb;)
 </verse><verse>If I have seen any perish for want of clothing, or any poor without covering;
 </verse><verse>If his loins have not blessed me, and <supplied>if</supplied> he were <supplied>not</supplied> warmed with the fleece of my sheep;
 </verse><verse>If I have lifted up my hand against the fatherless, when I saw my help in the gate:

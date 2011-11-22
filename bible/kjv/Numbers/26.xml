@@ -1,6 +1,7 @@
-<chapter translation="KJV" testament="Old" book="NUM" n="26">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Numbers" n="26">
       <verse>And it came to pass after the plague, that the LORD spake unto Moses and unto Eleazar the son of Aaron the priest, saying,
-</verse><verse>Take the sum of all the congregation of the children of Israel, from twenty years old and upward, throughout their fathers’ house, all that are able to go to war in Israel.
+</verse><verse>Take the sum of all the congregation of the children of Israel, from twenty years old and upward, throughout their fathers&#x2019; house, all that are able to go to war in Israel.
 </verse><verse>And Moses and Eleazar the priest spake with them in the plains of Moab by Jordan <supplied>near</supplied> Jericho, saying,
 </verse><verse><supplied>Take the sum of the people,</supplied> from twenty years old and upward; as the LORD commanded Moses and the children of Israel, which went forth out of the land of Egypt.
      
@@ -91,7 +92,7 @@
       </verse>
       <verse>And these <supplied>are</supplied> they that were numbered of the Levites after their families: of Gershon, the family of the Gershonites: of Kohath, the family of the Kohathites: of Merari, the family of the Merarites.
 </verse><verse>These <supplied>are</supplied> the families of the Levites: the family of the Libnites, the family of the Hebronites, the family of the Mahlites, the family of the Mushites, the family of the Korathites. And Kohath begat Amram.
-</verse><verse>And the name of Amram’s wife <supplied>was</supplied> Jochebed, the daughter of Levi, whom <supplied>her mother</supplied> bare to Levi in Egypt: and she bare unto Amram Aaron and Moses, and Miriam their sister.
+</verse><verse>And the name of Amram&#x2019;s wife <supplied>was</supplied> Jochebed, the daughter of Levi, whom <supplied>her mother</supplied> bare to Levi in Egypt: and she bare unto Amram Aaron and Moses, and Miriam their sister.
 </verse><verse>And unto Aaron was born Nadab, and Abihu, Eleazar, and Ithamar.
 </verse><verse>And Nadab and Abihu died, when they offered strange fire before the LORD.
 </verse><verse>And those that were numbered of them were twenty and three thousand, all males from a month old and upward: for they were not numbered among the children of Israel, because there was no inheritance given them among the children of Israel.

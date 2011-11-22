@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="4">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="4">
       <verse>Then Eliphaz the Temanite answered and said,
 </verse><verse><supplied>If</supplied> we assay to commune with thee, wilt thou be grieved? but who can withhold himself from speaking?
 </verse><verse>Behold, thou hast instructed many, and thou hast strengthened the weak hands.
@@ -9,7 +10,7 @@
 </verse><verse>Even as I have seen, they that plow iniquity, and sow wickedness, reap the same.
 </verse><verse>By the blast of God they perish, and by the breath of his nostrils are they consumed.
 </verse><verse>The roaring of the lion, and the voice of the fierce lion, and the teeth of the young lions, are broken.
-</verse><verse>The old lion perisheth for lack of prey, and the stout lion’s whelps are scattered abroad.
+</verse><verse>The old lion perisheth for lack of prey, and the stout lion&#x2019;s whelps are scattered abroad.
 </verse><verse>Now a thing was secretly brought to me, and mine ear received a little thereof.
 </verse><verse>In thoughts from the visions of the night, when deep sleep falleth on men,
 </verse><verse>Fear came upon me, and trembling, which made all my bones to shake.

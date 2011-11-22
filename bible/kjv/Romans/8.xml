@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ROM" n="8">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Romans" n="8">
       <verse>
       <supplied>There is</supplied> therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.
 </verse><verse>For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death.
@@ -36,7 +37,7 @@ for us with groanings which cannot be uttered.
 </verse><verse>Moreover whom he did predestinate, them he also called: and whom he called, them he also justified: and whom he justified, them he also glorified.
 </verse><verse>What shall we then say to these things? If God <supplied>be</supplied> for us, who <supplied>can be</supplied> against us?
 </verse><verse>He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?
-</verse><verse>Who shall lay any thing to the charge of God’s elect? <supplied>It is</supplied> God that justifieth.
+</verse><verse>Who shall lay any thing to the charge of God&#x2019;s elect? <supplied>It is</supplied> God that justifieth.
 </verse><verse>Who <supplied>is</supplied> he that condemneth? <supplied>It is</supplied> Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us.
 </verse><verse>Who shall separate us from the love of Christ? <supplied>shall</supplied> tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword?
 </verse><verse>As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter.

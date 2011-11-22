@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="1CO" n="15">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="1 Corinthians" n="15">
       <verse>Moreover, brethren, I declare unto you the gospel which I preached unto you, which also ye have received, and wherein ye stand;
 </verse><verse>By which also ye are saved, if ye keep in memory what I preached unto you, unless ye have believed in vain.
 </verse><verse>For I delivered unto you first of all that which I also received, how that Christ died for our sins according to the scriptures;
@@ -21,7 +22,7 @@
 </verse><verse>But now is Christ risen from the dead, <supplied>and</supplied> become the firstfruits of them that slept.
 </verse><verse>For since by man <supplied>came</supplied> death, by man <supplied>came</supplied> also the resurrection of the dead.
 </verse><verse>For as in Adam all die, even so in Christ shall all be made alive.
-</verse><verse>But every man in his own order: Christ the firstfruits; afterward they that are Christ’s at his coming.
+</verse><verse>But every man in his own order: Christ the firstfruits; afterward they that are Christ&#x2019;s at his coming.
 </verse><verse>Then <supplied>cometh</supplied> the end, when he shall have delivered up the kingdom to God, even the Father; when he shall have put down all rule and all authority and power.
 </verse><verse>For he must reign, till he hath put all enemies under his feet.
 </verse><verse>The last enemy <supplied>that</supplied> shall be destroyed <supplied>is</supplied> death.

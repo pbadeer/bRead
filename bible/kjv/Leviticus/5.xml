@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="LEV" n="5">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Leviticus" n="5">
       <verse>And if a soul sin, and hear the voice of swearing, and <supplied>is</supplied> a witness, whether he hath seen or known <supplied>of it;</supplied> if he do not utter <supplied>it,</supplied> then he shall bear his iniquity.
 </verse><verse>Or if a soul touch any unclean thing, whether <supplied>it be</supplied> a carcase of an unclean beast, or a carcase of unclean cattle, or the carcase of unclean creeping things, and <supplied>if</supplied> it be hidden from him; he also shall be unclean, and guilty.
 </verse><verse>Or if he touch the uncleanness of man, whatsoever uncleanness <supplied>it be</supplied> that a man shall be defiled withal, and it be hid from him; when he knoweth <supplied>of it,</supplied> then he shall be guilty.
@@ -14,7 +15,7 @@ from the flock, a lamb or a kid of the goats, for a sin offering; and the priest
       <verse>But if he be not able to bring two turtledoves, or two young pigeons, then he that sinned shall bring for his offering the tenth part of an ephah of fine flour for a sin offering; he shall put no oil upon it, neither shall he put <supplied>any</supplied>
 frankincense thereon: for it <supplied>is</supplied> a sin offering.
 </verse><verse>Then shall he bring it to the priest, and the priest shall take his handful of it, <supplied>even</supplied> a memorial thereof, and burn <supplied>it</supplied> on the altar, according to the offerings made by fire unto the LORD: it <supplied>is</supplied> a sin offering.
-</verse><verse>And the priest shall make an atonement for him as touching his sin that he hath sinned in one of these, and it shall be forgiven him: and <supplied>the remnant</supplied> shall be the priest’s, as a meat offering.
+</verse><verse>And the priest shall make an atonement for him as touching his sin that he hath sinned in one of these, and it shall be forgiven him: and <supplied>the remnant</supplied> shall be the priest&#x2019;s, as a meat offering.
      
       </verse>
       <verse>And the LORD spake unto Moses, saying,

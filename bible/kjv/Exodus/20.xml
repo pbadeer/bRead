@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="EXO" n="20">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Exodus" n="20">
       <verse>And God spake all these words, saying,
 </verse><verse>I <supplied>am</supplied> the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.
 </verse><verse>Thou shalt have no other gods before me.
@@ -18,7 +19,7 @@ gates:
 </verse><verse>Thou shalt not commit adultery.
 </verse><verse>Thou shalt not steal.
 </verse><verse>Thou shalt not bear false witness against thy neighbour.
-</verse><verse>Thou shalt not covet thy neighbour’s house, thou shalt not covet thy neighbour’s wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that <supplied>is</supplied> thy neighbour’s.
+</verse><verse>Thou shalt not covet thy neighbour&#x2019;s house, thou shalt not covet thy neighbour&#x2019;s wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that <supplied>is</supplied> thy neighbour&#x2019;s.
      
       </verse>
       <verse>And all the people saw the thunderings, and the lightnings, and the noise of the trumpet, and the mountain smoking: and when the people saw <supplied>it,</supplied> they removed, and stood afar off.

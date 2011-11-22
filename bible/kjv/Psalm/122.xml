@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="122">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="122">
       A Song of degrees of David.
       
       
@@ -39,7 +40,7 @@
       
        
         </verse>
-        <verse>For my brethren and companions’ sakes, I will now say, Peace <supplied>be</supplied> within thee.
+        <verse>For my brethren and companions&#x2019; sakes, I will now say, Peace <supplied>be</supplied> within thee.
       
       
        

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="DEU" n="14">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Deuteronomy" n="14">
       <verse>Ye <supplied>are</supplied> the children of the LORD your God: ye shall not cut yourselves, nor make any baldness between your eyes for the dead.
 </verse><verse>for thou <supplied>art</supplied> an holy people unto the LORD thy God, and the LORD hath chosen thee to be a peculiar people unto himself, above all the nations that <supplied>are</supplied> upon the earth.
      
@@ -30,7 +31,7 @@ unto you.
      
       </verse>
       <verse>Ye shall not eat <supplied>of</supplied> any thing that dieth of itself: thou shalt give it unto the stranger that <supplied>is</supplied> in thy gates, that he may eat it; or thou mayest sell it unto an alien: for thou <supplied>art</supplied> an holy people unto the LORD thy God.
-Thou shalt not seethe a kid in his mother’s milk.
+Thou shalt not seethe a kid in his mother&#x2019;s milk.
 </verse><verse>Thou shalt truly tithe all the increase of thy seed, that the field bringeth forth year by year.
 </verse><verse>And thou shalt eat before the LORD thy God, in the place which he shall choose to place his name there, the tithe of thy corn, of thy wine, and of thine oil, and the firstlings of thy herds and of thy flocks; that thou mayest learn to fear the
 LORD thy God always.

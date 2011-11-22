@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="LEV" n="25">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Leviticus" n="25">
       <verse>And the LORD spake unto Moses in mount Sinai, saying,
 </verse><verse>Speak unto the children of Israel, and say unto them, When ye come into the land which I give you, then shall the land keep a sabbath unto the LORD.
 </verse><verse>Six years thou shalt sow thy field, and six years thou shalt prune thy vineyard, and gather in the fruit thereof;
@@ -15,7 +16,7 @@ his family.
 </verse><verse>A jubile shall that fiftieth year be unto you: ye shall not sow, neither reap that which groweth of itself in it, nor gather <supplied>the grapes</supplied> in it of thy vine undressed.
 </verse><verse>For it <supplied>is</supplied> the jubile; it shall be holy unto you: ye shall eat the increase thereof out of the field.
 </verse><verse>In the year of this jubile ye shall return every man unto his possession.
-</verse><verse>And if thou sell <supplied>ought</supplied> unto thy neighbour, or buyest ought of thy neighbour’s hand, ye shall not oppress one another:
+</verse><verse>And if thou sell <supplied>ought</supplied> unto thy neighbour, or buyest ought of thy neighbour&#x2019;s hand, ye shall not oppress one another:
 </verse><verse>According to the number of years after the jubile thou shalt buy of thy neighbour, <supplied>and</supplied> according unto the number of years of the fruits he shall sell unto thee:
 </verse><verse>According to the multitude of years thou shalt increase the price thereof, and according to the fewness of years thou shalt diminish the price of it: for <supplied>according</supplied> to the number <supplied>of the years</supplied> of the fruits doth he sell unto
 thee.
@@ -63,9 +64,9 @@ Israel.
 rigour.
      
       </verse>
-      <verse>And if a sojourner or stranger wax rich by thee, and thy brother <supplied>that dwelleth</supplied> by him wax poor, and sell himself unto the stranger <supplied>or</supplied> sojourner by thee, or to the stock of the stranger’s family:
+      <verse>And if a sojourner or stranger wax rich by thee, and thy brother <supplied>that dwelleth</supplied> by him wax poor, and sell himself unto the stranger <supplied>or</supplied> sojourner by thee, or to the stock of the stranger&#x2019;s family:
 </verse><verse>After that he is sold he may be redeemed again; one of his brethren may redeem him:
-</verse><verse>Either his uncle, or his uncle’s son, may redeem him, or <supplied>any</supplied> that is nigh of kin unto him of his family may redeem him; or if he be able, he may redeem himself.
+</verse><verse>Either his uncle, or his uncle&#x2019;s son, may redeem him, or <supplied>any</supplied> that is nigh of kin unto him of his family may redeem him; or if he be able, he may redeem himself.
 </verse><verse>And he shall reckon with him that bought him from the year that he was sold to him unto the year of jubile: and the price of his sale shall be according unto the number of years, according to the time of an hired servant shall it be with him.
 </verse><verse>If <supplied>there be</supplied> yet many years <supplied>behind,</supplied> according unto them he shall give again the price of his redemption out of the money that he was bought for.
 </verse><verse>And if there remain but few years unto the year of jubile, then he shall count with him, <supplied>and</supplied> according unto his years shall he give him again the price of his redemption.

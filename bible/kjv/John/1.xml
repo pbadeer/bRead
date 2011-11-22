@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="JHN" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="John" n="1">
      
       <verse>In the beginning was the Word, and the Word was with God, and the Word was God.
 </verse><verse>The same was in the beginning with God.
@@ -32,7 +33,7 @@
 </verse><verse>And they which were sent were of the Pharisees.
 </verse><verse>And they asked him, and said unto him, Why baptizest thou then, if thou be not that Christ, nor Elias, neither that prophet?
 </verse><verse>John answered them, saying, I baptize with water: but there standeth one among you, whom ye know not;
-</verse><verse>He it is, who coming after me is preferred before me, whose shoe’s latchet I am not worthy to unloose.
+</verse><verse>He it is, who coming after me is preferred before me, whose shoe&#x2019;s latchet I am not worthy to unloose.
 </verse><verse>These things were done in Bethabara beyond Jordan, where John was baptizing.
      
       </verse>
@@ -49,7 +50,7 @@
 </verse><verse>And the two disciples heard him speak, and they followed Jesus.
 </verse><verse>Then Jesus turned, and saw them following, and saith unto them, <jesus>What seek ye?</jesus> They said unto him, Rabbi, (which is to say, being interpreted, Master,) where dwellest thou?
 </verse><verse>He saith unto them, <jesus>Come and see.</jesus> They came and saw where he dwelt, and abode with him that day: for it was about the tenth hour.
-</verse><verse>One of the two which heard John <supplied>speak,</supplied> and followed him, was Andrew, Simon Peter’s brother.
+</verse><verse>One of the two which heard John <supplied>speak,</supplied> and followed him, was Andrew, Simon Peter&#x2019;s brother.
 </verse><verse>He first findeth his own brother Simon, and saith unto him, We have found the Messias, which is, being interpreted, the Christ.
 </verse><verse>And he brought him to Jesus. And when Jesus beheld him, he said, <jesus>Thou art Simon the son of Jona: thou shalt be called Cephas,</jesus> which is by interpretation, A stone.
      

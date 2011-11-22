@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="JHN" n="11">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="John" n="11">
       <verse>Now a certain <supplied>man</supplied> was sick, <supplied>named</supplied> Lazarus, of Bethany, the town of Mary and her sister Martha.
 </verse><verse>(It was <supplied>that</supplied> Mary which anointed the Lord with ointment, and wiped his feet with her hair, whose brother Lazarus was sick.)
 </verse><verse>Therefore his sisters sent unto him, saying, Lord, behold, he whom thou lovest is sick.
@@ -48,7 +49,7 @@ had spoken, he cried with a loud voice, <jesus>Lazarus, come forth. </jesus></ve
 </verse><verse>Jesus therefore walked no more openly among the Jews; but went thence unto a country near to the wilderness, into a city called Ephraim, and there continued with his disciples.
      
       </verse>
-      <verse>And the Jews’ passover was nigh at hand: and many went out of the country up to Jerusalem before the passover, to purify themselves.
+      <verse>And the Jews&#x2019; passover was nigh at hand: and many went out of the country up to Jerusalem before the passover, to purify themselves.
 </verse><verse>Then sought they for Jesus, and spake among themselves, as they stood in the temple, What think ye, that he will not come to the feast?
 </verse><verse>Now both the chief priests and the Pharisees had given a commandment, that, if any man knew where he were, he should shew <supplied>it,</supplied> that they might take him.
      

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ROM" n="15">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Romans" n="15">
       <verse>We then that are strong ought to bear the infirmities of the weak, and not to please ourselves.
 </verse><verse>Let every one of us please <supplied>his</supplied> neighbour for <supplied>his</supplied> good to edification.
 </verse><verse>For even Christ pleased not himself; but, as it is written, The reproaches of them that reproached thee fell on me.
@@ -20,7 +21,7 @@
 </verse><verse>I have therefore whereof I may glory through Jesus Christ in those things which pertain to God.
 </verse><verse>For I will not dare to speak of any of those things which Christ hath not wrought by me, to make the Gentiles obedient, by word and deed,
 </verse><verse>Through mighty signs and wonders, by the power of the Spirit of God; so that from Jerusalem, and round about unto Illyricum, I have fully preached the gospel of Christ.
-</verse><verse>Yea, so have I strived to preach the gospel, not where Christ was named, lest I should build upon another man’s foundation:
+</verse><verse>Yea, so have I strived to preach the gospel, not where Christ was named, lest I should build upon another man&#x2019;s foundation:
 </verse><verse>But as it is written, To whom he was not spoken of, they shall see: and they that have not heard shall understand.
 </verse><verse>For which cause also I have been much hindered from coming to you.
 </verse><verse>But now having no more place in these parts, and having a great desire these many years to come unto you;
@@ -32,7 +33,7 @@ minister unto the saints.
 </verse><verse>And I am sure that, when I come unto you, I shall come in the fulness of the blessing of the gospel of Christ.
      
       </verse>
-      <verse>Now I beseech you, brethren, for the Lord Jesus Christ’s sake, and for the love of the Spirit, that ye strive together with me in <supplied>your</supplied> prayers to God for me;
+      <verse>Now I beseech you, brethren, for the Lord Jesus Christ&#x2019;s sake, and for the love of the Spirit, that ye strive together with me in <supplied>your</supplied> prayers to God for me;
 </verse><verse>That I may be delivered from them that do not believe in Judaea; and that my service which <supplied>I have</supplied> for Jerusalem may be accepted of the saints;
 </verse><verse>That I may come unto you with joy by the will of God, and may with you be refreshed.
 </verse><verse>Now the God of peace <supplied>be</supplied> with you all. Amen.

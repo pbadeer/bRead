@@ -1,7 +1,8 @@
-<chapter translation="KJV" testament="Old" book="MAL" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Malachi" n="1">
      
       <verse>The burden of the word of the LORD to Israel by Malachi.
-</verse><verse>I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? <supplied>Was</supplied> not Esau Jacob’s brother? saith the LORD: yet I loved Jacob,
+</verse><verse>I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? <supplied>Was</supplied> not Esau Jacob&#x2019;s brother? saith the LORD: yet I loved Jacob,
 </verse><verse>And I hated Esau, and laid his mountains and his heritage waste for the dragons of the wilderness.
 </verse><verse>Whereas Edom saith, We are impoverished, but we will return and build the desolate places; thus saith the LORD of hosts, They shall build, but I will throw down; and they shall call them, The border of wickedness, and, The people against whom
 the LORD hath indignation for ever.

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1CH" n="2">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Chronicles" n="2">
       <verse>These <supplied>are</supplied> the sons of Israel; Reuben, Simeon, Levi, and Judah, Issachar, and Zebulun,
 </verse><verse>Dan, Joseph, and Benjamin, Naphtali, Gad, and Asher.
      
@@ -30,7 +31,7 @@
       <verse>And afterward Hezron went in to the daughter of Machir the father of Gilead, whom he married when he <supplied>was</supplied> threescore years old; and she bare him Segub.
 </verse><verse>And Segub begat Jair, who had three and twenty cities in the land of Gilead.
 </verse><verse>And he took Geshur, and Aram, with the towns of Jair, from them, with Kenath, and the towns thereof, <supplied>even</supplied> threescore cities. All these <supplied>belonged to</supplied> the sons of Machir the father of Gilead.
-</verse><verse>And after that Hezron was dead in Caleb-ephratah, then Abiah Hezron’s wife bare him Ashur the father of Tekoa.
+</verse><verse>And after that Hezron was dead in Caleb-ephratah, then Abiah Hezron&#x2019;s wife bare him Ashur the father of Tekoa.
      
       </verse>
       <verse>And the sons of Jerahmeel the firstborn of Hezron were, Ram the firstborn, and Bunah, and Oren, and Ozem, <supplied>and</supplied> Ahijah.
@@ -58,9 +59,9 @@
 </verse><verse>And the sons of Hebron; Korah, and Tappuah, and Rekem, and Shema.
 </verse><verse>And Shema begat Raham, the father of Jorkoam: and Rekem begat Shammai.
 </verse><verse>And the son of Shammai <supplied>was</supplied> Maon: and Maon <supplied>was</supplied> the father of Beth-zur.
-</verse><verse>And Ephah, Caleb’s concubine, bare Haran, and Moza, and Gazez: and Haran begat Gazez.
+</verse><verse>And Ephah, Caleb&#x2019;s concubine, bare Haran, and Moza, and Gazez: and Haran begat Gazez.
 </verse><verse>And the sons of Jahdai; Regem, and Jotham, and Gesham, and Pelet, and Ephah, and Shaaph.
-</verse><verse>Maachah, Caleb’s concubine, bare Sheber, and Tirhanah.
+</verse><verse>Maachah, Caleb&#x2019;s concubine, bare Sheber, and Tirhanah.
 </verse><verse>She bare also Shaaph the father of Madmannah, Sheva the father of Machbenah, and the father of Gibea: and the daughter of Caleb <supplied>was</supplied> Achsa.
      
       </verse>

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="LUK" n="6">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Luke" n="6">
       <verse>And it came to pass on the second sabbath after the first, that he went through the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing <supplied>them</supplied> in <supplied>their</supplied> hands.
 </verse><verse>And certain of the Pharisees said unto them, Why do ye that which is not lawful to do on the sabbath days?
 </verse><verse>And Jesus answering them said, <jesus>Have ye not read so much as this, what David did, when himself was an hungred, and they which were with him; </jesus></verse><verse><jesus>How he went into the house of God, and did take and eat the shewbread, and gave also to
@@ -25,7 +26,7 @@ diseases;
      
       </verse>
       <verse>And he lifted up his eyes on his disciples, and said, <jesus>Blessed <supplied>be ye</supplied> poor: for yours is the kingdom of God. </jesus></verse><verse><jesus>Blessed <supplied>are ye</supplied> that hunger now: for ye shall be filled. Blessed <supplied>are ye</supplied> that weep now: for ye
-shall laugh. </jesus></verse><verse><jesus>Blessed are ye, when men shall hate you, and when they shall separate you <supplied>from their company,</supplied> and shall reproach <supplied>you,</supplied> and cast out your name as evil, for the Son of man’s sake. </jesus></verse><verse><jesus>Rejoice ye in
+shall laugh. </jesus></verse><verse><jesus>Blessed are ye, when men shall hate you, and when they shall separate you <supplied>from their company,</supplied> and shall reproach <supplied>you,</supplied> and cast out your name as evil, for the Son of man&#x2019;s sake. </jesus></verse><verse><jesus>Rejoice ye in
 that day, and leap for joy: for, behold, your reward <supplied>is</supplied> great in heaven: for in the like manner did their fathers unto the prophets. </jesus></verse><verse><jesus>But woe unto you that are rich! for ye have received your consolation. </jesus></verse><verse><jesus>Woe unto
 you that are full! for ye shall hunger. Woe unto you that laugh now! for ye shall mourn and weep. </jesus></verse><verse><jesus>Woe unto you, when all men shall speak well of you! for so did their fathers to the false prophets.
      
@@ -39,9 +40,9 @@ have ye? for sinners also do even the same. </jesus></verse><verse><jesus>And if
 and lend, hoping for nothing again; and your reward shall be great, and ye shall be the children of the Highest: for he is kind unto the unthankful and <supplied>to</supplied> the evil. </jesus></verse><verse><jesus>Be ye therefore merciful, as your Father also is merciful.
 </jesus></verse><verse><jesus>Judge not, and ye shall not be judged: condemn not, and ye shall not be condemned: forgive, and ye shall be forgiven: </jesus></verse><verse><jesus>Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running
 over, shall men give into your bosom. For with the same measure that ye mete withal it shall be measured to you again. </jesus></verse><verse><jesus>And he spake a parable unto them, Can the blind lead the blind? shall they not both fall into the ditch?
-</jesus></verse><verse><jesus>The disciple is not above his master: but every one that is perfect shall be as his master. </jesus></verse><verse><jesus>And why beholdest thou the mote that is in thy brother’s eye, but perceivest not the beam that is in thine own eye?
+</jesus></verse><verse><jesus>The disciple is not above his master: but every one that is perfect shall be as his master. </jesus></verse><verse><jesus>And why beholdest thou the mote that is in thy brother&#x2019;s eye, but perceivest not the beam that is in thine own eye?
 </jesus></verse><verse><jesus>Either how canst thou say to thy brother, Brother, let me pull out the mote that is in thine eye, when thou thyself beholdest not the beam that is in thine own eye? Thou hypocrite, cast out first the beam out of thine own eye, and then
-shalt thou see clearly to pull out the mote that is in thy brother’s eye. </jesus></verse><verse><jesus>For a good tree bringeth not forth corrupt fruit; neither doth a corrupt tree bring forth good fruit. </jesus></verse><verse><jesus>For every tree is known by his own fruit. For
+shalt thou see clearly to pull out the mote that is in thy brother&#x2019;s eye. </jesus></verse><verse><jesus>For a good tree bringeth not forth corrupt fruit; neither doth a corrupt tree bring forth good fruit. </jesus></verse><verse><jesus>For every tree is known by his own fruit. For
 of thorns men do not gather figs, nor of a bramble bush gather they grapes. </jesus></verse><verse><jesus>A good man out of the good treasure of his heart bringeth forth that which is good; and an evil man out of the evil treasure of his heart bringeth forth that
 which is evil: for of the abundance of the heart his mouth speaketh.
      

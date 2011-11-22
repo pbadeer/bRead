@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="DEU" n="19">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Deuteronomy" n="19">
       <verse>When the LORD thy God hath cut off the nations, whose land the LORD thy God giveth thee, and thou succeedest them, and dwellest in their cities, and in their houses;
 </verse><verse>Thou shalt separate three cities for thee in the midst of thy land, which the LORD thy God giveth thee to possess it.
 </verse><verse>Thou shalt prepare thee a way, and divide the coasts of thy land, which the LORD thy God giveth thee to inherit, into three parts, that every slayer may flee thither.
@@ -19,7 +20,7 @@ those cities, and live:
 </verse><verse>Thine eye shall not pity him, but thou shalt put away <supplied>the guilt of</supplied> innocent blood from Israel, that it may go well with thee.
      
       </verse>
-      <verse>Thou shalt not remove thy neighbour’s landmark, which they of old time have set in thine inheritance, which thou shalt inherit in the land that the LORD thy God giveth thee to possess it.
+      <verse>Thou shalt not remove thy neighbour&#x2019;s landmark, which they of old time have set in thine inheritance, which thou shalt inherit in the land that the LORD thy God giveth thee to possess it.
      
       </verse>
       <verse>One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established.

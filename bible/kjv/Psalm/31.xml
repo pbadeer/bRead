@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="31">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="31">
       To the chief Musician, A Psalm of David.
       
       
@@ -14,7 +15,7 @@
       
        
         </verse>
-        <verse>For thou <supplied>art</supplied> my rock and my fortress; therefore for thy name’s sake lead me, and guide me.
+        <verse>For thou <supplied>art</supplied> my rock and my fortress; therefore for thy name&#x2019;s sake lead me, and guide me.
       
       
        
@@ -79,7 +80,7 @@
       
        
         </verse>
-        <verse>Make thy face to shine upon thy servant: save me for thy mercies’ sake.
+        <verse>Make thy face to shine upon thy servant: save me for thy mercies&#x2019; sake.
       
       
        

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="20">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="20">
       <verse>Then answered Zophar the Naamathite, and said,
 </verse><verse>Therefore do my thoughts cause me to answer, and for <supplied>this</supplied> I make haste.
 </verse><verse>I have heard the check of my reproach, and the spirit of my understanding causeth me to answer.
@@ -14,7 +15,7 @@
 </verse><verse><supplied>Though</supplied> he spare it, and forsake it not; but keep it still within his mouth:
 </verse><verse><supplied>Yet</supplied> his meat in his bowels is turned, <supplied>it is</supplied> the gall of asps within him.
 </verse><verse>He hath swallowed down riches, and he shall vomit them up again: God shall cast them out of his belly.
-</verse><verse>He shall suck the poison of asps: the viper’s tongue shall slay him.
+</verse><verse>He shall suck the poison of asps: the viper&#x2019;s tongue shall slay him.
 </verse><verse>He shall not see the rivers, the floods, the brooks of honey and butter.
 </verse><verse>That which he laboured for shall he restore, and shall not swallow <supplied>it</supplied> down: according to <supplied>his</supplied> substance <supplied>shall</supplied> the restitution <supplied>be,</supplied> and he shall not rejoice <supplied>therein. </supplied></verse><verse>Because he hath oppressed
 <supplied>and</supplied> hath forsaken the poor; <supplied>because</supplied> he hath violently taken away an house which he builded not;

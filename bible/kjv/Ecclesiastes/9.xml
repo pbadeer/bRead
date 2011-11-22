@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="ECC" n="9">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Ecclesiastes" n="9">
       <verse>For all this I considered in my heart even to declare all this, that the righteous, and the wise, and their works, are in the hand of God: no man knoweth either love or hatred <supplied>by</supplied> all <supplied>that is</supplied> before them.
 </verse><verse>All <supplied>things come</supplied> alike to all: <supplied>there is</supplied> one event to the righteous, and to the wicked; to the good and to the clean, and to the unclean; to him that sacrificeth, and to him that sacrificeth not: as <supplied>is</supplied> the good, so
 <supplied>is</supplied> the sinner; <supplied>and</supplied> he that sweareth, as <supplied>he</supplied> that feareth an oath.
@@ -26,7 +27,7 @@ them all.
       <verse>This wisdom have I seen also under the sun, and it <supplied>seemed</supplied> great unto me:
 </verse><verse><supplied>There was</supplied> a little city, and few men within it; and there came a great king against it, and besieged it, and built great bulwarks against it:
 </verse><verse>Now there was found in it a poor wise man, and he by his wisdom delivered the city; yet no man remembered that same poor man.
-</verse><verse>Then said I, Wisdom <supplied>is</supplied> better than strength: nevertheless the poor man’s wisdom <supplied>is</supplied> despised, and his words are not heard.
+</verse><verse>Then said I, Wisdom <supplied>is</supplied> better than strength: nevertheless the poor man&#x2019;s wisdom <supplied>is</supplied> despised, and his words are not heard.
 </verse><verse>The words of wise <supplied>men are</supplied> heard in quiet more than the cry of him that ruleth among fools.
 </verse><verse>Wisdom <supplied>is</supplied> better than weapons of war: but one sinner destroyeth much good.
      

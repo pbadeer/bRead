@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="109">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="109">
       To the chief Musician, A Psalm of David.
       
       
@@ -105,7 +106,7 @@
       
        
         </verse>
-        <verse>But do thou for me, O GOD the Lord, for thy name’s sake: because thy mercy <supplied>is</supplied> good, deliver thou me.
+        <verse>But do thou for me, O GOD the Lord, for thy name&#x2019;s sake: because thy mercy <supplied>is</supplied> good, deliver thou me.
       
       
        

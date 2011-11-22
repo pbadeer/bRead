@@ -1,11 +1,12 @@
-<chapter translation="KJV" testament="New" book="JHN" n="21">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="John" n="21">
       <verse>After these things Jesus shewed himself again to the disciples at the sea of Tiberias; and on this wise shewed he <supplied>himself. </supplied></verse><verse>There were together Simon Peter, and Thomas called Didymus, and Nathanael of Cana in Galilee, and the
 <supplied>sons</supplied> of Zebedee, and two other of his disciples.
 </verse><verse>Simon Peter saith unto them, I go a fishing. They say unto him, We also go with thee. They went forth, and entered into a ship immediately; and that night they caught nothing.
 </verse><verse>But when the morning was now come, Jesus stood on the shore: but the disciples knew not that it was Jesus.
 </verse><verse>Then Jesus saith unto them, <jesus>Children, have ye any meat?</jesus> They answered him, No.
 </verse><verse>And he said unto them, <jesus>Cast the net on the right side of the ship, and ye shall find.</jesus> They cast therefore, and now they were not able to draw it for the multitude of fishes.
-</verse><verse>Therefore that disciple whom Jesus loved saith unto Peter, It is the Lord. Now when Simon Peter heard that it was the Lord, he girt <supplied>his</supplied> fisher’s coat <supplied>unto him,</supplied> (for he was naked,) and did cast himself into the sea.
+</verse><verse>Therefore that disciple whom Jesus loved saith unto Peter, It is the Lord. Now when Simon Peter heard that it was the Lord, he girt <supplied>his</supplied> fisher&#x2019;s coat <supplied>unto him,</supplied> (for he was naked,) and did cast himself into the sea.
 </verse><verse>And the other disciples came in a little ship; (for they were not far from land, but as it were two hundred cubits,) dragging the net with fishes.
 </verse><verse>As soon then as they were come to land, they saw a fire of coals there, and fish laid thereon, and bread.
 </verse><verse>Jesus saith unto them, <jesus>Bring of the fish which ye have now caught. </jesus></verse><verse>Simon Peter went up, and drew the net to land full of great fishes, and hundred and fifty and three: and for all there were so many, yet was not the net broken.

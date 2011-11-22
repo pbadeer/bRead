@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="DEU" n="32">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Deuteronomy" n="32">
       <verse>Give ear, O ye heavens, and I will speak; and hear, O earth, the words of my mouth.
 </verse><verse>My doctrine shall drop as the rain, my speech shall distil as the dew, as the small rain upon the tender herb, and as the showers upon the grass:
 </verse><verse>Because I will publish the name of the LORD: ascribe ye greatness unto our God.
@@ -9,7 +10,7 @@
       </verse>
       <verse>Remember the days of old, consider the years of many generations: ask thy father, and he will shew thee; thy elders, and they will tell thee.
 </verse><verse>When the most High divided to the nations their inheritance, when he separated the sons of Adam, he set the bounds of the people according to the number of the children of Israel.
-</verse><verse>For the LORD’S portion <supplied>is</supplied> his people; Jacob <supplied>is</supplied> the lot of his inheritance.
+</verse><verse>For the LORD&#x2019;S portion <supplied>is</supplied> his people; Jacob <supplied>is</supplied> the lot of his inheritance.
 </verse><verse>He found him in a desert land, and in the waste howling wilderness; he led him about, he instructed him, he kept him as the apple of his eye.
 </verse><verse>As an eagle stirreth up her nest, fluttereth over her young, spreadeth abroad her wings, taketh them, beareth them on her wings:
 </verse><verse><supplied>So</supplied> the LORD alone did lead him, and <supplied>there was</supplied> no strange god with him.

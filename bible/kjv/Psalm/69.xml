@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="69">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="69">
       To chief Musician upon Shoshannim, A <supplied>Psalm</supplied> of David.
       
       
@@ -39,7 +40,7 @@
       
        
         </verse>
-        <verse>I am become a stranger unto my brethren, and an alien unto my mother’s children.
+        <verse>I am become a stranger unto my brethren, and an alien unto my mother&#x2019;s children.
       
       
        

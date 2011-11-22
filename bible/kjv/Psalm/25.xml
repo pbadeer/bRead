@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="25">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="25">
       A <supplied>Psalm</supplied> of David.
       
       
@@ -34,7 +35,7 @@
       
        
         </verse>
-        <verse>Remember not the sins of my youth, nor my transgressions: according to thy mercy remember thou me for thy goodness’ sake, O LORD.
+        <verse>Remember not the sins of my youth, nor my transgressions: according to thy mercy remember thou me for thy goodness&#x2019; sake, O LORD.
       
       
        
@@ -54,7 +55,7 @@
       
        
         </verse>
-        <verse>For thy name’s sake, O LORD, pardon mine iniquity; for it <supplied>is</supplied> great.
+        <verse>For thy name&#x2019;s sake, O LORD, pardon mine iniquity; for it <supplied>is</supplied> great.
       
       
        

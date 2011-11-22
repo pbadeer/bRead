@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="2">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="2">
       
        
         <verse>Why do the heathen rage, and the people imagine a vain thing?
@@ -44,7 +45,7 @@
       
        
         </verse>
-        <verse>Thou shalt break them with a rod of iron; thou shalt dash them in pieces like a potter’s vessel.
+        <verse>Thou shalt break them with a rod of iron; thou shalt dash them in pieces like a potter&#x2019;s vessel.
       
       
        

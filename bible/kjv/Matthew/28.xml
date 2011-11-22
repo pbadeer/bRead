@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="28">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="28">
       <verse>In the end of the sabbath, as it began to dawn toward the first <supplied>day</supplied> of the week, came Mary Magdalene and the other Mary to see the sepulchre.
 </verse><verse>And, behold, there was a great earthquake: for the angel of the Lord descended from heaven, and came and rolled back the stone from the door, and sat upon it.
 </verse><verse>His countenance was like lightning, and his raiment white as snow:
@@ -16,7 +17,7 @@
       <verse>Now when they were going, behold, some of the watch came into the city, and shewed unto the chief priests all the things that were done.
 </verse><verse>And when they were assembled with the elders, and had taken counsel, they gave large money unto the soldiers,
 </verse><verse>Saying, Say ye, His disciples came by night, and stole him <supplied>away</supplied> while we slept.
-</verse><verse>And if this come to the governor’s ears, we will persuade him, and secure you.
+</verse><verse>And if this come to the governor&#x2019;s ears, we will persuade him, and secure you.
 </verse><verse>So they took the money, and did as they were taught: and this saying is commonly reported among the Jews until this day.
      
       </verse>

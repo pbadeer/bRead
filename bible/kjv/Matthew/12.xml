@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="12">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="12">
       <verse>At that time Jesus went on the sabbath day through the corn; and his disciples were an hungred, and began to pluck the ears of corn, and to eat.
 </verse><verse>But when the Pharisees saw <supplied>it,</supplied> they said unto him, Behold, thy disciples do that which is not lawful to do upon the sabbath day.
 </verse><verse>But he said unto them, <jesus>Have ye not read what David did, when he was an hungred, and they that were with him; </jesus></verse><verse><jesus>How he entered into the house of God, and did eat the shewbread, which was not lawful for him to eat, neither for them
@@ -27,7 +28,7 @@ sheep? Wherefore it is lawful to do well on the sabbath days. </jesus></verse><v
 </verse><verse>But when the Pharisees heard <supplied>it,</supplied> they said, This <supplied>fellow</supplied> doth not cast out devils, but by Beelzebub the prince of the devils.
 </verse><verse>And Jesus knew their thoughts, and said unto them, <jesus>Every kingdom divided against itself is brought to desolation; and every city or house divided against itself shall not stand: </jesus></verse><verse><jesus>And if Satan cast out Satan, he is divided
 against himself; how shall then his kingdom stand? </jesus></verse><verse><jesus>And if I by Beelzebub cast out devils, by whom do your children cast <supplied>them</supplied> out? therefore they shall be your judges. </jesus></verse><verse><jesus>But if I cast out devils by the Spirit of God,
-then the kingdom of God is come unto you. </jesus></verse><verse><jesus>Or else how can one enter into a strong man’s house, and spoil his goods, except he first bind the strong man? and then he will spoil his house. </jesus></verse><verse><jesus>He that is not with me is against
+then the kingdom of God is come unto you. </jesus></verse><verse><jesus>Or else how can one enter into a strong man&#x2019;s house, and spoil his goods, except he first bind the strong man? and then he will spoil his house. </jesus></verse><verse><jesus>He that is not with me is against
 me; and he that gathereth not with me scattereth abroad.
      
       </jesus>
@@ -43,7 +44,7 @@ day of judgment. </jesus></verse><verse><jesus>For by thy words thou shalt be ju
       </verse>
       <verse>Then certain of the scribes and of the Pharisees answered, saying, Master, we would see a sign from thee.
 </verse><verse>But he answered and said unto them, <jesus>An evil and adulterous generation seeketh after a sign; and there shall no sign be given to it, but the sign of the prophet Jonas: </jesus></verse><verse><jesus>For as Jonas was three days and three nights in the
-whale’s belly; so shall the Son of man be three days and three nights in the heart of the earth. </jesus></verse><verse><jesus>The men of Nineveh shall rise in judgment with this generation, and shall condemn it: because they repented at the preaching of Jonas;
+whale&#x2019;s belly; so shall the Son of man be three days and three nights in the heart of the earth. </jesus></verse><verse><jesus>The men of Nineveh shall rise in judgment with this generation, and shall condemn it: because they repented at the preaching of Jonas;
 and, behold, a greater than Jonas <supplied>is</supplied> here. </jesus></verse><verse><jesus>The queen of the south shall rise up in the judgment with this generation, and shall condemn it: for she came from the uttermost parts of the earth to hear the wisdom of Solomon; and,
 behold, a greater than Solomon <supplied>is</supplied> here. </jesus></verse><verse><jesus>When the unclean spirit is gone out of a man, he walketh through dry places, seeking rest, and findeth none. </jesus></verse><verse><jesus>Then he saith, I will return into my house from whence I came
 out; and when he is come, he findeth <supplied>it</supplied> empty, swept, and garnished. </jesus></verse><verse><jesus>Then goeth he, and taketh with himself seven other spirits more wicked than himself, and they enter in and dwell there: and the last <supplied>state</supplied> of that man

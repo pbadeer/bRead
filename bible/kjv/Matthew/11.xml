@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="11">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="11">
       <verse>And it came to pass, when Jesus had made an end of commanding his twelve disciples, he departed thence to teach and to preach in their cities.
 </verse><verse>Now when John had heard in the prison the works of Christ, he sent two of his disciples,
 </verse><verse>And said unto him, Art thou he that should come, or do we look for another?
@@ -8,7 +9,7 @@ have the gospel preached to them. </jesus></verse><verse><jesus>And blessed is <
       </jesus>
       </verse>
       <verse>And as they departed, Jesus began to say unto the multitudes concerning John, <jesus>What went ye out into the wilderness to see? A reed shaken with the wind? </jesus></verse><verse><jesus>But what went ye out for to see? A man clothed in soft raiment? behold,
-they that wear soft <supplied>clothing</supplied> are in kings’ houses. </jesus></verse><verse><jesus>But what went ye out for to see? A prophet? yea, I say unto you, and more than a prophet. </jesus></verse><verse><jesus>For this is <supplied>he,</supplied> of whom it is written, Behold, I send my
+they that wear soft <supplied>clothing</supplied> are in kings&#x2019; houses. </jesus></verse><verse><jesus>But what went ye out for to see? A prophet? yea, I say unto you, and more than a prophet. </jesus></verse><verse><jesus>For this is <supplied>he,</supplied> of whom it is written, Behold, I send my
 messenger before thy face, which shall prepare thy way before thee. </jesus></verse><verse><jesus>Verily I say unto you, Among them that are born of women there hath not risen a greater than John the Baptist: notwithstanding he that is least in the kingdom of
 heaven is greater than he. </jesus></verse><verse><jesus>And from the days of John the Baptist until now the kingdom of heaven suffereth violence, and the violent take it by force. </jesus></verse><verse><jesus>For all the prophets and the law prophesied until John.
 </jesus></verse><verse><jesus>And if ye will receive <supplied>it,</supplied> this is Elias, which was for to come. </jesus></verse><verse><jesus>He that hath ears to hear, let him hear.

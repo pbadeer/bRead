@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="3JN" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="3 John" n="1">
      
       <verse>The elder unto the wellbeloved Gaius, whom I love in the truth.
      
@@ -8,7 +9,7 @@
 </verse><verse>I have no greater joy than to hear that my children walk in truth.
 </verse><verse>Beloved, thou doest faithfully whatsoever thou doest to the brethren, and to strangers;
 </verse><verse>Which have borne witness of thy charity before the church: whom if thou bring forward on their journey after a godly sort, thou shalt do well:
-</verse><verse>Because that for his name’s sake they went forth, taking nothing of the Gentiles.
+</verse><verse>Because that for his name&#x2019;s sake they went forth, taking nothing of the Gentiles.
 </verse><verse>We therefore ought to receive such, that we might be fellowhelpers to the truth.
      
       </verse>

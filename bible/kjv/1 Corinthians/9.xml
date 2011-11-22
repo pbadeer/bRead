@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="1CO" n="9">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="1 Corinthians" n="9">
       <verse>Am I not an apostle? am I not free? have I not seen Jesus Christ our Lord? are not ye my work in the Lord?
 </verse><verse>If I be not an apostle unto others, yet doubtless I am to you: for the seal of mine apostleship are ye in the Lord.
 </verse><verse>Mine answer to them that do examine me is this,
@@ -21,7 +22,7 @@
 </verse><verse>And unto the Jews I became as a Jew, that I might gain the Jews; to them that are under the law, as under the law, that I might gain them that are under the law;
 </verse><verse>To them that are without law, as without law, (being not without law to God, but under the law to Christ,) that I might gain them that are without law.
 </verse><verse>To the weak became I as weak, that I might gain the weak: I am made all things to all <supplied>men,</supplied> that I might by all means save some.
-</verse><verse>And this I do for the gospel’s sake, that I might be partaker thereof with <supplied>you. </supplied></verse><verse>Know ye not that they which run in a race run all, but one receiveth the prize? So run, that ye may obtain.
+</verse><verse>And this I do for the gospel&#x2019;s sake, that I might be partaker thereof with <supplied>you. </supplied></verse><verse>Know ye not that they which run in a race run all, but one receiveth the prize? So run, that ye may obtain.
 </verse><verse>And every man that striveth for the mastery is temperate in all things. Now they <supplied>do it</supplied> to obtain a corruptible crown; but we an incorruptible.
 </verse><verse>I therefore so run, not as uncertainly; so fight I, not as one that beateth the air:
 </verse><verse>But I keep under my body, and bring <supplied>it</supplied> into subjection: lest that by any means, when I have preached to others, I myself should be a castaway.

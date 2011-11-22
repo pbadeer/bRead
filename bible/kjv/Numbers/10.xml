@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NUM" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Numbers" n="10">
       <verse>And the LORD spake unto Moses, saying,
 </verse><verse>Make thee two trumpets of silver; of a whole piece shalt thou make them: that thou mayest use them for the calling of the assembly, and for the journeying of the camps.
 </verse><verse>And when they shall blow with them, all the assembly shall assemble themselves to thee at the door of the tabernacle of the congregation.
@@ -40,14 +41,14 @@ before your God: I <supplied>am</supplied> the LORD your God.
 </verse><verse>Thus <supplied>were</supplied> the journeyings of the children of Israel according to their armies, when they set forward.
      
       </verse>
-      <verse>And Moses said unto Hobab, the son of Raguel the Midianite, Moses’ father in law, We are journeying unto the place of which the LORD said, I will give it you: come thou with us, and we will do thee good: for the LORD hath spoken good
+      <verse>And Moses said unto Hobab, the son of Raguel the Midianite, Moses&#x2019; father in law, We are journeying unto the place of which the LORD said, I will give it you: come thou with us, and we will do thee good: for the LORD hath spoken good
 concerning Israel.
 </verse><verse>And he said unto him, I will not go; but I will depart to mine own land, and to my kindred.
 </verse><verse>And he said, Leave us not, I pray thee; forasmuch as thou knowest how we are to encamp in the wilderness, and thou mayest be to us instead of eyes.
 </verse><verse>And it shall be, if thou go with us, yea, it shall be, that what goodness the LORD shall do unto us, the same will we do unto thee.
      
       </verse>
-      <verse>And they departed from the mount of the LORD three days’ journey: and the ark of the covenant of the LORD went before them in the three days’ journey, to search out a resting place for them.
+      <verse>And they departed from the mount of the LORD three days&#x2019; journey: and the ark of the covenant of the LORD went before them in the three days&#x2019; journey, to search out a resting place for them.
 </verse><verse>And the cloud of the LORD <supplied>was</supplied> upon them by day, when they went out of the camp.
 </verse><verse>And it came to pass, when the ark set forward, that Moses said, Rise up, LORD, and let thine enemies be scattered; and let them that hate thee flee before thee.
 </verse><verse>And when it rested, he said, Return, O LORD, unto the many thousands of Israel.

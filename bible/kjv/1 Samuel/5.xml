@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1SA" n="5">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Samuel" n="5">
       <verse>And the Philistines took the ark of God, and brought it from Eben-ezer unto Ashdod.
 </verse><verse>When the Philistines took the ark of God, they brought it into the house of Dagon, and set it by Dagon.
      
@@ -6,7 +7,7 @@
       <verse>And when they of Ashdod arose early on the morrow, behold, Dagon <supplied>was</supplied> fallen upon his face to the earth before the ark of the LORD. And they took Dagon, and set him in his place again.
 </verse><verse>And when they arose early on the morrow morning, behold, Dagon <supplied>was</supplied> fallen upon his face to the ground before the ark of the LORD; and the head of Dagon and both the palms of his hands <supplied>were</supplied> cut off upon the threshold; only
 <supplied>the stump of</supplied> Dagon was left to him.
-</verse><verse>Therefore neither the priests of Dagon, nor any that come into Dagon’s house, tread on the threshold of Dagon in Ashdod unto this day.
+</verse><verse>Therefore neither the priests of Dagon, nor any that come into Dagon&#x2019;s house, tread on the threshold of Dagon in Ashdod unto this day.
 </verse><verse>But the hand of the LORD was heavy upon them of Ashdod, and he destroyed them, and smote them with emerods, <supplied>even</supplied> Ashdod and the coasts thereof.
 </verse><verse>And when the men of Ashdod saw that <supplied>it was</supplied> so, they said, The ark of the God of Israel shall not abide with us: for his hand is sore upon us, and upon Dagon our god.
 </verse><verse>They sent therefore and gathered all the lords of the Philistines unto them, and said, What shall we do with the ark of the God of Israel? And they answered, Let the ark of the God of Israel be carried about unto Gath. And they carried the ark

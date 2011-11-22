@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="ISA" n="11">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Isaiah" n="11">
       <verse>And there shall come forth a rod out of the stem of Jesse, and a Branch shall grow out of his roots:
 </verse><verse>And the spirit of the LORD shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and of the fear of the LORD;
 </verse><verse>And shall make him of quick understanding in the fear of the LORD: and he shall not judge after the sight of his eyes, neither reprove after the hearing of his ears:
@@ -6,7 +7,7 @@
 </verse><verse>And righteousness shall be the girdle of his loins, and faithfulness the girdle of his reins.
 </verse><verse>The wolf also shall dwell with the lamb, and the leopard shall lie down with the kid; and the calf and the young lion and the fatling together; and a little child shall lead them.
 </verse><verse>And the cow and the bear shall feed; their young ones shall lie down together: and the lion shall eat straw like the ox.
-</verse><verse>And the sucking child shall play on the hole of the asp, and the weaned child shall put his hand on the cockatrice’ den.
+</verse><verse>And the sucking child shall play on the hole of the asp, and the weaned child shall put his hand on the cockatrice&#x2019; den.
 </verse><verse>They shall not hurt nor destroy in all my holy mountain: for the earth shall be full of the knowledge of the LORD, as the waters cover the sea.
      
       </verse>

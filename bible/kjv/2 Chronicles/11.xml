@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="2CH" n="11">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="2 Chronicles" n="11">
       <verse>And when Rehoboam was come to Jerusalem, he gathered of the house of Judah and Benjamin an hundred and fourscore thousand chosen <supplied>men,</supplied> which were warriors, to fight against Israel, that he might bring the kingdom again to Rehoboam.
 </verse><verse>But the word of the LORD came to Shemaiah the man of God, saying,
 </verse><verse>Speak unto Rehoboam the son of Solomon, king of Judah, and to all Israel in Judah and Benjamin, saying,
@@ -16,7 +17,7 @@
      
       </verse>
       <verse>And the priests and the Levites that <supplied>were</supplied> in all Israel resorted to him out of all their coasts.
-</verse><verse>For the Levites left their suburbs and their possession, and came to Judah and Jerusalem: for Jeroboam and his sons had cast them off from executing the priest’s office unto the LORD:
+</verse><verse>For the Levites left their suburbs and their possession, and came to Judah and Jerusalem: for Jeroboam and his sons had cast them off from executing the priest&#x2019;s office unto the LORD:
 </verse><verse>And he ordained him priests for the high places, and for the devils, and for the calves which he had made.
 </verse><verse>And after them out of all the tribes of Israel such as set their hearts to seek the LORD God of Israel came to Jerusalem, to sacrifice unto the LORD God of their fathers.
 </verse><verse>So they strengthened the kingdom of Judah, and made Rehoboam the son of Solomon strong, three years: for three years they walked in the way of David and Solomon.

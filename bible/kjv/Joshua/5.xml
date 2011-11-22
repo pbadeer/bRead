@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOS" n="5">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Joshua" n="5">
       <verse>And it came to pass, when all the kings of the Amorites, which <supplied>were</supplied> on the side of Jordan westward, and all the kings of the Canaanites, which <supplied>were</supplied> by the sea, heard that the LORD had dried up the waters of Jordan from
 before the children of Israel, until we were passed over, that their heart melted, neither was there spirit in them any more, because of the children of Israel.
      
@@ -26,7 +27,7 @@ for our adversaries?
      
       </verse>
       <verse>And he said, Nay; but <supplied>as</supplied> captain of the host of the LORD am I now come. And Joshua fell on his face to the earth, and did worship, and said unto him, What saith my lord unto his servant?
-</verse><verse>And the captain of the LORD’S host said unto Joshua, Loose thy shoe from off thy foot; for the place whereon thou standest <supplied>is</supplied> holy. And Joshua did so.
+</verse><verse>And the captain of the LORD&#x2019;S host said unto Joshua, Loose thy shoe from off thy foot; for the place whereon thou standest <supplied>is</supplied> holy. And Joshua did so.
      
       </verse>
       </chapter>

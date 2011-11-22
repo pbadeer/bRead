@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ACT" n="9">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="9">
       <verse>And Saul, yet breathing out threatenings and slaughter against the disciples of the Lord, went unto the high priest,
 </verse><verse>And desired of him letters to Damascus to the synagogues, that if he found any of this way, whether they were men or women, he might bring them bound unto Jerusalem.
 </verse><verse>And as he journeyed, he came near Damascus: and suddenly there shined round about him a light from heaven:
@@ -13,7 +14,7 @@ with him stood speechless, hearing a voice, but seeing no man.
 </verse><verse>And the Lord <supplied>said</supplied> unto him, <jesus>Arise, and go into the street which is called Straight, and enquire in the house of Judas for <supplied>one</supplied> called Saul, of Tarsus: for, behold, he prayeth, </jesus></verse><verse><jesus>And hath seen in a vision a man
 named Ananias coming in, and putting <supplied>his</supplied> hand on him, that he might receive his sight. </jesus></verse><verse>Then Ananias answered, Lord, I have heard by many of this man, how much evil he hath done to thy saints at Jerusalem:
 </verse><verse>And here he hath authority from the chief priests to bind all that call on thy name.
-</verse><verse>But the Lord said unto him, <jesus>Go thy way: for he is a chosen vessel unto me, to bear my name before the Gentiles, and kings, and the children of Israel: </jesus></verse><verse><jesus>For I will shew him how great things he must suffer for my name’s sake.
+</verse><verse>But the Lord said unto him, <jesus>Go thy way: for he is a chosen vessel unto me, to bear my name before the Gentiles, and kings, and the children of Israel: </jesus></verse><verse><jesus>For I will shew him how great things he must suffer for my name&#x2019;s sake.
 </jesus></verse><verse>And Ananias went his way, and entered into the house; and putting his hands on him said, Brother Saul, the Lord, <supplied>even</supplied> Jesus, that appeared unto thee in the way as thou camest, hath sent me, that thou mightest receive thy sight, and
 be filled with the Holy Ghost.
 </verse><verse>And immediately there fell from his eyes as it had been scales: and he received sight forthwith, and arose, and was baptized.

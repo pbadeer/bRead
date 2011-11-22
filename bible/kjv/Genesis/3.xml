@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="GEN" n="3">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Genesis" n="3">
       <verse>Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of every tree of the garden?
      
       </verse>
@@ -22,7 +23,7 @@ her; and he did eat.
 <supplied>of</supplied> it all the days of thy life;
 </verse><verse>Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field;
 </verse><verse>In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou <supplied>art,</supplied> and unto dust shalt thou return.
-</verse><verse>And Adam called his wife’s name Eve; because she was the mother of all living.
+</verse><verse>And Adam called his wife&#x2019;s name Eve; because she was the mother of all living.
 </verse><verse>Unto Adam also and to his wife did the LORD God make coats of skins, and clothed them.
 </verse><verse>And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:
 </verse><verse>Therefore the LORD God sent him forth from the garden of Eden, to till the ground from whence he was taken.

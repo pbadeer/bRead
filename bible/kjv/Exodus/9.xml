@@ -1,8 +1,9 @@
-<chapter translation="KJV" testament="Old" book="EXO" n="9">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Exodus" n="9">
       <verse>Then the LORD said unto Moses, Go in unto Pharaoh, and tell him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me.
 </verse><verse>For if thou refuse to let <supplied>them</supplied> go, and wilt hold them still,
 </verse><verse>Behold, the hand of the LORD is upon thy cattle which <supplied>is</supplied> in the field, upon the horses, upon the asses, upon the camels, upon the oxen, and upon the sheep: <supplied>there shall be</supplied> a very grievous murrain.
-</verse><verse>And the LORD shall sever between the cattle of Israel and the cattle of Egypt: and there shall nothing die of all <supplied>that is</supplied> the children’s of Israel.
+</verse><verse>And the LORD shall sever between the cattle of Israel and the cattle of Egypt: and there shall nothing die of all <supplied>that is</supplied> the children&#x2019;s of Israel.
 </verse><verse>And the LORD appointed a set time, saying, To morrow the LORD shall do this thing in the land.
 </verse><verse>And the LORD did that thing on the morrow, and all the cattle of Egypt died: but of the cattle of the children of Israel died not one.
 </verse><verse>And Pharaoh sent, and, behold, there was not one of the cattle of the Israelites dead. And the heart of Pharaoh was hardened, and he did not let the people go.
@@ -37,7 +38,7 @@ die.
       <verse>And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD <supplied>is</supplied> righteous, and I and my people <supplied>are</supplied> wicked.
 </verse><verse>Intreat the LORD (for <supplied>it is</supplied> enough) that there be no <supplied>more</supplied> mighty thunderings and hail; and I will let you go, and ye shall stay no longer.
 </verse><verse>And Moses said unto him, As soon as I am gone out of the city, I will spread abroad my hands unto the LORD; <supplied>and</supplied> the thunder shall cease, neither shall there be any more hail; that thou mayest know how that the earth <supplied>is</supplied> the
-LORD’S.
+LORD&#x2019;S.
 </verse><verse>But as for thee and thy servants, I know that ye will not yet fear the LORD God.
 </verse><verse>And the flax and the barley was smitten: for the barley was in the ear, and the flax <supplied>was</supplied> bolled.
 </verse><verse>But the wheat and the rie were not smitten: for they <supplied>were</supplied> not grown up.

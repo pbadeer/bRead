@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="LUK" n="22">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Luke" n="22">
       <verse>Now the feast of unleavened bread drew nigh, which is called the Passover.
 </verse><verse>And the chief priests and scribes sought how they might kill him; for they feared the people.
      
@@ -48,7 +49,7 @@ must yet be accomplished in me, And he was reckoned among the transgressors: for
       </jesus>
       </verse>
       <verse>And he came out, and went, as he was wont, to the mount of Olives; and his disciples also followed him.
-</verse><verse>And when he was at the place, he said unto them, <jesus>Pray that ye enter not into temptation. </jesus></verse><verse>And he was withdrawn from them about a stone’s cast, and kneeled down, and prayed,
+</verse><verse>And when he was at the place, he said unto them, <jesus>Pray that ye enter not into temptation. </jesus></verse><verse>And he was withdrawn from them about a stone&#x2019;s cast, and kneeled down, and prayed,
 </verse><verse>Saying, <jesus>Father, if thou be willing, remove this cup from me: nevertheless not my will, but thine, be done. </jesus></verse><verse>And there appeared an angel unto him from heaven, strengthening him.
 </verse><verse>And being in an agony he prayed more earnestly: and his sweat was as it were great drops of blood falling down to the ground.
 </verse><verse>And when he rose up from prayer, and was come to his disciples, he found them sleeping for sorrow,
@@ -67,7 +68,7 @@ forth no hands against me: but this is your hour, and the power of darkness.
      
       </jesus>
       </verse>
-      <verse>Then took they him, and led <supplied>him,</supplied> and brought him into the high priest’s house. And Peter followed afar off.
+      <verse>Then took they him, and led <supplied>him,</supplied> and brought him into the high priest&#x2019;s house. And Peter followed afar off.
 </verse><verse>And when they had kindled a fire in the midst of the hall, and were set down together, Peter sat down among them.
 </verse><verse>But a certain maid beheld him as he sat by the fire, and earnestly looked upon him, and said, This man was also with him.
 </verse><verse>And he denied him, saying, Woman, I know him not.

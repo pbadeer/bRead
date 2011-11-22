@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NEH" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Nehemiah" n="10">
       <verse>Now those that sealed <supplied>were,</supplied> Nehemiah, the Tirshatha, the son of Hachaliah, and Zidkijah,
 </verse><verse>Seraiah, Azariah, Jeremiah,
 </verse><verse>Pashur, Amariah, Malchijah,
@@ -30,7 +31,7 @@
       </verse>
       <verse>And the rest of the people, the priests, the Levites, the porters, the singers, the Nethinims, and all they that had separated themselves from the people of the lands unto the law of God, their wives, their sons, and their daughters, every one
 having knowledge, and having understanding;
-</verse><verse>They clave to their brethren, their nobles, and entered into a curse, and into an oath, to walk in God’s law, which was given by Moses the servant of God, and to observe and do all the commandments of the LORD our Lord, and his judgments and
+</verse><verse>They clave to their brethren, their nobles, and entered into a curse, and into an oath, to walk in God&#x2019;s law, which was given by Moses the servant of God, and to observe and do all the commandments of the LORD our Lord, and his judgments and
 his statutes;
 </verse><verse>And that we would not give our daughters unto the people of the land, nor take their daughters for our sons:
 </verse><verse>And <supplied>if</supplied> the people of the land bring ware or any victuals on the sabbath day to sell, <supplied>that</supplied> we would not buy it of them on the sabbath, or on the holy day: and <supplied>that</supplied> we would leave the seventh year, and the exaction of

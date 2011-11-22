@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="ISA" n="29">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Isaiah" n="29">
       <verse>Woe to Ariel, to Ariel, the city <supplied>where</supplied> David dwelt! add ye year to year; let them kill sacrifices.
 </verse><verse>Yet I will distress Ariel, and there shall be heaviness and sorrow: and it shall be unto me as Ariel.
 </verse><verse>And I will camp against thee round about, and will lay siege against thee with a mount, and I will raise forts against thee.
@@ -20,7 +21,7 @@ hath appetite: so shall the multitude of all the nations be, that fight against 
       <verse>Wherefore the Lord said, Forasmuch as this people draw near <supplied>me</supplied> with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear toward me is taught by the precept of men:
 </verse><verse>Therefore, behold, I will proceed to do a marvellous work among this people, <supplied>even</supplied> a marvellous work and a wonder: for the wisdom of their wise <supplied>men</supplied> shall perish, and the understanding of their prudent <supplied>men</supplied> shall be hid.
 </verse><verse>Woe unto them that seek deep to hide their counsel from the LORD, and their works are in the dark, and they say, Who seeth us? and who knoweth us?
-</verse><verse>Surely your turning of things upside down shall be esteemed as the potter’s clay: for shall the work say of him that made it, He made me not? or shall the thing framed say of him that framed it, He had no understanding?
+</verse><verse>Surely your turning of things upside down shall be esteemed as the potter&#x2019;s clay: for shall the work say of him that made it, He made me not? or shall the thing framed say of him that framed it, He had no understanding?
 </verse><verse><supplied>Is</supplied> it not yet a very little while, and Lebanon shall be turned into a fruitful field, and the fruitful field shall be esteemed as a forest?
      
       </verse>

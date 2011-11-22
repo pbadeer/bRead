@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="JUD" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Jude" n="1">
      
       <verse>Jude, the servant of Jesus Christ, and brother of James, to them that are sanctified by God the Father, and preserved in Jesus Christ, <supplied>and</supplied> called:
 </verse><verse>Mercy unto you, and peace, and love, be multiplied.
@@ -18,7 +19,7 @@ roots;
 </verse><verse>Raging waves of the sea, foaming out their own shame; wandering stars, to whom is reserved the blackness of darkness for ever.
 </verse><verse>And Enoch also, the seventh from Adam, prophesied of these, saying, Behold, the Lord cometh with ten thousands of his saints,
 </verse><verse>To execute judgment upon all, and to convince all that are ungodly among them of all their ungodly deeds which they have ungodly committed, and of all their hard <supplied>speeches</supplied> which ungodly sinners have spoken against him.
-</verse><verse>These are murmurers, complainers, walking after their own lusts; and their mouth speaketh great swelling <supplied>words,</supplied> having men’s persons in admiration because of advantage.
+</verse><verse>These are murmurers, complainers, walking after their own lusts; and their mouth speaketh great swelling <supplied>words,</supplied> having men&#x2019;s persons in admiration because of advantage.
      
       </verse>
       <verse>But, beloved, remember ye the words which were spoken before of the apostles of our Lord Jesus Christ;

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ROM" n="4">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Romans" n="4">
       <verse>What shall we say then that Abraham our father, as pertaining to the flesh, hath found?
 </verse><verse>For if Abraham were justified by works, he hath <supplied>whereof</supplied> to glory; but not before God.
 </verse><verse>For what saith the scripture? Abraham believed God, and it was counted unto him for righteousness.
@@ -18,7 +19,7 @@ imputed unto them also:
 </verse><verse>Therefore <supplied>it is</supplied> of faith, that <supplied>it might be</supplied> by grace; to the end the promise might be sure to all the seed; not to that only which is of the law, but to that also which is of the faith of Abraham; who is the father of us all,
 </verse><verse>(As it is written, I have made thee a father of many nations,) before him whom he believed, <supplied>even</supplied> God, who quickeneth the dead, and calleth those things which be not as though they were.
 </verse><verse>Who against hope believed in hope, that he might become the father of many nations; according to that which was spoken, So shall thy seed be.
-</verse><verse>And being not weak in faith, he considered not his own body now dead, when he was about an hundred years old, neither yet the deadness of Sarah’s womb:
+</verse><verse>And being not weak in faith, he considered not his own body now dead, when he was about an hundred years old, neither yet the deadness of Sarah&#x2019;s womb:
 </verse><verse>He staggered not at the promise of God through unbelief; but was strong in faith, giving glory to God;
 </verse><verse>And being fully persuaded that, what he had promised, he was able also to perform.
 </verse><verse>And therefore it was imputed to him for righteousness.

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="2CH" n="6">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="2 Chronicles" n="6">
       <verse>Then said Solomon, The LORD hath said that he would dwell in the thick darkness.
 </verse><verse>But I have built an house of habitation for thee, and a place for thy dwelling for ever.
 </verse><verse>And the king turned his face, and blessed the whole congregation of Israel: and all the congregation of Israel stood.
@@ -45,7 +46,7 @@ inheritance.
 </verse><verse>That they may fear thee, to walk in thy ways, so long as they live in the land which thou gavest unto our fathers.
      
       </verse>
-      <verse>Moreover concerning the stranger, which is not of thy people Israel, but is come from a far country for thy great name’s sake, and thy mighty hand, and thy stretched out arm; if they come and pray in this house;
+      <verse>Moreover concerning the stranger, which is not of thy people Israel, but is come from a far country for thy great name&#x2019;s sake, and thy mighty hand, and thy stretched out arm; if they come and pray in this house;
 </verse><verse>Then hear thou from the heavens, <supplied>even</supplied> from thy dwelling place, and do according to all that the stranger calleth to thee for; that all people of the earth may know thy name, and fear thee, as <supplied>doth</supplied> thy people Israel, and may
 know that this house which I have built is called by thy name.
 </verse><verse>If thy people go out to war against their enemies by the way that thou shalt send them, and they pray unto thee toward this city which thou hast chosen, and the house which I have built for thy name;

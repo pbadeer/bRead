@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="JAS" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="James" n="1">
      
       <verse>James, a servant of God and of the Lord Jesus Christ, to the twelve tribes which are scattered abroad, greeting.
      
@@ -29,7 +30,7 @@
 </verse><verse>For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass:
 </verse><verse>For he beholdeth himself, and goeth his way, and straightway forgetteth what manner of man he was.
 </verse><verse>But whoso looketh into the perfect law of liberty, and continueth <supplied>therein,</supplied> he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed.
-</verse><verse>If any man among you seem to be religious, and bridleth not his tongue, but deceiveth his own heart, this man’s religion <supplied>is</supplied> vain.
+</verse><verse>If any man among you seem to be religious, and bridleth not his tongue, but deceiveth his own heart, this man&#x2019;s religion <supplied>is</supplied> vain.
 </verse><verse>Pure religion and undefiled before God and the Father is this, To visit the fatherless and widows in their affliction, <supplied>and</supplied> to keep himself unspotted from the world.
      
       </verse>

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="GAL" n="3">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Galatians" n="3">
       <verse>O foolish Galatians, who hath bewitched you, that ye should not obey the truth, before whose eyes Jesus Christ hath been evidently set forth, crucified among you?
 </verse><verse>This only would I learn of you, Received ye the Spirit by the works of the law, or by the hearing of faith?
 </verse><verse>Are ye so foolish? having begun in the Spirit, are ye now made perfect by the flesh?
@@ -15,7 +16,7 @@
 </verse><verse>And the law is not of faith: but, The man that doeth them shall live in them.
 </verse><verse>Christ hath redeemed us from the curse of the law, being made a curse for us: for it is written, Cursed <supplied>is</supplied> every one that hangeth on a tree:
 </verse><verse>That the blessing of Abraham might come on the Gentiles through Jesus Christ; that we might receive the promise of the Spirit through faith.
-</verse><verse>Brethren, I speak after the manner of men; Though <supplied>it be</supplied> but a man’s covenant, yet <supplied>if it be</supplied> confirmed, no man disannulleth, or addeth thereto.
+</verse><verse>Brethren, I speak after the manner of men; Though <supplied>it be</supplied> but a man&#x2019;s covenant, yet <supplied>if it be</supplied> confirmed, no man disannulleth, or addeth thereto.
 </verse><verse>Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ.
 </verse><verse>And this I say, <supplied>that</supplied> the covenant, that was confirmed before of God in Christ, the law, which was four hundred and thirty years after, cannot disannul, that it should make the promise of none effect.
 </verse><verse>For if the inheritance <supplied>be</supplied> of the law, <supplied>it is</supplied> no more of promise: but God gave <supplied>it</supplied> to Abraham by promise.
@@ -31,7 +32,7 @@
 </verse><verse>For ye are all the children of God by faith in Christ Jesus.
 </verse><verse>For as many of you as have been baptized into Christ have put on Christ.
 </verse><verse>There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.
-</verse><verse>And if ye <supplied>be</supplied> Christ’s, then are ye Abraham’s seed, and heirs according to the promise.
+</verse><verse>And if ye <supplied>be</supplied> Christ&#x2019;s, then are ye Abraham&#x2019;s seed, and heirs according to the promise.
      
       </verse>
       </chapter>

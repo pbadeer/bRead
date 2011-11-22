@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="79">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="79">
       A Psalm of Asaph.
       
       
@@ -44,7 +45,7 @@
       
        
         </verse>
-        <verse>Help us, O God of our salvation, for the glory of thy name: and deliver us, and purge away our sins, for thy name’s sake.
+        <verse>Help us, O God of our salvation, for the glory of thy name: and deliver us, and purge away our sins, for thy name&#x2019;s sake.
       
       
        

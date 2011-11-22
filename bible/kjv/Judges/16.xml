@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JDG" n="16">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Judges" n="16">
       <verse>Then went Samson to Gaza, and saw there an harlot, and went in unto her.
 </verse><verse><supplied>And it was told</supplied> the Gazites, saying, Samson is come hither. And they compassed <supplied>him</supplied> in, and laid wait for him all night in the gate of the city, and were quiet all the night, saying, In the morning, when it is day, we shall kill
 him.
@@ -25,7 +26,7 @@ not known.
       </verse>
       <verse>And she said unto him, How canst thou say, I love thee, when thine heart <supplied>is</supplied> not with me? thou hast mocked me these three times, and hast not told me wherein thy great strength <supplied>lieth. </supplied></verse><verse>And it came to pass, when she pressed
 him daily with her words, and urged him, <supplied>so</supplied> that his soul was vexed unto death;
-</verse><verse>That he told her all his heart, and said unto her. There hath not come a razor upon mine head; for I <supplied>have been</supplied> a Nazarite unto God from my mother’s womb: if I be shaven, then my strength will go from me, and I shall become weak, and be
+</verse><verse>That he told her all his heart, and said unto her. There hath not come a razor upon mine head; for I <supplied>have been</supplied> a Nazarite unto God from my mother&#x2019;s womb: if I be shaven, then my strength will go from me, and I shall become weak, and be
 like any <supplied>other</supplied> man.
 </verse><verse>And when Delilah saw that he had told her all his heart, she sent and called for the lords of the Philistines, saying, Come up this once, for he hath shewed me all his heart. Then the lords of the Philistines came up unto her, and brought
 money in their hand.

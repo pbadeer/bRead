@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NUM" n="20">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Numbers" n="20">
       <verse>Then came the children of Israel, <supplied>even</supplied> the whole congregation, into the desert of Zin in the first month: and the people abode in Kadesh; and Miriam died there, and was buried there.
 </verse><verse>And there was no water for the congregation: and they gathered themselves together against Moses and against Aaron.
 </verse><verse>And the people chode with Moses, and spake, saying, Would God that we had died when our brethren died before the LORD!
@@ -22,7 +23,7 @@ congregation and their beasts drink.
       <verse>And Moses sent messengers from Kadesh unto the king of Edom, Thus saith thy brother Israel, Thou knowest all the travail that hath befallen us:
 </verse><verse>How our fathers went down into Egypt, and we have dwelt in Egypt a long time; and the Egyptians vexed us, and our fathers:
 </verse><verse>And when we cried unto the LORD, he heard our voice, and sent an angel, and hath brought us forth out of Egypt: and, behold, we <supplied>are</supplied> in Kadesh, a city in the uttermost of thy border:
-</verse><verse>Let us pass, I pray thee, through thy country: we will not pass through the fields, or through the vineyards, neither will we drink <supplied>of</supplied> the water of the wells: we will go by the king’s <supplied>high</supplied> way, we will not turn to the right
+</verse><verse>Let us pass, I pray thee, through thy country: we will not pass through the fields, or through the vineyards, neither will we drink <supplied>of</supplied> the water of the wells: we will go by the king&#x2019;s <supplied>high</supplied> way, we will not turn to the right
 hand nor to the left, until we have passed thy borders.
 </verse><verse>And Edom said unto him, Thou shalt not pass by me, lest I come out against thee with the sword.
 </verse><verse>And the children of Israel said unto him, We will go by the high way: and if I and my cattle drink of thy water, then I will pay for it: I will only, without <supplied>doing</supplied> any thing <supplied>else,</supplied> go through on my feet.

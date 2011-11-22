@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="JHN" n="8">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="John" n="8">
       <verse>Jesus went unto the mount of Olives.
 </verse><verse>And early in the morning he came again into the temple, and all the people came unto him; and he sat down, and taught them.
 </verse><verse>And the scribes and Pharisees brought unto him a woman taken in adultery; and when they had set her in the midst,
@@ -28,15 +29,15 @@ with me: the Father hath not left me alone; for I do always those things that pl
      
       </jesus>
       </verse>
-      <verse>They answered him, We be Abraham’s seed, and were never in bondage to any man: how sayest thou, <jesus>Ye shall be made free? </jesus></verse><verse>Jesus answered them, <jesus>Verily, verily, I say unto you, Whosoever committeth sin is the servant of sin.
-</jesus></verse><verse><jesus>And the servant abideth not in the house for ever: <supplied>but</supplied> the Son abideth ever. </jesus></verse><verse><jesus>If the Son therefore shall make you free, ye shall be free indeed. </jesus></verse><verse><jesus>I know that ye are Abraham’s seed; but ye seek to kill
+      <verse>They answered him, We be Abraham&#x2019;s seed, and were never in bondage to any man: how sayest thou, <jesus>Ye shall be made free? </jesus></verse><verse>Jesus answered them, <jesus>Verily, verily, I say unto you, Whosoever committeth sin is the servant of sin.
+</jesus></verse><verse><jesus>And the servant abideth not in the house for ever: <supplied>but</supplied> the Son abideth ever. </jesus></verse><verse><jesus>If the Son therefore shall make you free, ye shall be free indeed. </jesus></verse><verse><jesus>I know that ye are Abraham&#x2019;s seed; but ye seek to kill
 me, because my word hath no place in you. </jesus></verse><verse><jesus>I speak that which I have seen with my Father: and ye do that which ye have seen with your father. </jesus></verse><verse>They answered and said unto him, Abraham is our father. Jesus saith unto them,
-<jesus>If ye were Abraham’s children, ye would do the works of Abraham. </jesus></verse><verse><jesus>But now ye seek to kill me, a man that hath told you the truth, which I have heard of God: this did not Abraham. </jesus></verse><verse><jesus>Ye do the deeds of your father.</jesus>
+<jesus>If ye were Abraham&#x2019;s children, ye would do the works of Abraham. </jesus></verse><verse><jesus>But now ye seek to kill me, a man that hath told you the truth, which I have heard of God: this did not Abraham. </jesus></verse><verse><jesus>Ye do the deeds of your father.</jesus>
 Then said they to him, We be not born of fornication; we have one Father, <supplied>even</supplied> God.
 </verse><verse>Jesus said unto them, <jesus>If God were your Father, ye would love me: for I proceeded forth and came from God; neither came I of myself, but he sent me. </jesus></verse><verse><jesus>Why do ye not understand my speech? <supplied>even</supplied> because ye cannot hear my
 word. </jesus></verse><verse><jesus>Ye are of your father the devil, and the lusts of <supplied>your</supplied> father ye will do. He was a murderer from the beginning, and abode not in the truth, because there is no truth in him. When he speaketh a lie, he speaketh of his own:
 for he is a liar, and the father of it. </jesus></verse><verse><jesus>And because I tell <supplied>you</supplied> the truth, ye believe me not. </jesus></verse><verse><jesus>Which of you convinceth me of sin? And if I say the truth, why do ye not believe me? </jesus></verse><verse><jesus>He that is of God
-heareth God’s words: ye therefore hear <supplied>them</supplied> not, because ye are not of God. </jesus></verse><verse>Then answered the Jews, and said unto him, Say we not well that thou art a Samaritan, and hast a devil?
+heareth God&#x2019;s words: ye therefore hear <supplied>them</supplied> not, because ye are not of God. </jesus></verse><verse>Then answered the Jews, and said unto him, Say we not well that thou art a Samaritan, and hast a devil?
 </verse><verse>Jesus answered, <jesus>I have not a devil; but I honour my Father, and ye do dishonour me. </jesus></verse><verse><jesus>And I seek not mine own glory: there is one that seeketh and judgeth. </jesus></verse><verse><jesus>Verily, verily, I say unto you, If a man keep my saying,
 he shall never see death. </jesus></verse><verse>Then said the Jews unto him, Now we know that thou hast a devil. Abraham is dead, and the prophets; and thou sayest, <jesus>If a man keep my saying, he shall never taste of death. </jesus></verse><verse>Art thou greater than our
 father Abraham, which is dead? and the prophets are dead: whom makest thou thyself?

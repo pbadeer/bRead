@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NUM" n="27">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Numbers" n="27">
       <verse>Then came the daughters of Zelophehad, the son of Hepher, the son of Gilead, the son of Machir, the son of Manasseh, of the families of Manasseh the son of Joseph: and these are the names of his daughters; Mahlah, Noah, and Hoglah, and
 Milcah, and Tirzah.
 </verse><verse>And they stood before Moses, and before Eleazar the priest, and before the princes and all the congregation, <supplied>by</supplied> the door of the tabernacle of the congregation, saying,
@@ -8,10 +9,10 @@ Milcah, and Tirzah.
      
       </verse>
       <verse>And the LORD spake unto Moses, saying,
-</verse><verse>The daughters of Zelophehad speak right: thou shalt surely give them a possession of an inheritance among their father’s brethren; and thou shalt cause the inheritance of their father to pass unto them.
+</verse><verse>The daughters of Zelophehad speak right: thou shalt surely give them a possession of an inheritance among their father&#x2019;s brethren; and thou shalt cause the inheritance of their father to pass unto them.
 </verse><verse>And thou shalt speak unto the children of Israel, saying, If a man die, and have no son, then ye shall cause his inheritance to pass unto his daughter.
 </verse><verse>And if he have no daughter, then ye shall give his inheritance unto his brethren.
-</verse><verse>And if he have no brethren, then ye shall give his inheritance unto his father’s brethren.
+</verse><verse>And if he have no brethren, then ye shall give his inheritance unto his father&#x2019;s brethren.
 </verse><verse>And if his father have no brethren, then ye shall give his inheritance unto his kinsman that is next to him of his family, and he shall possess it: and it shall be unto the children of Israel a statute of judgment, as the LORD commanded
 Moses.
      

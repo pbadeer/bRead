@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="19">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="19">
       <verse>And it came to pass, <supplied>that</supplied> when Jesus had finished these sayings, he departed from Galilee, and came into the coasts of Judaea beyond Jordan;
 </verse><verse>And great multitudes followed him; and he healed them there.
      
@@ -13,8 +14,8 @@ fornication, and shall marry another, committeth adultery: and whoso marrieth he
       </jesus>
       </verse>
       <verse>His disciples say unto him, If the case of the man be so with <supplied>his</supplied> wife, it is not good to marry.
-</verse><verse>But he said unto them, <jesus>All <supplied>men</supplied> cannot receive this saying, save <supplied>they</supplied> to whom it is given. </jesus></verse><verse><jesus>For there are some eunuchs, which were so born from <supplied>their</supplied> mother’s womb: and there are some eunuchs, which were
-made eunuchs of men: and there be eunuchs, which have made themselves eunuchs for the kingdom of heaven’s sake. He that is able to receive <supplied>it,</supplied> let him receive <supplied>it.</supplied>
+</verse><verse>But he said unto them, <jesus>All <supplied>men</supplied> cannot receive this saying, save <supplied>they</supplied> to whom it is given. </jesus></verse><verse><jesus>For there are some eunuchs, which were so born from <supplied>their</supplied> mother&#x2019;s womb: and there are some eunuchs, which were
+made eunuchs of men: and there be eunuchs, which have made themselves eunuchs for the kingdom of heaven&#x2019;s sake. He that is able to receive <supplied>it,</supplied> let him receive <supplied>it.</supplied>
      
       </jesus>
       </verse>
@@ -38,7 +39,7 @@ man to enter into the kingdom of God. </jesus></verse><verse>When his disciples 
       </verse>
       <verse>Then answered Peter and said unto him, Behold, we have forsaken all, and followed thee; what shall we have therefore?
 </verse><verse>And Jesus said unto them, <jesus>Verily I say unto you, That ye which have followed me, in the regeneration when the Son of man shall sit in the throne of his glory, ye also shall sit upon twelve thrones, judging the twelve tribes of Israel.
-</jesus></verse><verse><jesus>And every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my name’s sake, shall receive an hundredfold, and shall inherit everlasting life. </jesus></verse><verse><jesus>But many
+</jesus></verse><verse><jesus>And every one that hath forsaken houses, or brethren, or sisters, or father, or mother, or wife, or children, or lands, for my name&#x2019;s sake, shall receive an hundredfold, and shall inherit everlasting life. </jesus></verse><verse><jesus>But many
 <supplied>that are</supplied> first shall be last; and the last <supplied>shall be</supplied> first.
      
       </jesus>

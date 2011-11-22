@@ -1,6 +1,7 @@
-<chapter translation="KJV" testament="Old" book="JOS" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Joshua" n="1">
      
-      <verse>Now after the death of Moses the servant of the LORD it came to pass, that the LORD spake unto Joshua the son of Nun, Moses’ minister, saying,
+      <verse>Now after the death of Moses the servant of the LORD it came to pass, that the LORD spake unto Joshua the son of Nun, Moses&#x2019; minister, saying,
 </verse><verse>Moses my servant is dead; now therefore arise, go over this Jordan, thou, and all this people, unto the land which I do give to them, <supplied>even</supplied> to the children of Israel.
 </verse><verse>Every place that the sole of your foot shall tread upon, that have I given unto you, as I said unto Moses.
 </verse><verse>From the wilderness and this Lebanon even unto the great river, the river Euphrates, all the land of the Hittites, and unto the great sea toward the going down of the sun, shall be your coast.
@@ -20,7 +21,7 @@ have good success.
       <verse>And to the Reubenites, and to the Gadites, and to half the tribe of Manasseh, spake Joshua, saying,
 </verse><verse>Remember the word which Moses the servant of the LORD commanded you, saying, The LORD your God hath given you rest, and hath given you this land.
 </verse><verse>Your wives, your little ones, and your cattle, shall remain in the land which Moses gave you on this side Jordan; but ye shall pass before your brethren armed, all the mighty men of valour, and help them;
-</verse><verse>Until the LORD have given your brethren rest, as <supplied>he hath given</supplied> you, and they also have possessed the land which the LORD your God giveth them: then ye shall return unto the land of your possession, and enjoy it, which Moses the LORD’S
+</verse><verse>Until the LORD have given your brethren rest, as <supplied>he hath given</supplied> you, and they also have possessed the land which the LORD your God giveth them: then ye shall return unto the land of your possession, and enjoy it, which Moses the LORD&#x2019;S
 servant gave you on this side Jordan toward the sunrising.
      
       </verse>

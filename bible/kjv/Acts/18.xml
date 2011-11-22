@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ACT" n="18">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="18">
       <verse>After these things Paul departed from Athens, and came to Corinth;
 </verse><verse>And found a certain Jew named Aquila, born in Pontus, lately come from Italy, with his wife Priscilla; (because that Claudius had commanded all Jews to depart from Rome:) and came unto them.
 </verse><verse>And because he was of the same craft, he abode with them, and wrought: for by their occupation they were tentmakers.
@@ -7,7 +8,7 @@
 </verse><verse>And when they opposed themselves, and blasphemed, he shook <supplied>his</supplied> raiment, and said unto them, Your blood <supplied>be</supplied> upon your own heads; I <supplied>am</supplied> clean: from henceforth I will go unto the Gentiles.
      
       </verse>
-      <verse>And he departed thence, and entered into a certain <supplied>man’s</supplied> house, named Justus, <supplied>one</supplied> that worshipped God, whose house joined hard to the synagogue.
+      <verse>And he departed thence, and entered into a certain <supplied>man&#x2019;s</supplied> house, named Justus, <supplied>one</supplied> that worshipped God, whose house joined hard to the synagogue.
 </verse><verse>And Crispus, the chief ruler of the synagogue, believed on the Lord with all his house; and many of the Corinthians hearing believed, and were baptized.
 </verse><verse>Then spake the Lord to Paul in the night by a vision, <jesus>Be not afraid, but speak, and hold not thy peace: </jesus></verse><verse><jesus>For I am with thee, and no man shall set on thee to hurt thee: for I have much people in this city. </jesus></verse><verse>And he
 continued <supplied>there</supplied> a year and six months, teaching the word of God among them.

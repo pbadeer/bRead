@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="GEN" n="18">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Genesis" n="18">
       <verse>And the LORD appeared unto him in the plains of Mamre: and he sat in the tent door in the heat of the day;
 </verse><verse>And he lift up his eyes and looked, and, lo, three men stood by him: and when he saw <supplied>them,</supplied> he ran to meet them from the tent door, and bowed himself toward the ground,
 </verse><verse>And said, My Lord, if now I have found favour in thy sight, pass not away, I pray thee, from thy servant:
@@ -31,10 +32,10 @@
 </verse><verse>And the LORD said, If I find in Sodom fifty righteous within the city, then I will spare all the place for their sakes.
 </verse><verse>And Abraham answered and said, Behold now, I have taken upon me to speak unto the Lord, which <supplied>am but</supplied> dust and ashes:
 </verse><verse>Peradventure there shall lack five of the fifty righteous: wilt thou destroy all the city for <supplied>lack of</supplied> five? And he said, If I find there forty and five, I will not destroy <supplied>it. </supplied></verse><verse>And he spake unto him yet again, and said,
-Peradventure there shall be forty found there. And he said, I will not do <supplied>it</supplied> for forty’s sake.
+Peradventure there shall be forty found there. And he said, I will not do <supplied>it</supplied> for forty&#x2019;s sake.
 </verse><verse>And he said <supplied>unto him,</supplied> Oh let not the Lord be angry, and I will speak: Peradventure there shall thirty be found there. And he said, I will not do <supplied>it,</supplied> if I find thirty there.
-</verse><verse>And he said, Behold now, I have taken upon me to speak unto the Lord: Peradventure there shall be twenty found there. And he said, I will not destroy <supplied>it</supplied> for twenty’s sake.
-</verse><verse>And he said, Oh let not the Lord be angry, and I will speak yet but this once: Peradventure ten shall be found there. And he said, I will not destroy <supplied>it</supplied> for ten’s sake.
+</verse><verse>And he said, Behold now, I have taken upon me to speak unto the Lord: Peradventure there shall be twenty found there. And he said, I will not destroy <supplied>it</supplied> for twenty&#x2019;s sake.
+</verse><verse>And he said, Oh let not the Lord be angry, and I will speak yet but this once: Peradventure ten shall be found there. And he said, I will not destroy <supplied>it</supplied> for ten&#x2019;s sake.
 </verse><verse>And the LORD went his way, as soon as he had left communing with Abraham: and Abraham returned unto his place.
      
       </verse>

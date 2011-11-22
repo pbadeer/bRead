@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NUM" n="21">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Numbers" n="21">
       <verse>And <supplied>when</supplied> king Arad the Canaanite, which dwelt in the south, heard tell that Israel came by the way of the spies; then he fought against Israel, and took <supplied>some</supplied> of them prisoners.
 </verse><verse>And Israel vowed a vow unto the LORD, and said, If thou wilt indeed deliver this people into my hand, then I will utterly destroy their cities.
 </verse><verse>And the LORD hearkened to the voice of Israel, and delivered up the Canaanites; and they utterly destroyed them and their cities: and he called the name of the place Hormah.
@@ -32,7 +33,7 @@
      
       </verse>
       <verse>And Israel sent messengers unto Sihon king of the Amorites, saying,
-</verse><verse>Let me pass through thy land: we will not turn into the fields, or into the vineyards; we will not drink <supplied>of</supplied> the waters of the well: <supplied>but</supplied> we will go along by the king’s <supplied>high</supplied> way, until we be past thy borders.
+</verse><verse>Let me pass through thy land: we will not turn into the fields, or into the vineyards; we will not drink <supplied>of</supplied> the waters of the well: <supplied>but</supplied> we will go along by the king&#x2019;s <supplied>high</supplied> way, until we be past thy borders.
 </verse><verse>And Sihon would not suffer Israel to pass through his border: but Sihon gathered all his people together, and went out against Israel into the wilderness: and he came to Jahaz, and fought against Israel.
 </verse><verse>And Israel smote him with the edge of the sword, and possessed his land from Arnon unto Jabbok, even unto the children of Ammon: for the border of the children of Ammon <supplied>was</supplied> strong.
 </verse><verse>And Israel took all these cities: and Israel dwelt in all the cities of the Amorites, in Heshbon, and in all the villages thereof.

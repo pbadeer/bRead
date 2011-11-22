@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="2CH" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="2 Chronicles" n="10">
       <verse>And Rehoboam went to Shechem: for to Shechem were all Israel come to make him king.
 </verse><verse>And it came to pass, when Jeroboam the son of Nebat, who <supplied>was</supplied> in Egypt, whither he had fled from the presence of Solomon the king, heard <supplied>it,</supplied> that Jeroboam returned out of Egypt.
 </verse><verse>And they sent and called him. So Jeroboam and all Israel came and spake to Rehoboam, saying,
@@ -11,7 +12,7 @@
 </verse><verse>But he forsook the counsel which the old men gave him, and took counsel with the young men that were brought up with him, that stood before him.
 </verse><verse>And he said unto them, What advice give ye that we may return answer to this people, which have spoken to me, saying, Ease somewhat the yoke that thy father did put upon us?
 </verse><verse>And the young men that were brought up with him spake unto him, saying, Thus shalt thou answer the people that spake unto thee, saying, Thy father made our yoke heavy, but make thou <supplied>it</supplied> somewhat lighter for us; thus shalt thou say unto
-them, My little <supplied>finger</supplied> shall be thicker than my father’s loins.
+them, My little <supplied>finger</supplied> shall be thicker than my father&#x2019;s loins.
 </verse><verse>For whereas my father put a heavy yoke upon you, I will put more to your yoke: my father chastised you with whips, but I <supplied>will chastise you</supplied> with scorpions.
 </verse><verse>So Jeroboam and all the people came to Rehoboam on the third day, as the king bade, saying, Come again to me on the third day.
 </verse><verse>And the king answered them roughly; and king Rehoboam forsook the counsel of the old men,

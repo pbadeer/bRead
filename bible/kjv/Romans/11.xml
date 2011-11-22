@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ROM" n="11">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Romans" n="11">
       <verse>I say then, Hath God cast away his people? God forbid. For I also am an Israelite, of the seed of Abraham, <supplied>of</supplied> the tribe of Benjamin.
 </verse><verse>God hath not cast away his people which he foreknew. Wot ye not what the scripture saith of Elias? how he maketh intercession to God against Israel, saying,
 </verse><verse>Lord, they have killed thy prophets, and digged down thine altars; and I am left alone, and they seek my life.
@@ -32,7 +33,7 @@
       <verse>For I would not, brethren, that ye should be ignorant of this mystery, lest ye should be wise in your own conceits; that blindness in part is happened to Israel, until the fulness of the Gentiles be come in.
 </verse><verse>And so all Israel shall be saved: as it is written, There shall come out of Sion the Deliverer, and shall turn away ungodliness from Jacob:
 </verse><verse>For this <supplied>is</supplied> my covenant unto them, when I shall take away their sins.
-</verse><verse>As concerning the gospel, <supplied>they are</supplied> enemies for your sakes: but as touching the election, <supplied>they are</supplied> beloved for the fathers’ sakes.
+</verse><verse>As concerning the gospel, <supplied>they are</supplied> enemies for your sakes: but as touching the election, <supplied>they are</supplied> beloved for the fathers&#x2019; sakes.
 </verse><verse>For the gifts and calling of God <supplied>are</supplied> without repentance.
 </verse><verse>For as ye in times past have not believed God, yet have now obtained mercy through their unbelief:
 </verse><verse>Even so have these also now not believed, that through your mercy they also may obtain mercy.

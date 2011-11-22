@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PRO" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Proverbs" n="10">
       <verse>The proverbs of Solomon. A wise son maketh a glad father: but a foolish son <supplied>is</supplied> the heaviness of his mother.
 </verse><verse>Treasures of wickedness profit nothing: but righteousness delivereth from death.
 </verse><verse>The LORD will not suffer the soul of the righteous to famish: but he casteth away the substance of the wicked.
@@ -13,7 +14,7 @@
 </verse><verse>Hatred stirreth up strifes: but love covereth all sins.
 </verse><verse>In the lips of him that hath understanding wisdom is found: but a rod <supplied>is</supplied> for the back of him that is void of understanding.
 </verse><verse>Wise <supplied>men</supplied> lay up knowledge: but the mouth of the foolish <supplied>is</supplied> near destruction.
-</verse><verse>The rich man’s wealth <supplied>is</supplied> his strong city: the destruction of the poor <supplied>is</supplied> their poverty.
+</verse><verse>The rich man&#x2019;s wealth <supplied>is</supplied> his strong city: the destruction of the poor <supplied>is</supplied> their poverty.
 </verse><verse>The labour of the righteous <supplied>tendeth</supplied> to life: the fruit of the wicked to sin.
 </verse><verse>He <supplied>is in</supplied> the way of life that keepeth instruction: but he that refuseth reproof erreth.
 </verse><verse>He that hideth hatred <supplied>with</supplied> lying lips, and he that uttereth a slander, <supplied>is</supplied> a fool.

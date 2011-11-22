@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="10">
       
        
         <verse>Why standest thou afar off, O LORD? <supplied>why</supplied> hidest thou <supplied>thyself</supplied> in times of trouble?
@@ -11,7 +12,7 @@
       
        
         </verse>
-        <verse>For the wicked boasteth of his heart’s desire, and blesseth the covetous, <supplied>whom</supplied> the LORD abhorreth.
+        <verse>For the wicked boasteth of his heart&#x2019;s desire, and blesseth the covetous, <supplied>whom</supplied> the LORD abhorreth.
       
       
        

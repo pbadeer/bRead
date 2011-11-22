@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1SA" n="17">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Samuel" n="17">
       <verse>Now the Philistines gathered together their armies to battle, and were gathered together at Shochoh, which <supplied>belongeth</supplied> to Judah, and pitched between Shochoh and Azekah, in Ephes-dammim.
 </verse><verse>And Saul and the men of Israel were gathered together, and pitched by the valley of Elah, and set the battle in array against the Philistines.
 </verse><verse>And the Philistines stood on a mountain on the one side, and Israel stood on a mountain on the other side: and <supplied>there was</supplied> a valley between them.
@@ -7,7 +8,7 @@
       <verse>And there went out a champion out of the camp of the Philistines, named Goliath, of Gath, whose height <supplied>was</supplied> six cubits and a span.
 </verse><verse>And <supplied>he had</supplied> an helmet of brass upon his head, and he <supplied>was</supplied> armed with a coat of mail; and the weight of the coat <supplied>was</supplied> five thousand shekels of brass.
 </verse><verse>And <supplied>he had</supplied> greaves of brass upon his legs, and a target of brass between his shoulders.
-</verse><verse>And the staff of his spear <supplied>was</supplied> like a weaver’s beam; and his spear’s head <supplied>weighed</supplied> six hundred shekels of iron: and one bearing a shield went before him.
+</verse><verse>And the staff of his spear <supplied>was</supplied> like a weaver&#x2019;s beam; and his spear&#x2019;s head <supplied>weighed</supplied> six hundred shekels of iron: and one bearing a shield went before him.
 </verse><verse>And he stood and cried unto the armies of Israel, and said unto them, Why are ye come out to set <supplied>your</supplied> battle in array? <supplied>am</supplied> not I a Philistine, and ye servants to Saul? choose you a man for you, and let him come down to me.
 </verse><verse>If he be able to fight with me, and to kill me, then will we be your servants: but if I prevail against him, and kill him, then shall ye be our servants, and serve us.
 </verse><verse>And the Philistine said, I defy the armies of Israel this day; give me a man, that we may fight together.
@@ -17,7 +18,7 @@
       <verse>Now David <supplied>was</supplied> the son of that Ephrathite of Bethlehemjudah, whose name <supplied>was</supplied> Jesse; and he had eight sons: and the man went among men <supplied>for</supplied> an old man in the days of Saul.
 </verse><verse>And the three eldest sons of Jesse went <supplied>and</supplied> followed Saul to the battle: and the names of his three sons that went to the battle <supplied>were</supplied> Eliab the first born, and next unto him Abinadab, and the third Shammah.
 </verse><verse>And David <supplied>was</supplied> the youngest: and the three eldest followed Saul.
-</verse><verse>But David went and returned from Saul to feed his father’s sheep at Bethlehem.
+</verse><verse>But David went and returned from Saul to feed his father&#x2019;s sheep at Bethlehem.
 </verse><verse>And the Philistine drew near morning and evening, and presented himself forty days.
 </verse><verse>And Jesse said unto David his son, Take now for thy brethren an ephah of this parched <supplied>corn,</supplied> and these ten loaves, and run to the camp to thy brethren;
 </verse><verse>And carry these ten cheeses unto the captain of <supplied>their</supplied> thousand, and look how thy brethren fare, and take their pledge.
@@ -30,13 +31,13 @@
 </verse><verse>And as he talked with them, behold, there came up the champion, the Philistine of Gath, Goliath by name, out of the armies of the Philistines, and spake according to the same words: and David heard <supplied>them. </supplied></verse><verse>And all the men of
 Israel, when they saw the man, fled from him, and were sore afraid.
 </verse><verse>And the men of Israel said, Have ye seen this man that is come up? surely to defy Israel is he come up: and it shall be, <supplied>that</supplied> the man who killeth him, the king will enrich him with great riches, and will give him his daughter, and make
-his father’s house free in Israel.
+his father&#x2019;s house free in Israel.
 </verse><verse>And David spake to the men that stood by him, saying, What shall be done to the man that killeth this Philistine, and taketh away the reproach from Israel? for who <supplied>is</supplied> this uncircumcised Philistine, that he should defy the armies of the
 living God?
 </verse><verse>And the people answered him after this manner, saying, So shall it be done to the man that killeth him.
      
       </verse>
-      <verse>And Eliab his eldest brother heard when he spake unto the men; and Eliab’s anger was kindled against David, and he said, Why camest thou down hither? and with whom hast thou left those few sheep in the wilderness? I know thy pride, and the
+      <verse>And Eliab his eldest brother heard when he spake unto the men; and Eliab&#x2019;s anger was kindled against David, and he said, Why camest thou down hither? and with whom hast thou left those few sheep in the wilderness? I know thy pride, and the
 naughtiness of thine heart; for thou art come down that thou mightest see the battle.
 </verse><verse>And David said, What have I now done? <supplied>Is there</supplied> not a cause?
      
@@ -45,9 +46,9 @@ naughtiness of thine heart; for thou art come down that thou mightest see the ba
 </verse><verse>And when the words were heard which David spake, they rehearsed <supplied>them</supplied> before Saul: and he sent for him.
      
       </verse>
-      <verse>And David said to Saul, Let no man’s heart fail because of him; thy servant will go and fight with this Philistine.
+      <verse>And David said to Saul, Let no man&#x2019;s heart fail because of him; thy servant will go and fight with this Philistine.
 </verse><verse>And Saul said to David, Thou art not able to go against this Philistine to fight with him: for thou <supplied>art but</supplied> a youth, and he a man of war from his youth.
-</verse><verse>And David said unto Saul, Thy servant kept his father’s sheep, and there came a lion, and a bear, and took a lamb out of the flock:
+</verse><verse>And David said unto Saul, Thy servant kept his father&#x2019;s sheep, and there came a lion, and a bear, and took a lamb out of the flock:
 </verse><verse>And I went out after him, and smote him, and delivered <supplied>it</supplied> out of his mouth: and when he arose against me, I caught <supplied>him</supplied> by his beard, and smote him, and slew him.
 </verse><verse>Thy servant slew both the lion and the bear: and this uncircumcised Philistine shall be as one of them, seeing he hath defied the armies of the living God.
 </verse><verse>David said moreover, The LORD that delivered me out of the paw of the lion, and out of the paw of the bear, he will deliver me out of the hand of this Philistine. And Saul said unto David, Go, and the LORD be with thee.
@@ -55,7 +56,7 @@ naughtiness of thine heart; for thou art come down that thou mightest see the ba
       </verse>
       <verse>And Saul armed David with his armour, and he put an helmet of brass upon his head; also he armed him with a coat of mail.
 </verse><verse>And David girded his sword upon his armour, and he assayed to go; for he had not proved <supplied>it.</supplied> And David said unto Saul, I cannot go with these; for I have not proved <supplied>them.</supplied> And David put them off him.
-</verse><verse>And he took his staff in his hand, and chose him five smooth stones out of the brook, and put them in a shepherd’s bag which he had, even in a scrip; and his sling <supplied>was</supplied> in his hand: and he drew near to the Philistine.
+</verse><verse>And he took his staff in his hand, and chose him five smooth stones out of the brook, and put them in a shepherd&#x2019;s bag which he had, even in a scrip; and his sling <supplied>was</supplied> in his hand: and he drew near to the Philistine.
 </verse><verse>And the Philistine came on and drew near unto David; and the man that bare the shield <supplied>went</supplied> before him.
 </verse><verse>And when the Philistine looked about, and saw David, he disdained him: for he was <supplied>but</supplied> a youth, and ruddy, and of a fair countenance.
 </verse><verse>And the Philistine said unto David, <supplied>Am</supplied> I a dog, that thou comest to me with staves? And the Philistine cursed David by his gods.
@@ -63,7 +64,7 @@ naughtiness of thine heart; for thou art come down that thou mightest see the ba
 </verse><verse>Then said David to the Philistine, Thou comest to me with a sword, and with a spear, and with a shield: but I come to thee in the name of the LORD of hosts, the God of the armies of Israel, whom thou hast defied.
 </verse><verse>This day will the LORD deliver thee into mine hand; and I will smite thee, and take thine head from thee; and I will give the carcases of the host of the Philistines this day unto the fowls of the air, and to the wild beasts of the earth; that
 all the earth may know that there is a God in Israel.
-</verse><verse>And all this assembly shall know that the LORD saveth not with sword and spear: for the battle <supplied>is</supplied> the LORD’S, and he will give you into our hands.
+</verse><verse>And all this assembly shall know that the LORD saveth not with sword and spear: for the battle <supplied>is</supplied> the LORD&#x2019;S, and he will give you into our hands.
 </verse><verse>And it came to pass, when the Philistine arose, and came and drew nigh to meet David, that David hasted, and ran toward the army to meet the Philistine.
 </verse><verse>And David put his hand in his bag, and took thence a stone, and slang <supplied>it,</supplied> and smote the Philistine in his forehead, that the stone sunk into his forehead; and he fell upon his face to the earth.
 </verse><verse>So David prevailed over the Philistine with a sling and with a stone, and smote the Philistine, and slew him; but <supplied>there was</supplied> no sword in the hand of David.

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="LUK" n="20">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Luke" n="20">
       <verse>And it came to pass, <supplied>that</supplied> on one of those days, as he taught the people in the temple, and preached the gospel, the chief priests and the scribes came upon <supplied>him</supplied> with the elders,
 </verse><verse>And spake unto him, saying, Tell us, by what authority doest thou these things? or who is he that gave thee this authority?
 </verse><verse>And he answered and said unto them, <jesus>I will also ask you one thing; and answer me: </jesus></verse><verse><jesus>The baptism of John, was it from heaven, or of men? </jesus></verse><verse>And they reasoned with themselves, saying, If we shall say, From heaven; he will
@@ -19,13 +20,13 @@ shall fall, it will grind him to powder.
 </verse><verse>And they watched <supplied>him,</supplied> and sent forth spies, which should feign themselves just men, that they might take hold of his words, that so they might deliver him unto the power and authority of the governor.
 </verse><verse>And they asked him, saying, Master, we know that thou sayest and teachest rightly, neither acceptest thou the person <supplied>of any,</supplied> but teachest the way of God truly:
 </verse><verse>Is it lawful for us to give tribute unto Caesar, or no?
-</verse><verse>But he perceived their craftiness, and said unto them, <jesus>Why tempt ye me? </jesus></verse><verse><jesus>Shew me a penny. Whose image and superscription hath it?</jesus> They answered and said, Caesar’s.
-</verse><verse>And he said unto them, <jesus>Render therefore unto Caesar the things which be Caesar’s, and unto God the things which be God’s. </jesus></verse><verse>And they could not take hold of his words before the people: and they marvelled at his answer, and held
+</verse><verse>But he perceived their craftiness, and said unto them, <jesus>Why tempt ye me? </jesus></verse><verse><jesus>Shew me a penny. Whose image and superscription hath it?</jesus> They answered and said, Caesar&#x2019;s.
+</verse><verse>And he said unto them, <jesus>Render therefore unto Caesar the things which be Caesar&#x2019;s, and unto God the things which be God&#x2019;s. </jesus></verse><verse>And they could not take hold of his words before the people: and they marvelled at his answer, and held
 their peace.
      
       </verse>
       <verse>Then came to <supplied>him</supplied> certain of the Sadducees, which deny that there is any resurrection; and they asked him,
-</verse><verse>Saying, Master, Moses wrote unto us, If any man’s brother die, having a wife, and he die without children, that his brother should take his wife, and raise up seed unto his brother.
+</verse><verse>Saying, Master, Moses wrote unto us, If any man&#x2019;s brother die, having a wife, and he die without children, that his brother should take his wife, and raise up seed unto his brother.
 </verse><verse>There were therefore seven brethren: and the first took a wife, and died without children.
 </verse><verse>And the second took her to wife, and he died childless.
 </verse><verse>And the third took her; and in like manner the seven also: and they left no children, and died.
@@ -38,13 +39,13 @@ calleth the Lord the God of Abraham, and the God of Isaac, and the God of Jacob.
       </jesus>
       </verse>
       <verse>Then certain of the scribes answering said, Master, thou hast well said.
-</verse><verse>And after that they durst not ask him any <supplied>question at all. </supplied></verse><verse>And he said unto them, <jesus>How say they that Christ is David’s son? </jesus></verse><verse><jesus>And David himself saith in the book of Psalms, The LORD said unto my Lord, Sit thou on
+</verse><verse>And after that they durst not ask him any <supplied>question at all. </supplied></verse><verse>And he said unto them, <jesus>How say they that Christ is David&#x2019;s son? </jesus></verse><verse><jesus>And David himself saith in the book of Psalms, The LORD said unto my Lord, Sit thou on
 my right hand, </jesus></verse><verse><jesus>Till I make thine enemies thy footstool. </jesus></verse><verse><jesus>David therefore calleth him Lord, how is he then his son?
      
       </jesus>
       </verse>
       <verse>Then in the audience of all the people he said unto his disciples,
-</verse><verse><jesus>Beware of the scribes, which desire to walk in long robes, and love greetings in the markets, and the highest seats in the synagogues, and the chief rooms at feasts; </jesus></verse><verse><jesus>Which devour widows’ houses, and for a shew make long
+</verse><verse><jesus>Beware of the scribes, which desire to walk in long robes, and love greetings in the markets, and the highest seats in the synagogues, and the chief rooms at feasts; </jesus></verse><verse><jesus>Which devour widows&#x2019; houses, and for a shew make long
 prayers: the same shall receive greater damnation.
      
       </jesus>

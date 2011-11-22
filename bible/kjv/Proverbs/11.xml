@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PRO" n="11">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Proverbs" n="11">
       <verse>A false balance <supplied>is</supplied> abomination to the LORD: but a just weight <supplied>is</supplied> his delight.
 </verse><verse><supplied>When</supplied> pride cometh, then cometh shame: but with the lowly <supplied>is</supplied> wisdom.
 </verse><verse>The integrity of the upright shall guide them: but the perverseness of transgressors shall destroy them.
@@ -20,7 +21,7 @@
 </verse><verse>As righteousness <supplied>tendeth</supplied> to life: so he that pursueth evil <supplied>pursueth it</supplied> to his own death.
 </verse><verse>They that are of a froward heart <supplied>are</supplied> abomination to the LORD: but <supplied>such as are</supplied> upright in <supplied>their</supplied> way <supplied>are</supplied> his delight.
 </verse><verse><supplied>Though</supplied> hand <supplied>join</supplied> in hand, the wicked shall not be unpunished: but the seed of the righteous shall be delivered.
-</verse><verse><supplied>As</supplied> a jewel of gold in a swine’s snout, <supplied>so is</supplied> a fair woman which is without discretion.
+</verse><verse><supplied>As</supplied> a jewel of gold in a swine&#x2019;s snout, <supplied>so is</supplied> a fair woman which is without discretion.
 </verse><verse>The desire of the righteous <supplied>is</supplied> only good: <supplied>but</supplied> the expectation of the wicked <supplied>is</supplied> wrath.
 </verse><verse>There is that scattereth, and yet increaseth; and <supplied>there is</supplied> that withholdeth more than is meet, but <supplied>it tendeth</supplied> to poverty.
 </verse><verse>The liberal soul shall be made fat: and he that watereth shall be watered also himself.

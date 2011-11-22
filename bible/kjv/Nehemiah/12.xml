@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NEH" n="12">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Nehemiah" n="12">
       <verse>Now these <supplied>are</supplied> the priests and the Levites that went up with Zerubbabel the son of Shealtiel, and Jeshua: Seraiah, Jeremiah, Ezra,
 </verse><verse>Amariah, Malluch, Hattush,
 </verse><verse>Shechaniah, Rehum, Meremoth,
@@ -40,7 +41,7 @@ with harps.
 </verse><verse>And after them went Hoshaiah, and half of the princes of Judah,
 </verse><verse>And Azariah, Ezra, and Meshullam,
 </verse><verse>Judah, and Benjamin, and Shemaiah, and Jeremiah,
-</verse><verse>And <supplied>certain</supplied> of the priests’ sons with trumpets; <supplied>namely,</supplied> Zechariah the son of Jonathan, the son of Shemaiah, the son of Mattaniah, the son of Michaiah, the son of Zaccur, the son of Asaph:
+</verse><verse>And <supplied>certain</supplied> of the priests&#x2019; sons with trumpets; <supplied>namely,</supplied> Zechariah the son of Jonathan, the son of Shemaiah, the son of Mattaniah, the son of Michaiah, the son of Zaccur, the son of Asaph:
 </verse><verse>And his brethren, Shemaiah, and Azarael, Milalai, Gilalai, Maai, Nethaneel, and Judah, Hanani, with the musical instruments of David the man of God, and Ezra the scribe before them.
 </verse><verse>And at the fountain gate, which was over against them, they went up by the stairs of the city of David, at the going up of the wall, above the house of David, even unto the water gate eastward.
 </verse><verse>And the other <supplied>company of them that gave</supplied> thanks went over against <supplied>them,</supplied> and I after them, and the half of the people upon the wall, from beyond the tower of the furnaces even unto the broad wall;

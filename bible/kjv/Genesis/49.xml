@@ -1,10 +1,11 @@
-<chapter translation="KJV" testament="Old" book="GEN" n="49">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Genesis" n="49">
       <verse>And Jacob called unto his sons, and said, Gather yourselves together, that I may tell you <supplied>that</supplied> which shall befall you in the last days.
 </verse><verse>Gather yourselves together, and hear, ye sons of Jacob; and hearken unto Israel your father.
      
       </verse>
       <verse>Reuben, thou <supplied>art</supplied> my firstborn, my might, and the beginning of my strength, the excellency of dignity, and the excellency of power:
-</verse><verse>Unstable as water, thou shalt not excel; because thou wentest up to thy father’s bed; then defiledst thou <supplied>it:</supplied> he went up to my couch.
+</verse><verse>Unstable as water, thou shalt not excel; because thou wentest up to thy father&#x2019;s bed; then defiledst thou <supplied>it:</supplied> he went up to my couch.
      
       </verse>
       <verse>Simeon and Levi <supplied>are</supplied> brethren; instruments of cruelty <supplied>are in</supplied> their habitations.
@@ -12,9 +13,9 @@
 </verse><verse>Cursed <supplied>be</supplied> their anger, for <supplied>it was</supplied> fierce; and their wrath, for it was cruel: I will divide them in Jacob, and scatter them in Israel.
      
       </verse>
-      <verse>Judah, thou <supplied>art he</supplied> whom thy brethren shall praise: thy hand <supplied>shall be</supplied> in the neck of thine enemies; thy father’s children shall bow down before thee.
-</verse><verse>Judah <supplied>is</supplied> a lion’s whelp: from the prey, my son, thou art gone up: he stooped down, he couched as a lion, and as an old lion; who shall rouse him up?
-</verse><verse>The sceptre shall not depart from Judah, nor a lawgiver from between his feet, until Shiloh come; and unto him <supplied>shall</supplied> the gathering of the people <supplied>be. </supplied></verse><verse>Binding his foal unto the vine, and his ass’s colt unto the choice vine;
+      <verse>Judah, thou <supplied>art he</supplied> whom thy brethren shall praise: thy hand <supplied>shall be</supplied> in the neck of thine enemies; thy father&#x2019;s children shall bow down before thee.
+</verse><verse>Judah <supplied>is</supplied> a lion&#x2019;s whelp: from the prey, my son, thou art gone up: he stooped down, he couched as a lion, and as an old lion; who shall rouse him up?
+</verse><verse>The sceptre shall not depart from Judah, nor a lawgiver from between his feet, until Shiloh come; and unto him <supplied>shall</supplied> the gathering of the people <supplied>be. </supplied></verse><verse>Binding his foal unto the vine, and his ass&#x2019;s colt unto the choice vine;
 he washed his garments in wine, and his clothes in the blood of grapes:
 </verse><verse>His eyes <supplied>shall be</supplied> red with wine, and his teeth white with milk.
      

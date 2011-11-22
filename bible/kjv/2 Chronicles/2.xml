@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="2CH" n="2">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="2 Chronicles" n="2">
       <verse>And Solomon determined to build an house for the name of the LORD, and an house for his kingdom.
 </verse><verse>And Solomon told out threescore and ten thousand men to bear burdens, and fourscore thousand to hew in the mountain, and three thousand and six hundred to oversee them.
      
@@ -18,7 +19,7 @@ my father did provide.
       <verse>Then Huram the king of Tyre answered in writing, which he sent to Solomon, Because the LORD hath loved his people, he hath made thee king over them.
 </verse><verse>Huram said moreover, Blessed <supplied>be</supplied> the LORD God of Israel, that made heaven and earth, who hath given to David the king a wise son, endued with prudence and understanding, that might build an house for the LORD, and an house for his
 kingdom.
-</verse><verse>And now I have sent a cunning man, endued with understanding, of Huram my father’s,
+</verse><verse>And now I have sent a cunning man, endued with understanding, of Huram my father&#x2019;s,
 </verse><verse>The son of a woman of the daughters of Dan, and his father <supplied>was</supplied> a man of Tyre, skilful to work in gold, and in silver, in brass, in iron, in stone, and in timber, in purple, in blue, and in fine linen, and in crimson; also to grave any
 manner of graving, and to find out every device which shall be put to him, with thy cunning men, and with the cunning men of my lord David thy father.
 </verse><verse>Now therefore the wheat, and the barley, the oil, and the wine, which my lord hath spoken of, let him send unto his servants:

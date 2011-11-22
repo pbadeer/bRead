@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MRK" n="4">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Mark" n="4">
       <verse>And he began again to teach by the sea side: and there was gathered unto him a great multitude, so that he entered into a ship, and sat in the sea; and the whole multitude was by the sea on the land.
 </verse><verse>And he taught them many things by parables, and said unto them in his doctrine,
 </verse><verse><jesus>Hearken; Behold, there went out a sower to sow: </jesus></verse><verse><jesus>And it came to pass, as he sowed, some fell by the way side, and the fowls of the air came and devoured it up. </jesus></verse><verse><jesus>And some fell on stony ground, where it had not much
@@ -13,7 +14,7 @@ they may hear, and not understand; lest at any time they should be converted, an
       <verse>
       <jesus>The sower soweth the word. </jesus></verse><verse><jesus>And these are they by the way side, where the word is sown; but when they have heard, Satan cometh immediately, and taketh away the word that was sown in their hearts. </jesus></verse><verse><jesus>And these
 are they likewise which are sown on stony ground; who, when they have heard the word, immediately receive it with gladness; </jesus></verse><verse><jesus>And have no root in themselves, and so endure but for a time: afterward, when affliction or persecution ariseth
-for the word’s sake, immediately they are offended. </jesus></verse><verse><jesus>And these are they which are sown among thorns; such as hear the word, </jesus></verse><verse><jesus>And the cares of this world, and the deceitfulness of riches, and the lusts of other things
+for the word&#x2019;s sake, immediately they are offended. </jesus></verse><verse><jesus>And these are they which are sown among thorns; such as hear the word, </jesus></verse><verse><jesus>And the cares of this world, and the deceitfulness of riches, and the lusts of other things
 entering in, choke the word, and it becometh unfruitful. </jesus></verse><verse><jesus>And these are they which are sown on good ground; such as hear the word, and receive <supplied>it,</supplied> and bring forth fruit, some thirtyfold, some sixty, and some an hundred.
      
       </jesus>

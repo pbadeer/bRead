@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="COL" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Colossians" n="1">
      
       <verse>Paul, an apostle of Jesus Christ by the will of God, and Timotheus <supplied>our</supplied> brother,
 </verse><verse>To the saints and faithful brethren in Christ which are at Colosse: Grace <supplied>be</supplied> unto you, and peace, from God our Father and the Lord Jesus Christ.
@@ -23,7 +24,7 @@
 </verse><verse>And you, that were sometime alienated and enemies in <supplied>your</supplied> mind by wicked works, yet now hath he reconciled
 </verse><verse>In the body of his flesh through death, to present you holy and unblameable and unreproveable in his sight:
 </verse><verse>If ye continue in the faith grounded and settled, and <supplied>be</supplied> not moved away from the hope of the gospel, which ye have heard, <supplied>and</supplied> which was preached to every creature which is under heaven; whereof I Paul am made a minister;
-</verse><verse>Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body’s sake, which is the church:
+</verse><verse>Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body&#x2019;s sake, which is the church:
 </verse><verse>Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfil the word of God;
 </verse><verse><supplied>Even</supplied> the mystery which hath been hid from ages and from generations, but now is made manifest to his saints:
 </verse><verse>To whom God would make known what <supplied>is</supplied> the riches of the glory of this mystery among the Gentiles; which is Christ in you, the hope of glory:

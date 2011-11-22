@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="2CH" n="8">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="2 Chronicles" n="8">
       <verse>And it came to pass at the end of twenty years, wherein Solomon had built the house of the LORD, and his own house,
 </verse><verse>That the cities which Huram had restored to Solomon, Solomon built them, and caused the children of Israel to dwell there.
 </verse><verse>And Solomon went to Hamath-zobah, and prevailed against it.
@@ -11,7 +12,7 @@
       <supplied>As for</supplied> all the people <supplied>that were</supplied> left of the Hittites, and the Amorites, and the Perizzites, and the Hivites, and the Jebusites, which <supplied>were</supplied> not of Israel,
 </verse><verse><supplied>But</supplied> of their children, who were left after them in the land, whom the children of Israel consumed not, them did Solomon make to pay tribute until this day.
 </verse><verse>But of the children of Israel did Solomon make no servants for his work; but they <supplied>were</supplied> men of war, and chief of his captains, and captains of his chariots and horsemen.
-</verse><verse>And these <supplied>were</supplied> the chief of king Solomon’s officers, <supplied>even</supplied> two hundred and fifty, that bare rule over the people.
+</verse><verse>And these <supplied>were</supplied> the chief of king Solomon&#x2019;s officers, <supplied>even</supplied> two hundred and fifty, that bare rule over the people.
      
       </verse>
       <verse>And Solomon brought up the daughter of Pharaoh out of the city of David unto the house that he had built for her: for he said, My wife shall not dwell in the house of David king of Israel, because <supplied>the places are</supplied> holy, whereunto the ark

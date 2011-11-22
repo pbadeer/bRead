@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JDG" n="6">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Judges" n="6">
       <verse>And the children of Israel did evil in the sight of the LORD: and the LORD delivered them into the hand of Midian seven years.
 </verse><verse>And the hand of Midian prevailed against Israel: <supplied>and</supplied> because of the Midianites the children of Israel made them the dens which <supplied>are</supplied> in the mountains, and caves, and strong holds.
 </verse><verse>And <supplied>so</supplied> it was, when Israel had sown, that the Midianites came up, and the Amalekites, and the children of the east, even they came up against them;
@@ -18,7 +19,7 @@
 </verse><verse>And Gideon said unto him, Oh my Lord, if the LORD be with us, why then is all this befallen us? and where <supplied>be</supplied> all his miracles which our fathers told us of, saying, Did not the LORD bring us up from Egypt? but now the LORD hath forsaken
 us, and delivered us into the hands of the Midianites.
 </verse><verse>And the LORD looked upon him, and said, Go in this thy might, and thou shalt save Israel from the hand of the Midianites: have not I sent thee?
-</verse><verse>And he said unto him, Oh my Lord, wherewith shall I save Israel? behold, my family is poor in Manasseh, and I <supplied>am</supplied> the least in my father’s house.
+</verse><verse>And he said unto him, Oh my Lord, wherewith shall I save Israel? behold, my family is poor in Manasseh, and I <supplied>am</supplied> the least in my father&#x2019;s house.
 </verse><verse>And the LORD said unto him, Surely I will be with thee, and thou shalt smite the Midianites as one man.
 </verse><verse>And he said unto him, If now I have found grace in thy sight, then shew me a sign that thou talkest with me.
 </verse><verse>Depart not hence, I pray thee, until I come unto thee, and bring forth my present, and set <supplied>it</supplied> before thee. And he said, I will tarry until thou come again.
@@ -35,9 +36,9 @@ the LORD departed out of his sight.
 </verse><verse>Then Gideon built an altar there unto the LORD, and called it Jehovah-shalom: unto this day it is yet in Ophrah of the Abi-ezrites.
      
       </verse>
-      <verse>And it came to pass the same night, that the LORD said unto him, Take thy father’s young bullock, even the second bullock of seven years old, and throw down the altar of Baal that thy father hath, and cut down the grove that <supplied>is</supplied> by it:
+      <verse>And it came to pass the same night, that the LORD said unto him, Take thy father&#x2019;s young bullock, even the second bullock of seven years old, and throw down the altar of Baal that thy father hath, and cut down the grove that <supplied>is</supplied> by it:
 </verse><verse>And build an altar unto the LORD thy God upon the top of this rock, in the ordered place, and take the second bullock, and offer a burnt sacrifice with the wood of the grove which thou shalt cut down.
-</verse><verse>Then Gideon took ten men of his servants, and did as the LORD had said unto him: and <supplied>so</supplied> it was, because he feared his father’s household, and the men of the city, that he could not do <supplied>it</supplied> by day, that he did <supplied>it</supplied> by
+</verse><verse>Then Gideon took ten men of his servants, and did as the LORD had said unto him: and <supplied>so</supplied> it was, because he feared his father&#x2019;s household, and the men of the city, that he could not do <supplied>it</supplied> by day, that he did <supplied>it</supplied> by
 night.
      
       </verse>

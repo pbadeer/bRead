@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="ISA" n="48">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Isaiah" n="48">
       <verse>Hear ye this, O house of Jacob, which are called by the name of Israel, and are come forth out of the waters of Judah, which swear by the name of the LORD, and make mention of the God of Israel, <supplied>but</supplied> not in truth, nor in
 righteousness.
 </verse><verse>For they call themselves of the holy city, and stay themselves upon the God of Israel; The LORD of hosts <supplied>is</supplied> his name.
@@ -10,7 +11,7 @@ righteousness.
 </verse><verse>Yea, thou heardest not; yea, thou knewest not; yea, from that time <supplied>that</supplied> thine ear was not opened: for I knew that thou wouldest deal very treacherously, and wast called a transgressor from the womb.
      
       </verse>
-      <verse>For my name’s sake will I defer mine anger, and for my praise will I refrain for thee, that I cut thee not off.
+      <verse>For my name&#x2019;s sake will I defer mine anger, and for my praise will I refrain for thee, that I cut thee not off.
 </verse><verse>Behold, I have refined thee, but not with silver; I have chosen thee in the furnace of affliction.
 </verse><verse>For mine own sake, <supplied>even</supplied> for mine own sake, will I do <supplied>it:</supplied> for how should <supplied>my name</supplied> be polluted? and I will not give my glory unto another.
      

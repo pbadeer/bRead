@@ -1,8 +1,9 @@
-<chapter translation="KJV" testament="Old" book="EXO" n="21">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Exodus" n="21">
       <verse>Now these <supplied>are</supplied> the judgments which thou shalt set before them.
 </verse><verse>If thou buy an Hebrew servant, six years he shall serve: and in the seventh he shall go out free for nothing.
 </verse><verse>If he came in by himself, he shall go out by himself: if he were married, then his wife shall go out with him.
-</verse><verse>If his master have given him a wife, and she have born him sons or daughters; the wife and her children shall be her master’s, and he shall go out by himself.
+</verse><verse>If his master have given him a wife, and she have born him sons or daughters; the wife and her children shall be her master&#x2019;s, and he shall go out by himself.
 </verse><verse>And if the servant shall plainly say, I love my master, my wife, and my children; I will not go out free:
 </verse><verse>Then his master shall bring him unto the judges; he shall also bring him to the door, or unto the door post; and his master shall bore his ear through with an aul; and he shall serve him for ever.
      
@@ -36,14 +37,14 @@
 </verse><verse>Notwithstanding, if he continue a day or two, he shall not be punished: for he <supplied>is</supplied> his money.
      
       </verse>
-      <verse>If men strive, and hurt a woman with child, so that her fruit depart <supplied>from her,</supplied> and yet no mischief follow: he shall be surely punished, according as the woman’s husband will lay upon him; and he shall pay as the judges <supplied>determine.
+      <verse>If men strive, and hurt a woman with child, so that her fruit depart <supplied>from her,</supplied> and yet no mischief follow: he shall be surely punished, according as the woman&#x2019;s husband will lay upon him; and he shall pay as the judges <supplied>determine.
 </supplied></verse><verse>And if <supplied>any</supplied> mischief follow, then thou shalt give life for life,
 </verse><verse>Eye for eye, tooth for tooth, hand for hand, foot for foot,
 </verse><verse>Burning for burning, wound for wound, stripe for stripe.
      
       </verse>
-      <verse>And if a man smite the eye of his servant, or the eye of his maid, that it perish; he shall let him go free for his eye’s sake.
-</verse><verse>And if he smite out his manservant’s tooth, or his maidservant’s tooth; he shall let him go free for his tooth’s sake.
+      <verse>And if a man smite the eye of his servant, or the eye of his maid, that it perish; he shall let him go free for his eye&#x2019;s sake.
+</verse><verse>And if he smite out his manservant&#x2019;s tooth, or his maidservant&#x2019;s tooth; he shall let him go free for his tooth&#x2019;s sake.
      
       </verse>
       <verse>If an ox gore a man or a woman, that they die: then the ox shall be surely stoned, and his flesh shall not be eaten; but the owner of the ox <supplied>shall be</supplied> quit.
@@ -57,7 +58,7 @@
 </verse><verse>The owner of the pit shall make <supplied>it</supplied> good, <supplied>and</supplied> give money unto the owner of them; and the dead <supplied>beast</supplied> shall be his.
      
       </verse>
-      <verse>And if one man’s ox hurt another’s, that he die; then they shall sell the live ox, and divide the money of it; and the dead <supplied>ox</supplied> also they shall divide.
+      <verse>And if one man&#x2019;s ox hurt another&#x2019;s, that he die; then they shall sell the live ox, and divide the money of it; and the dead <supplied>ox</supplied> also they shall divide.
 </verse><verse>Or if it be known that the ox hath used to push in time past, and his owner hath not kept him in; he shall surely pay ox for ox; and the dead shall be his own.
      
       </verse>

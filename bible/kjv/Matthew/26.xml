@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="26">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="26">
       <verse>And it came to pass, when Jesus had finished all these sayings, he said unto his disciples,
 </verse><verse><jesus>Ye know that after two days is <supplied>the feast of</supplied> the passover, and the Son of man is betrayed to be crucified. </jesus></verse><verse>Then assembled together the chief priests, and the scribes, and the elders of the people, unto the palace of the high
 priest, who was called Caiaphas,
@@ -32,7 +33,7 @@ good for that man if he had not been born. </jesus></verse><verse>Then Judas, wh
       </verse>
       <verse>And as they were eating, Jesus took bread, and blessed <supplied>it,</supplied> and brake <supplied>it,</supplied> and gave <supplied>it</supplied> to the disciples, and said, <jesus>Take, eat; this is my body. </jesus></verse><verse>And he took the cup, and gave thanks, and gave <supplied>it</supplied> to
 them, saying, <jesus>Drink ye all of it; </jesus></verse><verse><jesus>For this is my blood of the new testament, which is shed for many for the remission of sins. </jesus></verse><verse><jesus>But I say unto you, I will not drink henceforth of this fruit of the vine, until that day
-when I drink it new with you in my Father’s kingdom. </jesus></verse><verse>And when they had sung an hymn, they went out into the mount of Olives.
+when I drink it new with you in my Father&#x2019;s kingdom. </jesus></verse><verse>And when they had sung an hymn, they went out into the mount of Olives.
 </verse><verse>Then saith Jesus unto them, <jesus>All ye shall be offended because of me this night: for it is written, I will smite the shepherd, and the sheep of the flock shall be scattered abroad. </jesus></verse><verse><jesus>But after I am risen again, I will go before
 you into Galilee. </jesus></verse><verse>Peter answered and said unto him, Though all <supplied>men</supplied> shall be offended because of thee, <supplied>yet</supplied> will I never be offended.
 </verse><verse>Jesus said unto him, <jesus>Verily I say unto thee, That this night, before the cock crow, thou shalt deny me thrice. </jesus></verse><verse>Peter said unto him, Though I should die with thee, yet will I not deny thee. Likewise also said all the disciples.
@@ -53,14 +54,14 @@ hand that doth betray me.
 </verse><verse>Now he that betrayed him gave them a sign, saying, Whomsoever I shall kiss, that same is he: hold him fast.
 </verse><verse>And forthwith he came to Jesus, and said, Hail, master; and kissed him.
 </verse><verse>And Jesus said unto him, <jesus>Friend, wherefore art thou come?</jesus> Then came they, and laid hands on Jesus, and took him.
-</verse><verse>And, behold, one of them which were with Jesus stretched out <supplied>his</supplied> hand, and drew his sword, and struck a servant of the high priest’s, and smote off his ear.
+</verse><verse>And, behold, one of them which were with Jesus stretched out <supplied>his</supplied> hand, and drew his sword, and struck a servant of the high priest&#x2019;s, and smote off his ear.
 </verse><verse>Then said Jesus unto him, <jesus>Put up again thy sword into his place: for all they that take the sword shall perish with the sword. </jesus></verse><verse><jesus>Thinkest thou that I cannot now pray to my Father, and he shall presently give me more than twelve
 legions of angels? </jesus></verse><verse><jesus>But how then shall the scriptures be fulfilled, that thus it must be? </jesus></verse><verse>In that same hour said Jesus to the multitudes, <jesus>Are ye come out as against a thief with swords and staves for to take me? I sat
 daily with you teaching in the temple, and ye laid no hold on me. </jesus></verse><verse><jesus>But all this was done, that the scriptures of the prophets might be fulfilled. </jesus>Then all the disciples forsook him, and fled.
      
       </verse>
       <verse>And they that had laid hold on Jesus led <supplied>him</supplied> away to Caiaphas the high priest, where the scribes and the elders were assembled.
-</verse><verse>But Peter followed him afar off unto the high priest’s palace, and went in, and sat with the servants, to see the end.
+</verse><verse>But Peter followed him afar off unto the high priest&#x2019;s palace, and went in, and sat with the servants, to see the end.
 </verse><verse>Now the chief priests, and elders, and all the council, sought false witness against Jesus, to put him to death;
 </verse><verse>But found none: yea, though many false witnesses came, <supplied>yet</supplied> found they none. At the last came two false witnesses,
 </verse><verse>And said, This <supplied>fellow</supplied> said, I am able to destroy the temple of God, and to build it in three days.

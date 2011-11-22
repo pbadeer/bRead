@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="EZR" n="2">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Ezra" n="2">
       <verse>Now these <supplied>are</supplied> the children of the province that went up out of the captivity, of those which had been carried away, whom Nebuchadnezzar the king of Babylon had carried away unto Babylon, and came again unto Jerusalem and Judah,
 every one unto his city;
 </verse><verse>Which came with Zerubbabel: Jeshua, Nehemiah, Seraiah, Reelaiah, Mordecai, Bilshan, Mizpar, Bigvai, Rehum, Baanah. The number of the men of the people of Israel:
@@ -66,11 +67,11 @@ every one unto his city;
 </verse><verse>The children of Neziah, the children of Hatipha.
      
       </verse>
-      <verse>The children of Solomon’s servants: the children of Sotai, the children of Sophereth, the children of Peruda,
+      <verse>The children of Solomon&#x2019;s servants: the children of Sotai, the children of Sophereth, the children of Peruda,
 </verse><verse>The children of Jaalah, the children of Darkon, the children of Giddel,
 </verse><verse>The children of Shephatiah, the children of Hattil, the children of Pochereth of Zebaim, the children of Ami.
-</verse><verse>All the Nethinims, and the children of Solomon’s servants, <supplied>were</supplied> three hundred ninety and two.
-</verse><verse>And these <supplied>were</supplied> they which went up from Tel-melah, Tel-harsa, Cherub, Addan, <supplied>and</supplied> Immer: but they could not shew their father’s house, and their seed, whether they <supplied>were</supplied> of Israel:
+</verse><verse>All the Nethinims, and the children of Solomon&#x2019;s servants, <supplied>were</supplied> three hundred ninety and two.
+</verse><verse>And these <supplied>were</supplied> they which went up from Tel-melah, Tel-harsa, Cherub, Addan, <supplied>and</supplied> Immer: but they could not shew their father&#x2019;s house, and their seed, whether they <supplied>were</supplied> of Israel:
 </verse><verse>The children of Delaiah, the children of Tobiah, the children of Nekoda, six hundred fifty and two.
      
       </verse>

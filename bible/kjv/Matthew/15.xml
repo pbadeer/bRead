@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="15">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="15">
       <verse>Then came to Jesus scribes and Pharisees, which were of Jerusalem, saying,
 </verse><verse>Why do thy disciples transgress the tradition of the elders? for they wash not their hands when they eat bread.
 </verse><verse>But he answered and said unto them, <jesus>Why do ye also transgress the commandment of God by your tradition? </jesus></verse><verse><jesus>For God commanded, saying, Honour thy father and mother: and, He that curseth father or mother, let him die the death.
@@ -22,10 +23,10 @@ defile a man: but to eat with unwashen hands defileth not a man.
 </verse><verse>And, behold, a woman of Canaan came out of the same coasts, and cried unto him, saying, Have mercy on me, O Lord, <supplied>thou</supplied> Son of David; my daughter is grievously vexed with a devil.
 </verse><verse>But he answered her not a word. And his disciples came and besought him, saying, Send her away; for she crieth after us.
 </verse><verse>But he answered and said, <jesus>I am not sent but unto the lost sheep of the house of Israel. </jesus></verse><verse>Then came she and worshipped him, saying, Lord, help me.
-</verse><verse>But he answered and said, <jesus>It is not meet to take the children’s bread, and to cast <supplied>it</supplied> to dogs. </jesus></verse><verse>And she said, Truth, Lord: yet the dogs eat of the crumbs which fall from their masters’ table.
+</verse><verse>But he answered and said, <jesus>It is not meet to take the children&#x2019;s bread, and to cast <supplied>it</supplied> to dogs. </jesus></verse><verse>And she said, Truth, Lord: yet the dogs eat of the crumbs which fall from their masters&#x2019; table.
 </verse><verse>Then Jesus answered and said unto her, <jesus>O woman, great <supplied>is</supplied> thy faith: be it unto thee even as thou wilt. And her daughter was made whole from that very hour. </jesus></verse><verse>And Jesus departed from thence, and came nigh unto the sea of
 Galilee; and went up into a mountain, and sat down there.
-</verse><verse>And great multitudes came unto him, having with them <supplied>those that were</supplied> lame, blind, dumb, maimed, and many others, and cast them down at Jesus’ feet; and he healed them:
+</verse><verse>And great multitudes came unto him, having with them <supplied>those that were</supplied> lame, blind, dumb, maimed, and many others, and cast them down at Jesus&#x2019; feet; and he healed them:
 </verse><verse>Insomuch that the multitude wondered, when they saw the dumb to speak, the maimed to be whole, the lame to walk, and the blind to see: and they glorified the God of Israel.
      
       </verse>

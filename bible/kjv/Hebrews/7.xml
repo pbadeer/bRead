@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="HEB" n="7">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Hebrews" n="7">
       <verse>For this Melchisedec, king of Salem, priest of the most high God, who met Abraham returning from the slaughter of the kings, and blessed him;
 </verse><verse>To whom also Abraham gave a tenth part of all; first being by interpretation King of righteousness, and after that also King of Salem, which is, King of peace;
 </verse><verse>Without father, without mother, without descent, having neither beginning of days, nor end of life; but made like unto the Son of God; abideth a priest continually.
@@ -26,7 +27,7 @@ the order of Melchisedec:)
 </verse><verse>But this <supplied>man,</supplied> because he continueth ever, hath an unchangeable priesthood.
 </verse><verse>Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.
 </verse><verse>For such an high priest became us, <supplied>who is</supplied> holy, harmless, undefiled, separate from sinners, and made higher than the heavens;
-</verse><verse>Who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people’s: for this he did once, when he offered up himself.
+</verse><verse>Who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people&#x2019;s: for this he did once, when he offered up himself.
 </verse><verse>For the law maketh men high priests which have infirmity; but the word of the oath, which was since the law, <supplied>maketh</supplied> the Son, who is consecrated for evermore.
      
       </verse>

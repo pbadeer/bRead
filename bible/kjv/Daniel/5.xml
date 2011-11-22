@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="DAN" n="5">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Daniel" n="5">
       <verse>Belshazzar the king made a great feast to a thousand of his lords, and drank wine before the thousand.
 </verse><verse>Belshazzar, whiles he tasted the wine, commanded to bring the golden and silver vessels which his father Nebuchadnezzar had taken out of the temple which <supplied>was</supplied> in Jerusalem; that the king, and his princes, his wives, and his concubines,
 might drink therein.
@@ -6,11 +7,11 @@ might drink therein.
 </verse><verse>They drank wine, and praised the gods of gold, and of silver, of brass, of iron, of wood, and of stone.
      
       </verse>
-      <verse>In the same hour came forth fingers of a man’s hand, and wrote over against the candlestick upon the plaister of the wall of the king’s palace: and the king saw the part of the hand that wrote.
-</verse><verse>Then the king’s countenance was changed, and his thoughts troubled him, so that the joints of his loins were loosed, and his knees smote one against another.
+      <verse>In the same hour came forth fingers of a man&#x2019;s hand, and wrote over against the candlestick upon the plaister of the wall of the king&#x2019;s palace: and the king saw the part of the hand that wrote.
+</verse><verse>Then the king&#x2019;s countenance was changed, and his thoughts troubled him, so that the joints of his loins were loosed, and his knees smote one against another.
 </verse><verse>The king cried aloud to bring in the astrologers, the Chaldeans, and the soothsayers. <supplied>And</supplied> the king spake, and said to the wise <supplied>men</supplied> of Babylon, Whosoever shall read this writing, and shew me the interpretation thereof, shall be
 clothed with scarlet, and <supplied>have</supplied> a chain of gold about his neck, and shall be the third ruler in the kingdom.
-</verse><verse>Then came in all the king’s wise <supplied>men:</supplied> but they could not read the writing, nor make known to the king the interpretation thereof.
+</verse><verse>Then came in all the king&#x2019;s wise <supplied>men:</supplied> but they could not read the writing, nor make known to the king the interpretation thereof.
 </verse><verse>Then was king Belshazzar greatly troubled, and his countenance was changed in him, and his lords were astonied.
      
       </verse>

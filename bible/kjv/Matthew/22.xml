@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="22">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="22">
       <verse>And Jesus answered and spake unto them again by parables, and said,
 </verse><verse><jesus>The kingdom of heaven is like unto a certain king, which made a marriage for his son, </jesus></verse><verse><jesus>And sent forth his servants to call them that were bidden to the wedding: and they would not come. </jesus></verse><verse><jesus>Again, he sent forth other
 servants, saying, Tell them which are bidden, Behold, I have prepared my dinner: my oxen and <supplied>my</supplied> fatlings <supplied>are</supplied> killed, and all things <supplied>are</supplied> ready: come unto the marriage. </jesus></verse><verse><jesus>But they made light of <supplied>it,</supplied> and went
@@ -18,7 +19,7 @@ ye shall find, bid to the marriage. </jesus></verse><verse><jesus>So those serva
 </verse><verse>And they sent out unto him their disciples with the Herodians, saying, Master, we know that thou art true, and teachest the way of God in truth, neither carest thou for any <supplied>man:</supplied> for thou regardest not the person of men.
 </verse><verse>Tell us therefore, What thinkest thou? Is it lawful to give tribute unto Caesar, or not?
 </verse><verse>But Jesus perceived their wickedness, and said, <jesus>Why tempt ye me, <supplied>ye</supplied> hypocrites? </jesus></verse><verse><jesus>Shew me the tribute money.</jesus> And they brought unto him a penny.
-</verse><verse>And he saith unto them, <jesus>Whose <supplied>is</supplied> this image and superscription? </jesus></verse><verse>They say unto him, Caesar’s. Then saith he unto them, <jesus>Render therefore unto Caesar the things which are Caesar’s; and unto God the things that are God’s.
+</verse><verse>And he saith unto them, <jesus>Whose <supplied>is</supplied> this image and superscription? </jesus></verse><verse>They say unto him, Caesar&#x2019;s. Then saith he unto them, <jesus>Render therefore unto Caesar the things which are Caesar&#x2019;s; and unto God the things that are God&#x2019;s.
 </jesus></verse><verse>When they had heard <supplied>these words,</supplied> they marvelled, and left him, and went their way.
      
       </verse>

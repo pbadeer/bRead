@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="2CO" n="12">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="2 Corinthians" n="12">
       <verse>It is not expedient for me doubtless to glory. I will come to visions and revelations of the Lord.
 </verse><verse>I knew a man in Christ above fourteen years ago, (whether in the body, I cannot tell; or whether out of the body, I cannot tell: God knoweth;) such an one caught up to the third heaven.
 </verse><verse>And I knew such a man, (whether in the body, or out of the body, I cannot tell: God knoweth;)
@@ -8,7 +9,7 @@
 </verse><verse>And lest I should be exalted above measure through the abundance of the revelations, there was given to me a thorn in the flesh, the messenger of Satan to buffet me, lest I should be exalted above measure.
 </verse><verse>For this thing I besought the Lord thrice, that it might depart from me.
 </verse><verse>And he said unto me, <jesus>My grace is sufficient for thee: for my strength is made perfect in weakness.</jesus> Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me.
-</verse><verse>Therefore I take pleasure in infirmities, in reproaches, in necessities, in persecutions, in distresses for Christ’s sake: for when I am weak, then am I strong.
+</verse><verse>Therefore I take pleasure in infirmities, in reproaches, in necessities, in persecutions, in distresses for Christ&#x2019;s sake: for when I am weak, then am I strong.
      
       </verse>
       <verse>I am become a fool in glorying; ye have compelled me: for I ought to have been commended of you: for in nothing am I behind the very chiefest apostles, though I be nothing.

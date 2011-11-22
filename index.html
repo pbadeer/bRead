@@ -5,17 +5,29 @@
     <title>bread</title>
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="load.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
 <body>
 
-    <input type="text" id="ref" onchange="find(this.value)"/>
-    <input type="button" onclick="find()" value="go"/><br/>
+    <div id="nav">
+        <input type="text" id="ref" onchange="find(this.value)"/><br/>
 
-    <a href="#" onclick="prev()">prev</a>
-    <a href="#" onclick="next()">next</a>
-    
-    <div id="passage"></div>
+        <a href="#prev" onclick="prev()">prev</a>
+        <a href="#next" onclick="next()">next</a><br/>
+
+        <a href="#one" class="layout one">one</a>
+        <a href="#two" class="layout two">two</a>
+        (<button class="two bible">bible</button>)
+        <br/>
+
+        <button class="nums">nums</button>
+    </div>
+
+    <div id="bible">
+        <div class="column one"></div>
+        <div class="column two"></div>
+    </div>
 
 </body>
 

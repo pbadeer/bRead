@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="GAL" n="5">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Galatians" n="5">
       <verse>Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.
      
       </verse>
@@ -24,7 +25,7 @@
 </verse><verse>Envyings, murders, drunkenness, revellings, and such like: of the which I tell you before, as I have also told <supplied>you</supplied> in time past, that they which do such things shall not inherit the kingdom of God.
 </verse><verse>But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,
 </verse><verse>Meekness, temperance: against such there is no law.
-</verse><verse>And they that are Christ’s have crucified the flesh with the affections and lusts.
+</verse><verse>And they that are Christ&#x2019;s have crucified the flesh with the affections and lusts.
 </verse><verse>If we live in the Spirit, let us also walk in the Spirit.
 </verse><verse>Let us not be desirous of vain glory, provoking one another, envying one another.
      

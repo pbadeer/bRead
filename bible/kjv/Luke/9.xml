@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="LUK" n="9">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Luke" n="9">
       <verse>Then he called his twelve disciples together, and gave them power and authority over all devils, and to cure diseases.
 </verse><verse>And he sent them to preach the kingdom of God, and to heal the sick.
 </verse><verse>And he said unto them, <jesus>Take nothing for <supplied>your</supplied> journey, neither staves, nor scrip, neither bread, neither money; neither have two coats apiece. </jesus></verse><verse><jesus>And whatsoever house ye enter into, there abide, and thence depart.
@@ -30,7 +31,7 @@ one of the old prophets is risen again.
       </verse>
       <verse>And he said to <supplied>them</supplied> all, <jesus>If any <supplied>man</supplied> will come after me, let him deny himself, and take up his cross daily, and follow me. </jesus></verse><verse><jesus>For whosoever will save his life shall lose it: but whosoever will lose his life
 for my sake, the same shall save it. </jesus></verse><verse><jesus>For what is a man advantaged, if he gain the whole world, and lose himself, or be cast away? </jesus></verse><verse><jesus>For whosoever shall be ashamed of me and of my words, of him shall the Son of man be
-ashamed, when he shall come in his own glory, and <supplied>in his</supplied> Father’s, and of the holy angels. </jesus></verse><verse><jesus>But I tell you of a truth, there be some standing here, which shall not taste of death, till they see the kingdom of God.
+ashamed, when he shall come in his own glory, and <supplied>in his</supplied> Father&#x2019;s, and of the holy angels. </jesus></verse><verse><jesus>But I tell you of a truth, there be some standing here, which shall not taste of death, till they see the kingdom of God.
      
       </jesus>
       </verse>
@@ -73,7 +74,7 @@ that saying.
 </verse><verse>And sent messengers before his face: and they went, and entered into a village of the Samaritans, to make ready for him.
 </verse><verse>And they did not receive him, because his face was as though he would go to Jerusalem.
 </verse><verse>And when his disciples James and John saw <supplied>this,</supplied> they said, Lord, wilt thou that we command fire to come down from heaven, and consume them, even as Elias did?
-</verse><verse>But he turned, and rebuked them, and said, <jesus>Ye know not what manner of spirit ye are of. </jesus></verse><verse><jesus>For the Son of man is not come to destroy men’s lives, but to save <supplied>them.</supplied> And they went to another village.
+</verse><verse>But he turned, and rebuked them, and said, <jesus>Ye know not what manner of spirit ye are of. </jesus></verse><verse><jesus>For the Son of man is not come to destroy men&#x2019;s lives, but to save <supplied>them.</supplied> And they went to another village.
      
       </jesus>
       </verse>

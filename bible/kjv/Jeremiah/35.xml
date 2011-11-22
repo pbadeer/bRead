@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JER" n="35">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Jeremiah" n="35">
       <verse>The word which came unto Jeremiah from the LORD in the days of Jehoiakim the son of Josiah king of Judah, saying,
 </verse><verse>Go unto the house of the Rechabites, and speak unto them, and bring them into the house of the LORD, into one of the chambers, and give them wine to drink.
 </verse><verse>Then I took Jaazaniah the son of Jeremiah, the son of Habaziniah, and his brethren, and all his sons, and the whole house of the Rechabites;
@@ -15,7 +16,7 @@ keeper of the door:
       </verse>
       <verse>Then came the word of the LORD unto Jeremiah, saying,
 </verse><verse>Thus saith the LORD of hosts, the God of Israel; Go and tell the men of Judah and the inhabitants of Jerusalem, Will ye not receive instruction to hearken to my words? saith the LORD.
-</verse><verse>The words of Jonadab the son of Rechab, that he commanded his sons not to drink wine, are performed; for unto this day they drink none, but obey their father’s commandment: notwithstanding I have spoken unto you, rising early and speaking; but
+</verse><verse>The words of Jonadab the son of Rechab, that he commanded his sons not to drink wine, are performed; for unto this day they drink none, but obey their father&#x2019;s commandment: notwithstanding I have spoken unto you, rising early and speaking; but
 ye hearkened not unto me.
 </verse><verse>I have sent also unto you all my servants the prophets, rising up early and sending <supplied>them,</supplied> saying, Return ye now every man from his evil way, and amend your doings, and go not after other gods to serve them, and ye shall dwell in the
 land which I have given to you and to your fathers: but ye have not inclined your ear, nor hearkened unto me.

@@ -1,6 +1,7 @@
-<chapter translation="KJV" testament="New" book="LUK" n="7">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Luke" n="7">
       <verse>Now when he had ended all his sayings in the audience of the people, he entered into Capernaum.
-</verse><verse>And a certain centurion’s servant, who was dear unto him, was sick, and ready to die.
+</verse><verse>And a certain centurion&#x2019;s servant, who was dear unto him, was sick, and ready to die.
 </verse><verse>And when he heard of Jesus, he sent unto him the elders of the Jews, beseeching him that he would come and heal his servant.
 </verse><verse>And when they came to Jesus, they besought him instantly, saying, That he was worthy for whom he should do this:
 </verse><verse>For he loveth our nation, and he hath built us a synagogue.
@@ -41,8 +42,8 @@ Behold a gluttonous man, and a winebibber, a friend of publicans and sinners! </
      
       </jesus>
       </verse>
-      <verse>And one of the Pharisees desired him that he would eat with him. And he went into the Pharisee’s house, and sat down to meat.
-</verse><verse>And, behold, a woman in the city, which was a sinner, when she knew that <supplied>Jesus</supplied> sat at meat in the Pharisee’s house, brought an alabaster box of ointment,
+      <verse>And one of the Pharisees desired him that he would eat with him. And he went into the Pharisee&#x2019;s house, and sat down to meat.
+</verse><verse>And, behold, a woman in the city, which was a sinner, when she knew that <supplied>Jesus</supplied> sat at meat in the Pharisee&#x2019;s house, brought an alabaster box of ointment,
 </verse><verse>And stood at his feet behind <supplied>him</supplied> weeping, and began to wash his feet with tears, and did wipe <supplied>them</supplied> with the hairs of her head, and kissed his feet, and anointed <supplied>them</supplied> with the ointment.
 </verse><verse>Now when the Pharisee which had bidden him saw <supplied>it,</supplied> he spake within himself, saying, This man, if he were a prophet, would have known who and what manner of woman <supplied>this is</supplied> that toucheth him: for she is a sinner.
 </verse><verse>And Jesus answering said unto him, <jesus>Simon, I have somewhat to say unto thee.</jesus> And he saith, Master, say on.

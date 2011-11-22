@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="EXO" n="3">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Exodus" n="3">
       <verse>Now Moses kept the flock of Jethro his father in law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, <supplied>even</supplied> to Horeb.
 </verse><verse>And the angel of the LORD appeared unto him in a flame of fire out of the midst of a bush: and he looked, and, behold, the bush burned with fire, and the bush <supplied>was</supplied> not consumed.
 </verse><verse>And Moses said, I will now turn aside, and see this great sight, why the bush is not burnt.
@@ -23,7 +24,7 @@ Amorites, and the Perizzites, and the Hivites, and the Jebusites.
 </verse><verse>Go, and gather the elders of Israel together, and say unto them, The LORD God of your fathers, the God of Abraham, of Isaac, and of Jacob, appeared unto me, saying, I have surely visited you, and <supplied>seen</supplied> that which is done to you in
 Egypt:
 </verse><verse>And I have said, I will bring you up out of the affliction of Egypt unto the land of the Canaanites, and the Hittites, and the Amorites, and the Perizzites, and the Hivites, and the Jebusites, unto a land flowing with milk and honey.
-</verse><verse>And they shall hearken to thy voice: and thou shalt come, thou and the elders of Israel, unto the king of Egypt, and ye shall say unto him, The LORD God of the Hebrews hath met with us: and now let us go, we beseech thee, three days’ journey
+</verse><verse>And they shall hearken to thy voice: and thou shalt come, thou and the elders of Israel, unto the king of Egypt, and ye shall say unto him, The LORD God of the Hebrews hath met with us: and now let us go, we beseech thee, three days&#x2019; journey
 into the wilderness, that we may sacrifice to the LORD our God.
      
       </verse>

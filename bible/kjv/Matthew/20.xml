@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="20">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="20">
       <verse>
       <jesus>For the kingdom of heaven is like unto a man <supplied>that is</supplied> an householder, which went out early in the morning to hire labourers into his vineyard. </jesus></verse><verse><jesus>And when he had agreed with the labourers for a penny a day, he
 sent them into his vineyard. </jesus></verse><verse><jesus>And he went out about the third hour, and saw others standing idle in the marketplace, </jesus></verse><verse><jesus>And said unto them; Go ye also into the vineyard, and whatsoever is right I will give you. And they went
@@ -18,7 +19,7 @@ crucify <supplied>him:</supplied> and the third day he shall rise again.
      
       </jesus>
       </verse>
-      <verse>Then came to him the mother of Zebedee’s children with her sons, worshipping <supplied>him,</supplied> and desiring a certain thing of him.
+      <verse>Then came to him the mother of Zebedee&#x2019;s children with her sons, worshipping <supplied>him,</supplied> and desiring a certain thing of him.
 </verse><verse>And he said unto her, <jesus>What wilt thou?</jesus> She saith unto him, Grant that these my two sons may sit, the one on thy right hand, and the other on the left, in thy kingdom.
 </verse><verse>But Jesus answered and said, <jesus>Ye know not what ye ask. Are ye able to drink of the cup that I shall drink of, and to be baptized with the baptism that I am baptized with?</jesus> They say unto him, We are able.
 </verse><verse>And he saith unto them, <jesus>Ye shall drink indeed of my cup, and be baptized with the baptism that I am baptized with: but to sit on my right hand, and on my left, is not mine to give, but <supplied>it shall be given to them</supplied> for whom it is

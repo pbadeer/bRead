@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="LEV" n="16">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Leviticus" n="16">
       <verse>And the LORD spake unto Moses after the death of the two sons of Aaron, when they offered before the LORD, and died;
 </verse><verse>And the LORD said unto Moses, Speak unto Aaron thy brother, that he come not at all times into the holy <supplied>place</supplied> within the vail before the mercy seat, which <supplied>is</supplied> upon the ark; that he die not: for I will appear in the cloud upon the
 mercy seat.
@@ -9,7 +10,7 @@ in water, and <supplied>so</supplied> put them on.
 </verse><verse>And Aaron shall offer his bullock of the sin offering, which <supplied>is</supplied> for himself, and make an atonement for himself, and for his house.
 </verse><verse>And he shall take the two goats, and present them before the LORD <supplied>at</supplied> the door of the tabernacle of the congregation.
 </verse><verse>And Aaron shall cast lots upon the two goats; one lot for the LORD, and the other lot for the scapegoat.
-</verse><verse>And Aaron shall bring the goat upon which the LORD’S lot fell, and offer him <supplied>for</supplied> a sin offering.
+</verse><verse>And Aaron shall bring the goat upon which the LORD&#x2019;S lot fell, and offer him <supplied>for</supplied> a sin offering.
 </verse><verse>But the goat, on which the lot fell to be the scapegoat, shall be presented alive before the LORD, to make an atonement with him, <supplied>and</supplied> to let him go for a scapegoat into the wilderness.
 </verse><verse>And Aaron shall bring the bullock of the sin offering, which <supplied>is</supplied> for himself, and shall make an atonement for himself, and for his house, and shall kill the bullock of the sin offering which <supplied>is</supplied> for himself:
 </verse><verse>And he shall take a censer full of burning coals of fire from off the altar before the LORD, and his hands full of sweet incense beaten small, and bring <supplied>it</supplied> within the vail:
@@ -44,7 +45,7 @@ their skins, and their flesh, and their dung.
 that sojourneth among you:
 </verse><verse>For on that day shall <supplied>the priest</supplied> make an atonement for you, to cleanse you, <supplied>that</supplied> ye may be clean from all your sins before the LORD.
 </verse><verse>It <supplied>shall be</supplied> a sabbath of rest unto you, and ye shall afflict your souls, by a statute for ever.
-</verse><verse>And the priest, whom he shall anoint, and whom he shall consecrate to minister in the priest’s office in his father’s stead, shall make the atonement, and shall put on the linen clothes, <supplied>even</supplied> the holy garments:
+</verse><verse>And the priest, whom he shall anoint, and whom he shall consecrate to minister in the priest&#x2019;s office in his father&#x2019;s stead, shall make the atonement, and shall put on the linen clothes, <supplied>even</supplied> the holy garments:
 </verse><verse>And he shall make an atonement for the holy sanctuary, and he shall make an atonement for the tabernacle of the congregation, and for the altar, and he shall make an atonement for the priests, and for all the people of the congregation.
 </verse><verse>And this shall be an everlasting statute unto you, to make an atonement for the children of Israel for all their sins once a year. And he did as the LORD commanded Moses.
      

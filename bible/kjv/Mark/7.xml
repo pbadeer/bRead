@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MRK" n="7">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Mark" n="7">
       <verse>Then came together unto him the Pharisees, and certain of the scribes, which came from Jerusalem.
 </verse><verse>And when they saw some of his disciples eat bread with defiled, that is to say, with unwashen, hands, they found fault.
 </verse><verse>For the Pharisees, and all the Jews, except they wash <supplied>their</supplied> hands oft, eat not, holding the tradition of the elders.
@@ -23,8 +24,8 @@ murders, </jesus></verse><verse><jesus>Thefts, covetousness, wickedness, deceit,
       <verse>And from thence he arose, and went into the borders of Tyre and Sidon, and entered into an house, and would have no man know <supplied>it:</supplied> but he could not be hid.
 </verse><verse>For a <supplied>certain</supplied> woman, whose young daughter had an unclean spirit, heard of him, and came and fell at his feet:
 </verse><verse>The woman was a Greek, a Syrophenician by nation; and she besought him that he would cast forth the devil out of her daughter.
-</verse><verse>But Jesus said unto her, <jesus>Let the children first be filled: for it is not meet to take the children’s bread, and to cast <supplied>it</supplied> unto the dogs. </jesus></verse><verse>And she answered and said unto him, Yes, Lord: yet the dogs under the table eat of
-the children’s crumbs.
+</verse><verse>But Jesus said unto her, <jesus>Let the children first be filled: for it is not meet to take the children&#x2019;s bread, and to cast <supplied>it</supplied> unto the dogs. </jesus></verse><verse>And she answered and said unto him, Yes, Lord: yet the dogs under the table eat of
+the children&#x2019;s crumbs.
 </verse><verse>And he said unto her, <jesus>For this saying go thy way; the devil is gone out of thy daughter. </jesus></verse><verse>And when she was come to her house, she found the devil gone out, and her daughter laid upon the bed.
      
       </verse>

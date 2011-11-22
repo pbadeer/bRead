@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="PSA" n="99">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Psalm" n="99">
       
        
         <verse>The LORD reigneth; let the people tremble: he sitteth <supplied>between</supplied> the cherubims; let the earth be moved.
@@ -16,7 +17,7 @@
       
        
         </verse>
-        <verse>The king’s strength also loveth judgment; thou dost establish equity, thou executest judgment and righteousness in Jacob.
+        <verse>The king&#x2019;s strength also loveth judgment; thou dost establish equity, thou executest judgment and righteousness in Jacob.
       
       
        

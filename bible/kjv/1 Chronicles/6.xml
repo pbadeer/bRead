@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="1CH" n="6">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="1 Chronicles" n="6">
       <verse>The sons of Levi; Gershon, Kohath, and Merari.
 </verse><verse>And the sons of Kohath; Amram, Izhar, and Hebron, and Uzziel.
 </verse><verse>And the children of Amram; Aaron, and Moses, and Miriam. The sons also of Aaron; Nadab, and Abihu, Eleazar, and Ithamar.
@@ -10,7 +11,7 @@
 </verse><verse>Meraioth begat Amariah, and Amariah begat Ahitub,
 </verse><verse>And Ahitub begat Zadok, and Zadok begat Ahimaaz,
 </verse><verse>And Ahimaaz begat Azariah, and Azariah begat Johanan,
-</verse><verse>And Johanan begat Azariah, (he <supplied>it is</supplied> that executed the priest’s office in the temple that Solomon built in Jerusalem:)
+</verse><verse>And Johanan begat Azariah, (he <supplied>it is</supplied> that executed the priest&#x2019;s office in the temple that Solomon built in Jerusalem:)
 </verse><verse>And Azariah begat Amariah, and Amariah begat Ahitub,
 </verse><verse>And Ahitub begat Zadok, and Zadok begat Shallum,
 </verse><verse>And Shallum begat Hilkiah, and Hilkiah begat Azariah,

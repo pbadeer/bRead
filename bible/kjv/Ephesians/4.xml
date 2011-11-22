@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="EPH" n="4">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Ephesians" n="4">
       <verse>I therefore, the prisoner of the Lord, beseech you that ye walk worthy of the vocation wherewith ye are called,
 </verse><verse>With all lowliness and meekness, with longsuffering, forbearing one another in love;
 </verse><verse>Endeavouring to keep the unity of the Spirit in the bond of peace.
@@ -34,7 +35,7 @@
 </verse><verse>Let no corrupt communication proceed out of your mouth, but that which is good to the use of edifying, that it may minister grace unto the hearers.
 </verse><verse>And grieve not the holy Spirit of God, whereby ye are sealed unto the day of redemption.
 </verse><verse>Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice:
-</verse><verse>And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ’s sake hath forgiven you.
+</verse><verse>And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ&#x2019;s sake hath forgiven you.
      
       </verse>
       </chapter>

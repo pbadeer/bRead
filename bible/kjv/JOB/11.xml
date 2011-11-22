@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="JOB" n="11">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Job" n="11">
       <verse>Then answered Zophar the Naamathite, and said,
 </verse><verse>Should not the multitude of words be answered? and should a man full of talk be justified?
 </verse><verse>Should thy lies make men hold their peace? and when thou mockest, shall no man make thee ashamed?
@@ -9,7 +10,7 @@ find out the Almighty unto perfection?
 </verse><verse><supplied>It is</supplied> as high as heaven; what canst thou do? deeper than hell; what canst thou know?
 </verse><verse>The measure thereof <supplied>is</supplied> longer than the earth, and broader than the sea.
 </verse><verse>If he cut off, and shut up, or gather together, then who can hinder him?
-</verse><verse>For he knoweth vain men: he seeth wickedness also; will he not then consider <supplied>it? </supplied></verse><verse>For vain man would be wise, though man be born <supplied>like</supplied> a wild ass’s colt.
+</verse><verse>For he knoweth vain men: he seeth wickedness also; will he not then consider <supplied>it? </supplied></verse><verse>For vain man would be wise, though man be born <supplied>like</supplied> a wild ass&#x2019;s colt.
 </verse><verse>If thou prepare thine heart, and stretch out thine hands toward him;
 </verse><verse>If iniquity <supplied>be</supplied> in thine hand, put it far away, and let not wickedness dwell in thy tabernacles.
 </verse><verse>For then shalt thou lift up thy face without spot; yea, thou shalt be stedfast, and shalt not fear:

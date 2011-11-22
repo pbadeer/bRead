@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="ACT" n="2">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Acts" n="2">
       <verse>And when the day of Pentecost was fully come, they were all with one accord in one place.
 </verse><verse>And suddenly there came a sound from heaven as of a rushing mighty wind, and it filled all the house where they were sitting.
 </verse><verse>And there appeared unto them cloven tongues like as of fire, and it sat upon each of them.
@@ -46,7 +47,7 @@
      
       </verse>
       <verse>Then they that gladly received his word were baptized: and the same day there were added <supplied>unto them</supplied> about three thousand souls.
-</verse><verse>And they continued stedfastly in the apostles’ doctrine and fellowship, and in breaking of bread, and in prayers.
+</verse><verse>And they continued stedfastly in the apostles&#x2019; doctrine and fellowship, and in breaking of bread, and in prayers.
 </verse><verse>And fear came upon every soul: and many wonders and signs were done by the apostles.
 </verse><verse>And all that believed were together, and had all things common;
 </verse><verse>And sold their possessions and goods, and parted them to all <supplied>men,</supplied> as every man had need.

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="1CO" n="3">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="1 Corinthians" n="3">
       <verse>And I, brethren, could not speak unto you as unto spiritual, but as unto carnal, <supplied>even</supplied> as unto babes in Christ.
 </verse><verse>I have fed you with milk, and not with meat: for hitherto ye were not able <supplied>to bear it,</supplied> neither yet now are ye able.
      
@@ -9,13 +10,13 @@
 </verse><verse>I have planted, Apollos watered; but God gave the increase.
 </verse><verse>So then neither is he that planteth any thing, neither he that watereth; but God that giveth the increase.
 </verse><verse>Now he that planteth and he that watereth are one: and every man shall receive his own reward according to his own labour.
-</verse><verse>For we are labourers together with God: ye are God’s husbandry, <supplied>ye are</supplied> God’s building.
+</verse><verse>For we are labourers together with God: ye are God&#x2019;s husbandry, <supplied>ye are</supplied> God&#x2019;s building.
 </verse><verse>According to the grace of God which is given unto me, as a wise masterbuilder, I have laid the foundation, and another buildeth thereon. But let every man take heed how he buildeth thereupon.
 </verse><verse>For other foundation can no man lay than that is laid, which is Jesus Christ.
 </verse><verse>Now if any man build upon this foundation gold, silver, precious stones, wood, hay, stubble;
-</verse><verse>Every man’s work shall be made manifest: for the day shall declare it, because it shall be revealed by fire; and the fire shall try every man’s work of what sort it is.
-</verse><verse>If any man’s work abide which he hath built thereupon, he shall receive a reward.
-</verse><verse>If any man’s work shall be burned, he shall suffer loss: but he himself shall be saved; yet so as by fire.
+</verse><verse>Every man&#x2019;s work shall be made manifest: for the day shall declare it, because it shall be revealed by fire; and the fire shall try every man&#x2019;s work of what sort it is.
+</verse><verse>If any man&#x2019;s work abide which he hath built thereupon, he shall receive a reward.
+</verse><verse>If any man&#x2019;s work shall be burned, he shall suffer loss: but he himself shall be saved; yet so as by fire.
 </verse><verse>Know ye not that ye are the temple of God, and <supplied>that</supplied> the Spirit of God dwelleth in you?
 </verse><verse>If any man defile the temple of God, him shall God destroy; for the temple of God is holy, which <supplied>temple</supplied> ye are.
      
@@ -25,7 +26,7 @@
 </verse><verse>And again, The Lord knoweth the thoughts of the wise, that they are vain.
 </verse><verse>Therefore let no man glory in men. For all things are yours;
 </verse><verse>Whether Paul, or Apollos, or Cephas, or the world, or life, or death, or things present, or things to come; all are yours;
-</verse><verse>And ye are Christ’s; and Christ <supplied>is</supplied> God’s.
+</verse><verse>And ye are Christ&#x2019;s; and Christ <supplied>is</supplied> God&#x2019;s.
      
       </verse>
       </chapter>

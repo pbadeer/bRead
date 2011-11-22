@@ -1,10 +1,11 @@
-<chapter translation="KJV" testament="New" book="JHN" n="4">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="John" n="4">
       <verse>When therefore the Lord knew how the Pharisees had heard that Jesus made and baptized more disciples than John,
 </verse><verse>(Though Jesus himself baptized not, but his disciples,)
 </verse><verse>He left Judaea, and departed again into Galilee.
 </verse><verse>And he must needs go through Samaria.
 </verse><verse>Then cometh he to a city of Samaria, which is called Sychar, near to the parcel of ground that Jacob gave to his son Joseph.
-</verse><verse>Now Jacob’s well was there. Jesus therefore, being wearied with <supplied>his</supplied> journey, sat thus on the well: <supplied>and</supplied> it was about the sixth hour.
+</verse><verse>Now Jacob&#x2019;s well was there. Jesus therefore, being wearied with <supplied>his</supplied> journey, sat thus on the well: <supplied>and</supplied> it was about the sixth hour.
 </verse><verse>There cometh a woman of Samaria to draw water: Jesus saith unto her, <jesus>Give me to drink. </jesus></verse><verse>(For his disciples were gone away unto the city to buy meat.)
 </verse><verse>Then saith the woman of Samaria unto him, How is it that thou, being a Jew, askest drink of me, which am a woman of Samaria? for the Jews have no dealings with the Samaritans.
 </verse><verse>Jesus answered and said unto her, <jesus>If thou knewest the gift of God, and who it is that saith to thee, Give me to drink; thou wouldest have asked of him, and he would have given thee living water. </jesus></verse><verse>The woman saith unto him, Sir,

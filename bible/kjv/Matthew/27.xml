@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="27">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="27">
       <verse>When the morning was come, all the chief priests and elders of the people took counsel against Jesus to put him to death:
 </verse><verse>And when they had bound him, they led <supplied>him</supplied> away, and delivered him to Pontius Pilate the governor.
      
@@ -6,10 +7,10 @@
       <verse>Then Judas, which had betrayeth him, when he saw that he was condemned, repented himself, and brought again the thirty pieces of silver to the chief priests and elders,
 </verse><verse>Saying, I have sinned in that I have betrayed the innocent blood. And they said, What <supplied>is that</supplied> to us? see thou <supplied>to that. </supplied></verse><verse>And he cast down the pieces of silver in the temple, and departed, and went and hanged himself.
 </verse><verse>And the chief priests took the silver pieces, and said, It is not lawful for to put them into the treasury, because it is the price of blood.
-</verse><verse>And they took counsel, and bought with them the potter’s field, to bury strangers in.
+</verse><verse>And they took counsel, and bought with them the potter&#x2019;s field, to bury strangers in.
 </verse><verse>Wherefore that field was called, The field of blood, unto this day.
 </verse><verse>Then was fulfilled that which was spoken by Jeremy the prophet, saying, And they took the thirty pieces of silver, the price of him that was valued, whom they of the children of Israel did value;
-</verse><verse>And gave them for the potter’s field, as the Lord appointed me.
+</verse><verse>And gave them for the potter&#x2019;s field, as the Lord appointed me.
 </verse><verse>And Jesus stood before the governor: and the governor asked him, saying, Art thou the King of the Jews? And Jesus said unto him, <jesus>Thou sayest. </jesus></verse><verse>And when he was accused of the chief priests and elders, he answered nothing.
 </verse><verse>Then said Pilate unto him, Hearest thou not how many things they witness against thee?
 </verse><verse>And he answered him to never a word; insomuch that the governor marvelled greatly.
@@ -67,8 +68,8 @@ This <supplied>man</supplied> calleth for Elias.
 </verse><verse>And came out of the graves after his resurrection, and went into the holy city, and appeared unto many.
 </verse><verse>Now when the centurion, and they that were with him, watching Jesus, saw the earthquake, and those things that were done, they feared greatly, saying, Truly this was the Son of God.
 </verse><verse>And many women were there beholding afar off, which followed Jesus from Galilee, ministering unto him:
-</verse><verse>Among which was Mary Magdalene, and Mary the mother of James and Joses, and the mother of Zebedee’s children.
-</verse><verse>When the even was come, there came a rich man of Arimathaea, named Joseph, who also himself was Jesus’ disciple:
+</verse><verse>Among which was Mary Magdalene, and Mary the mother of James and Joses, and the mother of Zebedee&#x2019;s children.
+</verse><verse>When the even was come, there came a rich man of Arimathaea, named Joseph, who also himself was Jesus&#x2019; disciple:
 </verse><verse>He went to Pilate, and begged the body of Jesus. Then Pilate commanded the body to be delivered.
 </verse><verse>And when Joseph had taken the body, he wrapped it in a clean linen cloth,
 </verse><verse>And laid it in his own new tomb, which he had hewn out in the rock: and he rolled a great stone to the door of the sepulchre, and departed.

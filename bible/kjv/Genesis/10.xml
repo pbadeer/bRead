@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="GEN" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Genesis" n="10">
       <verse>Now these <supplied>are</supplied> the generations of the sons of Noah, Shem, Ham, and Japheth: and unto them were sons born after the flood.
 </verse><verse>The sons of Japheth; Gomer, and Magog, and Madai, and Javan, and Tubal, and Meshech, and Tiras.
 </verse><verse>And the sons of Gomer; Ashkenaz, and Riphath, and Togarmah.
@@ -29,7 +30,7 @@
 </verse><verse>The children of Shem; Elam, and Asshur, and Arphaxad, and Lud, and Aram.
 </verse><verse>And the children of Aram; Uz, and Hul, and Gether, and Mash.
 </verse><verse>And Arphaxad begat Salah; and Salah begat Eber.
-</verse><verse>And unto Eber were born two sons: the name of one <supplied>was</supplied> Peleg; for in his days was the earth divided; and his brother’s name <supplied>was</supplied> Joktan.
+</verse><verse>And unto Eber were born two sons: the name of one <supplied>was</supplied> Peleg; for in his days was the earth divided; and his brother&#x2019;s name <supplied>was</supplied> Joktan.
 </verse><verse>And Joktan begat Almodad, and Sheleph, and Hazar-maveth, and Jerah,
 </verse><verse>And Hadoram, and Uzal, and Diklah,
 </verse><verse>And Obal, and Abimael, and Sheba,

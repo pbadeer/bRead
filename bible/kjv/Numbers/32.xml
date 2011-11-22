@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="NUM" n="32">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Numbers" n="32">
       <verse>Now the children of Reuben and the children of Gad had a very great multitude of cattle: and when they saw the land of Jazer, and the land of Gilead, that, behold, the place <supplied>was</supplied> a place for cattle;
 </verse><verse>The children of Gad and the children of Reuben came and spake unto Moses, and to Eleazar the priest, and unto the princes of the congregation, saying,
 </verse><verse>Ataroth, and Dibon, and Jazer, and Nimrah, and Heshbon, and Elealeh, and Shebam, and Nebo, and Beon,
@@ -10,11 +11,11 @@
 </verse><verse>And wherefore discourage ye the heart of the children of Israel from going over into the land which the LORD hath given them?
 </verse><verse>Thus did your fathers, when I sent them from Kadesh-barnea to see the land.
 </verse><verse>For when they went up unto the valley of Eshcol, and saw the land, they discouraged the heart of the children of Israel, that they should not go into the land which the LORD had given them.
-</verse><verse>And the LORD’S anger was kindled the same time, and he sware, saying,
+</verse><verse>And the LORD&#x2019;S anger was kindled the same time, and he sware, saying,
 </verse><verse>Surely none of the men that came up out of Egypt, from twenty years old and upward, shall see the land which I sware unto Abraham, unto Isaac, and unto Jacob; because they have not wholly followed me:
 </verse><verse>Save Caleb the son of Jephunneh the Kenezite, and Joshua the son of Nun: for they have wholly followed the LORD.
-</verse><verse>And the LORD’S anger was kindled against Israel, and he made them wander in the wilderness forty years, until all the generation, that had done evil in the sight of the LORD, was consumed.
-</verse><verse>And, behold, ye are risen up in your fathers’ stead, an increase of sinful men, to augment yet the fierce anger of the LORD toward Israel.
+</verse><verse>And the LORD&#x2019;S anger was kindled against Israel, and he made them wander in the wilderness forty years, until all the generation, that had done evil in the sight of the LORD, was consumed.
+</verse><verse>And, behold, ye are risen up in your fathers&#x2019; stead, an increase of sinful men, to augment yet the fierce anger of the LORD toward Israel.
 </verse><verse>For if ye turn away from after him, he will yet again leave them in the wilderness; and ye shall destroy all this people.
      
       </verse>

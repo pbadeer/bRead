@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="DAN" n="3">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Daniel" n="3">
       <verse>Nebuchadnezzar the king made an image of gold, whose height <supplied>was</supplied> threescore cubits, <supplied>and</supplied> the breadth thereof six cubits: he set it up in the plain of Dura, in the province of Babylon.
 </verse><verse>Then Nebuchadnezzar the king sent to gather together the princes, the governors, and the captains, the judges, the treasurers, the counsellors, the sheriffs, and all the rulers of the provinces, to come to the dedication of the image which
 Nebuchadnezzar the king had set up.
@@ -32,7 +33,7 @@ cast the same hour into the midst of a burning fiery furnace; and who <supplied>
 heated.
 </verse><verse>And he commanded the most mighty men that <supplied>were</supplied> in his army to bind Shadrach, Meshach, and Abed-nego, <supplied>and</supplied> to cast <supplied>them</supplied> into the burning fiery furnace.
 </verse><verse>Then these men were bound in their coats, their hosen, and their hats, and their <supplied>other</supplied> garments, and were cast into the midst of the burning fiery furnace.
-</verse><verse>Therefore because the king’s commandment was urgent, and the furnace exceeding hot, the flame of the fire slew those men that took up Shadrach, Meshach, and Abed- nego.
+</verse><verse>Therefore because the king&#x2019;s commandment was urgent, and the furnace exceeding hot, the flame of the fire slew those men that took up Shadrach, Meshach, and Abed- nego.
 </verse><verse>And these three men, Shadrach, Meshach, and Abed-nego, fell down bound into the midst of the burning fiery furnace.
 </verse><verse>Then Nebuchadnezzar the king was astonied, and rose up in haste, <supplied>and</supplied> spake, and said unto his counsellors, Did not we cast three men bound into the midst of the fire? They answered and said unto the king, True, O king.
 </verse><verse>He answered and said, Lo, I see four men loose, walking in the midst of the fire, and they have no hurt; and the form of the fourth is like the Son of God.
@@ -40,9 +41,9 @@ heated.
       </verse>
       <verse>Then Nebuchadnezzar came near to the mouth of the burning fiery furnace, <supplied>and</supplied> spake, and said, Shadrach, Meshach, and Abed-nego, ye servants of the most high God, come forth, and come <supplied>hither.</supplied> Then Shadrach, Meshach, and
 Abed-nego, came forth of the midst of the fire.
-</verse><verse>And the princes, governors, and captains, and the king’s counsellors, being gathered together, saw these men, upon whose bodies the fire had no power, nor was an hair of their head singed, neither were their coats changed, nor the smell of
+</verse><verse>And the princes, governors, and captains, and the king&#x2019;s counsellors, being gathered together, saw these men, upon whose bodies the fire had no power, nor was an hair of their head singed, neither were their coats changed, nor the smell of
 fire had passed on them.
-</verse><verse><supplied>Then</supplied> Nebuchadnezzar spake, and said, Blessed <supplied>be</supplied> the God of Shadrach, Meshach, and Abed-nego, who hath sent his angel, and delivered his servants that trusted in him, and have changed the king’s word, and yielded their bodies,
+</verse><verse><supplied>Then</supplied> Nebuchadnezzar spake, and said, Blessed <supplied>be</supplied> the God of Shadrach, Meshach, and Abed-nego, who hath sent his angel, and delivered his servants that trusted in him, and have changed the king&#x2019;s word, and yielded their bodies,
 that they might not serve nor worship any god, except their own God.
 </verse><verse>Therefore I make a decree, That every people, nation, and language, which speak any thing amiss against the God of Shadrach, Meshach, and Abed-nego, shall be cut in pieces, and their houses shall be made a dunghill: because there is no other
 God that can deliver after this sort.

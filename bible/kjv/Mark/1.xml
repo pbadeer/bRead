@@ -1,11 +1,12 @@
-<chapter translation="KJV" testament="New" book="MRK" n="1">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Mark" n="1">
      
       <verse>The beginning of the gospel of Jesus Christ, the Son of God;
 </verse><verse>As it is written in the prophets, Behold, I send my messenger before thy face, which shall prepare thy way before thee.
 </verse><verse>The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.
 </verse><verse>John did baptize in the wilderness, and preach the baptism of repentance for the remission of sins.
 </verse><verse>And there went out unto him all the land of Judaea, and they of Jerusalem, and were all baptized of him in the river of Jordan, confessing their sins.
-</verse><verse>And John was clothed with camel’s hair, and with a girdle of a skin about his loins; and he did eat locusts and wild honey;
+</verse><verse>And John was clothed with camel&#x2019;s hair, and with a girdle of a skin about his loins; and he did eat locusts and wild honey;
 </verse><verse>And preached, saying, There cometh one mightier than I after me, the latchet of whose shoes I am not worthy to stoop down and unloose.
 </verse><verse>I indeed have baptized you with water: but he shall baptize you with the Holy Ghost.
 </verse><verse>And it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized of John in Jordan.
@@ -27,7 +28,7 @@ fishers.
 </verse><verse>And they were all amazed, insomuch that they questioned among themselves, saying, What thing is this? what new doctrine <supplied>is</supplied> this? for with authority commandeth he even the unclean spirits, and they do obey him.
 </verse><verse>And immediately his fame spread abroad throughout all the region round about Galilee.
 </verse><verse>And forthwith, when they were come out of the synagogue, they entered into the house of Simon and Andrew, with James and John.
-</verse><verse>But Simon’s wife’s mother lay sick of a fever, and anon they tell him of her.
+</verse><verse>But Simon&#x2019;s wife&#x2019;s mother lay sick of a fever, and anon they tell him of her.
 </verse><verse>And he came and took her by the hand, and lifted her up; and immediately the fever left her, and she ministered unto them.
 </verse><verse>And at even, when the sun did set, they brought unto him all that were diseased, and them that were possessed with devils.
 </verse><verse>And all the city was gathered together at the door.

@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="New" book="MAT" n="9">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="New" book="Matthew" n="9">
       <verse>And he entered into a ship, and passed over, and came into his own city.
 </verse><verse>And, behold, they brought to him a man sick of the palsy, lying on a bed: and Jesus seeing their faith said unto the sick of the palsy; <jesus>Son, be of good cheer; thy sins be forgiven thee. </jesus></verse><verse>And, behold, certain of the scribes said
 within themselves, This <supplied>man</supplied> blasphemeth.
@@ -31,7 +32,7 @@ bottles perish: but they put new wine into new bottles, and both are preserved.
       <verse>And, behold, a woman, which was diseased with an issue of blood twelve years, came behind <supplied>him,</supplied> and touched the hem of his garment:
 </verse><verse>For she said within herself, If I may but touch his garment, I shall be whole.
 </verse><verse>But Jesus turned him about, and when he saw her, he said, <jesus>Daughter, be of good comfort; thy faith hath made thee whole.</jesus> And the woman was made whole from that hour.
-</verse><verse>And when Jesus came into the ruler’s house, and saw the minstrels and the people making a noise,
+</verse><verse>And when Jesus came into the ruler&#x2019;s house, and saw the minstrels and the people making a noise,
 </verse><verse>He said unto them, <jesus>Give place: for the maid is not dead, but sleepeth.</jesus> And they laughed him to scorn.
 </verse><verse>But when the people were put forth, he went in, and took her by the hand, and the maid arose.
 </verse><verse>And the fame hereof went abroad into all that land.

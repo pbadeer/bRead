@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="LEV" n="10">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Leviticus" n="10">
       <verse>And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not.
 </verse><verse>And there went out fire from the LORD, and devoured them, and they died before the LORD.
 </verse><verse>Then Moses said unto Aaron, This <supplied>is it</supplied> that the LORD spake, saying, I will be sanctified in them that come nigh me, and before all the people I will be glorified. And Aaron held his peace.
@@ -16,10 +17,10 @@ burning which the LORD hath kindled.
      
       </verse>
       <verse>And Moses spake unto Aaron, and unto Eleazar and unto Ithamar, his sons that were left, Take the meat offering that remaineth of the offerings of the LORD made by fire, and eat it without leaven beside the altar: for it <supplied>is</supplied> most holy:
-</verse><verse>And ye shall eat it in the holy place, because it <supplied>is</supplied> thy due, and thy sons’ due, of the sacrifices of the LORD made by fire: for so I am commanded.
-</verse><verse>And the wave breast and heave shoulder shall ye eat in a clean place; thou, and thy sons, and thy daughters with thee: for <supplied>they be</supplied> thy due, and thy sons’ due, <supplied>which</supplied> are given out of the sacrifices of peace offerings of the
+</verse><verse>And ye shall eat it in the holy place, because it <supplied>is</supplied> thy due, and thy sons&#x2019; due, of the sacrifices of the LORD made by fire: for so I am commanded.
+</verse><verse>And the wave breast and heave shoulder shall ye eat in a clean place; thou, and thy sons, and thy daughters with thee: for <supplied>they be</supplied> thy due, and thy sons&#x2019; due, <supplied>which</supplied> are given out of the sacrifices of peace offerings of the
 children of Israel.
-</verse><verse>The heave shoulder and the wave breast shall they bring with the offerings made by fire of the fat, to wave <supplied>it for</supplied> a wave offering before the LORD; and it shall be thine, and thy sons’ with thee, by a statute for ever; as the LORD hath
+</verse><verse>The heave shoulder and the wave breast shall they bring with the offerings made by fire of the fat, to wave <supplied>it for</supplied> a wave offering before the LORD; and it shall be thine, and thy sons&#x2019; with thee, by a statute for ever; as the LORD hath
 commanded.
      
       </verse>

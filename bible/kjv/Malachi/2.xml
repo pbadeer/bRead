@@ -1,4 +1,5 @@
-<chapter translation="KJV" testament="Old" book="MAL" n="2">
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Malachi" n="2">
       <verse>And now, O ye priests, this commandment <supplied>is</supplied> for you.
 </verse><verse>If ye will not hear, and if ye will not lay <supplied>it</supplied> to heart, to give glory unto my name, saith the LORD of hosts, I will even send a curse upon you, and I will curse your blessings: yea, I have cursed them already, because ye do not lay
 <supplied>it</supplied> to heart.
@@ -6,7 +7,7 @@
 </verse><verse>And ye shall know that I have sent this commandment unto you, that my covenant might be with Levi, saith the LORD of hosts.
 </verse><verse>My covenant was with him of life and peace; and I gave them to him <supplied>for</supplied> the fear wherewith he feared me, and was afraid before my name.
 </verse><verse>The law of truth was in his mouth, and iniquity was not found in his lips: he walked with me in peace and equity, and did turn many away from iniquity.
-</verse><verse>For the priest’s lips should keep knowledge, and they should seek the law at his mouth: for he <supplied>is</supplied> the messenger of the LORD of hosts.
+</verse><verse>For the priest&#x2019;s lips should keep knowledge, and they should seek the law at his mouth: for he <supplied>is</supplied> the messenger of the LORD of hosts.
 </verse><verse>But ye are departed out of the way; ye have caused many to stumble at the law; ye have corrupted the covenant of Levi, saith the LORD of hosts.
 </verse><verse>Therefore have I also made you contemptible and base before all the people, according as ye have not kept my ways, but have been partial in the law.
 </verse><verse>Have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?
