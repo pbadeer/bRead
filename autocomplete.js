@@ -67,12 +67,44 @@ books[64] = "3 john";
 books[65] = "jude";
 books[66] = "revelation";
 
-// Find passage
-function find(ref)
+// Find passage: "Book", "Book 1", "Book 1:1"
+function find(input)
 {
-  if(!ref) ref = $(input).val();
+  pbook = new RegExp("[a-zA-Z]+");
+  pchap = new RegExp("[a-zA-Z]+ [0-9]+");
+  pverse = new RegExp("[a-zA-Z]+ [0-9]+:[0-9]+");
 
+  //input = $(input).val();
+
+  if(pverse.test(input)){
+    ref = input.split(" ");
+    ref2 = ref[1].split(":");
+
+    book = ref[0];
+    chapter = ref2[0];
+    verse = ref2[1];
+    
+    load(book, chapter);
+  }
+
+  else if(pchap.test(input)){
+    ref = input.split(" ");
+
+    book = ref[0];
+    chapter = ref[1];
+
+    load(book, chapter);
+  }
+
+  else if(pbook.test(input)){
+    load(input);
+  }
+}
+
+// Reference autocomplete
+function autocomplete(input)
+{
   for (var i=0; i<books.length; i++)
-  if (books[i].indexOf(ref.toLowerCase()) != -1)
-    alert(books[i]);
+    if (books[i].indexOf(input.toLowerCase()) != -1)
+      alert(books[i]);
 }
