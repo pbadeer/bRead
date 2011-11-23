@@ -69,13 +69,18 @@ books[66] = "revelation";
 
 // Initialization function, runs on window.onload
 function init(){
-  output1 = '.column.one';
-  output2 = '.column.two';
+  // CSS Selectors
+  col1 = '.column.one';
+  col2 = '.column.two';
   input = '#ref';
+
+  // Defaults
   current_book = 'matthew';
   current_chap = 1;
-  current_tran = 'kjv';
-  current_col2 = 'bible';
+  col1_tran = 'kjv';
+  col2_tran = 'kjv';
+  col1_type = 'bible';
+  col2_type = 'notes';
 
   //First load! Puts content in main column
   load(1);
@@ -86,46 +91,51 @@ function init(){
     $('.verse .n').toggle();
   });
 
-  // Set column TWO as BIBLE
+  // Button sets column TWO as BIBLE
   $('.two.bible').click(function(){
-    
+    col2_type = 'bible';
+    load(2);
+  });
+
+  // Button sets column TWO as NOTES
+  $('.two.notes').click(function(){
+    col2_type = 'notes';
+    clear(2); //replace with a noteload function
   });
 
   // Layout changer
   $('a.layout').click(function(){
-    
     // animate to ONE
-    if( $(this).hasClass('one') && $(output2).is(':visible') == true){
-      $(output1).animate({
+    if( $(this).hasClass('one') && $(col2).is(':visible') == true){
+      $(col1).animate({
         width: '100%'
       });
-      $(output2).animate({
+      $(col2).animate({
         width: 0,
         opacity: 0
       }, function(){
-        $(output2).hide();
+        $(col2).hide();
       });
     }
 
     // animate to TWO
-    if( $(this).hasClass('two') && $(output2).is(':hidden') == true ){
-      $(output2).show().animate({
+    if( $(this).hasClass('two') && $(col2).is(':hidden') == true ){
+      $(col2).show().animate({
         opacity: 1,
         width: '50%'
       });
-      $(output1).animate({
+      $(col1).animate({
         width: '50%'
       });
     }
-
   });
 }
 
 // Empties main column
 function clear(col)
 {
-  if(col == 1) var area = output1;
-  if(col == 2) var area = output2;
+  if(col == 1) var area = col1;
+  if(col == 2) var area = col2;
 
   $(area).html('');
 }
@@ -144,13 +154,22 @@ function openXML(path)
 // Main loading function, loads passages
 function load(col, book, n)
 {
+  if(col == 1){
+    out = col1;
+    tran = col1_tran;
+  }
+  if(col == 2){
+    out = col2;
+    tran = col2_tran;
+  }
+
   if(!book) book = current_book;
   else current_book = book;
 
-  if(!n) n = 1;
+  if(!n) n = current_chap;
   else current_chap = n;
 
-  xml = openXML('bible/' + current_tran + '/' + book + '/' + n + '.xml');
+  xml = openXML('bible/' + tran + '/' + book + '/' + n + '.xml');
   xsl = openXML('index.xsl');
 
   xsltProcessor = new XSLTProcessor();
@@ -158,14 +177,8 @@ function load(col, book, n)
   
   html = xsltProcessor.transformToFragment(xml,document);
 
-  if(col == 1){
-    clear(1);
-    $(output1).append(html);
-  }
-  if(col == 2){
-    clear(2);
-    $(output2).append(html);
-  }
+  clear(col);
+  $(out).append(html);
 
   afterLoad();
 }
@@ -186,7 +199,7 @@ function afterLoad()
 function prev()
 {
   load(1, current_book, current_chap - 1);
-  if(current_col2 == 'bible')
+  if(col2_type == 'bible')
     load(2, current_book, current_chap);
 }
 
@@ -194,7 +207,7 @@ function prev()
 function next()
 {
   load(1, current_book, current_chap + 1);
-  if(current_col2 == 'bible')
+  if(col2_type == 'bible')
     load(2, current_book, current_chap);
 }
 
@@ -204,7 +217,8 @@ function find(ref)
   if(!ref) ref = $(input).val();
 
   for (var i=0; i<books.length; i++)
-    if (books[i].indexOf(ref.toLowerCase()) != -1) alert(books[i]);
+  if (books[i].indexOf(ref.toLowerCase()) != -1)
+    alert(books[i]);
 }
 
 // Initialize!
