@@ -25,17 +25,25 @@ function load(book, n)
   else current_chap = n;
 
   for(i=1;i<=2;i++){
-    if(current_type[i] != 'bible') continue;
 
-    xml = openXML('bible/' + current_tran[i] + '/' + book + '/' + n + '.xml');
-    xsl = openXML('index.xsl');
+    if(current_type[i] == 'bible')
+    {
+      xml = openXML('bible/' + current_tran[i] + '/' + book + '/' + n + '.xml');
+      xsl = openXML('index.xsl');
 
-    xsltProcessor = new XSLTProcessor();
-    xsltProcessor.importStylesheet(xsl);
-    html = xsltProcessor.transformToFragment(xml,document);
+      xsltProcessor = new XSLTProcessor();
+      xsltProcessor.importStylesheet(xsl);
+      html = xsltProcessor.transformToFragment(xml,document);
 
-    clear(i);
-    $(output[i]).append(html);
+      clear(i);
+      $(output[i]).append(html);
+    }
+
+    if(current_type[i] == 'notes')
+    {
+      clear(i);
+    }
+    
   }
 
   afterLoad();

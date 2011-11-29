@@ -21,15 +21,12 @@ function init(){
   });
 
   // Button sets column TWO as BIBLE
-  $('.two.bible').click(function(){
-    current_type[2] = 'bible';
+  $('.current-type').change(function(){
+    if($(this).hasClass('one')) i = 1;
+    if($(this).hasClass('two')) i = 2;
+    
+    current_type[i] = $(this).val();
     load();
-  });
-
-  // Button sets column TWO as NOTES
-  $('.two.notes').click(function(){
-    current_type[2] = 'notes';
-    clear(2); //replace with a noteload function
   });
 
   // Layout changer
