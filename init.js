@@ -2,7 +2,7 @@
 function init(){
 
   // CSS Selectors
-  output = new Array(0, '.column.one', '.column.two');
+  output = new Array(0, '.column.one', '.column.two', '.column.three', '.column.four');
   input = '#ref';
 
   // Lists
@@ -24,42 +24,32 @@ function init(){
     $('.verse .n').toggle();
   });
 
-  // Button sets column TWO as BIBLE
+  // Select menus for column type and tran
   $('select.current').change(function(){
-    if($(this).hasClass('one')) i = 1;
-    if($(this).hasClass('two')) i = 2;
+    var i = wordNum( $(this).attr('class').split(/\s+/) );
     
     if($(this).hasClass('type'))
       current_type[i] = $(this).val();
     
     if($(this).hasClass('tran'))
       current_tran[i] = $(this).val();
-      
+
     load();
   });
 
   // Layout changer
   $('a.layout').click(function(){
-    // animate to ONE
-    if( $(this).hasClass('one') && $(output[2]).is(':visible') == true){
-      current_cols = 1;
+    var n = wordNum( $(this).attr('class').split(/\s+/) );
 
+    // animate to ONE
+    if( n == 1 && current_cols != 1 ){
       $(output[1]).animate({
         width: '100%'
-      });
-
-      $(output[2]).animate({
-        width: 0,
-        opacity: 0
-      }, function(){
-        $(output[2]).hide();
       });
     }
 
     // animate to TWO
-    if( $(this).hasClass('two') && $(output[2]).is(':hidden') == true ){
-      current_cols = 2;
-
+    if( n == 2 && current_cols != 2){
       $(output[2]).show().animate({
         opacity: 1,
         width: '50%'
@@ -69,6 +59,20 @@ function init(){
         width: '50%'
       });
     }
+
+    // Hide other columns
+    for(i=n+1; i<=current_cols; i++)
+    {
+      $(output[i]).animate({
+        width: 0,
+        opacity: 0
+      }, function(){
+        $(output[i]).hide();
+      });
+    }
+
+    // Reset current_cols number
+    current_cols = n;
   });
 
 }

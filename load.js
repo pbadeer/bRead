@@ -73,5 +73,17 @@ function next()
   load(current_book, current_chap + 1);
 }
 
+// Convert word to num
+function wordNum(word)
+{
+  var words = new Array('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten');
+
+  for (w in word)
+  {
+    if($.inArray(word[w], words) == -1) continue;
+    else return $.inArray(word[w], words);
+  }
+}
+
 // Initialize!
 window.onload = init;
