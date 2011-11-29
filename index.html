@@ -15,25 +15,29 @@
 <body>
 
     <div id="nav">
+        <button class="nums">nums</button>
         <input type="text" id="ref" onchange="find(this.value)"/>
         <a href="#prev" onclick="prev()">prev</a>
         <a href="#next" onclick="next()">next</a><br/>
 
         <a href="#one" class="layout one">one</a>
-        <a href="#two" class="layout two">two</a>
-        (
-            <select class="current-type one">
-                <option value="bible">bible</option>
-                <option value="notes">notes</option>
-            </select>
-            <select class="current-type two">
-                <option value="notes">notes</option>
-                <option value="bible">bible</option>
-            </select>
-        )
-        <br/>
+        <a href="#two" class="layout two">two</a><br/>
 
-        <button class="nums">nums</button>
+        <select class="current type one">
+            <option value="1">bible</option>
+            <option value="2">notes</option>
+        </select>
+        <select class="current type two">
+            <option value="1">bible</option>
+            <option value="2" selected="selected">notes</option>
+        </select><br/>
+
+        <select class="current trans one">
+            <option value="kjv">kjv</option>
+        </select>
+        <select class="current trans two">
+            <option value="kjv">kjv</option>
+        </select>
     </div>
 
     <div id="bible">

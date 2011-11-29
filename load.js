@@ -24,9 +24,10 @@ function load(book, n)
   if(!n) n = current_chap;
   else current_chap = n;
 
-  for(i=1;i<=2;i++){
+  for(i=0; i<=current_cols; i++){
+    if(i === 0) continue;
 
-    if(current_type[i] == 'bible')
+    if(types[current_type[i]] == 'bible')
     {
       xml = openXML('bible/' + current_tran[i] + '/' + book + '/' + n + '.xml');
       xsl = openXML('index.xsl');
@@ -39,11 +40,10 @@ function load(book, n)
       $(output[i]).append(html);
     }
 
-    if(current_type[i] == 'notes')
+    if(types[current_type[i]] == 'notes')
     {
       clear(i);
     }
-    
   }
 
   afterLoad();
