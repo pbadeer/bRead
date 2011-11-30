@@ -1,11 +1,16 @@
+Bread.Load = new Object();
+var Load = Bread.Load;
+
+
 // Empties main column
-function clear(col)
+Load.clear = function(col)
 {
   $(output[col]).html('');
 }
 
+
 // Opens/loads various filetypes
-function openFile(filename, ext)
+Load.file = function(filename, ext)
 {
   // HTML (return)
   if(ext == 'html')
@@ -47,60 +52,63 @@ function openFile(filename, ext)
   }
 }
 
+
 // Load a view
-function loadView(view)
+Load.view = function(view)
 {
   // Sets path and filename (without extension)
   var path = 'views/' + view + '/' + view;
 
   // Load JS
-  openFile(path + '.js', 'js');
+  this.file(path + '.js', 'js');
 
   // Resets current view
-  current_view = view;
+  Current.view = view;
 }
 
+
 // Loads columns and fills with column-type-specified content
-function load(book, n)
+Load.cols = function(book, n)
 {
-  if(!book) book = current_book;
-  else current_book = book;
+  if(!book) book = Current.book;
+  else Current.book = book;
 
-  if(!n) n = current_chap;
-  else current_chap = n;
+  if(!n) n = Current.chap;
+  else Current.chap = n;
 
-  for(i=0; i<=current_cols; i++){
-    if(i === 0) continue;
+  for(i = 0; i <= Current.cols; i++){
+    if(i == 0) continue;
 
     // Column type: BIBLE
-    if(types[current_type[i]] == 'bible')
+    if(types[Current.type[i]] == 'bible')
     {
-      xml = openFile('bible/' + current_tran[i] + '/' + book + '/' + n + '.xml', 'xml');
-      xsl = openFile('index.xsl', 'xml');
+      xml = this.file('bible/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
+      xsl = this.file('index.xsl', 'xml');
 
       xsltProcessor = new XSLTProcessor();
       xsltProcessor.importStylesheet(xsl);
       html = xsltProcessor.transformToFragment(xml,document);
 
-      clear(i);
+      this.clear(i);
       $(output[i]).append(html);
     }
 
     // Column type: NOTES
-    if(types[current_type[i]] == 'notes')
+    if(types[Current.type[i]] == 'notes')
     {
-      clear(i);
+      this.clear(i);
     }
   }
 
-  afterLoad();
+  this.after();
 }
 
-// Things to run after content-load (load())
-function afterLoad()
+
+// Things to run after content-load (Bread.Load.cols())
+Load.after = function()
 {
-  // Change current passage title
-  $(input).val(current_book + ' ' + current_chap);
+  // Changes input to current passage title
+  $(input).val(Current.book + ' ' + Current.chap);
 
   // Verse ref grabber
   $('.verse').click(function(){
@@ -108,29 +116,16 @@ function afterLoad()
   });
 }
 
+
 // Previous chapter
-function prev()
+Load.prev = function()
 {
-  load(current_book, current_chap - 1);
+  this.cols(Current.book, Current.chap - 1);
 }
+
 
 // Next chapter
-function next()
+Load.next = function()
 {
-  load(current_book, current_chap + 1);
+  this.cols(Current.book, Current.chap + 1);
 }
-
-// Convert word to num
-function wordNum(word)
-{
-  var words = new Array('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten');
-
-  for (w in word)
-  {
-    if($.inArray(word[w], words) == -1) continue;
-    else return $.inArray(word[w], words);
-  }
-}
-
-// Initialize!
-window.onload = init;

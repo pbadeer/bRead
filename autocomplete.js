@@ -1,5 +1,9 @@
+Bread.Auto = new Object();
+var Auto = Bread.Auto;
+
+
 var books = new Array();
-books[0] = "";
+books[0] = 0;
 books[1] = "genesis";
 books[2] = "exodus";
 books[3] = "leviticus";
@@ -67,8 +71,9 @@ books[64] = "3 john";
 books[65] = "jude";
 books[66] = "revelation";
 
+
 // Find passage from reference types: "Book", "Book 1", "Book 1:1"
-function find(input)
+Auto.find = function(input)
 {
   pbook = new RegExp("[a-zA-Z]+");
   pchap = new RegExp("[a-zA-Z]+ [0-9]+");
@@ -79,30 +84,44 @@ function find(input)
     ref2 = ref[1].split(":");
 
     book = ref[0];
-    chapter = ref2[0];
-    verse = ref2[1];
+    chapter = ref2[0] * 1;
+    verse = ref2[1] * 1;
     
-    load(book, chapter);
+    Load.cols(book, chapter);
   }
 
   else if(pchap.test(input)){
     ref = input.split(" ");
 
     book = ref[0];
-    chapter = ref[1];
+    chapter = ref[1] * 1;
 
-    load(book, chapter);
+    Load.cols(book, chapter);
   }
 
   else if(pbook.test(input)){
-    load(input);
+    Load.cols(input);
   }
 }
 
+
 // Reference autocomplete
-function autocomplete(input)
+Auto.complete = function(input)
 {
-  for (var i=0; i<books.length; i++)
+  for (i = 0; i <= books.length; i++)
     if (books[i].indexOf(input.toLowerCase()) != -1)
       alert(books[i]);
+}
+
+
+// Convert word to num
+Auto.wordNum = function(word)
+{
+  var words = new Array('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten');
+
+  for (w in word)
+  {
+    if($.inArray(word[w], words) == -1) continue;
+    else return $.inArray(word[w], words);
+  }
 }

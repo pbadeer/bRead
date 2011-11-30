@@ -1,5 +1,10 @@
+var Bread = Bread || {};
+Bread.Current = new Object();
+var Current = Bread.Current;
+
+
 // Initialization function, runs on window.onload
-function init(){
+Bread.init = function(){
 
   // CSS Selectors
   output = new Array(0, '#bible .column.one', '#bible .column.two');
@@ -9,48 +14,51 @@ function init(){
   types = new Array(0, 'bible', 'notes');
 
   // Defaults
-  current_book = 'Matthew';
-  current_chap = 1;
-  current_tran = new Array(0, 'kjv', 'kjv');
-  current_type = new Array(0, 1, 2);
-  current_cols = 1;
-  current_view = '';
+  Current.book = 'Matthew';
+  Current.chap = 1;
+  Current.tran = new Array(0, 'kjv', 'kjv');
+  Current.type = new Array(0, 1, 2);
+  Current.cols = 1;
+  Current.view = '';
+
 
   //First load!
-  load();
+  Load.cols();
 
 
   // Show/hide verse numbers
   $('.nums').click(function(){
-    loadView('nums');
+    Load.view('nums');
   });
+
 
   // Select menus for column type and tran
   $('select.current').change(function(){
-    var i = wordNum( $(this).attr('class').split(/\s+/) );
+    var i = Auto.wordNum( $(this).attr('class').split(/\s+/) );
     
     if($(this).hasClass('type'))
-      current_type[i] = $(this).val();
+      Current.type[i] = $(this).val();
     
     if($(this).hasClass('tran'))
-      current_tran[i] = $(this).val();
+      Current.tran[i] = $(this).val();
 
-    load();
+    Load.cols();
   });
+
 
   // Layout changer
   $('a.layout').click(function(){
-    var n = wordNum( $(this).attr('class').split(/\s+/) );
+    var n = Auto.wordNum( $(this).attr('class').split(/\s+/) );
 
     // animate to ONE
-    if( n == 1 && current_cols != 1 ){
+    if( n == 1 && Current.cols != 1 ){
       $(output[1]).animate({
         width: '100%'
       });
     }
 
     // animate to TWO
-    if( n == 2 && current_cols != 2){
+    if( n == 2 && Current.cols != 2){
       $(output[2]).show().animate({
         opacity: 1,
         width: '50%'
@@ -62,7 +70,7 @@ function init(){
     }
 
     // Hide other columns
-    for(i=n+1; i<=current_cols; i++)
+    for(i=n+1; i<=Current.cols; i++)
     {
       $(output[i]).animate({
         width: 0,
@@ -72,8 +80,27 @@ function init(){
       });
     }
 
-    // Reset current_cols number
-    current_cols = n;
+    // Reset number of current columns
+    Current.cols = n;
+  });
+
+
+  // Previous and Next buttons
+  $('a.prev').click(function(){
+    Load.prev();
+  });
+  $('a.next').click(function(){
+    Load.next();
+  });
+
+
+  // Ref loader (from input)
+  $(input).change(function(){
+    Auto.find( $(this).val() );
   });
 
 }
+
+
+// Initialize!
+window.onload = Bread.init;
