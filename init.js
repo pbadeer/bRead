@@ -2,7 +2,7 @@
 function init(){
 
   // CSS Selectors
-  output = new Array(0, '.column.one', '.column.two', '.column.three', '.column.four');
+  output = new Array(0, '.column.one', '.column.two');
   input = '#ref';
 
   // Lists
