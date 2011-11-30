@@ -54,18 +54,13 @@ function loadView(view)
   var path = 'views/' + view + '/' + view;
 
   // Load JS
-  // openFile(path + '.js', 'js');
-
-  // Load CSS
-  // openFile(path + '.css', 'css');
-
-  //use deferred to open the css once the js is done RUNNING (not loading, running)
+  openFile(path + '.js', 'js');
 
   // Resets current view
   current_view = view;
 }
 
-// Main loading function, loads passages
+// Loads columns and fills with column-type-specified content
 function load(book, n)
 {
   if(!book) book = current_book;
@@ -77,6 +72,7 @@ function load(book, n)
   for(i=0; i<=current_cols; i++){
     if(i === 0) continue;
 
+    // Column type: BIBLE
     if(types[current_type[i]] == 'bible')
     {
       xml = openFile('bible/' + current_tran[i] + '/' + book + '/' + n + '.xml', 'xml');
@@ -90,6 +86,7 @@ function load(book, n)
       $(output[i]).append(html);
     }
 
+    // Column type: NOTES
     if(types[current_type[i]] == 'notes')
     {
       clear(i);
