@@ -14,6 +14,7 @@ function init(){
   current_tran = new Array(0, 'kjv', 'kjv');
   current_type = new Array(0, 1, 2);
   current_cols = 1;
+  current_view = '';
 
   //First load!
   load();
@@ -21,7 +22,7 @@ function init(){
 
   // Show/hide verse numbers
   $('.nums').click(function(){
-    $('.verse .n').toggle();
+    loadView('nums');
   });
 
   // Select menus for column type and tran

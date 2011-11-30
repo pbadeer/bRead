@@ -4,15 +4,65 @@ function clear(col)
   $(output[col]).html('');
 }
 
-// Opens XML and returns the request
-function openXML(path)
+// Opens/loads various filetypes
+function openFile(filename, ext)
 {
-  req = new XMLHttpRequest();
+  // HTML (return)
+  if(ext == 'html')
+  {
+    return $.ajax({
+      url: filename,
+      async: false,
+      dataType: 'html'
+    }).responseText;
+  }
 
-  req.open('GET', path, false);
-  req.send('');
+  // XML (return)
+  if(ext == 'xml')
+  {
+    return $.ajax({
+      url: filename,
+      async: false,
+      dataType: 'xml'
+    }).responseXML;
+  }
 
-  return req.responseXML;
+  // JS (load)
+  if(ext == 'js')
+  {  
+    var tag = document.createElement('script');
+    tag.setAttribute('type','text/javascript');
+    tag.setAttribute('src', filename);
+    $('head').append(tag);
+  }
+  
+  // CSS (load)
+  if(ext == 'css')
+  {
+    var tag = document.createElement('link');
+    tag.setAttribute('rel', 'stylesheet');
+    tag.setAttribute('type', 'text/css');
+    tag.setAttribute('href', filename);
+    $('head').append(tag);
+  }
+}
+
+// Load a view
+function loadView(view)
+{
+  // Sets path and filename (without extension)
+  var path = 'views/' + view + '/' + view;
+
+  // Load JS
+  // openFile(path + '.js', 'js');
+
+  // Load CSS
+  // openFile(path + '.css', 'css');
+
+  //use deferred to open the css once the js is done RUNNING (not loading, running)
+
+  // Resets current view
+  current_view = view;
 }
 
 // Main loading function, loads passages
@@ -29,8 +79,8 @@ function load(book, n)
 
     if(types[current_type[i]] == 'bible')
     {
-      xml = openXML('bible/' + current_tran[i] + '/' + book + '/' + n + '.xml');
-      xsl = openXML('index.xsl');
+      xml = openFile('bible/' + current_tran[i] + '/' + book + '/' + n + '.xml', 'xml');
+      xsl = openFile('index.xsl', 'xml');
 
       xsltProcessor = new XSLTProcessor();
       xsltProcessor.importStylesheet(xsl);
