@@ -3,8 +3,8 @@ Bread.Current = new Object();
 var Current = Bread.Current;
 
 
-// Initialization function, runs on window.onload
-Bread.init = function(){
+// Initialization, runs on window.onload
+Bread.Init = function(){
 
   // CSS Selectors
   output = new Array(0, '#bible .column.one', '#bible .column.two');
@@ -103,4 +103,4 @@ Bread.init = function(){
 
 
 // Initialize!
-window.onload = Bread.init;
+window.onload = Bread.Init;

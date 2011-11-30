@@ -57,10 +57,11 @@ Load.file = function(filename, ext)
 Load.view = function(view)
 {
   // Sets path and filename (without extension)
-  var path = 'views/' + view + '/' + view;
+  this.view.path = 'views/' + view + '/' + view;
+  this.view.css = function(){ openFile(path + '.css', 'css') };
 
   // Load JS
-  this.file(path + '.js', 'js');
+  this.file(this.view.path + '.js', 'js');
 
   // Resets current view
   Current.view = view;
