@@ -67,14 +67,12 @@ books[64] = "3 john";
 books[65] = "jude";
 books[66] = "revelation";
 
-// Find passage: "Book", "Book 1", "Book 1:1"
+// Find passage from reference types: "Book", "Book 1", "Book 1:1"
 function find(input)
 {
   pbook = new RegExp("[a-zA-Z]+");
   pchap = new RegExp("[a-zA-Z]+ [0-9]+");
   pverse = new RegExp("[a-zA-Z]+ [0-9]+:[0-9]+");
-
-  //input = $(input).val();
 
   if(pverse.test(input)){
     ref = input.split(" ");
