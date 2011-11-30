@@ -6,7 +6,7 @@ function nums(){
     opacity: 0,
     width: 0
   }, function(){
-    Load.view.css;
+    Load.view.css();
   });
 
 }
