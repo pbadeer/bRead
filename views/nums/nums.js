@@ -1,14 +1,33 @@
-function nums(){
+Bread.View.Nums = new Object();
+Nums = Bread.View.Nums;
 
-  var name = arguments.callee.name;
+
+// Init
+Nums.init = function(){
 
   $('.verse .n').animate({
-    opacity: 0,
-    width: 0
-  }, function(){
-    Load.view.css();
+    opacity: 'toggle',
+    width: 'toggle'
   });
 
 }
 
-nums();
+
+// Run this every column load (Load.cols())
+Nums.load = function(){
+
+  $('.verse .n').hide();
+
+}
+
+
+// Disable
+Nums.off = function(){
+
+  $('.verse .n').show();
+
+}
+
+
+// Initialize!
+Nums.init();

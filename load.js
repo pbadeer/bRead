@@ -10,13 +10,13 @@ Load.clear = function(col)
 
 
 // Opens/loads various filetypes
-Load.file = function(filename, ext)
+Load.file = function(path, ext)
 {
   // HTML (return)
   if(ext == 'html')
   {
     return $.ajax({
-      url: filename,
+      url: path,
       async: false,
       dataType: 'html'
     }).responseText;
@@ -26,7 +26,7 @@ Load.file = function(filename, ext)
   if(ext == 'xml')
   {
     return $.ajax({
-      url: filename,
+      url: path,
       async: false,
       dataType: 'xml'
     }).responseXML;
@@ -37,7 +37,7 @@ Load.file = function(filename, ext)
   {  
     var tag = document.createElement('script');
     tag.setAttribute('type','text/javascript');
-    tag.setAttribute('src', filename);
+    tag.setAttribute('src', path);
     $('head').append(tag);
   }
   
@@ -47,24 +47,9 @@ Load.file = function(filename, ext)
     var tag = document.createElement('link');
     tag.setAttribute('rel', 'stylesheet');
     tag.setAttribute('type', 'text/css');
-    tag.setAttribute('href', filename);
+    tag.setAttribute('href', path);
     $('head').append(tag);
   }
-}
-
-
-// Load a view
-Load.view = function(view)
-{
-  // Sets path and filename (without extension)
-  this.view.path = 'views/' + view + '/' + view;
-  this.view.css = function(){ Load.file(Load.view.path + '.css', 'css') };
-
-  // Load JS
-  this.file(this.view.path + '.js', 'js');
-
-  // Resets current view
-  Current.view = view;
 }
 
 
@@ -115,6 +100,9 @@ Load.after = function()
   $('.verse').click(function(){
     $(input).val( $(this).attr('ref') );
   });
+
+  // Load any after-content-load view settings
+  View.load.after();
 }
 
 

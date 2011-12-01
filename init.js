@@ -28,7 +28,13 @@ Bread.Init = function(){
 
   // Show/hide verse numbers
   $('.nums').click(function(){
-    Load.view('nums');
+    if(Current.view != 'nums') {
+      Bread.View.load('nums');
+    }
+    else {
+      Bread.View.Nums.off();
+      Current.view = '';
+    }
   });
 
 
