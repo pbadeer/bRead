@@ -38,7 +38,8 @@ Load.file = function(path, ext)
     var tag = document.createElement('script');
     tag.setAttribute('type','text/javascript');
     tag.setAttribute('src', path);
-    $('head').append(tag);
+    if( $('head').append(tag) ) return true;
+    else return false;
   }
   
   // CSS (load)
@@ -48,7 +49,8 @@ Load.file = function(path, ext)
     tag.setAttribute('rel', 'stylesheet');
     tag.setAttribute('type', 'text/css');
     tag.setAttribute('href', path);
-    $('head').append(tag);
+    if( $('head').append(tag) ) return true;
+    else return false;
   }
 }
 
@@ -66,19 +68,18 @@ Load.cols = function(book, n)
 
   // Loop through (and fill) columns
   for(i = 1; i <= Current.cols; i++){
-
     // Column type: BIBLE
     if(types[Current.type[i]] == 'bible')
     {
-      xml = this.file('bible/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
-      xsl = this.file('index.xsl', 'xml');
+        xml = this.file('bible/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
+        xsl = this.file('index.xsl', 'xml');
+        xsltProcessor = new XSLTProcessor();
+        xsltProcessor.importStylesheet(xsl);
+        html = xsltProcessor.transformToFragment(xml,document);
 
-      xsltProcessor = new XSLTProcessor();
-      xsltProcessor.importStylesheet(xsl);
-      html = xsltProcessor.transformToFragment(xml,document);
+        this.clear(i);
 
-      this.clear(i);
-      $(Current.output[i]).append(html);
+        $(Current.output[i]).append(html);
     }
 
     // Column type: NOTES
@@ -86,7 +87,6 @@ Load.cols = function(book, n)
     {
       this.clear(i);
     }
-
   }
 
   // Run after-load stuff
