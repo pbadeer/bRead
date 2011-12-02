@@ -109,7 +109,8 @@ Load.after = function()
 // Previous chapter
 Load.prev = function()
 {
-  this.cols(Current.book, Current.chap - 1);
+  if(Current.chap > 1)
+    this.cols(Current.book, Current.chap - 1);
 }
 
 
