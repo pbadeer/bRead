@@ -14,14 +14,14 @@ foreach(glob($translation . '/*/{*.xml}', GLOB_BRACE) as $filename){
     $book = strtok($book, "/");
 
     // Count the chapters of the current book folder
-    $chapters = count(glob($translation . '/' . $book . '/*.xml'));
+    #$chapters = count(glob($translation . '/' . $book . '/*.xml'));
     
     // Load the current chapter file in simplexml
     $file = simplexml_load_file($filename);
 
     // Set the book and chapters of the open file
     $file['book'] = $book;
-    $file['chapters'] = $chapters;
+    #$file['chapters'] = $chapters;
 
     // Save the changes as xml
     $xml = $file->asXML();
