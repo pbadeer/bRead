@@ -56,14 +56,16 @@ Load.file = function(path, ext)
 // Loads columns and fills with column-type-specified content
 Load.cols = function(book, n)
 {
+  // Set current book
   if(!book) book = Current.book;
   else Current.book = book;
 
+  // Set current chapter
   if(!n) n = Current.chap;
   else Current.chap = n;
 
-  for(i = 0; i <= Current.cols; i++){
-    if(i == 0) continue;
+  // Loop through (and fill) columns
+  for(i = 1; i <= Current.cols; i++){
 
     // Column type: BIBLE
     if(types[Current.type[i]] == 'bible')
@@ -84,8 +86,10 @@ Load.cols = function(book, n)
     {
       this.clear(i);
     }
+
   }
 
+  // Run after-load stuff
   this.after();
 }
 
@@ -106,14 +110,15 @@ Load.after = function()
 }
 
 
-// Previous chapter
+// Load previous chapter
 Load.prev = function()
 {
-  this.cols(Current.book, Current.chap - 1);
+  if(Current.chap > 1)
+    this.cols(Current.book, Current.chap - 1);
 }
 
 
-// Next chapter
+// Load next chapter
 Load.next = function()
 {
   this.cols(Current.book, Current.chap + 1);
