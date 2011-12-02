@@ -5,7 +5,7 @@ var Load = Bread.Load;
 // Empties main column
 Load.clear = function(col)
 {
-  $(output[col]).html('');
+  $(Current.output[col]).html('');
 }
 
 
@@ -76,7 +76,7 @@ Load.cols = function(book, n)
       html = xsltProcessor.transformToFragment(xml,document);
 
       this.clear(i);
-      $(output[i]).append(html);
+      $(Current.output[i]).append(html);
     }
 
     // Column type: NOTES
@@ -93,12 +93,12 @@ Load.cols = function(book, n)
 // Things to run after content-load (Bread.Load.cols())
 Load.after = function()
 {
-  // Changes input to current passage title
-  $(input).val(Current.book + ' ' + Current.chap);
+  // Fills input with current passage title
+  $(Current.input).val(Current.book + ' ' + Current.chap);
 
   // Verse ref grabber
   $('.verse').click(function(){
-    $(input).val( $(this).attr('ref') );
+    $(Current.input).val( $(this).attr('ref') );
   });
 
   // Load any after-content-load view settings

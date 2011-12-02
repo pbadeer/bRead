@@ -7,8 +7,8 @@ var Current = Bread.Current;
 Bread.Init = function(){
 
   // CSS Selectors
-  output = new Array(0, '#bible .column.one', '#bible .column.two');
-  input = '#ref';
+  Current.output = new Array(0, '#bible .column.one', '#bible .column.two');
+  Current.input = '#ref';
 
   // Lists
   types = new Array(0, 'bible', 'notes');
@@ -58,19 +58,19 @@ Bread.Init = function(){
 
     // animate to ONE
     if( n == 1 && Current.cols != 1 ){
-      $(output[1]).animate({
+      $(Current.output[1]).animate({
         width: '100%'
       });
     }
 
     // animate to TWO
     if( n == 2 && Current.cols != 2){
-      $(output[2]).show().animate({
+      $(Current.output[2]).show().animate({
         opacity: 1,
         width: '50%'
       });
 
-      $(output[1]).animate({
+      $(Current.output[1]).animate({
         width: '50%'
       });
     }
@@ -78,11 +78,11 @@ Bread.Init = function(){
     // Hide other columns
     for(i=n+1; i<=Current.cols; i++)
     {
-      $(output[i]).animate({
+      $(Current.output[i]).animate({
         width: 0,
         opacity: 0
       }, function(){
-        $(output[i]).hide();
+        $(Current.output[i]).hide();
       });
     }
 
@@ -101,7 +101,7 @@ Bread.Init = function(){
 
 
   // Ref loader (from input)
-  $(input).change(function(){
+  $(Current.input).change(function(){
     Auto.find( $(this).val() );
   });
 
