@@ -21,7 +21,7 @@ foreach(glob($translation . '/*/{*.xml}', GLOB_BRACE) as $filename){
 
     // Set the book and chapters of the open file
     $file['book'] = $book;
-    $file['book-chapters'] = $chapters;
+    $file['chapters'] = $chapters;
 
     // Save the changes as xml
     $xml = $file->asXML();
