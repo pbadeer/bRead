@@ -64,7 +64,7 @@ Load.cols = function(book, n)
 
   // Set current chapter
   if(!n) n = Current.chap;
-  else Current.chap = n;
+  else Current.chap = n * 1;
 
   // Loop through (and fill) columns
   for(i = 1; i <= Current.cols; i++){
@@ -97,13 +97,14 @@ Load.cols = function(book, n)
 // Things to run after content-load (Bread.Load.cols())
 Load.after = function()
 {
-  // Fills input with current passage title
-  $(Current.input).val(Current.book + ' ' + Current.chap);
+  // Fills input with current book and chapter
+  $(Current.input.book).val(Current.book);
+  $(Current.input.chap).val(Current.chap);
 
-  // Verse ref grabber
+  /* Verse ref grabber
   $('.verse').click(function(){
     $(Current.input).val( $(this).attr('ref') );
-  });
+  });*/
 
   // Load any after-content-load view settings
   View.load.after();

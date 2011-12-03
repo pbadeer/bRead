@@ -105,7 +105,7 @@ Auto.find = function(input)
 }
 
 
-// Reference autocomplete
+// Input autocomplete (for references)
 Auto.complete = function(input)
 {
   for (i = 0; i <= books.length; i++)
