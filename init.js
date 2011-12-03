@@ -8,7 +8,10 @@ Bread.Init = function(){
 
   // CSS Selectors
   Current.output = new Array(0, '#bible .column.one', '#bible .column.two');
-  Current.input = '#ref';
+  Current.input = {
+    book: '#book',
+    chap: '#chapter'
+  };
 
   // Lists
   types = new Array(0, 'bible', 'notes');
@@ -101,8 +104,10 @@ Bread.Init = function(){
 
 
   // Ref loader (from input)
-  $(Current.input).change(function(){
-    Auto.find( $(this).val() );
+  $(Current.input.book + ', ' + Current.input.chap).change(function(){
+    var b = $(Current.input.book).val();
+    var c = $(Current.input.chap).val();
+    Load.cols(b, c);
   });
 
 }
