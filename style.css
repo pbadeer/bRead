@@ -1,49 +1,21 @@
 @import url('reset.css');
 
-@font-face {
-    font-family: 'GeosansLightRegular';
-    src: url('style/geosanslight-webfont.eot');
-    src: url('style/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('style/geosanslight-webfont.woff') format('woff'),
-         url('style/geosanslight-webfont.ttf') format('truetype'),
-         url('style/geosanslight-webfont.svg#GeosansLightRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 #nav
 {
     position: fixed;
-    background: lightgrey;
     z-index: 1;
-    height: 100%;
-    right: 0;
-    width: 5em;
-
-    box-shadow: 0px 0px 5px black;
-}
-
-#bible
-{
-    font-family: GeosansLightRegular;
-    font-size: 1em;
-    line-height: 1.5em;
 }
 
 .column
 {
     position: absolute;
     display: none;
-    padding: .5em;
 }
 
 .column.one
 {
     left: 0;
     display: block;
-
-    box-shadow: 0px 0px 5px black;
 }
 
 .column.two

@@ -1,4 +1,15 @@
 @font-face {
+    font-family: 'GeosansLightRegular';
+    src: url('style/geosanslight-webfont.eot');
+    src: url('style/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('style/geosanslight-webfont.woff') format('woff'),
+         url('style/geosanslight-webfont.ttf') format('truetype'),
+         url('style/geosanslight-webfont.svg#GeosansLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'BebasRegular';
     src: url('style/bebas___-webfont.eot');
     src: url('style/bebas___-webfont.eot?#iefix') format('embedded-opentype'),
@@ -7,14 +18,62 @@
          url('style/bebas___-webfont.svg#BebasRegular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
 
+html, body
+{
+    font-size: 16px;
+}
+
+#nav
+{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+    height: 4em;
+
+    box-shadow: 0px 0px 5px black;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#bible
+{
+    font-family: GeosansLightRegular;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+#bible .column.one
+{
+    box-shadow: 0px 0px 5px black;
+}
+
+#bible .column .chapter
+{
+    padding: 0.7em;
 }
 
 
 
-#title h2.book
+#title
 {
     font-family: BebasRegular;
+    color: white;
+
+    text-shadow:0 0 5px black;
+}
+#title .book
+{
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 1.8em;
+}
+#title .chapter
+{
+    font-size: 1.3em;
+    opacity: 0.7;
+}
+#title .chapter .n
+{
+    font-size: 1.8em;
 }
