@@ -101,10 +101,10 @@ Load.after = function()
   $(Current.input.book).val(Current.book);
   $(Current.input.chap).val(Current.chap);
 
-  /* Verse ref grabber
-  $('.verse').click(function(){
-    $(Current.input).val( $(this).attr('ref') );
-  });*/
+  // Verse ref grabber
+  $('.verse').hover(function(){
+    $(Current.input.chap).val( Current.chap + ':' + $(this).children('.n').html() );
+  });
 
   // Load any after-content-load view settings
   View.load.after();

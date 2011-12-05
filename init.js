@@ -9,8 +9,8 @@ Bread.Init = function(){
   // CSS Selectors
   Current.output = new Array(0, '#bible .column.one', '#bible .column.two');
   Current.input = {
-    book: '#book',
-    chap: '#chapter'
+    book: '#title .book',
+    chap: '#title .chapter'
   };
 
   // Lists
