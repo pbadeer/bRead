@@ -29,6 +29,11 @@ Bread.Init = function(){
   Load.cols();
 
 
+  // Bind left/right keys to prev/next chapter load
+  $(document).bind('keydown', 'right', function(){ Load.next() });
+  $(document).bind('keydown', 'left', function(){ Load.prev() });
+
+
   // Show/hide verse numbers
   $('.nums').click(function(){
     if(Current.view != 'nums') {
