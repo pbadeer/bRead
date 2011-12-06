@@ -102,7 +102,7 @@ Load.after = function()
   $(Current.input.chap).val(Current.chap);
 
   // Verse ref grabber
-  $('.verse').hover(function(){
+  $('.verse').click(function(){
     $(Current.input.chap).val( Current.chap + ':' + $(this).children('.n').html() );
   });
 

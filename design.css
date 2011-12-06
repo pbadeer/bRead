@@ -25,16 +25,13 @@ html, body
     font-size: 16px;
 }
 
-#nav
+input
 {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    bottom: 0;
-    height: 4em;
-
-    box-shadow: 0px 0px 5px black;
-    background: rgba(0, 0, 0, 0.7);
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
 }
 
 #bible
@@ -58,6 +55,18 @@ html, body
 
 #title
 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+    height: 3em;
+
+    box-shadow: 0px 0px 5px black;
+    background: rgba(0, 0, 0, 0.7);
+}
+#title,
+#title input
+{
     font-family: BebasRegular;
     color: white;
 
@@ -70,10 +79,6 @@ html, body
 }
 #title .chapter
 {
-    font-size: 1.3em;
+    font-size: 2em;
     opacity: 0.7;
-}
-#title .chapter .n
-{
-    font-size: 1.8em;
 }
