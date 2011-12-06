@@ -21,7 +21,7 @@ Bread.Init = function(){
   Current.chap = 1;
   Current.tran = new Array(0, 'kjv', 'kjv');
   Current.type = new Array(0, 1, 2);
-  Current.cols = 1;
+  Current.cols = 2;
   Current.view = '';
 
 

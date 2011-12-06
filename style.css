@@ -9,13 +9,12 @@
 .column
 {
     position: absolute;
-    display: none;
+    width: 50%;
 }
 
 .column.one
 {
     left: 0;
-    display: block;
 }
 
 .column.two
