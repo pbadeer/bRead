@@ -122,6 +122,6 @@ Auto.wordNum = function(word)
   for (w in word)
   {
     if($.inArray(word[w], words) == -1) continue;
-    else return $.inArray(word[w], words);
+    else return $.inArray(word[w], words) * 1;
   }
 }
