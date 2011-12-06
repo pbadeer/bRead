@@ -86,6 +86,8 @@ Load.cols = function(book, n)
     if(types[Current.type[i]] == 'notes')
     {
       this.clear(i);
+
+      $(Current.output[i]).append('<textarea>notes</textarea>');
     }
   }
 
