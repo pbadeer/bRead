@@ -8,7 +8,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'BebasRegular';
     src: url('style/bebas___-webfont.eot');
@@ -20,11 +19,11 @@
     font-style: normal;
 }
 
+
 html, body
 {
     font-size: 16px;
 }
-
 input
 {
     background: none;
@@ -34,23 +33,21 @@ input
     margin: 0;
 }
 
+
 #bible
 {
     font-family: GeosansLightRegular;
     font-size: 1em;
     line-height: 1.5em;
 }
-
 #bible .column.one
 {
     box-shadow: 0px 0px 5px black;
 }
-
 #bible .column .chapter
 {
     padding: 0.7em;
 }
-
 #bible .chapter .verse .n
 {
     font-size: 70%;
@@ -85,4 +82,18 @@ input
 {
     font-size: 2em;
     opacity: 0.7;
+}
+
+
+#bible .verse.ui-selecting
+{
+    background: lightyellow;
+}
+#bible .verse.ui-selected
+{
+    background: yellow;
+}
+#bible .verse.ui-unselecting
+{
+    background: red;
 }

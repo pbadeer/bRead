@@ -107,7 +107,12 @@ Load.after = function()
   $('.verse').click(function(){
     $(Current.input.chap).val( Current.chap + ':' + $(this).children('.n').html() );
   });
-  $('.chapter').selectable();
+
+  // Make verses selectable
+  $('.chapter').selectable({
+    filter: '.verse',
+    autoRefresh: false
+  });
 
   // Load any after-content-load view settings
   View.load.after();
