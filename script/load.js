@@ -113,9 +113,6 @@ Load.after = function()
     filter: '.verse',
     autoRefresh: false
   });
-
-  // Load any after-content-load view settings
-  View.load.after();
 }
 
 

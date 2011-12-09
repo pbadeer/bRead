@@ -22,7 +22,6 @@ Bread.Init = function(){
   Current.tran = new Array(0, 'kjv', 'kjv');
   Current.type = new Array(0, 1, 2);
   Current.cols = 2;
-  Current.view = '';
 
 
   //First load!
@@ -35,14 +34,10 @@ Bread.Init = function(){
 
 
   // Show/hide verse numbers
-  $('.nums').click(function(){
-    if(Current.view != 'nums') {
-      Bread.View.load('nums');
-    }
-    else {
-      Bread.View.Nums.off();
-      Current.view = '';
-    }
+  $('.nums').toggle(function(){
+    View.Nums.on();
+  }, function() {
+    View.Nums.off();
   });
 
 
