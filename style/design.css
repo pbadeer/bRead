@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'GeosansLightRegular';
-    src: url('style/geosanslight-webfont.eot');
-    src: url('style/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('style/geosanslight-webfont.woff') format('woff'),
-         url('style/geosanslight-webfont.ttf') format('truetype'),
-         url('style/geosanslight-webfont.svg#GeosansLightRegular') format('svg');
+    src: url('font/geosanslight-webfont.eot');
+    src: url('font/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/geosanslight-webfont.woff') format('woff'),
+         url('font/geosanslight-webfont.ttf') format('truetype'),
+         url('font/geosanslight-webfont.svg#GeosansLightRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'BebasRegular';
-    src: url('style/bebas___-webfont.eot');
-    src: url('style/bebas___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('style/bebas___-webfont.woff') format('woff'),
-         url('style/bebas___-webfont.ttf') format('truetype'),
-         url('style/bebas___-webfont.svg#BebasRegular') format('svg');
+    src: url('font/bebas___-webfont.eot');
+    src: url('font/bebas___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/bebas___-webfont.woff') format('woff'),
+         url('font/bebas___-webfont.ttf') format('truetype'),
+         url('font/bebas___-webfont.svg#BebasRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
