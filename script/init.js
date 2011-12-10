@@ -33,6 +33,10 @@ Bread.Init = function(){
   $(document).bind('keydown', 'left', function(){ Load.prev() });
 
 
+  // Nav hotkey: n
+  $(document).bind('keydown', 'n', function(){ $('#nav').toggle() });
+
+
   // Show/hide verse numbers
   $('.nums').toggle(function(){
     View.Nums.on();
