@@ -55,45 +55,6 @@ Bread.Init = function(){
   });
 
 
-  // Layout changer
-  $('a.layout').click(function(){
-    var n = Auto.wordNum( $(this).attr('class').split(/\s+/) );
-
-    // animate to ONE
-    if( n == 1 && Current.cols != 1 ){
-      $(Current.output[1]).animate({
-        width: '100%'
-      });
-    }
-
-    // animate to TWO
-    if( n == 2 && Current.cols != 2){
-      $(Current.output[2]).show().animate({
-        opacity: 1,
-        width: '50%'
-      });
-
-      $(Current.output[1]).animate({
-        width: '50%'
-      });
-    }
-
-    // Hide other columns
-    for(i=n+1; i<=Current.cols; i++)
-    {
-      $(Current.output[i]).animate({
-        width: 0,
-        opacity: 0
-      }, function(){
-        $(Current.output[i]).hide();
-      });
-    }
-
-    // Reset number of current columns
-    Current.cols = n;
-  });
-
-
   // Previous and Next buttons
   $('a.prev').click(function(){
     Load.prev();
