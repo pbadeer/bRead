@@ -86,6 +86,10 @@ input
 {
     padding: 0.7em;
 }
+#bible .chapter .verse
+{
+    padding: .3em 0;
+}
 #bible .chapter .verse .n
 {
     font-size: 70%;
