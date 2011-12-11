@@ -125,3 +125,23 @@ Auto.wordNum = function(word)
     else return $.inArray(word[w], words) * 1;
   }
 }
+
+
+// Create reference from selection
+Auto.ref = function()
+{
+  start = $('.ui-selected:first');
+  startBook = start.attr('book');
+  startChapter = start.attr('chapter');
+  startVerse = start.attr('verse');
+
+  end = $('.ui-selected:last');
+  endBook = end.attr('book');
+  endChapter = end.attr('chapter');
+  endVerse = end.attr('verse');
+
+  alert(
+    startBook + ' ' + startChapter + ':' + startVerse
+    + ' - ' + endBook + ' ' + endChapter + ':' + endVerse
+  );
+}

@@ -111,7 +111,8 @@ Load.after = function()
   // Make verses selectable
   $('.chapter').selectable({
     filter: '.verse',
-    autoRefresh: false
+    autoRefresh: false,
+    stop: Auto.ref
   });
 }
 
