@@ -71,24 +71,24 @@ Load.cols = function(book, n)
     // Column type: BIBLE
     if(types[Current.type[i]] == 'bible')
     {
-        xml = this.file('bible/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
-        xsl = this.file('script/template/index.xsl', 'xml');
-        xsltProcessor = new XSLTProcessor();
-        xsltProcessor.importStylesheet(xsl);
-        html = xsltProcessor.transformToFragment(xml,document);
+      xml = this.file('bible/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
+      xsl = this.file('script/template/bible.xsl', 'xml');
+      xsltProcessor = new XSLTProcessor();
+      xsltProcessor.importStylesheet(xsl);
+      html = xsltProcessor.transformToFragment(xml,document);
 
-        this.clear(i);
-
-        $(Current.output[i]).append(html);
+      this.clear(i);
     }
 
     // Column type: NOTES
     if(types[Current.type[i]] == 'notes')
     {
-      this.clear(i);
+      html = this.file('script/template/notes.html', 'html');
 
-      $(Current.output[i]).append('<textarea>notes</textarea>');
+      this.clear(i);
     }
+
+    $(Current.output[i]).append(html);
   }
 
   // Run after-load stuff
