@@ -131,17 +131,18 @@ Auto.wordNum = function(word)
 Auto.ref = function()
 {
   start = $('.ui-selected:first');
-  startBook = start.attr('book');
-  startChapter = start.attr('chapter');
-  startVerse = start.attr('verse');
-
   end = $('.ui-selected:last');
-  endBook = end.attr('book');
-  endChapter = end.attr('chapter');
-  endVerse = end.attr('verse');
 
-  alert(
-    startBook + ' ' + startChapter + ':' + startVerse
-    + ' - ' + endBook + ' ' + endChapter + ':' + endVerse
-  );
+  Data.content.ref = {
+    start: {
+      book: start.attr('book'),
+      chapter: start.attr('chapter') * 1,
+      verse: start.attr('verse') * 1
+    },
+    end: {
+      book: end.attr('book'),
+      chapter: end.attr('chapter') * 1,
+      verse: end.attr('verse') * 1
+    }
+  }
 }
