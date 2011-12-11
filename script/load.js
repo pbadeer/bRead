@@ -72,7 +72,7 @@ Load.cols = function(book, n)
     if(types[Current.type[i]] == 'bible')
     {
         xml = this.file('bible/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
-        xsl = this.file('script/index.xsl', 'xml');
+        xsl = this.file('script/template/index.xsl', 'xml');
         xsltProcessor = new XSLTProcessor();
         xsltProcessor.importStylesheet(xsl);
         html = xsltProcessor.transformToFragment(xml,document);
