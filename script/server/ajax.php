@@ -1,7 +1,17 @@
 <?php
 
-// receive GET data, store in db
+require_once('connect.php');
 
-print_r($_GET);
+if($_GET['type'] == 'note'):
+    try
+    {
+        $db->exec("INSERT INTO content");
 
+        $db = null;
+    }
+    catch(PDOException $e)
+    {
+        echo $e->getMessage();
+    }
+endif;
 ?>
