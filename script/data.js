@@ -7,11 +7,7 @@ Data.content = {};
 
 
 // Send data to server
-Data.send = function(type)
+Data.send = function()
 {
-  this.content.type = type;
-  
-  $.get('script/server/ajax.php', this.content, function(data){
-    console.log(data);
-  });
+  $.get('script/server/ajax.php', $('#form').serialize());
 }
