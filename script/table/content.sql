@@ -4,6 +4,6 @@ CREATE TABLE `content` (
   `reference_id` int(11) DEFAULT NULL,
   `content` text,
   `archived` tinyint(1) NOT NULL DEFAULT '0',
-  `privacy` int(11) DEFAULT NULL,
+  `content_privacy_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`content_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
