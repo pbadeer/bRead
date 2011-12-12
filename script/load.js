@@ -83,7 +83,7 @@ Load.cols = function(book, n)
     // Column type: NOTES
     if(types[Current.type[i]] == 'notes')
     {
-      html = this.file('script/template/notes.html', 'html');
+      html = this.file('script/template/form.html', 'html');
 
       this.clear(i);
     }
@@ -105,14 +105,14 @@ Load.after = function()
 
   // Verse ref grabber
   $('.verse').click(function(){
-    $(Current.input.chap).val( Current.chap + ':' + $(this).children('.n').html() );
+    $(Current.input.chap).val( Current.chap + ':' + $(this).attr('verse') );
   });
 
   // Make verses selectable
   $('.chapter').selectable({
     filter: '.verse',
     autoRefresh: false,
-    stop: Auto.ref
+    stop: Auto.form
   });
 }
 

@@ -9,7 +9,7 @@
     </xsl:template>
 
     <xsl:template match="verse">
-        <span class="verse" book="{../@book}" chapter="{../@n}" verse="{position()}">
+        <span class="verse" verse="{position()}">
             <span class="n"><xsl:value-of select="position()"/></span>
             <xsl:value-of select="."/>
         </span>

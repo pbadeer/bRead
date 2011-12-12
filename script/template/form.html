@@ -1,0 +1,20 @@
+<form id="form" onsubmit="Data.send(); return false;" method="get">
+    <textarea name="content"></textarea>
+    
+    <input type="hidden" name="type" value="note"/>
+    <input type="hidden" name="translation"/>
+
+    <input type="hidden" name="start_book_id"/>
+    <input type="hidden" name="start_chapter"/>
+    <input type="hidden" name="start_verse"/>
+    <input type="hidden" name="end_book_id"/>
+    <input type="hidden" name="end_chapter"/>
+    <input type="hidden" name="end_verse"/>
+
+    <select name="privacy">
+        <option value="public">public</option>
+        <option value="private">private</option>
+    </select>
+
+    <button>send</button>
+</form>

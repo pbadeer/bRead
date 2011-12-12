@@ -2,76 +2,6 @@ Bread.Auto = new Object();
 var Auto = Bread.Auto;
 
 
-var books = new Array();
-books[0] = 0;
-books[1] = "genesis";
-books[2] = "exodus";
-books[3] = "leviticus";
-books[4] = "numbers";
-books[5] = "deuteronomy";
-books[6] = "joshua";
-books[7] = "judges";
-books[8] = "ruth";
-books[9] = "1 samuel";
-books[10] = "2 samuel";
-books[11] = "1 kings";
-books[12] = "2 kings";
-books[13] = "1 chronicles";
-books[14] = "2 chronicles";
-books[15] = "ezra";
-books[16] = "nehemiah";
-books[17] = "esther";
-books[18] = "job";
-books[19] = "psalm";
-books[20] = "proverbs";
-books[21] = "ecclesiastes";
-books[22] = "song of solomon";
-books[23] = "isaiah";
-books[24] = "jeremiah";
-books[25] = "lamentations";
-books[26] = "ezekiel";
-books[27] = "daniel";
-books[28] = "hosea";
-books[29] = "joel";
-books[30] = "amos";
-books[31] = "obadiah";
-books[32] = "jonah";
-books[33] = "micah";
-books[34] = "nahum";
-books[35] = "habakkuk";
-books[36] = "zephaniah";
-books[37] = "haggai";
-books[38] = "zechariah";
-books[39] = "malachi";
-books[40] = "matthew";
-books[41] = "mark";
-books[42] = "luke";
-books[43] = "john";
-books[44] = "acts";
-books[45] = "romans";
-books[46] = "1 corinthians";
-books[47] = "2 corinthians";
-books[48] = "galatians";
-books[49] = "ephesians";
-books[50] = "philippians";
-books[51] = "colossians";
-books[52] = "1 thessalonians";
-books[53] = "2 thessalonians";
-books[54] = "1 timothy";
-books[55] = "2 timothy";
-books[56] = "titus";
-books[57] = "philemon";
-books[58] = "hebrews";
-books[59] = "james";
-books[60] = "1 peter";
-books[61] = "2 peter";
-books[62] = "1 john";
-books[63] = "2 john";
-books[64] = "3 john";
-books[65] = "jude";
-books[66] = "revelation";
-
-
 // Find passage from reference types: "Book", "Book 1", "Book 1:1"
 Auto.find = function(input)
 {
@@ -108,9 +38,9 @@ Auto.find = function(input)
 // Input autocomplete (for references)
 Auto.complete = function(input)
 {
-  for (i = 0; i <= books.length; i++)
-    if (books[i].indexOf(input.toLowerCase()) != -1)
-      alert(books[i]);
+  for (i = 0; i <= book.length; i++)
+    if (book[i].indexOf(input.toLowerCase()) != -1)
+      alert(book[i]);
 }
 
 
@@ -121,28 +51,55 @@ Auto.wordNum = function(word)
 
   for (w in word)
   {
-    if($.inArray(word[w], words) == -1) continue;
-    else return $.inArray(word[w], words) * 1;
+    if($.inArray(word[w], words) == -1)
+      continue;
+    else
+      return $.inArray(word[w], words) * 1;
   }
 }
 
 
-// Create reference from selection
-Auto.ref = function()
+// Populate form with selection info
+Auto.form = function()
 {
+  // Get start and end of selection
   start = $('.ui-selected:first');
   end = $('.ui-selected:last');
 
+  // Create and fill Data.content with reference info
   Data.content = {
-    start_book: start.attr('book'),
-    start_chapter: start.attr('chapter') * 1,
+    start_book_id: Auto.bookId(start.parent('.chapter').attr('book')),
+    end_book_id: Auto.bookId(end.parent('.chapter').attr('book')),
+    start_chapter: start.parent('.chapter').attr('chapter') * 1,
+    end_chapter: end.parent('.chapter').attr('chapter') * 1,
     start_verse: start.attr('verse') * 1,
-    end_book: end.attr('book'),
-    end_chapter: end.attr('chapter') * 1,
-    end_verse: end.attr('verse') * 1
+    end_verse: end.attr('verse') * 1,
+    translation: start.parent('.chapter').attr('translation')
   }
 
-  $('#note input').each(function(){
-    $(this).val(Data.content[$(this).attr('name')]);
+  // Populate form with Data.content info
+  $('#form input, #form textarea').each(function(){
+    var data = Data.content[$(this).attr('name')];
+    if(data && data != null)
+      $(this).val(data);
   })
+}
+
+
+// Get book id from book name
+Auto.bookId = function(name)
+{
+  // If string starts with a number, move it to the end
+  var patt = new RegExp('[0-9]');
+  if( name.substr(0,1).match(patt) )
+    name = name.substr(1) + name.substr(0,1);
+
+  // Remove spaces
+  name = name.split(' ').join('');
+
+  // Make lowercase
+  name = name.toLowerCase();
+
+  // Return id (gotten from object)
+  return book[name].id * 1;
 }
