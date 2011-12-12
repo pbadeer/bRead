@@ -1,4 +1,4 @@
-<form id="notes">
+<form id="note" onsubmit="Data.send('note'); return false;">
     <textarea name="content">notes template</textarea>
     <input type="hidden" name="type" value="note"/>
     <input type="hidden" name="start_book"/>
@@ -8,5 +8,5 @@
     <input type="hidden" name="end_chapter"/>
     <input type="hidden" name="end_verse"/>
 
-    <button onclick="Data.send()">send</button>
+    <button>send</button>
 </form>

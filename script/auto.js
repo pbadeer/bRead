@@ -133,16 +133,16 @@ Auto.ref = function()
   start = $('.ui-selected:first');
   end = $('.ui-selected:last');
 
-  Data.content.ref = {
-    start: {
-      book: start.attr('book'),
-      chapter: start.attr('chapter') * 1,
-      verse: start.attr('verse') * 1
-    },
-    end: {
-      book: end.attr('book'),
-      chapter: end.attr('chapter') * 1,
-      verse: end.attr('verse') * 1
-    }
+  Data.content = {
+    start_book: start.attr('book'),
+    start_chapter: start.attr('chapter') * 1,
+    start_verse: start.attr('verse') * 1,
+    end_book: end.attr('book'),
+    end_chapter: end.attr('chapter') * 1,
+    end_verse: end.attr('verse') * 1
   }
+
+  $('#note input').each(function(){
+    $(this).val(Data.content[$(this).attr('name')]);
+  })
 }

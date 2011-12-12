@@ -7,11 +7,11 @@ Data.content = {};
 
 
 // Send data to server
-Data.send = function(data)
+Data.send = function(type)
 {
-    $.ajax({
-        url: 'script/server/ajax.php',
-        type: 'GET',
-        data: this.content
-    });
+  this.content.type = type;
+  
+  $.get('script/server/ajax.php', this.content, function(data){
+    console.log(data);
+  });
 }
