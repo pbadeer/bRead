@@ -35,15 +35,6 @@ Auto.find = function(input)
 }
 
 
-// Input autocomplete (for references)
-Auto.complete = function(input)
-{
-  for (i = 0; i <= book.length; i++)
-    if (book[i].indexOf(input.toLowerCase()) != -1)
-      alert(book[i]);
-}
-
-
 // Convert word to num
 Auto.wordNum = function(word)
 {
@@ -68,8 +59,8 @@ Auto.form = function()
 
   // Create and fill Data.content with reference info
   Data.content = {
-    start_book_id: Auto.book(start.parent('.chapter').attr('book'))[0],
-    end_book_id: Auto.book(end.parent('.chapter').attr('book'))[0],
+    start_book_id: start.parent('.chapter').attr('book-id') * 1,
+    end_book_id: end.parent('.chapter').attr('book-id') * 1,
     start_chapter: start.parent('.chapter').attr('chapter') * 1,
     end_chapter: end.parent('.chapter').attr('chapter') * 1,
     start_verse: start.attr('verse') * 1,
@@ -83,24 +74,4 @@ Auto.form = function()
     if(data && data != null)
       $(this).val(data);
   })
-}
-
-
-// Get book id from book name
-Auto.book = function(name)
-{
-  // If string starts with a number, move it to the end
-  var patt = new RegExp('[0-9]');
-  if( name.substr(0,1).match(patt) )
-    name = name.substr(1) + name.substr(0,1);
-
-  // Remove spaces
-  name = name.split(' ').join('');
-
-  // Make lowercase
-  name = name.toLowerCase();
-  id = book[name].id * 1;
-
-  // Return id (gotten from object)
-  return new Array(id, name);
 }

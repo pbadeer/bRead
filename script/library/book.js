@@ -1,266 +1,266 @@
-var book = {
-  genesis: {
-    id: 1,
+var Book = {
+  1: {
+    name: 'genesis',
     chapters: 50
   },
-  exodus: {
-    id: 2,
+  2: {
+    name: 'exodus',
     chapters: 40
   },
-  leviticus: {
-    id: 3,
+  3: {
+    name: 'leviticus',
     chapters: 27
   },
-  numbers: {
-    id: 4,
+  4: {
+    name: 'numbers',
     chapters: 36
   },
-  deuteronomy: {
-    id: 5,
+  5: {
+    name: 'deuteronomy',
     chapters: 34
   },
-  joshua: {
-    id: 6,
+  6: {
+    name: 'joshua',
     chapters: 24
   },
-  judges: {
-    id: 7,
+  7: {
+    name: 'judges',
     chapters: 21
   },
-  ruth: {
-    id: 8,
+  8: {
+    name: 'ruth',
     chapters: 4
   },
-  samuel1: {
-    id: 9,
+  9: {
+    name: '1 samuel',
     chapters: 31
   },
-  samuel2: {
-    id: 10,
+  10: {
+    name: '2 samuel',
     chapters: 24
   },
-  kings1: {
-    id: 11,
+  11: {
+    name: '1 kings',
     chapters: 22
   },
-  kings2: {
-    id: 12,
+  12: {
+    name: '2 kings',
     chapters: 25
   },
-  chronicles1: {
-    id: 13,
+  13: {
+    name: '1 chronicles',
     chapters: 29
   },
-  chronicles2: {
-    id: 14,
+  14: {
+    name: '2 chronicles',
     chapters: 36
   },
-  ezra: {
-    id: 15,
+  15: {
+    name: 'ezra',
     chapters: 10
   },
-  nehemiah: {
-    id: 16,
+  16: {
+    name: 'nehemiah',
     chapters: 13
   },
-  esther: {
-    id: 17,
+  17: {
+    name: 'esther',
     chapters: 10
   },
-  job: {
-    id: 18,
+  18: {
+    name: 'job',
     chapters: 42
   },
-  psalm: {
-    id: 19,
+  19: {
+    name: 'psalm',
     chapters: 150
   },
-  proverbs: {
-    id: 20,
+  20: {
+    name: 'proverbs',
     chapters: 31
   },
-  ecclesiastes: {
-    id: 21,
+  21: {
+    name: 'ecclesiastes',
     chapters: 12
   },
-  songofsolomon: {
-    id: 22,
+  22: {
+    name: 'songofsolomon',
     chapters: 8
   },
-  isaiah: {
-    id: 23,
+  23: {
+    name: 'isaiah',
     chapters: 66
   },
-  jeremiah: {
-    id: 24,
+  24: {
+    name: 'jeremiah',
     chapters: 52
   },
-  lamentations: {
-    id: 25,
+  25: {
+    name: 'lamentations',
     chapters: 5
   },
-  ezekiel: {
-    id: 26,
+  26: {
+    name: 'ezekiel',
     chapters: 48
   },
-  daniel: {
-    id: 27,
+  27: {
+    name: 'daniel',
     chapters: 12
   },
-  hosea: {
-    id: 28,
+  28: {
+    name: 'hosea',
     chapters: 14
   },
-  joel: {
-    id: 29,
+  29: {
+    name: 'joel',
     chapters: 3
   },
-  amos: {
-    id: 30,
+  30: {
+    name: 'amos',
     chapters: 9
   },
-  obadiah: {
-    id: 31,
+  31: {
+    name: 'obadiah',
     chapters: 1
   },
-  jonah: {
-    id: 32,
+  32: {
+    name: 'jonah',
     chapters: 4
   },
-  micah: {
-    id: 33,
+  33: {
+    name: 'micah',
     chapters: 7
   },
-  nahum: {
-    id: 34,
+  34: {
+    name: 'nahum',
     chapters: 3
   },
-  habakkuk: {
-    id: 35,
+  35: {
+    name: 'habakkuk',
     chapters: 3
   },
-  zephaniah: {
-    id: 36,
+  36: {
+    name: 'zephaniah',
     chapters: 3
   },
-  haggai: {
-    id: 37,
+  37: {
+    name: 'haggai',
     chapters: 2
   },
-  zechariah: {
-    id: 38,
+  38: {
+    name: 'zechariah',
     chapters: 14
   },
-  malachi: {
-    id: 39,
+  39: {
+    name: 'malachi',
     chapters: 4
   },
-  matthew: {
-    id: 40,
+  40: {
+    name: 'matthew',
     chapters: 28
   },
-  mark: {
-    id: 41,
+  41: {
+    name: 'mark',
     chapters: 16
   },
-  luke: {
-    id: 42,
+  42: {
+    name: 'luke',
     chapters: 24
   },
-  john: {
-    id: 43,
+  43: {
+    name: 'john',
     chapters: 21
   },
-  acts: {
-    id: 44,
+  44: {
+    name: 'acts',
     chapters: 28
   },
-  romans: {
-    id: 45,
+  45: {
+    name: 'romans',
     chapters: 16
   },
-  corinthians1: {
-    id: 46,
+  46: {
+    name: '1 corinthians',
     chapters: 16
   },
-  corinthians2: {
-    id: 47,
+  47: {
+    name: '2 corinthians',
     chapters: 13
   },
-  galatians: {
-    id: 48,
+  48: {
+    name: 'galatians',
     chapters: 6
   },
-  ephesians: {
-    id: 49,
+  49: {
+    name: 'ephesians',
     chapters: 6
   },
-  philippians: {
-    id: 50,
+  50: {
+    name: 'philippians',
     chapters: 4
   },
-  colossians: {
-    id: 51,
+  51: {
+    name: 'colossians',
     chapters: 4
   },
-  thessalonians1: {
-    id: 52,
+  52: {
+    name: '1 thessalonians',
     chapters: 5
   },
-  thessalonians2: {
-    id: 53,
+  53: {
+    name: '2 thessalonians',
     chapters: 3
   },
-  timothy1: {
-    id: 54,
+  54: {
+    name: '1 timothy',
     chapters: 6
   },
-  timothy2: {
-    id: 55,
+  55: {
+    name: '2 timothy',
     chapters: 4
   },
-  titus: {
-    id: 56,
+  56: {
+    name: 'titus',
     chapters: 3
   },
-  philemon: {
-    id: 57,
+  57: {
+    name: 'philemon',
     chapters: 1
   },
-  hebrews: {
-    id: 58,
+  58: {
+    name: 'hebrews',
     chapters: 13
   },
-  james: {
-    id: 59,
+  59: {
+    name: 'james',
     chapters: 5
   },
-  peter1: {
-    id: 60,
+  60: {
+    name: '1 peter',
     chapters: 5
   },
-  peter2: {
-    id: 61,
+  61: {
+    name: '2 peter',
     chapters: 3
   },
-  john1: {
-    id: 62,
+  62: {
+    name: '1 john',
     chapters: 5
   },
-  john2: {
-    id: 63,
+  63: {
+    name: '2 john',
     chapters: 1
   },
-  john3: {
-    id: 64,
+  64: {
+    name: '3 john',
     chapters: 1
   },
-  jude: {
-    id: 65,
+  65: {
+    name: 'jude',
     chapters: 1
   },
-  revelation: {
-    id: 66,
+  66: {
+    name: 'revelation',
     chapters: 22
-  },
+  }
 }

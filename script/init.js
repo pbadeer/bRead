@@ -17,7 +17,7 @@ Bread.Init = function(){
   types = new Array(0, 'bible', 'notes');
 
   // Defaults
-  Current.book = 'Matthew';
+  Current.book = 40;
   Current.chap = 1;
   Current.tran = new Array(0, 'kjv', 'kjv');
   Current.type = new Array(0, 1, 2);

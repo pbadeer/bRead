@@ -71,7 +71,7 @@ Load.cols = function(book, n)
     // Column type: BIBLE
     if(types[Current.type[i]] == 'bible')
     {
-      xml = this.file('bible/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
+      xml = this.file('data/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
       xsl = this.file('script/template/bible.xsl', 'xml');
       xsltProcessor = new XSLTProcessor();
       xsltProcessor.importStylesheet(xsl);
@@ -100,7 +100,7 @@ Load.cols = function(book, n)
 Load.after = function()
 {
   // Fills input with current book and chapter
-  $(Current.input.book).val(Current.book);
+  $(Current.input.book).text(Book[Current.book].name);
   $(Current.input.chap).val(Current.chap);
 
   // Verse ref grabber
@@ -122,14 +122,16 @@ Load.prev = function()
 {
   if(Current.chap > 1)
     this.cols(Current.book, Current.chap - 1);
+  else if(Current.chap == 1 && Current.book != 1)
+    this.cols(Current.book - 1, Book[Current.book - 1].chapters);
 }
 
 
 // Load next chapter
 Load.next = function()
 {
-  name = Auto.book(Current.book)[1];
-
-  if(Current.chap < book[name].chapters)
+  if(Current.chap < Book[Current.book].chapters)
     this.cols(Current.book, Current.chap + 1);
+  else if(Current.chap == Book[Current.book].chapters)
+    this.cols(Current.book + 1, 1);
 }

@@ -3,7 +3,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="chapter">
-        <div class="chapter" translation="{@translation}" book="{@book}" chapter="{@n}">
+        <div class="chapter" translation="{@translation}" book="{@book}" book-id="{@book-id}" chapter="{@n}">
             <xsl:apply-templates select="verse"/>
         </div>
     </xsl:template>
