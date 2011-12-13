@@ -128,5 +128,8 @@ Load.prev = function()
 // Load next chapter
 Load.next = function()
 {
-  this.cols(Current.book, Current.chap + 1);
+  name = Auto.book(Current.book)[1];
+
+  if(Current.chap < book[name].chapters)
+    this.cols(Current.book, Current.chap + 1);
 }

@@ -68,8 +68,8 @@ Auto.form = function()
 
   // Create and fill Data.content with reference info
   Data.content = {
-    start_book_id: Auto.bookId(start.parent('.chapter').attr('book')),
-    end_book_id: Auto.bookId(end.parent('.chapter').attr('book')),
+    start_book_id: Auto.book(start.parent('.chapter').attr('book'))[0],
+    end_book_id: Auto.book(end.parent('.chapter').attr('book'))[0],
     start_chapter: start.parent('.chapter').attr('chapter') * 1,
     end_chapter: end.parent('.chapter').attr('chapter') * 1,
     start_verse: start.attr('verse') * 1,
@@ -87,7 +87,7 @@ Auto.form = function()
 
 
 // Get book id from book name
-Auto.bookId = function(name)
+Auto.book = function(name)
 {
   // If string starts with a number, move it to the end
   var patt = new RegExp('[0-9]');
@@ -99,7 +99,8 @@ Auto.bookId = function(name)
 
   // Make lowercase
   name = name.toLowerCase();
+  id = book[name].id * 1;
 
   // Return id (gotten from object)
-  return book[name].id * 1;
+  return new Array(id, name);
 }
