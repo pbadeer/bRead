@@ -21,16 +21,15 @@ Bread.Init = function(){
   Current.chap = 1;
   Current.tran = new Array(0, 'kjv', 'kjv');
   Current.type = new Array(0, 1, 2);
-  Current.cols = 2;
 
 
   //First load!
-  Load.cols();
+  Render.content();
 
 
   // Bind left/right keys to prev/next chapter load
-  $(document).bind('keydown', 'right', function(){ Load.next() });
-  $(document).bind('keydown', 'left', function(){ Load.prev() });
+  $(document).bind('keydown', 'right', function(){ Render.nextChapter() });
+  $(document).bind('keydown', 'left', function(){ Render.previousChapter() });
 
 
   // Nav hotkey: n
@@ -47,7 +46,7 @@ Bread.Init = function(){
 
   // Select menus for column type and tran
   $('select.current').change(function(){
-    var i = Auto.wordNum( $(this).attr('class').split(/\s+/) );
+    var i = Data.wordNum( $(this).attr('class').split(/\s+/) );
     
     if($(this).hasClass('type'))
       Current.type[i] = $(this).val();
@@ -55,24 +54,24 @@ Bread.Init = function(){
     if($(this).hasClass('tran'))
       Current.tran[i] = $(this).val();
 
-    Load.cols();
+    Render.content();
   });
 
 
   // Previous and Next buttons
   $('a.prev').click(function(){
-    Load.prev();
+    Render.previousChapter();
   });
   $('a.next').click(function(){
-    Load.next();
+    Render.nextChapter();
   });
 
 
   // Ref loader (from input)
   $(Current.input.book + ', ' + Current.input.chap).change(function(){
-    var b = $(Current.input.book).val();
-    var c = $(Current.input.chap).val();
-    Load.cols(b, c);
+    var book = $(Current.input.book).val();
+    var chapter = $(Current.input.chap).val();
+    Render.content(book, chapter);
   });
 
 }
