@@ -6,8 +6,22 @@ var Data = Bread.Data;
 Data.content = {};
 
 
-// Send data to server
+// Send data
 Data.send = function()
 {
   $.get('script/server/ajax.php', $('#form').serialize());
+}
+
+
+// Get data
+Data.get = function()
+{
+    $.get('script/server/ajax.php', {
+        action: 'get',
+        type: 'note',
+        book_id: Current.book,
+        chapter: Current.chap
+    }, function(data){
+        return data;
+    });
 }

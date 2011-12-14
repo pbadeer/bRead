@@ -25,7 +25,7 @@ SET @privacy_id = (SELECT content_privacy_id FROM content_privacy WHERE content_
 INSERT INTO content (
     content_type_id,
     reference_id,
-    privacy,
+    content_privacy_id,
     content
 ) VALUES (
     @type_id,
