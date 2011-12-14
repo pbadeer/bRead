@@ -1,1 +1,1 @@
-SELECT reference_id FROM reference WHERE start_chapter = :chapter AND start_book_id = :book_id;
+SELECT * FROM content_reference WHERE start_chapter = :chapter AND start_book_id = :book_id;

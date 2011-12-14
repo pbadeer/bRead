@@ -1,4 +1,4 @@
-INSERT INTO reference (
+INSERT INTO content_reference (
     start_book_id,
     start_chapter,
     start_verse,
@@ -24,7 +24,7 @@ SET @privacy_id = (SELECT content_privacy_id FROM content_privacy WHERE content_
 
 INSERT INTO content (
     content_type_id,
-    reference_id,
+    content_reference_id,
     content_privacy_id,
     content
 ) VALUES (
