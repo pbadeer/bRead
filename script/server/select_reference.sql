@@ -1,1 +1,0 @@
-SELECT * FROM content_reference WHERE start_chapter = :chapter AND start_book_id = :book_id;

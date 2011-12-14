@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 require_once('connect.php');
 
@@ -32,39 +32,29 @@ if($_GET['action'] == 'new')
 
 if($_GET['action'] == 'get')
 {
-    $reference_id = '';
-
-    // Get reference ids
+    // Get notes
     try
     {
-        $sql = file_get_contents('select_reference.sql');
+        $sql = file_get_contents('select.sql');
         $stmt = $db->prepare($sql);
         $stmt->bindParam(':book_id', $_GET['book_id']);
         $stmt->bindParam(':chapter', $_GET['chapter']);
         $stmt->execute();
-        $id = $stmt->fetchAll();
-
-        foreach($id as $row)
-        {
-            $reference_id .= $row['reference_id'].',';
-        }
-
-        $reference_id = '('.substr($reference_id, 0, -1).')';
-    }
-    catch(PDOException $e)
-    {
-        echo $e->getMessage();
-    }
-
-    // Get notes
-    try
-    {
-        $sql = "SELECT * FROM content WHERE reference_id IN $reference_id";
-        $stmt = $db->prepare($sql);
-        $stmt->execute();
         $content = $stmt->fetchAll();
 
-        echo json_encode($content);
+        echo '<?xml version="1.0" encoding="UTF-8"?>';
+        echo '<payload>';
+        foreach($content as $row)
+        {
+            echo '<startBook>'.$row['start_book'].'</startBook>';
+            echo '<endBook>'.$row['end_book'].'</endBook>';
+            echo '<startChapter>'.$row['start_chapter'].'</startChapter>';
+            echo '<endChapter>'.$row['end_chapter'].'</endChapter>';
+            echo '<startVerse>'.$row['start_verse'].'</startVerse>';
+            echo '<endVerse>'.$row['end_verse'].'</endVerse>';
+            echo '<content>'.$row['content'].'</content>';
+        }
+        echo '</payload>';
     }
     catch(PDOException $e)
     {

@@ -1,0 +1,1 @@
+SELECT content.*, content_reference.* FROM content_reference LEFT JOIN content ON content.content_reference_id = content_reference.content_reference_id WHERE start_book_id = :book_id AND start_chapter = :chapter
