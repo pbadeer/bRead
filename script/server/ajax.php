@@ -1,4 +1,4 @@
- <?php
+<?php
 
 require_once('connect.php');
 
@@ -46,13 +46,15 @@ if($_GET['action'] == 'get')
         echo '<payload>';
         foreach($content as $row)
         {
-            echo '<startBook>'.$row['start_book'].'</startBook>';
-            echo '<endBook>'.$row['end_book'].'</endBook>';
-            echo '<startChapter>'.$row['start_chapter'].'</startChapter>';
-            echo '<endChapter>'.$row['end_chapter'].'</endChapter>';
-            echo '<startVerse>'.$row['start_verse'].'</startVerse>';
-            echo '<endVerse>'.$row['end_verse'].'</endVerse>';
-            echo '<content>'.$row['content'].'</content>';
+            echo '<'.$row['content_type'].'>';
+                echo '<startBookId>'.$row['start_book_id'].'</startBookId>';
+                echo '<endBookId>'.$row['end_book_id'].'</endBookId>';
+                echo '<startChapter>'.$row['start_chapter'].'</startChapter>';
+                echo '<endChapter>'.$row['end_chapter'].'</endChapter>';
+                echo '<startVerse>'.$row['start_verse'].'</startVerse>';
+                echo '<endVerse>'.$row['end_verse'].'</endVerse>';
+                echo '<content>'.$row['content'].'</content>';
+            echo '</'.$row['content_type'].'>';
         }
         echo '</payload>';
     }
