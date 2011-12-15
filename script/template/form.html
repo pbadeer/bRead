@@ -1,8 +1,6 @@
 <form id="form" onsubmit="Data.send(); return false;" method="get">
     <textarea name="content"></textarea>
     <input type="hidden" name="action" value="new"/>
-    
-    <input type="hidden" name="type" value="note"/>
     <input type="hidden" name="translation"/>
 
     <input type="hidden" name="start_book_id"/>
@@ -15,6 +13,10 @@
     <select name="privacy">
         <option value="public">public</option>
         <option value="private">private</option>
+    </select>
+    <select name="type">
+        <option value="note">note</option>
+        <option value="tag">tag</option>
     </select>
 
     <button>send</button>
