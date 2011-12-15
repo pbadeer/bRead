@@ -64,7 +64,10 @@ Data.get = function()
 // Send data
 Data.send = function()
 {
-  $.get('script/server/ajax.php', $('#form').serialize());
+  $.get('script/server/ajax.php', $('#form').serialize(),
+  function(){
+    Render.userContent();
+  });
 }
 
 
