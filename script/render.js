@@ -20,9 +20,9 @@ Render.content = function(book, n)
     {
       xml = Data.file('data/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
       xsl = Data.file('script/template/bible.xsl', 'xml');
-      xsltProcessor = new XSLTProcessor();
-      xsltProcessor.importStylesheet(xsl);
-      html = xsltProcessor.transformToFragment(xml,document);
+      xslt = new XSLTProcessor();
+      xslt.importStylesheet(xsl);
+      html = xslt.transformToFragment(xml,document);
 
       this.content.clear(i);
     }
@@ -55,7 +55,15 @@ Render.userContent = function(data)
   if(!data) 
     Data.get();
   else
-    $('.column.two').html(data);
+  {
+    xml = $.parseXML(data);
+    xsl = Data.file('script/template/usercontent.xsl', 'xml');
+    xslt = new XSLTProcessor();
+    xslt.importStylesheet(xsl);
+    html = xslt.transformToFragment(xml,document);
+    $(Current.output[2]).append(html);
+  }
+
 }
 
 
