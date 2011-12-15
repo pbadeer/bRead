@@ -4,6 +4,7 @@ require_once('connect.php');
 
 if($_GET['action'] == 'new')
 {
+    // INSERT user content
     try
     {
         $sql = file_get_contents('insert.sql');
@@ -32,7 +33,7 @@ if($_GET['action'] == 'new')
 
 if($_GET['action'] == 'get')
 {
-    // Get notes
+    // GET user content
     try
     {
         $sql = file_get_contents('select.sql');

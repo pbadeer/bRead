@@ -5,8 +5,6 @@ INSERT INTO content_reference (
     end_book_id,
     end_chapter,
     end_verse,
-    translation,
-    created
 ) VALUES (
     :start_book_id,
     :start_chapter,
@@ -14,8 +12,6 @@ INSERT INTO content_reference (
     :end_book_id,
     :end_chapter,
     :end_verse,
-    :translation,
-    NOW()
 );
 
 SET @reference_id = LAST_INSERT_ID();
@@ -26,10 +22,14 @@ INSERT INTO content (
     content_type_id,
     content_reference_id,
     content_privacy_id,
-    content
+    content,
+    translation,
+    created
 ) VALUES (
     @type_id,
     @reference_id,
     @privacy_id,
-    :content
+    :content,
+    :translation,
+    NOW()
 );

@@ -4,9 +4,12 @@ CREATE TABLE `content` (
   `content_privacy_id` int(11) DEFAULT NULL,
   `content_reference_id` int(11) DEFAULT NULL,
   `content` text,
+  `translation` text,
   `archived` tinyint(1) NOT NULL DEFAULT '0',
-  FOREIGN KEY (`content_type_id`) REFERENCES content_type(`content_type_id`),
-  FOREIGN KEY (`content_privacy_id`) REFERENCES content_privacy(`content_privacy_id`),
-  FOREIGN KEY (`content_reference_id`) REFERENCES content_reference(`content_reference_id`),
-  PRIMARY KEY (`content_id`)
+  `created` timestamp NULL DEFAULT NULL,
+  `modified` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`content_id`),
+  KEY `content_type_id` (`content_type_id`),
+  KEY `content_privacy_id` (`content_privacy_id`),
+  KEY `content_reference_id` (`content_reference_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
