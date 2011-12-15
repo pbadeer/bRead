@@ -105,7 +105,7 @@ Render.nextChapter = function()
 {
   if(Current.chap < Book[Current.book].chapters)
     this.content(Current.book, Current.chap + 1);
-  else if(Current.chap == Book[Current.book].chapters)
+  else if(Current.chap == Book[Current.book].chapters && Current.book != 66)
     this.content(Current.book + 1, 1);
 }
 
