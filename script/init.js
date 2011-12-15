@@ -58,15 +58,6 @@ Bread.Init = function(){
   });
 
 
-  // Previous and Next buttons
-  $('a.prev').click(function(){
-    Render.previousChapter();
-  });
-  $('a.next').click(function(){
-    Render.nextChapter();
-  });
-
-
   // Ref loader (from input)
   $(Current.input.book + ', ' + Current.input.chap).change(function(){
     var book = $(Current.input.book).val();
