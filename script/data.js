@@ -5,8 +5,8 @@ var Data = Bread.Data;
 // Opens/loads various filetypes
 Data.file = function(path, ext)
 {
-  // HTML (return)
-  if(ext == 'html')
+  // HTML or any raw text
+  if(!ext || ext == 'html')
   {
     return $.ajax({
       url: path,
@@ -15,7 +15,7 @@ Data.file = function(path, ext)
     }).responseText;
   }
 
-  // XML (return)
+  // XML
   if(ext == 'xml')
   {
     return $.ajax({
