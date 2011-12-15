@@ -24,27 +24,6 @@ Data.file = function(path, ext)
       dataType: 'xml'
     }).responseXML;
   }
-
-  // JS (load)
-  if(ext == 'js')
-  {  
-    var tag = document.createElement('script');
-    tag.setAttribute('type','text/javascript');
-    tag.setAttribute('src', path);
-    if( $('head').append(tag) ) return true;
-    else return false;
-  }
-  
-  // CSS (load)
-  if(ext == 'css')
-  {
-    var tag = document.createElement('link');
-    tag.setAttribute('rel', 'stylesheet');
-    tag.setAttribute('type', 'text/css');
-    tag.setAttribute('href', path);
-    if( $('head').append(tag) ) return true;
-    else return false;
-  }
 }
 
 
