@@ -56,11 +56,6 @@ Render.after = function()
   $(Current.input.book).text(Book[Current.book].name);
   $(Current.input.chap).val(Current.chap);
 
-  // Verse ref grabber
-  $('.verse').click(function(){
-    $(Current.input.chap).val( Current.chap + ':' + $(this).attr('verse') );
-  });
-
   // Make verses selectable
   $('.chapter').selectable({
     filter: '.verse',
