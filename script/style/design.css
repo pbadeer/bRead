@@ -94,8 +94,6 @@ input
 {
     font-size: 70%;
 }
-
-
 #bible .verse.ui-selecting
 {
     background: lightyellow;
@@ -107,4 +105,62 @@ input
 #bible .verse.ui-unselecting
 {
     background: red;
+}
+
+
+#form textarea
+{
+    border: none;
+    resize: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    display: block;
+}
+#form textarea.note
+{
+    height: 5em;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+}
+#form textarea.tag
+{
+    height: 2em;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+}
+#form span {border: 1px solid blue;}
+#form .reference
+{
+    width: 4em;
+    float: left;
+    display: block;
+    font-family: BebasRegular;
+    font-size: 1.2em;
+    text-align: right;
+}
+#form .content
+{
+    float: left;
+    width: 80%;
+}
+#form textarea.start-verse,
+#form textarea.end-verse
+{
+    height: 1.4em;
+    width: 2em;
+    border: 1px solid black;
+    font-family: BebasRegular;
+    color: #AAA;
+    text-align: center;
+    overflow: hidden;
+}
+#form textarea.start-verse
+{
+    font-size: 2em;
+}
+#form textarea.end-verse
+{
+    font-size: 1.2em;
+    float: right;
 }
