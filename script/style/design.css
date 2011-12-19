@@ -37,7 +37,7 @@ input
 #title
 {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     width: 50%;
     bottom: 0;
     height: 3em;
@@ -77,6 +77,9 @@ input
     font-family: GeosansLightRegular;
     font-size: 1em;
     line-height: 1.5em;
+    width: 1024px;
+    position: relative;
+    margin: 0 auto;
 }
 #bible .column.one
 {
@@ -108,6 +111,10 @@ input
 }
 
 
+#form
+{
+    border-bottom: 1px solid lightgray;
+}
 #form textarea
 {
     border: none;
@@ -117,40 +124,43 @@ input
     outline: none;
     display: block;
 }
+#form textarea.note,
+#form textarea.tag
+{
+    width: 100%;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
 #form textarea.note
 {
-    height: 5em;
-    border-bottom: 1px solid lightgray;
-    width: 100%;
+    height: 6em;
 }
 #form textarea.tag
 {
     height: 2em;
-    border-bottom: 1px solid lightgray;
-    width: 100%;
 }
-#form span {border: 1px solid blue;}
 #form .reference
 {
-    width: 4em;
-    float: left;
+    width: 13%;
+    float: right;
     display: block;
-    font-family: BebasRegular;
+    font-family: GeosansLightRegular;
+    color: #AAA;
     font-size: 1.2em;
     text-align: right;
+    margin-top: 0.7em;
 }
 #form .content
 {
-    float: left;
-    width: 80%;
+    float: right;
+    width: 87%;
 }
 #form textarea.start-verse,
 #form textarea.end-verse
 {
-    height: 1.4em;
-    width: 2em;
-    border: 1px solid black;
-    font-family: BebasRegular;
+    height: 1em;
+    width: 1.7em;
+    font-family: GeosansLightRegular;
     color: #AAA;
     text-align: center;
     overflow: hidden;

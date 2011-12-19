@@ -3,7 +3,7 @@
 #nav
 {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     display: none;
 }
 
@@ -16,6 +16,7 @@
 .column.one
 {
     left: 0;
+    z-index: 1;
 }
 
 .column.two
