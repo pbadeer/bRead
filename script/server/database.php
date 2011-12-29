@@ -5,6 +5,8 @@ require_once('connect.php');
 class Database
 {
     public function referenceInsert(){
+        global $db;
+
         try
         {
             $sql = file_get_contents('insert_reference.sql');
@@ -30,6 +32,8 @@ class Database
     }
 
     public function referenceSelect(){
+        global $db;
+
         try
         {
             $sql = file_get_contents('select_reference.sql');
@@ -56,6 +60,8 @@ class Database
 
     public function contentInsert($type)
     {
+        global $db;
+
         try
         {
             $sql = file_get_contents('insert_content.sql');
@@ -87,6 +93,8 @@ class Database
 
     public function contentSelect()
     {
+        global $db;
+        
         try
         {
             $sql = file_get_contents('select.sql');
