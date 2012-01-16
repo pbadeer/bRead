@@ -19,9 +19,7 @@ class Database
             $stmt->bindParam(':end_chapter', $_GET['end_chapter']);
             $stmt->bindParam(':end_verse', $_GET['end_verse']);
 
-            $stmt->execute();
-
-            return $stmt->fetch();
+            return $stmt->execute();
         }
         catch(PDOException $e)
         {
@@ -48,7 +46,19 @@ class Database
 
             $stmt->execute();
 
-            return $stmt->fetch();
+            $result = $stmt->fetch();
+
+            // If no reference exists, make it, then run this function again
+            if(empty($result))
+            {
+                if($this->referenceInsert())
+                {
+                    $result = $this->referenceSelect();
+                }
+            }
+            
+            return $result;
+
         }
         catch(PDOException $e)
         {
@@ -94,7 +104,7 @@ class Database
     public function contentSelect()
     {
         global $db;
-        
+
         try
         {
             $sql = file_get_contents('select.sql');
@@ -104,21 +114,24 @@ class Database
             $stmt->execute();
             $content = $stmt->fetchAll();
 
-            echo '<?xml version="1.0" encoding="UTF-8"?>';
-            echo '<payload>';
-            foreach($content as $row)
+            if(!empty($content))
             {
-                echo '<'.$row['content_type'].'>';
-                    echo '<startBookId>'.$row['start_book_id'].'</startBookId>';
-                    echo '<endBookId>'.$row['end_book_id'].'</endBookId>';
-                    echo '<startChapter>'.$row['start_chapter'].'</startChapter>';
-                    echo '<endChapter>'.$row['end_chapter'].'</endChapter>';
-                    echo '<startVerse>'.$row['start_verse'].'</startVerse>';
-                    echo '<endVerse>'.$row['end_verse'].'</endVerse>';
-                    echo '<content>'.$row['content'].'</content>';
-                echo '</'.$row['content_type'].'>';
+                echo '<?xml version="1.0" encoding="UTF-8"?>';
+                echo '<payload>';
+                foreach($content as $row)
+                {
+                    echo '<'.$row['content_type'].'>';
+                        echo '<startBookId>'.$row['start_book_id'].'</startBookId>';
+                        echo '<endBookId>'.$row['end_book_id'].'</endBookId>';
+                        echo '<startChapter>'.$row['start_chapter'].'</startChapter>';
+                        echo '<endChapter>'.$row['end_chapter'].'</endChapter>';
+                        echo '<startVerse>'.$row['start_verse'].'</startVerse>';
+                        echo '<endVerse>'.$row['end_verse'].'</endVerse>';
+                        echo '<content>'.$row['content'].'</content>';
+                    echo '</'.$row['content_type'].'>';
+                }
+                echo '</payload>';
             }
-            echo '</payload>';
         }
         catch(PDOException $e)
         {
