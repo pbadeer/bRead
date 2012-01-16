@@ -6,15 +6,10 @@ require_once('database.php');
 // INSERT new user content
 if($_GET['action'] == 'new')
 {
-    // SEARCH FOR REFERENCE
+    // SEARCH FOR REFERENCE (auto insert if none exists)
     $reference = $database->referenceSelect();
 
-    // INSERT REFERENCE IF NEEDED
-    if(empty($reference))
-    {
-        $reference = $database->referenceInsert();
-    }
-
+    $_GET['privacy'] = 'public';
     $_GET['reference'] = $reference[0];
 
     if(!empty($_GET['content_note']))
