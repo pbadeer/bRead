@@ -60,7 +60,7 @@ Render.after = function()
   $('.chapter').selectable({
     filter: '.verse',
     autoRefresh: false,
-    stop: Render.form
+    stop: Data.form
   });
 
   this.userContent();
@@ -81,34 +81,6 @@ Render.userContent = function(data)
     html = xslt.transformToFragment(xml,document);
     $(Current.output[2]).append(html);
   }
-
-}
-
-
-// Populate the input form with the selected passage info
-Render.form = function()
-{
-  // Get start and end of selection
-  start = $('.ui-selected:first');
-  end = $('.ui-selected:last');
-
-  // Create and fill Data.content with reference info
-  Data.content = {
-    start_book_id: start.parent('.chapter').attr('book-id') * 1,
-    end_book_id: end.parent('.chapter').attr('book-id') * 1,
-    start_chapter: start.parent('.chapter').attr('chapter') * 1,
-    end_chapter: end.parent('.chapter').attr('chapter') * 1,
-    start_verse: start.attr('verse') * 1,
-    end_verse: end.attr('verse') * 1,
-    translation: start.parent('.chapter').attr('translation')
-  }
-
-  // Populate form with Data.content info
-  $('#form input, #form textarea').each(function(){
-    var data = Data.content[$(this).attr('name')];
-    if(data && data != null)
-      $(this).val(data);
-  });
 }
 
 

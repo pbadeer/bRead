@@ -63,3 +63,30 @@ Data.wordNum = function(word)
       return $.inArray(word[w], words) * 1;
   }
 }
+
+
+// Populate the input form with the selected passage info
+Data.form = function()
+{
+  // Get start and end of selection
+  start = $('.ui-selected:first');
+  end = $('.ui-selected:last');
+
+  // Create and fill Data.content with reference info
+  Data.content = {
+    start_book_id: start.parent('.chapter').attr('book-id') * 1,
+    end_book_id: end.parent('.chapter').attr('book-id') * 1,
+    start_chapter: start.parent('.chapter').attr('chapter') * 1,
+    end_chapter: end.parent('.chapter').attr('chapter') * 1,
+    start_verse: start.attr('verse') * 1,
+    end_verse: end.attr('verse') * 1,
+    translation: start.parent('.chapter').attr('translation')
+  }
+
+  // Populate form with Data.content info
+  $('#form input, #form textarea').each(function(){
+    var data = Data.content[$(this).attr('name')];
+    if(data && data != null)
+      $(this).val(data);
+  });
+}
