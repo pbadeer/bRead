@@ -45,7 +45,7 @@ Data.send = function()
 {
   $.get('script/server/ajax.php', $('#form').serialize(),
   function(){
-    Render.userContent();
+    Data.get();
   });
 }
 
