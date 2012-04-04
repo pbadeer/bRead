@@ -5,39 +5,10 @@ var Render = Bread.Render;
 // Renders column content
 Render.content = function(book, n)
 {
-  // Set current book
-  if(!book) book = Current.book;
-  else Current.book = book;
+  this.bible(book, n);
 
-  // Set current chapter
-  if(!n) n = Current.chap;
-  else Current.chap = n * 1;
+  this.userContent();
 
-  // Loop through (and fill) columns
-  for(i = 1; i <= 2; i++){
-    // Column type: BIBLE
-    if(types[Current.type[i]] == 'bible')
-    {
-      xml = Data.file('data/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
-      xsl = Data.file('script/template/bible.xsl', 'xml');
-      xslt = new XSLTProcessor();
-      xslt.importStylesheet(xsl);
-      html = xslt.transformToFragment(xml,document);
-
-      this.content.clear(i);
-    }
-
-    // Column type: NOTES
-    if(types[Current.type[i]] == 'notes')
-    {
-      html = Data.file('script/template/form.html', 'html');
-      this.content.clear(i);
-    }
-
-    $(Current.output[i]).append(html);
-  }
-
-  // Run after-load stuff
   this.after();
 }
 
@@ -49,7 +20,60 @@ Render.content.clear = function(col)
 }
 
 
-// Things to run after content-load
+// Render Bible
+Render.bible = function(book, n)
+{
+  // Set current book
+  if(!book) book = Current.book;
+  else Current.book = book;
+
+  // Set current chapter
+  if(!n) n = Current.chap;
+  else Current.chap = n * 1;
+
+  // Render Bible(s, if multiple)
+  for(i = 1; i <= 2; i++){
+    if(types[Current.type[i]] == 'bible')
+    {
+      xml = Data.file('data/' + Current.tran[i] + '/' + book + '/' + n + '.xml', 'xml');
+      xsl = Data.file('script/template/bible.xsl', 'xml');
+      xslt = new XSLTProcessor();
+      xslt.importStylesheet(xsl);
+      html = xslt.transformToFragment(xml,document);
+    }
+
+    this.content.clear(i);
+
+    $(Current.output[i]).append(html);
+  }
+}
+
+
+// Render USER content
+Render.userContent = function(data)
+{
+  form = Data.file('script/template/form.html', 'html');
+
+  if(!data) 
+    Data.get();
+  else
+  {
+    xml = $.parseXML(data);
+    xsl = Data.file('script/template/usercontent.xsl', 'xml');
+    xslt = new XSLTProcessor();
+    xslt.importStylesheet(xsl);
+    content = xslt.transformToFragment(xml,document);
+
+    html = $(form).append(content);
+
+    this.content.clear(2);
+
+    $(Current.output[2]).append(html);
+  }
+}
+
+
+// Things to render after content-load
 Render.after = function()
 {
   // Fills input with current book and chapter
@@ -62,25 +86,6 @@ Render.after = function()
     autoRefresh: false,
     stop: Data.form
   });
-
-  this.userContent();
-}
-
-
-// Render USER content
-Render.userContent = function(data)
-{
-  if(!data) 
-    Data.get();
-  else
-  {
-    xml = $.parseXML(data);
-    xsl = Data.file('script/template/usercontent.xsl', 'xml');
-    xslt = new XSLTProcessor();
-    xslt.importStylesheet(xsl);
-    html = xslt.transformToFragment(xml,document);
-    $(Current.output[2]).append(html);
-  }
 }
 
 
