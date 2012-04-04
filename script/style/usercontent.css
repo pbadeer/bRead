@@ -1,0 +1,11 @@
+.column.one
+{
+	width: 60%;
+}
+
+.column.two
+{
+	display: block;
+	right: auto;
+	left: 60%;
+}
