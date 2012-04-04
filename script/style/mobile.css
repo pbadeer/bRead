@@ -3,7 +3,7 @@
 	width: 100%;
 }
 
-.chapter
+#bible .chapter
 {
 	-webkit-column-count: 1;
 }

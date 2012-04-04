@@ -24,7 +24,7 @@
     display: none;
 }
 
-.chapter
+#bible .chapter
 {
     -webkit-column-count: 2;
     -webkit-column-gap: 2em;

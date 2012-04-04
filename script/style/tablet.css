@@ -3,7 +3,7 @@
 	width: 100%;
 }
 
-#bible .column .chapter
+#bible .chapter
 {
 	-webkit-column-gap: 1.5em;
 	padding: 1em;
