@@ -1,0 +1,9 @@
+#bible
+{
+	width: 600px;
+}
+
+.chapter
+{
+	-webkit-column-count: 1;
+}

@@ -10,7 +10,6 @@
 .column
 {
     position: absolute;
-    width: 50%;
 }
 
 .column.one
@@ -22,4 +21,10 @@
 .column.two
 {
     right: 0;
+    display: none;
+}
+
+.chapter
+{
+    -webkit-column-count: 2;
 }

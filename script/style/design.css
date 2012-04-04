@@ -85,6 +85,10 @@ input
 {
     box-shadow: 0px 0px 5px black;
 }
+#bible .column.two
+{
+    border-right: 1px solid gray;
+}
 #bible .column .chapter
 {
     padding: 0.7em;
