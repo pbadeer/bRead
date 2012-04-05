@@ -38,12 +38,13 @@ input
 {
     position: fixed;
     z-index: 2;
-    width: 50%;
+    width: 512px;
     bottom: 0;
+    left: 50%;
+    margin-left: -512px;
     height: 3em;
 
-    box-shadow: 0px 0px 5px black;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0,0,0, 0.6);
 }
 #title,
 #title input
@@ -84,6 +85,12 @@ input
 #bible .column.one
 {
     box-shadow: 0px 0px 5px black;
+}
+#bible .column.two
+{
+    border: 1px solid gray;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
 }
 #bible .column .chapter
 {
