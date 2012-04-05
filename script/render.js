@@ -52,12 +52,12 @@ Render.bible = function(book, n)
 // Render USER content
 Render.userContent = function(data)
 {
-  form = Data.file('script/template/form.html', 'html');
-
   if(!data) 
     Data.get();
   else
   {
+    form = Data.file('script/template/form.html', 'html');
+    
     xml = $.parseXML(data);
     xsl = Data.file('script/template/usercontent.xsl', 'xml');
     xslt = new XSLTProcessor();
