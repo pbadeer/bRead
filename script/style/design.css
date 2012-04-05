@@ -118,10 +118,7 @@ input
 }
 
 
-#form
-{
-    border-bottom: 1px solid lightgray;
-}
+
 #form textarea
 {
     border: none;
