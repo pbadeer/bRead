@@ -116,22 +116,37 @@ class Database
 
             if(!empty($content))
             {
+                $currentReference = 'start';
                 echo '<?xml version="1.0" encoding="UTF-8"?>';
                 echo '<payload>';
+
                 foreach($content as $row)
                 {
-                    echo '<'.$row['content_type'].'>';
-                        echo '<startBookId>'.$row['start_book_id'].'</startBookId>';
-                        echo '<endBookId>'.$row['end_book_id'].'</endBookId>';
-                        echo '<startChapter>'.$row['start_chapter'].'</startChapter>';
-                        echo '<endChapter>'.$row['end_chapter'].'</endChapter>';
-                        echo '<startVerse>'.$row['start_verse'].'</startVerse>';
-                        echo '<endVerse>'.$row['end_verse'].'</endVerse>';
-                        echo '<content>'.$row['content'].'</content>';
-                    echo '</'.$row['content_type'].'>';
+                    if($currentReference != $row['content_reference_id'])
+                    {
+                        if($currentReference != 'start') echo '</passage>';
+                        
+                        $currentReference = $row['content_reference_id'];
+
+                        echo '<passage>',
+                            '<reference>',
+                                '<startBookId>'  . $row['start_book_id'] . '</startBookId>',
+                                '<endBookId>'    . $row['end_book_id']   . '</endBookId>',
+                                '<startChapter>' . $row['start_chapter'] . '</startChapter>',
+                                '<endChapter>'   . $row['end_chapter']   . '</endChapter>',
+                                '<startVerse>'   . $row['start_verse']   . '</startVerse>',
+                                '<endVerse>'     . $row['end_verse']     . '</endVerse>',
+                            '</reference>';
+                    }
+
+                    echo '<' . $row['content_type'] . '>',
+                        '<content>' . $row['content' ]. '</content>',
+                    '</' . $row['content_type'] . '>';
                 }
-                echo '</payload>';
+
+                echo '</passage></payload>';
             }
+
         }
         catch(PDOException $e)
         {
