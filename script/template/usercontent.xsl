@@ -5,9 +5,21 @@
     <xsl:template match="passage">
         <div class="passage">
             <span class="reference"><xsl:apply-templates select="reference"/></span>
-            <span class="note"><xsl:apply-templates select="note/content"/></span>
-            <span class="tags"><xsl:apply-templates select="tag/content"/></span>
+            <span class="note"><xsl:apply-templates select="note"/></span>
+            <span class="tags"><xsl:apply-templates select="tag"/></span>
         </div>
+    </xsl:template>
+
+    <xsl:template match="reference">
+
+    </xsl:template>
+
+    <xsl:template match="note">
+        [<xsl:apply-templates select="content"/>] 
+    </xsl:template>
+    
+    <xsl:template match="tag">
+        [<xsl:apply-templates select="content"/>] 
     </xsl:template>
 
 </xsl:stylesheet>

@@ -56,15 +56,14 @@ Render.userContent = function(data)
     Data.get();
   else
   {
-    form = Data.file('script/template/form.html', 'html');
-    
     xml = $.parseXML(data);
     xsl = Data.file('script/template/usercontent.xsl', 'xml');
     xslt = new XSLTProcessor();
     xslt.importStylesheet(xsl);
     content = xslt.transformToFragment(xml,document);
 
-    html = $(form).append(content);
+    //form = Data.file('script/template/form.html', 'html');
+    html = content; // In the future this would be form + content
 
     this.content.clear(2);
 
