@@ -5,8 +5,9 @@
     <xsl:template match="passage">
         <div class="passage">
             <span class="reference"><xsl:apply-templates select="reference"/></span>
-            <span class="note"><xsl:apply-templates select="note"/></span>
-            <span class="tags"><xsl:apply-templates select="tag"/></span>
+            <div class="note"><xsl:apply-templates select="note"/></div>
+            <div class="tags"><a href="#newtag">[ + ]</a><xsl:apply-templates select="tag"/></div>
+            <div class="actions">[ delete ] [ save ]</div>
         </div>
     </xsl:template>
 
@@ -19,7 +20,7 @@
     </xsl:template>
     
     <xsl:template match="tag">
-        [<xsl:apply-templates select="content"/>] 
+        <span class="tag"><xsl:apply-templates select="content"/></span>
     </xsl:template>
 
 </xsl:stylesheet>
