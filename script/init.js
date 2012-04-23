@@ -65,6 +65,19 @@ Bread.Init = function(){
     Render.content(book, chapter);
   });
 
+  // Stats.js display
+  var stats = new Stats();
+
+  stats.getDomElement().style.position = 'absolute';
+  stats.getDomElement().style.right = '0px';
+  stats.getDomElement().style.top = '0px';
+
+  document.body.appendChild( stats.getDomElement() );
+
+  setInterval( function () {
+    stats.update();
+  }, 1000 / 60 );
+
 }
 
 
