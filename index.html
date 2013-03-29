@@ -12,52 +12,59 @@
     <script type="text/javascript" src="script/data.js"></script>
     <script type="text/javascript" src="script/render.js"></script>
     <script type="text/javascript" src="script/view.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="script/style/style.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="script/style/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="script/style/bootstrap-responsive.min.css"/>
+    
+    <!--<link rel="stylesheet" type="text/css" href="script/style/style.css"/>
     <link rel="stylesheet" type="text/css" href="script/style/design.css"/>
     <link rel="stylesheet" type="text/css" href="script/style/usercontent.css"/>
-
-    <link media="screen and (max-width: 1024px)" rel="stylesheet" type="text/css" href="script/style/tablet.css"/>
-    <link media="screen and (max-width: 700px)" rel="stylesheet" type="text/css" href="script/style/mobile.css"/>
+-->
+    
+    <!--<link media="screen and (max-width: 1024px)" rel="stylesheet" type="text/css" href="script/style/tablet.css"/>
+    <link media="screen and (max-width: 700px)" rel="stylesheet" type="text/css" href="script/style/mobile.css"/>-->
 </head>
 
 <body>
+    <div class="container">
 
-    <div id="title">
-        <span class="book"></span>
-        <input class="chapter" type="text" value="" size="1"/>
+        <div id="nav" class="navbar">
+            <div class="navbar-inner">
+                <a class="brand" href="#">bread</a>
+                
+                <button class="nums">nums</button>
+
+                <select class="current type one">
+                    <option value="1" selected="selected">bible</option>
+                    <option value="2">notes</option>
+                </select>
+                <select class="current type two">
+                    <option value="1">bible</option>
+                    <option value="2" selected="selected">notes</option>
+                </select>
+
+                <select class="current tran one">
+                    <option value="kjv">kjv</option>
+                </select>
+                <select class="current tran two">
+                    <option value="kjv">kjv</option>
+                </select>
+
+                <select name="current privacy">
+                    <option value="public">public</option>
+                    <option value="private">private</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="bible">
+            <div class="row">
+                <div class="column one span6"></div>
+                <div class="column two span6"></div>
+            </div>
+        </div>
+
     </div>
-
-    <div id="nav">
-        <button class="nums">nums</button>
-
-        <select class="current type one">
-            <option value="1" selected="selected">bible</option>
-            <option value="2">notes</option>
-        </select>
-        <select class="current type two">
-            <option value="1">bible</option>
-            <option value="2" selected="selected">notes</option>
-        </select>
-
-        <select class="current tran one">
-            <option value="kjv">kjv</option>
-        </select>
-        <select class="current tran two">
-            <option value="kjv">kjv</option>
-        </select>
-
-        <select name="current privacy">
-            <option value="public">public</option>
-            <option value="private">private</option>
-        </select>
-    </div>
-
-    <div id="bible">
-        <div class="column one"></div>
-        <div class="column two"></div>
-    </div>
-
 </body>
 
 </html>

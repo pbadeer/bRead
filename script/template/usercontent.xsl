@@ -3,7 +3,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="passage">
-        <div class="passage">
+        <div class="passage well">
             <span class="reference"><xsl:apply-templates select="reference"/></span>
             <div class="note"><xsl:apply-templates select="note"/></div>
             <div class="tags"><a href="#newtag">[ + ]</a><xsl:apply-templates select="tag"/></div>
