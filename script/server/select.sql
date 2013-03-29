@@ -3,9 +3,11 @@ SELECT
     content_reference.start_book_id,
     content_reference.start_chapter,
     content_reference.start_verse,
+    content_reference.start_index,
     content_reference.end_book_id,
     content_reference.end_chapter,
     content_reference.end_verse,
+    content_reference.end_index,
     content_type.content_type,
     content_privacy.content_privacy
 FROM content

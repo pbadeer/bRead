@@ -15,9 +15,11 @@ class Database
             $stmt->bindParam(':start_book_id', $_GET['start_book_id']);
             $stmt->bindParam(':start_chapter', $_GET['start_chapter']);
             $stmt->bindParam(':start_verse', $_GET['start_verse']);
+            $stmt->bindParam(':start_index', $_GET['start_index']);
             $stmt->bindParam(':end_book_id', $_GET['end_book_id']);
             $stmt->bindParam(':end_chapter', $_GET['end_chapter']);
             $stmt->bindParam(':end_verse', $_GET['end_verse']);
+            $stmt->bindParam(':end_index', $_GET['end_index']);
 
             return $stmt->execute();
         }
@@ -40,9 +42,11 @@ class Database
             $stmt->bindParam(':start_book_id', $_GET['start_book_id']);
             $stmt->bindParam(':start_chapter', $_GET['start_chapter']);
             $stmt->bindParam(':start_verse', $_GET['start_verse']);
+            $stmt->bindParam(':start_index', $_GET['start_index']);
             $stmt->bindParam(':end_book_id', $_GET['end_book_id']);
             $stmt->bindParam(':end_chapter', $_GET['end_chapter']);
             $stmt->bindParam(':end_verse', $_GET['end_verse']);
+            $stmt->bindParam(':end_index', $_GET['end_index']);
 
             $stmt->execute();
 
@@ -136,6 +140,8 @@ class Database
                                 '<endChapter>'   . $row['end_chapter']   . '</endChapter>',
                                 '<startVerse>'   . $row['start_verse']   . '</startVerse>',
                                 '<endVerse>'     . $row['end_verse']     . '</endVerse>',
+                                '<startIndex>'   . $row['start_index']   . '</startIndex>',
+                                '<endIndex>'     . $row['end_index']     . '</endIndex>',
                             '</reference>';
                     }
 

@@ -80,6 +80,8 @@ Data.form = function()
     end_chapter: end.parent('.chapter').attr('chapter') * 1,
     start_verse: start.attr('verse') * 1,
     end_verse: end.attr('verse') * 1,
+    start_index: 1 * 1, // jquery ui cannot provide this
+    end_index: 1 * 1, // jquery ui cannot provide this
     translation: start.parent('.chapter').attr('translation')
   }
 
