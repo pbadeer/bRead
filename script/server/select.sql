@@ -15,3 +15,4 @@ LEFT JOIN content_reference ON content_reference.content_reference_id = content.
 LEFT JOIN content_type ON content.content_type_id = content_type.content_type_id
 LEFT JOIN content_privacy ON content.content_privacy_id = content_privacy.content_privacy_id
 WHERE start_book_id = :book_id AND start_chapter = :chapter
+;
