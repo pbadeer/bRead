@@ -1,0 +1,17 @@
+Translation file format:
+
+<?xml version="1.0" encoding="utf-8"?>
+<bible>
+<book translation="KJV" testament="Old" name="GEN">
+<chapter>
+<verse>
+<supplied>
+
+
+End chapter file format:
+(n = chapter number, book-id = book number)
+
+<?xml version="1.0"?>
+<chapter translation="KJV" testament="Old" book="Genesis" n="1" book-id="1">
+<verse>
+<supplied>

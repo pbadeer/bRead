@@ -2,7 +2,7 @@
 // Place this file in the parent directory of the translation directories
 
 // Set translation (case sensitive)
-$translation = 'KJV';
+$translation = strtoupper($_GET['v']);
 
 // Loop through each chapter file
 foreach(glob($translation . '/*/{*.xml}', GLOB_BRACE) as $filename){

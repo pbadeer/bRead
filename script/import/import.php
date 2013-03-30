@@ -1,15 +1,20 @@
 <?php
 
-$import = simplexml_load_file('kjv_revised.xml');
+$version = $_GET['v'];
+
+$import = simplexml_load_file($version . '.xml');
+
+if (!is_dir($version))
+    mkdir($version);
 
 foreach($import->book as $book):
 
     $n = 1;
 
-    if(!mkdir('kjv/' . $book['name'])) die('dir fail');
+    if(!mkdir($version . '/' . $book['name'])) die('dir fail');
 
     foreach($book->chapter as $chap):
-    $filename = 'kjv/' . $book['name'] . '/' . $n . '.xml';
+    $filename = $version . '/' . $book['name'] . '/' . $n . '.xml';
 
     $chap->addAttribute('translation', $book['translation']);
     $chap->addAttribute('testament', $book['testament']);
