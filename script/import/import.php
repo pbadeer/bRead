@@ -2,34 +2,38 @@
 
 $version = $_GET['v'];
 
-$import = simplexml_load_file($version . '.xml');
+$import = simplexml_load_file('translations/' . $version . '.xml');
 
-if (!is_dir($version))
+if (!is_dir($version)):
     mkdir($version);
+endif;
 
+$bn = 1;
 foreach($import->book as $book):
-
     $n = 1;
 
-    if(!mkdir($version . '/' . $book['name'])) die('dir fail');
+    if(!is_dir($version . '/' . $bn)):
+        mkdir($version . '/' . $bn);
+    endif;
 
     foreach($book->chapter as $chap):
-    $filename = $version . '/' . $book['name'] . '/' . $n . '.xml';
+        $chap->addAttribute('translation', $book['translation']);
+        $chap->addAttribute('testament', $book['testament']);
+        $chap->addAttribute('book', $book['name']);
+        $chap->addAttribute('book-id', $bn);
+        $chap->addAttribute('n', $n);
 
-    $chap->addAttribute('translation', $book['translation']);
-    $chap->addAttribute('testament', $book['testament']);
-    $chap->addAttribute('book', $book['name']);
-    $chap->addAttribute('n', $n);
+        $xml = $chap->asXML();
 
-    $xml = $chap->asXML();
+        $filename = $version . '/' . $bn . '/' . $n . '.xml';
+        $file = fopen( $filename, 'w' );
+        fwrite( $file, $xml );
+        fclose( $file );
 
-    $file = fopen( $filename, 'w' );
-    fwrite( $file, $xml );
-    fclose( $file );
-
-    $n++;
+        $n++;
     endforeach;
 
+    $bn++;
 endforeach;
 
 ?>
