@@ -54,6 +54,8 @@ Render.userContent = function(data)
   for(i = 1; i <= 2; i++){
     if(types[Current.type[i]] == 'notes')
     {
+      var form, html;
+
       if(!data) 
         Data.get();
       else
@@ -63,14 +65,14 @@ Render.userContent = function(data)
         xslt = new XSLTProcessor();
         xslt.importStylesheet(xsl);
         content = xslt.transformToFragment(xml,document);
-        //form = Data.file('script/template/form.html', 'html');
-        html = content; // In the future this would be form + content
+        form = Data.file('script/template/form.html', 'html');
+        html = content;
       }
 
       // Always clear and fill
-      // this way if no content exists it will empty the last content
+      // (so if no content exists it will empty)
       this.content.clear(i);
-      $(Current.output[i]).append(html);
+      $(Current.output[i]).append(html).prepend(form);
     }
   }
 }
