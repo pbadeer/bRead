@@ -85,12 +85,9 @@ Render.after = function()
   $(Current.input.book).text(Book[Current.book].name);
   $(Current.input.chap).val(Current.chap);
 
-  // Make verses selectable -- new system coming, remove this one
-  /*$('.chapter').selectable({
-    filter: '.verse',
-    autoRefresh: false,
-    stop: Data.form
-  });*/
+  $('#bible .chapter > span').mouseup(function () {
+      Data.form();
+  });
 }
 
 

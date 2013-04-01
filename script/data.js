@@ -68,21 +68,35 @@ Data.wordNum = function(word)
 // Populate the input form with the selected passage info
 Data.form = function()
 {
-  // Get start and end of selection
-  start = $('.ui-selected:first');
-  end = $('.ui-selected:last');
+  // Get Start Node
+  var sn = Data.selectedNode('s');
+  // Get End Node
+  var en = Data.selectedNode('e');
+  // Get range
+  var r = Data.selectionRange();
+
+  var t = $(sn).parent().attr("translation"),
+      sb = $(sn).parent().attr("book-id") * 1,
+      sc = $(sn).parent().attr("chapter") * 1,
+      sv = $(sn).attr("verse") * 1,
+      si = r.startOffset * 1;
+
+  var eb = $(en).parent().attr("book-id") * 1,
+      ec = $(en).parent().attr("chapter") * 1,
+      ev = $(en).attr("verse") * 1,
+      ei = r.endOffset * 1;
 
   // Create and fill Data.content with reference info
   Data.content = {
-    start_book_id: start.parent('.chapter').attr('book-id') * 1,
-    end_book_id: end.parent('.chapter').attr('book-id') * 1,
-    start_chapter: start.parent('.chapter').attr('chapter') * 1,
-    end_chapter: end.parent('.chapter').attr('chapter') * 1,
-    start_verse: start.attr('verse') * 1,
-    end_verse: end.attr('verse') * 1,
-    start_index: 1 * 1, // jquery ui cannot provide this
-    end_index: 1 * 1, // jquery ui cannot provide this
-    translation: start.parent('.chapter').attr('translation')
+    start_book_id: sb,
+    end_book_id: eb,
+    start_chapter: sc,
+    end_chapter: ec,
+    start_verse: sv,
+    end_verse: ev,
+    start_index: si,
+    end_index: ei, 
+    translation: t
   }
 
   // Populate form with Data.content info
@@ -91,4 +105,38 @@ Data.form = function()
     if(data && data != null)
       $(this).val(data);
   });
+}
+
+
+// Get (start or end) node from selection
+Data.selectedNode = function(pos) {
+    var node, selection;
+    if (window.getSelection) {
+        selection = getSelection();
+        if (pos == 's') node = selection.anchorNode;
+        if (pos == 'e') node = selection.focusNode;
+    }
+    if (!node && document.selection) {
+        selection = document.selection
+        var range = selection.getRangeAt ? selection.getRangeAt(0) : selection.createRange();
+        node = range.commonAncestorContainer ? range.commonAncestorContainer : range.parentElement ? range.parentElement() : range.item(0);
+    }
+    if (node) {
+        return (node.nodeName == "#text" ? node.parentNode : node);
+    }
+}
+
+
+// Get selection range
+Data.selectionRange = function() {
+    var sel;
+    if (window.getSelection) {
+        sel = window.getSelection();
+        if (sel.rangeCount) {
+            return sel.getRangeAt(0);
+        }
+    } else if (document.selection) {
+        return document.selection.createRange();
+    }
+    return null;
 }
