@@ -40,11 +40,10 @@ Render.bible = function(book, n)
       xslt = new XSLTProcessor();
       xslt.importStylesheet(xsl);
       html = xslt.transformToFragment(xml,document);
+
+      this.content.clear(i);
+      $(Current.output[i]).append(html);
     }
-
-    this.content.clear(i);
-
-    $(Current.output[i]).append(html);
   }
 }
 
@@ -52,22 +51,25 @@ Render.bible = function(book, n)
 // Render USER content
 Render.userContent = function(data)
 {
-  if(!data) 
-    Data.get();
-  else
-  {
-    xml = $.parseXML(data);
-    xsl = Data.file('script/template/usercontent.xsl', 'xml');
-    xslt = new XSLTProcessor();
-    xslt.importStylesheet(xsl);
-    content = xslt.transformToFragment(xml,document);
-
-    //form = Data.file('script/template/form.html', 'html');
-    html = content; // In the future this would be form + content
-
-    this.content.clear(2);
-
-    $(Current.output[2]).append(html);
+  for(i = 1; i <= 2; i++){
+    if(types[Current.type[i]] == 'notes')
+    {
+      if(!data) 
+        Data.get();
+      else
+      {
+        xml = $.parseXML(data);
+        xsl = Data.file('script/template/usercontent.xsl', 'xml');
+        xslt = new XSLTProcessor();
+        xslt.importStylesheet(xsl);
+        content = xslt.transformToFragment(xml,document);
+        //form = Data.file('script/template/form.html', 'html');
+        html = content; // In the future this would be form + content
+        
+        this.content.clear(i);
+        $(Current.output[i]).append(html);
+      }
+    }
   }
 }
 
@@ -79,12 +81,12 @@ Render.after = function()
   $(Current.input.book).text(Book[Current.book].name);
   $(Current.input.chap).val(Current.chap);
 
-  // Make verses selectable
-  $('.chapter').selectable({
+  // Make verses selectable -- new system coming, remove this one
+  /*$('.chapter').selectable({
     filter: '.verse',
     autoRefresh: false,
     stop: Data.form
-  });
+  });*/
 }
 
 
