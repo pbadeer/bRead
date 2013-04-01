@@ -65,10 +65,12 @@ Render.userContent = function(data)
         content = xslt.transformToFragment(xml,document);
         //form = Data.file('script/template/form.html', 'html');
         html = content; // In the future this would be form + content
-        
-        this.content.clear(i);
-        $(Current.output[i]).append(html);
       }
+
+      // Always clear and fill
+      // this way if no content exists it will empty the last content
+      this.content.clear(i);
+      $(Current.output[i]).append(html);
     }
   }
 }
