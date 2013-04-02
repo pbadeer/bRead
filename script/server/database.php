@@ -132,8 +132,8 @@ class Database
                         
                         $currentReference = $row['content_reference_id'];
 
-                        echo '<passage>',
-                            '<reference>',
+                        echo '<passage id="' . $row['content_id'] . '">',
+                            '<reference id="' . $row['content_reference_id'] . '">',
                                 '<startBookId>'  . $row['start_book_id'] . '</startBookId>',
                                 '<endBookId>'    . $row['end_book_id']   . '</endBookId>',
                                 '<startChapter>' . $row['start_chapter'] . '</startChapter>',
