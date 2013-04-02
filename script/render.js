@@ -85,8 +85,16 @@ Render.after = function()
   $(Current.input.book).text(Book[Current.book].name);
   $(Current.input.chap).val(Current.chap);
 
+  // Selection event
   $('#bible .chapter > span').mouseup(function () {
       Data.form();
+  });
+
+  // Delete buttons on user content
+  $(document).on('click', 'a.delete', function(){
+    var id = $(this).closest('.passage').attr('data-id');
+    var type = 'note';
+    Data.delete(type, id);
   });
 }
 

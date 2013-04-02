@@ -50,6 +50,19 @@ Data.send = function()
 }
 
 
+// Delete data (note or tag)
+Data.delete = function(type, id)
+{
+  $.get('script/server/ajax.php', {
+    action: 'delete',
+    type: type,
+    id: id
+  }, function(data){
+    alert(data)
+  });
+}
+
+
 // Convert word to number (ex: two = 2)
 Data.wordNum = function(word)
 {

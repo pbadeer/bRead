@@ -3,6 +3,13 @@
 require_once('database.php');
 
 
+// GET user content
+if($_GET['action'] == 'get')
+{
+    $database->contentSelect();
+}
+
+
 // INSERT new user content
 if($_GET['action'] == 'new')
 {
@@ -31,10 +38,13 @@ if($_GET['action'] == 'new')
 }
 
 
-// GET user content
-if($_GET['action'] == 'get')
+// DELETE user content
+if($_GET['action'] == 'delete')
 {
-    $database->contentSelect();
+    // delete content
+    // check if reference is being used
+    // delete reference if obsolete
+    echo 'deleted '.$_GET['type'].' with id '.$_GET['id'];
 }
 
 ?>
