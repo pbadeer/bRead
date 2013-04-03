@@ -4,6 +4,7 @@
 <head>
     <title>bread</title>
     <script type="text/javascript" src="script/library/angular.js"></script>
+    <script type="text/javascript" src="script/library/xml2json.js"></script>
     <script type="text/javascript" src="script/ng.js"></script>
     <!--
     <script type="text/javascript" src="script/library/jquery.js"></script>
@@ -28,7 +29,7 @@
         <div id="nav" class="navbar">
             <div class="navbar-inner">
                 <a class="brand" href="#">bread</a>
-                
+                <!--
                 <button class="nums">nums</button>
 
                 <select class="current type one">
@@ -59,22 +60,22 @@
                     <option value="public">public</option>
                     <option value="private">private</option>
                 </select>
+            -->
             </div>
         </div>
 
-        <div id="title">
-            <h1 class="book"></h1>
-            <input class="chapter" type="text" value="{{chapter.num}}" size="1"/>
+        <div id="title" data-ng-model="title">
+            <h1 class="book">{{glo}} {{book + ' ' + chapter}}</h1>
         </div>
 
         <div id="bible" data-ng-controller="bible">
             <div class="row">
 
                 <div class="column one span6">
-                    <div class="chapter" data-ng-repeat="chapter in chapters" translation="{{chapter.translation}}" book="{{chapter.book}}" book-id="{{chapter.bookId}}" chapter="{{chapter.num}}">
-                        <span class="verse" data-ng-repeat="verse in chapter.verses" verse="{{verse.num}}">
-                            <span class="n">{{verse.num}}</span>
-                            {{verse.content}}
+                    <div class="chapter" data-ng-repeat="chapter in passage" translation="{{chapter._translation}}" book="{{chapter._book}}" book-id="{{chapter._book-id}}" chapter="{{chapter._n}}">
+                        <span class="verse" data-ng-repeat="verse in chapter.verse" verse="{{$index + 1}}">
+                            <span class="n">{{$index + 1}}</span>
+                            {{verse}}
                         </span>
                     </div>
                 </div>
