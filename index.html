@@ -4,6 +4,7 @@
 <head>
     <title>bread</title>
     <script type="text/javascript" src="script/library/angular.js"></script>
+    <script type="text/javascript" src="script/ng.js"></script>
     <!--
     <script type="text/javascript" src="script/library/jquery.js"></script>
     <script type="text/javascript" src="script/library/hotkeys.js"></script>
@@ -63,12 +64,21 @@
 
         <div id="title">
             <h1 class="book"></h1>
-            <input class="chapter" type="text" value="" size="1"/>
+            <input class="chapter" type="text" value="{{chapter.num}}" size="1"/>
         </div>
 
-        <div id="bible">
+        <div id="bible" data-ng-controller="bible">
             <div class="row">
-                <div class="column one span6"></div>
+
+                <div class="column one span6">
+                    <div class="chapter" data-ng-repeat="chapter in chapters" translation="{{chapter.translation}}" book="{{chapter.book}}" book-id="{{chapter.bookId}}" chapter="{{chapter.num}}">
+                        <span class="verse" data-ng-repeat="verse in chapter.verses" verse="{{verse.num}}">
+                            <span class="n">{{verse.num}}</span>
+                            {{verse.content}}
+                        </span>
+                    </div>
+                </div>
+
                 <div class="column two span6"></div>
             </div>
         </div>
