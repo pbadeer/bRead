@@ -5,11 +5,11 @@
     <title>bread</title>
     <script type="text/javascript" src="script/library/angular.js"></script>
     <script type="text/javascript" src="script/library/xml2json.js"></script>
+    <script type="text/javascript" src="script/library/book.js"></script>
     <script type="text/javascript" src="script/ng.js"></script>
     <!--
     <script type="text/javascript" src="script/library/jquery.js"></script>
     <script type="text/javascript" src="script/library/hotkeys.js"></script>
-    <script type="text/javascript" src="script/library/book.js"></script>
     <script type="text/javascript" src="script/library/stats.js"></script>
     <script type="text/javascript" src="script/init.js"></script>
     <script type="text/javascript" src="script/data.js"></script>
@@ -24,51 +24,23 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" data-ng-controller="bible">
 
         <div id="nav" class="navbar">
             <div class="navbar-inner">
                 <a class="brand" href="#">bread</a>
-                <!--
-                <button class="nums">nums</button>
-
-                <select class="current type one">
-                    <option value="1" selected="selected">bible</option>
-                    <option value="2">notes</option>
-                </select>
-                <select class="current type two">
-                    <option value="1">bible</option>
-                    <option value="2" selected="selected">notes</option>
-                </select>
-
-                <select class="current tran one">
-                    <option value="kjv">King James Version</option>
-                    <option value="nasb">New American Standard Version</option>
-                    <option value="niv">New International Version</option>
-                    <option value="esv">English Standard Version</option>
-                    <option value="msg">The Message</option>
-                </select>
-                <select class="current tran two">
-                    <option value="kjv">King James Version</option>
-                    <option value="nasb">New American Standard Version</option>
-                    <option value="niv">New International Version</option>
-                    <option value="esv">English Standard Version</option>
-                    <option value="msg">The Message</option>
-                </select>
-
-                <select name="current privacy">
-                    <option value="public">public</option>
-                    <option value="private">private</option>
-                </select>
-            -->
+                <ul class="nav">
+                    <li><a href="" ng-click="previous()"><i class="icon-chevron-left"></i> previous</a></li>
+                    <li><a href="" ng-click="next()">next <i class="icon-chevron-right"></i></a></li>
+                </ul>
             </div>
         </div>
 
-        <div id="title" data-ng-model="title">
-            <h1 class="book">{{glo}} {{book + ' ' + chapter}}</h1>
+        <div id="title">
+           <h1 class="book">{{title()}}</h1>
         </div>
 
-        <div id="bible" data-ng-controller="bible">
+        <div id="bible">
             <div class="row">
 
                 <div class="column one span6">
@@ -84,7 +56,7 @@
             </div>
         </div>
 
-    </div>
+    </div><!-- end container -->
 </body>
 
 </html>

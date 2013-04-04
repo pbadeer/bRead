@@ -1,18 +1,28 @@
-var book = 'test',
-    chapter = 1,
-    bookId = 1,
-    translation = 'NASB';
-
 function bible($scope, $http) {
+    $scope.chapter = 1;
+    $scope.bookId = 1;
+    $scope.translation = 'NASB';
+
+    $scope.title = function(){
+        return Book[$scope.bookId].name + ' ' + $scope.chapter;
+    }
+
+    $scope.next = function() {
+        $scope.chapter++;
+    }
+
+    $scope.previous = function() {
+        $scope.chapter--;
+    }
+
     $http({
         method: 'GET',
-        url: 'data/' + translation + '/' + bookId + '/' + chapter + '.xml',
+        url: 'data/' + $scope.translation + '/' + $scope.bookId + '/' + $scope.chapter + '.xml',
         transformResponse: function(data) {
             var json = x2js.xml_str2json(data);
             return json;
         }
     }).success(function(data, status){
         $scope.passage = data;
-        console.log(data)
     });
 }
