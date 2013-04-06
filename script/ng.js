@@ -15,6 +15,7 @@ function bible($scope, $http) {
         $scope.chapter--;
     }
 
+    // convert to $resource (http://docs.angularjs.org/api/ngResource.$resource)
     $http({
         method: 'GET',
         url: 'data/' + $scope.translation + '/' + $scope.bookId + '/' + $scope.chapter + '.xml',
