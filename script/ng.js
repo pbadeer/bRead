@@ -1,7 +1,11 @@
-function bible($scope, $http) {
+angular.module('bread', ['ngResource']);
+
+function bible($scope, $http, $resource) {
     $scope.chapter = 1;
     $scope.bookId = 1;
     $scope.translation = 'NASB';
+    $scope.passage;
+    $scope.userContent;
 
     update();
 
@@ -10,10 +14,11 @@ function bible($scope, $http) {
     }
 
     $scope.next = function() {
-        books = Object.keys(Book).length;
-        if($scope.chapter < Book[$scope.bookId].chapters)
+        var chapters = Book[$scope.bookId].chapters,
+            books = Object.keys(Book).length;
+        if($scope.chapter < chapters)
             $scope.chapter++;
-        else if($scope.chapter == Book[$scope.bookId].chapters && $scope.bookId != books) {
+        else if($scope.chapter == chapters && $scope.bookId != books) {
             $scope.bookId++;
             $scope.chapter = 1;
         }
@@ -40,6 +45,50 @@ function bible($scope, $http) {
             }
         }).success(function(data){
             $scope.passage = data;
+            $scope.userContent = UserContent.GetContent({book_id: $scope.bookId, chapter: $scope.chapter});
         });
     }
+
+    // http://stackoverflow.com/questions/13269882/angularjs-resource-restful-example
+    // testing requires data in db
+    var UserContent = $resource('script/server/ajax.php',
+        {
+            action: '@action'
+        },
+        {
+            GetContent: {
+                method: "GET",
+                params: {
+                    action: 'get',
+                    book_id: '',
+                    chapter: ''
+                }
+            },
+            CreateContent: {
+                method: "GET",
+                params: {
+                    action: 'new',
+                    privacy: '', //get types from db
+                    content_note: '', //text
+                    content_tag: '', //comma separated array
+                    start_book_id: '', //get all the rest of these from Data.form
+                    start_chapter: '',
+                    start_verse: '',
+                    start_index: '',
+                    end_book_id: '',
+                    end_chapter: '',
+                    end_verse: '',
+                    end_index: ''
+                }
+            },
+            DeleteContent: {
+                method: "GET",
+                params: {
+                    action: 'delete',
+                    id: '',
+                    type: ''
+                }
+            }
+        });
+
 }
