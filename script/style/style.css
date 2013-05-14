@@ -6,3 +6,7 @@
 	vertical-align: super;
 	font-size: 0.8em;
 }
+
+.book {
+	text-transform: capitalize;
+}
