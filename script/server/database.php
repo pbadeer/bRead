@@ -146,7 +146,7 @@ class Database
                     }
 
                     echo '<' . $row['content_type'] . '>',
-                        '<content>' . $row['content' ]. '</content>',
+                        $row['content' ],
                     '</' . $row['content_type'] . '>';
                 }
 
