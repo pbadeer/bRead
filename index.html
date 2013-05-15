@@ -60,20 +60,25 @@
                         </fieldset>
                     </form>
                     
-                    <div class="passage well" data-ng-repeat="per reference" data-id="db passage id">
-                        <span class="reference">Reference: </span>
-                        <div class="note">Notes: <span data-ng-repeat="per note"></span></div>
-                        Tags:
-                        <div class="pagination">
-                            <ul class="tags" data-ng-repeat="per tag">
-                                <li class="tag"><a href="#"></a></li>
-                            </ul>
-                        </div>
-                        <div class="actions">
-                            <a class="btn btn-danger btn-small delete">Delete</a>
-                            <a class="btn btn-success btn-small">Save</a>
+                    <div data-ng-repeat="payload in userContent">
+                        <div class="passage well" data-ng-repeat="passage in userContent.payload.passage" data-passage-id="{{passage._id}}">
+                            <span>Reference: {{passage.reference.startBookId}}:{{passage.reference.startChapter}}:{{passage.reference.startVerse}}:{{passage.reference.startIndex}} - {{passage.reference.endBookId}}:{{passage.reference.endChapter}}:{{passage.reference.endVerse}}:{{passage.reference.endIndex}}</span>
+                            <div>Notes:
+                                <span data-ng-repeat="note in passage.note">{{note}}
+                                </span>
+                            </div>
+                            Tags:
+                            <div class="pagination">
+                                <ul>
+                                    <li data-ng-repeat="tag in passage.tag"><a href="#">{{tag}}</a></li>
+                                </ul>
+                            </div>
+                            <div class="actions">
+                                <a class="btn btn-danger btn-small delete">Delete</a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
