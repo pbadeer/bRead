@@ -46,7 +46,9 @@
                     <form>
                         <fieldset>
                             <legend>Study</legend>
-                            <label>Reference {{select.start_book_id}}</label>
+                            <label>
+                                {{Book[select.start_book_id].name + " " + select.start_chapter + ":" + select.start_verse + ":" + select.start_index + " - " + Book[select.end_book_id].name + " " + select.end_chapter + ":" + select.end_verse + ":" + select.end_index}}
+                            </label>
                             <input type="text" placeholder="Tag"/><br/>
                             <textarea placeholder="Note"></textarea><br/>
                             <select>

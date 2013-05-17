@@ -8,11 +8,12 @@ function bible($scope, $http, $resource) {
     $scope.userContent;
     $scope.select = {};
     $scope.privacy = "public";
+    $scope.bookName = Book[$scope.bookId].name;
 
     update();
 
     $scope.title = function() {
-        return Book[$scope.bookId].name + ' ' + $scope.chapter;
+        return $scope.bookName + ' ' + $scope.chapter;
     }
 
     $scope.next = function() {
