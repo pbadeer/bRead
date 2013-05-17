@@ -33,7 +33,7 @@
         <div id="bible">
             <div class="row">
 
-                <div class="column one span6" ng-click="highlight()">
+                <div class="column one span6" data-ng-mouseup="highlight()">
                     <div class="chapter" data-ng-repeat="chapter in passage" translation="{{chapter._translation}}" book="{{chapter._book}}" book-id="{{chapter._book_id}}" chapter="{{chapter._n}}">
                         <span class="verse" data-ng-repeat="verse in chapter.verse" verse="{{$index + 1}}">
                             <span class="n">{{$index + 1}}</span>
