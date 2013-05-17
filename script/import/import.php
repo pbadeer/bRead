@@ -20,7 +20,7 @@ foreach($import->book as $book):
         $chap->addAttribute('translation', $book['translation']);
         $chap->addAttribute('testament', $book['testament']);
         $chap->addAttribute('book', $book['name']);
-        $chap->addAttribute('book-id', $bn);
+        $chap->addAttribute('book_id', $bn);
         $chap->addAttribute('n', $n);
 
         $xml = $chap->asXML();

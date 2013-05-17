@@ -1,5 +1,4 @@
 angular.module('bread', ['ngResource']);
-var uc;
 
 function bible($scope, $http, $resource) {
     $scope.chapter = 1;
@@ -7,10 +6,10 @@ function bible($scope, $http, $resource) {
     $scope.translation = 'NASB';
     $scope.passage;
     $scope.userContent;
-    $scope.selection;
+    $scope.select = {};
+    $scope.privacy = "public";
 
     update();
-    userContent();
 
     $scope.title = function() {
         return Book[$scope.bookId].name + ' ' + $scope.chapter;
@@ -26,7 +25,6 @@ function bible($scope, $http, $resource) {
             $scope.chapter = 1;
         }
         update();
-        userContent();
     }
 
     $scope.previous = function() {
@@ -37,7 +35,6 @@ function bible($scope, $http, $resource) {
             $scope.chapter = Book[$scope.bookId].chapters;
         }
         update();
-        userContent();
     }
 
     function update() {
@@ -50,23 +47,11 @@ function bible($scope, $http, $resource) {
             }
         }).success(function(data){
             $scope.passage = data;
+            $scope.userContent = $scope.uc.GetContent({book_id: $scope.bookId, chapter: $scope.chapter});
         });
     }
 
-    function userContent() {
-        $http({
-            method: 'GET',
-            url: 'script/server/ajax.php?action=get&book_id=' + $scope.bookId + '&chapter=' + $scope.chapter,
-            transformResponse: function(xml) {
-                var json = x2js.xml_str2json(xml);
-                return json;
-            }
-        }).success(function(data){
-            $scope.userContent = data;
-        });
-    }
-
-    var uc = $resource('script/server/ajax.php',
+    $scope.uc = $resource('script/server/ajax.php',
         {
             action: '@action'
         },
@@ -75,26 +60,30 @@ function bible($scope, $http, $resource) {
                 method: "GET",
                 params: {
                     action: 'get',
-                    book_id: $scope.bookId,
-                    chapter: $scope.chapter
+                    book_id: '',
+                    chapter: ''
+                },
+                transformResponse: function(xml) {
+                    var json = x2js.xml_str2json(xml);
+                    return json;
                 }
             },
             CreateContent: {
                 method: "GET",
                 params: {
                     action: 'new',
-                    privacy: $scope.selection.privacy,
-                    content_note: '', //text
-                    content_tag: '', //comma separated array
-                    start_book_id: $scope.selection.start_book_id,
-                    start_chapter: $scope.selection.start_chapter,
-                    start_verse: $scope.selection.start_verse,
-                    start_index: $scope.selection.start_index,
-                    end_book_id: $scope.selection.end_book_id,
-                    end_chapter: $scope.selection.end_chapter,
-                    end_verse: $scope.selection.end_verse,
-                    end_index: $scope.selection.end_index,
-
+                    privacy: $scope.privacy,
+                    translation: $scope.translation,
+                    content_note: $scope.select.note,
+                    content_tag: $scope.select.tag, //comma separated array
+                    start_book_id: $scope.select.start_book_id,
+                    start_chapter: $scope.select.start_chapter,
+                    start_verse: $scope.select.start_verse,
+                    start_index: $scope.select.start_index,
+                    end_book_id: $scope.select.end_book_id,
+                    end_chapter: $scope.select.end_chapter,
+                    end_verse: $scope.select.end_verse,
+                    end_index: $scope.select.end_index,
                 }
             },
             DeleteContent: {
@@ -107,9 +96,7 @@ function bible($scope, $http, $resource) {
             }
         });
 
-/*
-    // Populate the input form with the selected passage info
-    function form()
+    $scope.highlight = function()
     {
       // Get Start Node
       var sn = selectedNode('s');
@@ -118,19 +105,17 @@ function bible($scope, $http, $resource) {
       // Get range
       var r = selectionRange();
 
-      var t = $(sn).parent().attr("translation"),
-          sb = $(sn).parent().attr("book-id") * 1,
-          sc = $(sn).parent().attr("chapter") * 1,
-          sv = $(sn).attr("verse") * 1,
+      var sb = sn.parentNode.getAttribute("book-id") * 1,
+          sc = sn.parentNode.getAttribute("chapter") * 1,
+          sv = sn.getAttribute("verse") * 1,
           si = r.startOffset * 1;
 
-      var eb = $(en).parent().attr("book-id") * 1,
-          ec = $(en).parent().attr("chapter") * 1,
-          ev = $(en).attr("verse") * 1,
+      var eb = en.parentNode.getAttribute("book-id") * 1,
+          ec = en.parentNode.getAttribute("chapter") * 1,
+          ev = en.getAttribute("verse") * 1,
           ei = r.endOffset * 1;
 
-      // Create and fill Data.content with reference info
-      $scope.selection = {
+      $scope.select = {
         start_book_id: sb,
         end_book_id: eb,
         start_chapter: sc,
@@ -138,21 +123,10 @@ function bible($scope, $http, $resource) {
         start_verse: sv,
         end_verse: ev,
         start_index: si,
-        end_index: ei, 
-        translation: t,
-        privacy: // from ???
+        end_index: ei
       }
-
-      // Populate form with Data.content info
-      $('#form input, #form textarea').each(function(){
-        var data = $scope.selection[$(this).attr('name')];
-        if(data && data != null)
-          $(this).val(data);
-      });
     }
 
-
-    // Get (start or end) node from selection
     function selectedNode(pos) {
         var node, selection;
         if (window.getSelection) {
@@ -170,8 +144,6 @@ function bible($scope, $http, $resource) {
         }
     }
 
-
-    // Get selection range
     function selectionRange() {
         var sel;
         if (window.getSelection) {
@@ -183,5 +155,5 @@ function bible($scope, $http, $resource) {
             return document.selection.createRange();
         }
         return null;
-    }*/
+    }
 }
