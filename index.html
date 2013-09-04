@@ -43,20 +43,20 @@
                 </div>
 
                 <div class="column two span6">
-                    <form>
+                    <form data-ng-submit="uc.Create()">
                         <fieldset>
                             <legend>Study</legend>
                             <label>
                                 {{Book[select.start_book_id].name + " " + select.start_chapter + ":" + select.start_verse + ":" + select.start_index + " - " + Book[select.end_book_id].name + " " + select.end_chapter + ":" + select.end_verse + ":" + select.end_index}}
                             </label>
-                            <input type="text" placeholder="Tag"/><br/>
-                            <textarea placeholder="Note"></textarea><br/>
+                            <input type="text" placeholder="Tags" data-ng-model="tags"/><br/>
+                            <textarea placeholder="Note" data-ng-model="notes"></textarea><br/>
                             <select>
                                 <option>Privacy</option><!-- get options from db-->
                                 <option value="private">Private</option>
                                 <option value="public">Public</option>
                             </select><br/>
-                            <button type="submit" class="btn" ng-click="uc.CreateContent()">Save</button>
+                            <button type="submit" class="btn">Save</button>
                         </fieldset>
                     </form>
                     
