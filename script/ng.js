@@ -9,15 +9,16 @@ function bible($scope, $http, $resource) {
     $scope.userContent = {};
     $scope.select = {};
     $scope.privacy = "public";
-    $scope.bookName = Book[$scope.bookId].name;
-
-    $scope.notes = "filler";
-    $scope.tags = "filler";
+    $scope.bookName = function() {
+        return Book[$scope.bookId].name;
+    }
+    $scope.notes = "";
+    $scope.tags = "";
 
     update();
 
     $scope.title = function() {
-        return $scope.bookName + ' ' + $scope.chapter;
+        return $scope.bookName() + ' ' + $scope.chapter;
     };
 
     $scope.next = function() {
@@ -56,8 +57,7 @@ function bible($scope, $http, $resource) {
     }
 
     var UC = $resource('script/server/ajax.php?action=get&book_id=:book_id&chapter=:chapter');
-    console.log(UC.get({book_id:'1',chapter:'1'}));
-
+    
     $scope.highlight = function()
     {
         // Get Start Node

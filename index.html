@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html ng-app="bread">
+<html ng-app="bread" lang="en">
 
 <head>
     <title>bread</title>
     <link rel="stylesheet" type="text/css" href="script/style/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="script/style/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" type="text/css" href="script/style/bootstrap-theme.min.css"/>
     <link rel="stylesheet" type="text/css" href="script/style/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <div class="container" data-ng-controller="bible">
 
-        <div id="nav" class="navbar">
-            <div class="navbar-inner">
-                <a class="brand" href="#">bread</a>
-                <ul class="nav">
-                    <li><a href="" ng-click="previous()"><i class="icon-chevron-left"></i> previous</a></li>
-                    <li><a href="" ng-click="next()">next <i class="icon-chevron-right"></i></a></li>
+        <nav id="nav" class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">bread</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="" ng-click="previous()"><span class="glyphicon glyphicon-chevron-left"></span> previous</a></li>
+                    <li><a href="" ng-click="next()">next <span class="glyphicon glyphicon-chevron-right"></span></a></li>
                 </ul>
             </div>
-        </div>
+        </nav>
 
         <div id="title">
            <h1 class="book">{{title()}}</h1>
@@ -28,7 +29,7 @@
         <div id="bible">
             <div class="row">
 
-                <div class="column one span6" data-ng-mouseup="highlight()">
+                <div class="column one col-md-6" data-ng-mouseup="highlight()">
                     <div class="chapter" data-ng-repeat="chapter in passage" translation="{{chapter._translation}}" book="{{chapter._book}}" book-id="{{chapter._book_id}}" chapter="{{chapter._n}}">
                         <span class="verse" data-ng-repeat="verse in chapter.verse" verse="{{$index + 1}}">
                             <span class="n">{{$index + 1}}</span>
@@ -37,22 +38,21 @@
                     </div>
                 </div>
 
-                <div class="column two span6">
-                    <form data-ng-submit="uc.Create()">
-                        <fieldset>
-                            <legend>Study</legend>
+                <div class="column two col-md-6">
+                    <form data-ng-submit="uc.create()">
+                        <div class="form-group">
                             <label>
                                 {{Book[select.start_book_id].name + " " + select.start_chapter + ":" + select.start_verse + ":" + select.start_index + " - " + Book[select.end_book_id].name + " " + select.end_chapter + ":" + select.end_verse + ":" + select.end_index}}
                             </label>
-                            <input type="text" placeholder="Tags" data-ng-model="tags"/><br/>
-                            <textarea placeholder="Note" data-ng-model="notes"></textarea><br/>
-                            <select>
+                            <input type="text" placeholder="Tags" data-ng-model="tags" class="form-control"/>
+                            <textarea placeholder="Note" data-ng-model="notes" class="form-control"></textarea>
+                            <select class="form-control">
                                 <option>Privacy</option><!-- get options from db-->
                                 <option value="private">Private</option>
                                 <option value="public">Public</option>
-                            </select><br/>
-                            <button type="submit" class="btn">Save</button>
-                        </fieldset>
+                            </select>
+                            <button type="submit" class="btn btn-default">Save</button>
+                        </div>
                     </form>
                     
                     <div data-ng-repeat="payload in userContent">
