@@ -2,7 +2,7 @@
 <html ng-app="bread" lang="en">
 
 <head>
-    <title>bread</title>
+    <title>bRead</title>
     <link rel="stylesheet" type="text/css" href="script/style/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="script/style/bootstrap-theme.min.css"/>
     <link rel="stylesheet" type="text/css" href="script/style/style.css"/>
@@ -12,25 +12,21 @@
 <body>
     <div class="container" data-ng-controller="bible">
 
-        <nav id="nav" class="navbar navbar-default">
+        <nav id="nav" class="navbar navbar-default navbar-fixed-bottom">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">bread</a>
+                <a class="navbar-brand" href="#">bRead</a>
                 <ul class="nav navbar-nav">
                     <li><a href="" ng-click="previous()"><span class="glyphicon glyphicon-chevron-left"></span> previous</a></li>
+                    <li><p class="navbar-text caps">{{title() + " in " + translation}}</p></li>
                     <li><a href="" ng-click="next()">next <span class="glyphicon glyphicon-chevron-right"></span></a></li>
                 </ul>
             </div>
         </nav>
 
-        <div id="title">
-           <h1 class="book">{{title()}}</h1>
-        </div>
-
         <div id="bible">
             <div class="row">
-
-                <div class="column one col-md-6" data-ng-mouseup="highlight()">
-                    <div class="chapter" data-ng-repeat="chapter in passage" translation="{{chapter._translation}}" book="{{chapter._book}}" book-id="{{chapter._book_id}}" chapter="{{chapter._n}}">
+                <div class="col-md-8">
+                    <div class="chapter" data-ng-repeat="chapter in passage" translation="{{chapter._translation}}" book="{{chapter._book}}" book-id="{{chapter._book_id}}" chapter="{{chapter._n}}" data-ng-mouseup="highlight()">
                         <span class="verse" data-ng-repeat="verse in chapter.verse" verse="{{$index + 1}}">
                             <span class="n">{{$index + 1}}</span>
                             {{verse}}
@@ -38,41 +34,28 @@
                     </div>
                 </div>
 
-                <div class="column two col-md-6">
-                    <form data-ng-submit="uc.create()" ng-show="select">
-                        <div class="form-group">
-                            <label>
-                                {{Book[select.start_book_id].name + " " + select.start_chapter + ":" + select.start_verse + ":" + select.start_index + " - " + Book[select.end_book_id].name + " " + select.end_chapter + ":" + select.end_verse + ":" + select.end_index}}
-                            </label>
-                            <input type="text" placeholder="Tags" data-ng-model="tags" class="form-control"/>
-                            <textarea placeholder="Note" data-ng-model="notes" class="form-control"></textarea>
-                            <select class="form-control">
-                                <option>Privacy</option><!-- get options from db-->
-                                <option value="private">Private</option>
-                                <option value="public">Public</option>
-                            </select>
-                            <button type="submit" class="btn btn-default">Save</button>
-                        </div>
-                    </form>
-                    
+                <div class="col-md-4">                    
                     <div data-ng-repeat="payload in userContent" ng-show="userContent">
-                        <div class="passage well" data-ng-repeat="passage in userContent.payload.passage" data-passage-id="{{passage._id}}">
-                            <span>Reference: {{passage.reference.startBookId}}:{{passage.reference.startChapter}}:{{passage.reference.startVerse}}:{{passage.reference.startIndex}} - {{passage.reference.endBookId}}:{{passage.reference.endChapter}}:{{passage.reference.endVerse}}:{{passage.reference.endIndex}}</span>
+                        <div data-ng-repeat="passage in userContent.payload.passage" data-passage-id="{{passage._id}}">
+                            <span>{{reference(passage)}</span>
                             <div>Notes:
-                                <span data-ng-repeat="note in passage.note">{{note}}
-                                </span>
+                                <span data-ng-repeat="note in passage.note">{{note}}</span>
                             </div>
-                            <div class="pagination">
-                                <ul>
-                                    <li data-ng-repeat="tag in passage.tag"><a href="#">{{tag}}</a></li>
-                                </ul>
-                            </div>
-                            <div class="actions">
-                                <a class="btn btn-danger btn-small delete">Delete</a>
+                            <div>Tags:
+                                <span data-ng-repeat="tags in passage.tag">{{tag}}</span>
                             </div>
                         </div>
                     </div>
 
+                    <form data-ng-submit="uc.save()">
+                        <div class="form-group">
+                            <textarea id="notes" data-ng-model="notes" class="form-control" placeholder="Notes"></textarea>
+                        </div>
+                        <div class="form-group pull-right">
+                            {{reference(select)}}
+                            <span class="label label-primary" ng-click="togglePrivacy()">{{privacy}}</span>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -82,6 +65,7 @@
     <script type="text/javascript" src="script/library/angular.min.js"></script>
     <script type="text/javascript" src="script/library/angular-resource.min.js"></script>
     <script type="text/javascript" src="script/library/xml2json.js"></script>
+    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
     <script type="text/javascript" src="script/library/book.js"></script>
     <script type="text/javascript" src="script/ng.js"></script>
 </body>

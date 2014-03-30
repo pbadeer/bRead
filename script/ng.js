@@ -1,4 +1,5 @@
 "use strict";
+CKEDITOR.replace("notes");
 angular.module('bread', ['ngResource']);
 
 function bible($scope, $http, $resource) {
@@ -9,17 +10,38 @@ function bible($scope, $http, $resource) {
     $scope.userContent = "";
     $scope.select = "";
     $scope.privacy = "public";
-    $scope.bookName = function() {
-        return Book[$scope.bookId].name;
+    $scope.bookName = function(abbr, id) {
+        if(isNaN(id))
+            id = $scope.bookId;
+        var name = Book[id].name;
+        if(abbr)
+            return name.substr(0,4) + ".";
+        else
+            return name;
     }
     $scope.notes = "";
     $scope.tags = "";
 
     update();
 
+    $scope.togglePrivacy = function() {
+        $scope.privacy = $scope.privacy === "public" ? "private" : "public";
+    }
+
     $scope.title = function() {
         return $scope.bookName() + ' ' + $scope.chapter;
     };
+
+    $scope.reference = function(ref) {
+        if (ref.startBookId === ref.endBookId && ref.startChapter === ref.endChapter && ref.startVerse === ref.endVerse)
+            return $scope.bookName(true) + " " + ref.startChapter + ":" + ref.startVerse;
+        else if (ref.startBookId === ref.endBookId && ref.startChapter === ref.endChapter)
+            return $scope.bookName(true) + " " + ref.startChapter + ":" + ref.startVerse + "-" + ref.endVerse;
+        else if (ref.startBookId === ref.endBookId)
+            return $scope.bookName(true) + " " + ref.startChapter + ":" + ref.startVerse + "-" + ref.endChapter + ":" + ref.endVerse;
+        else
+            return $scope.bookName(true) + " " + ref.startChapter + ":" + ref.startVerse + " - " + $scope.bookName(true,$scope.select.endBookId) + " " + ref.endChapter + ":" + ref.endVerse;
+    }
 
     $scope.next = function() {
         var chapters = Book[$scope.bookId].chapters,
@@ -60,32 +82,29 @@ function bible($scope, $http, $resource) {
     
     $scope.highlight = function()
     {
-        // Get Start Node
-        var sn = selectedNode('s');
-        // Get End Node
-        var en = selectedNode('e');
-        // Get range
+        var start = selectedNode('s');
+        var end = selectedNode('e');
         var r = selectionRange();
 
-        var sb = sn.parentNode.getAttribute("book-id") * 1,
-            sc = sn.parentNode.getAttribute("chapter") * 1,
-            sv = sn.getAttribute("verse") * 1,
-            si = r.startOffset * 1 - 29;
+        var sb = start.parentNode.getAttribute("book-id") * 1,
+            sc = start.parentNode.getAttribute("chapter") * 1,
+            sv = start.getAttribute("verse") * 1,
+            si = r.startOffset * 1 - 29; // Index is +29 off due to verse number element
 
-        var eb = en.parentNode.getAttribute("book-id") * 1,
-            ec = en.parentNode.getAttribute("chapter") * 1,
-            ev = en.getAttribute("verse") * 1,
+        var eb = end.parentNode.getAttribute("book-id") * 1,
+            ec = end.parentNode.getAttribute("chapter") * 1,
+            ev = end.getAttribute("verse") * 1,
             ei = r.endOffset * 1 - 29;
 
         $scope.select = {
-            start_book_id: sb,
-            end_book_id: eb,
-            start_chapter: sc,
-            end_chapter: ec,
-            start_verse: sv,
-            end_verse: ev,
-            start_index: si,
-            end_index: ei
+            startBookId: sb,
+            endBookId: eb,
+            startChapter: sc,
+            endChapter: ec,
+            startVerse: sv,
+            endVerse: ev,
+            startIndex: si,
+            endIndex: ei
         };
     };
 
