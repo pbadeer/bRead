@@ -51,12 +51,12 @@ function bible($scope, $http, $resource) {
             }
         }).success(function(data){
             $scope.passage = data;
-            $scope.userContent = UC.Get({book_id: $scope.bookId, chapter: $scope.chapter});
+            $scope.userContent = UC.get({book_id: $scope.bookId, chapter: $scope.chapter});
         });
     }
 
     var UC = $resource('script/server/ajax.php?action=get&book_id=:book_id&chapter=:chapter');
-    console.log(UC.Get({book_id:'1',chapter:'1'}));
+    console.log(UC.get({book_id:'1',chapter:'1'}));
 
     $scope.highlight = function()
     {
