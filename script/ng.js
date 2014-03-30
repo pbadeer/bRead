@@ -6,8 +6,8 @@ function bible($scope, $http, $resource) {
     $scope.bookId = 40;
     $scope.translation = 'NASB';
     $scope.passage = "";
-    $scope.userContent = {};
-    $scope.select = {};
+    $scope.userContent = "";
+    $scope.select = "";
     $scope.privacy = "public";
     $scope.bookName = function() {
         return Book[$scope.bookId].name;
@@ -70,12 +70,12 @@ function bible($scope, $http, $resource) {
         var sb = sn.parentNode.getAttribute("book-id") * 1,
             sc = sn.parentNode.getAttribute("chapter") * 1,
             sv = sn.getAttribute("verse") * 1,
-            si = r.startOffset * 1;
+            si = r.startOffset * 1 - 29;
 
         var eb = en.parentNode.getAttribute("book-id") * 1,
             ec = en.parentNode.getAttribute("chapter") * 1,
             ev = en.getAttribute("verse") * 1,
-            ei = r.endOffset * 1;
+            ei = r.endOffset * 1 - 29;
 
         $scope.select = {
             start_book_id: sb,

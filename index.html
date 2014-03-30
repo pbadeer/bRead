@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="column two col-md-6">
-                    <form data-ng-submit="uc.create()">
+                    <form data-ng-submit="uc.create()" ng-show="select">
                         <div class="form-group">
                             <label>
                                 {{Book[select.start_book_id].name + " " + select.start_chapter + ":" + select.start_verse + ":" + select.start_index + " - " + Book[select.end_book_id].name + " " + select.end_chapter + ":" + select.end_verse + ":" + select.end_index}}
@@ -55,7 +55,7 @@
                         </div>
                     </form>
                     
-                    <div data-ng-repeat="payload in userContent">
+                    <div data-ng-repeat="payload in userContent" ng-show="userContent">
                         <div class="passage well" data-ng-repeat="passage in userContent.payload.passage" data-passage-id="{{passage._id}}">
                             <span>Reference: {{passage.reference.startBookId}}:{{passage.reference.startChapter}}:{{passage.reference.startVerse}}:{{passage.reference.startIndex}} - {{passage.reference.endBookId}}:{{passage.reference.endChapter}}:{{passage.reference.endVerse}}:{{passage.reference.endIndex}}</span>
                             <div>Notes:
