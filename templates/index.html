@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>bRead</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <nav id="nav" class="navbar">
+            <div class="nav-header">
+                <a class="navbar-brand" href="/">bRead</a>
+                <div class="nav-links">
+                    <button id="prev-btn" class="nav-btn">← previous</button>
+                    <p class="nav-title nav-title" id="nav-title"></p>
+                    <button id="next-btn" class="nav-btn">next →</button>
+                </div>
+            </div>
+        </nav>
+
+        <div id="bible">
+            <div class="bible-content">
+                <div class="bible-text">
+                    <div class="chapter">
+                        <div class="verse" book-id="40" chapter="1" verse="1">
+                            <span class="verse-number">1</span>
+                            In the beginning God created the heaven and the earth.
+                        </div>
+                        <div class="verse" book-id="40" chapter="1" verse="2">
+                            <span class="verse-number">2</span>
+                            And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.
+                        </div>
+                        <div class="verse" book-id="40" chapter="1" verse="3">
+                            <span class="verse-number">3</span>
+                            And God said, Let there be light: and there was light.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-notes">
+                    <h3>My Notes</h3>
+                    <div class="user-content-list" id="user-content-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="notes-form" id="notes-form">
+            <div class="form-group">
+                <textarea id="notes" class="notes-textarea" placeholder="Write your note here..."></textarea>
+            </div>
+            <div class="form-buttons">
+                <span id="reference" class="reference"></span>
+                <span class="privacy-badge public" id="privacy-badge">Public</span>
+            </div>
+            <button class="submit-btn" id="save-btn">Save Note</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/book.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <script src="{{ url_for('static', filename='ckeditor/ckeditor.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof App !== 'undefined') {
+                App.init();
+            }
+        });
+    </script>
+</body>
+</html>
