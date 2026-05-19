@@ -1,6 +1,197 @@
 html, body {
 	padding-top: 1em;
 	padding-bottom: 3em;
+	margin: 0;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.navbar {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.navbar-brand {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	flex-wrap: wrap;
+}
+
+.nav-btn {
+	background-color: #4a90d9;
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 0.9em;
+}
+
+.nav-btn:hover {
+	background-color: #357abd;
+}
+
+.nav-title {
+	font-size: 0.95em;
+	color: #666;
+	margin: 0;
+}
+
+.bible-content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.bible-text {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chapter {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.verse {
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+	line-height: 1.8;
+}
+
+.verse:last-child {
+	border-bottom: none;
+}
+
+.verse-number {
+	font-weight: bold;
+	color: #4a90d9;
+	margin-right: 5px;
+	user-select: none;
+}
+
+.user-notes {
+	background-color: #f8f9fa;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.user-notes h3 {
+	margin-top: 0;
+	color: #333;
+	font-size: 1.1em;
+	border-bottom: 2px solid #4a90d9;
+	padding-bottom: 10px;
+}
+
+.user-content-list {
+	min-height: 50px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px;
+	max-height: 200px;
+	overflow-y: auto;
+}
+
+.notes-form {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.notes-textarea {
+	width: 100%;
+	min-height: 80px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: 1em;
+	resize: vertical;
+}
+
+.form-buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.reference {
+	color: #666;
+	font-size: 0.9em;
+}
+
+.privacy-badge {
+	padding: 4px 10px;
+	border-radius: 12px;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.privacy-badge.public {
+	background-color: #d4edda;
+	color: #155724;
+	border: 1px solid #c3e6cb;
+}
+
+.submit-btn {
+	background-color: #4a90d9;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	font-size: 1em;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+	background-color: #357abd;
 }
 
 .verse .n {
@@ -10,4 +201,29 @@ html, body {
 
 .caps {
 	text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+	.container {
+		padding: 10px;
+	}
+
+	.nav-header {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.nav-links {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.nav-btn {
+		width: 100%;
+	}
+
+	.form-buttons {
+		flex-direction: column;
+		align-items: flex-start;
+	}
 }
