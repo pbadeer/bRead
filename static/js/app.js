@@ -320,10 +320,10 @@ const App = {
         <div class="chapter-header">${this.passage._translation} - ${this.bookName()} ${this.chapter}</div>
         <div class="chapter">
           ${this.passage.verse.map(v => `
-            <span class="verse" book-id="${this.passage._book_id}" chapter="${this.chapter}" verse="${v._index}">
+            <div class="verse" book-id="${this.passage._book_id}" chapter="${this.chapter}" verse="${v._index}">
               <span class="verse-number">${v._index}</span>
               ${v.content}
-            </span>
+            </div>
           `).join('')}
         </div>
       `;
