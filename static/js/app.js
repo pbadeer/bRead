@@ -29,9 +29,25 @@ const App = {
       if (e.key === 'ArrowLeft') this.previous();
     });
 
-    const notesForm = document.getElementById('notes-form');
-    if (notesForm) {
-      notesForm.addEventListener('submit', (e) => {
+    const prevBtn = document.getElementById('prev-btn');
+    if (prevBtn) {
+      prevBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.previous();
+      });
+    }
+
+    const nextBtn = document.getElementById('next-btn');
+    if (nextBtn) {
+      nextBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.next();
+      });
+    }
+
+    const saveBtn = document.getElementById('save-btn');
+    if (saveBtn) {
+      saveBtn.addEventListener('click', (e) => {
         e.preventDefault();
         this.saveNotes();
       });
@@ -46,11 +62,13 @@ const App = {
     }
   },
 
-  bookName(abbr = false) {
-    if (typeof Book === 'undefined' || !Book[this.bookId]) {
+  bookName(abbr = false, bookId = null) {
+    const id = bookId || this.bookId;
+    if (typeof Book === 'undefined' || !Book[id]) {
       return '';
     }
-    const name = Book[this.bookId].name;
+    let name = Book[id].name;
+    name = name.charAt(0).toUpperCase() + name.slice(1);
     return abbr ? name.substr(0, 4) + '.' : name;
   },
 
@@ -123,20 +141,17 @@ const App = {
     if (!content.trim()) return;
 
     try {
-      const response = await fetch('/api/reference', {
-        method: 'GET',
-        headers: { 'Content-Type': 'application/json' },
-        params: new URLSearchParams({
-          start_book_id: this.selection.startBookId,
-          start_chapter: this.selection.startChapter,
-          start_verse: this.selection.startVerse,
-          start_index: this.selection.startIndex,
-          end_book_id: this.selection.endBookId,
-          end_chapter: this.selection.endChapter,
-          end_verse: this.selection.endVerse,
-          end_index: this.selection.endIndex
-        })
+      const params = new URLSearchParams({
+        start_book_id: this.selection.startBookId,
+        start_chapter: this.selection.startChapter,
+        start_verse: this.selection.startVerse,
+        start_index: this.selection.startIndex,
+        end_book_id: this.selection.endBookId,
+        end_chapter: this.selection.endChapter,
+        end_verse: this.selection.endVerse,
+        end_index: this.selection.endIndex
       });
+      const response = await fetch('/api/reference?' + params.toString());
 
       const reference = await response.json();
       const referenceId = reference.id;
@@ -204,15 +219,15 @@ const App = {
 
     if (!start || !end || !range) return;
 
-    const sb = parseInt(start.parentNode.getAttribute('book-id')) || this.bookId;
-    const sc = parseInt(start.parentNode.getAttribute('chapter')) || this.chapter;
+    const sb = parseInt(start.getAttribute('book-id')) || this.bookId;
+    const sc = parseInt(start.getAttribute('chapter')) || this.chapter;
     const sv = parseInt(start.getAttribute('verse')) || 1;
-    const si = range.startOffset - 29;
+    const si = range.startOffset;
 
-    const eb = parseInt(end.parentNode.getAttribute('book-id')) || this.bookId;
-    const ec = parseInt(end.parentNode.getAttribute('chapter')) || this.chapter;
+    const eb = parseInt(end.getAttribute('book-id')) || this.bookId;
+    const ec = parseInt(end.getAttribute('chapter')) || this.chapter;
     const ev = parseInt(end.getAttribute('verse')) || 1;
-    const ei = range.endOffset - 29;
+    const ei = range.endOffset;
 
     this.selection = {
       startBookId: sb,
@@ -226,6 +241,7 @@ const App = {
     };
 
     this.highlightVerses();
+    this.updateReferenceDisplay();
   },
 
   getSelectedNode(pos) {
@@ -297,6 +313,12 @@ const App = {
     }
   },
 
+  updateReferenceDisplay() {
+    const refElement = document.getElementById('reference');
+    if (!refElement || !this.selection) return;
+    refElement.textContent = this.bookName(true) + ' ' + this.selection.startChapter + ':' + this.selection.startVerse + ' - ' + this.bookName(true, this.selection.endBookId) + ' ' + this.selection.endChapter + ':' + this.selection.endVerse;
+  },
+
   updateNavigationButtons() {
     const prevBtn = document.querySelector('button:contains("previous")');
     const nextBtn = document.querySelector('button:contains("next")');
@@ -320,11 +342,11 @@ const App = {
         <div class="chapter-header">${this.passage._translation} - ${this.bookName()} ${this.chapter}</div>
         <div class="chapter">
           ${this.passage.verse.map(v => `
-            <div class="verse" book-id="${this.passage._book_id}" chapter="${this.chapter}" verse="${v._index}">
+            <span class="verse" book-id="${this.passage._book_id}" chapter="${this.chapter}" verse="${v._index}">
               <span class="verse-number">${v._index}</span>
               ${v.content}
-            </div>
-          `).join('')}
+            </span>
+          `).join(' ')}
         </div>
       `;
 
@@ -345,20 +367,25 @@ const App = {
       return;
     }
 
-    userContentElement.innerHTML = this.userContent.map(passage => `
-      <div class="user-content-item ${passage.privacy === 'private' ? 'private' : ''}">
-        <div class="reference">${this.reference(passage.reference)}</div>
-        ${passage.notes && passage.notes.length > 0 ? `
+    userContentElement.innerHTML = this.userContent.map(passage => {
+      const privacyClass = passage.privacy === 'private' ? 'private' : '';
+      const notesHtml = passage.notes && passage.notes.length > 0 ? `
           <div class="content-notes">
             Notes: ${passage.notes.join(', ')}
           </div>
-        ` : ''}
-        ${passage.tags && passage.tags.length > 0 ? `
+        ` : '';
+      const tagsHtml = passage.tags && passage.tags.length > 0 ? `
           <div class="content-tags">
             ${passage.tags.map(tag => `<span class="tag">${tag}</span>`).join(' ')}
           </div>
-        ` : ''}
+        ` : '';
+      return `
+      <div class="user-content-item ${privacyClass}">
+        <div class="reference">${this.reference(passage.reference)}</div>
+        ${notesHtml}
+        ${tagsHtml}
       </div>
-    `).join('');
+    `;
+    }).join('');
   }
 };

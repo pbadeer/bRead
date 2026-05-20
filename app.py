@@ -69,7 +69,8 @@ def get_content():
     for row in rows:
         if current_reference != row['id']:
             if current_reference is not None:
-                result[-1]['passage'] = passage
+                if passage['notes'] or passage['tags']:
+                    result.append(passage)
 
             passage = {
                 'id': row['id'],
@@ -84,7 +85,8 @@ def get_content():
                     'endIndex': row['end_index']
                 },
                 'notes': [],
-                'tags': []
+                'tags': [],
+                'privacy': row['privacy']
             }
             current_reference = row['id']
 
@@ -94,8 +96,8 @@ def get_content():
             passage['tags'].append(row['content'])
 
     if current_reference is not None:
-        passage['passage'] = passage
-        result.append(passage)
+        if passage['notes'] or passage['tags']:
+            result.append(passage)
 
     conn.close()
     return jsonify(result)
@@ -134,6 +136,8 @@ def get_reference():
         ''', (start_book_id, start_chapter, start_verse, start_index,
               end_book_id, end_chapter, end_verse, end_index))
         conn.commit()
+        reference_id = cursor.lastrowid
+        cursor.execute('SELECT * FROM bible_references WHERE id = ?', (reference_id,))
         row = cursor.fetchone()
 
     conn.close()

@@ -3,8 +3,12 @@ run:
 
 install:
 	uv sync
+	uv run playwright install chromium
 
-test-db:
-	uv run python test_db.py
+test:
+	uv run pytest tests/test_ui.py -v --headed
 
-.PHONY: run install test-db
+test-headless:
+	uv run pytest tests/test_ui.py -v
+
+.PHONY: run install test test-headless
